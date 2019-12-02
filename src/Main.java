@@ -18,9 +18,9 @@ public class Main {
     private static void generateAddition(OutputStream output){
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 1; i <= 75; i++) {
-            int a = getRandomIntBetween(5, 18);
-            int b = getRandomIntBetween(1, 15);
+        for (int i = 1; i <= 80; i++) {
+            int a = getRandomIntBetween(1, 20);
+            int b = getRandomIntBetween(1, 20);
             sb.append(a);
             sb.append(" + ");
             sb.append(b);
@@ -31,24 +31,36 @@ public class Main {
                 sb.append("\n\n");
             }
 
-            if (i == 75) {
+            if (i == 80) {
                 sb.append("\n");
             }
         }
 
-        for (int i = 1; i <= 18; i++) {
-            int a = getRandomIntBetween(5, 9);
-            int b = getRandomIntBetween(5, 15);
+        for (int i = 1; i <= 28; i++) {
+            int a = getRandomIntBetween(1, 9);
+            int b = getRandomIntBetween(9, 19);
+            String first = "";
+            String second = "";
 
-            while( b < a) {
-                b = getRandomIntBetween(5, 15);
+            if (b%2 == 0) {
+                first = Integer.toString(a);
+                second = "__";
+            } else {
+                first = "__";
+                second = Integer.toString(a);
             }
 
-            sb.append(a);
-            sb.append(" + __ = ");
+            while( b < a) {
+                b = getRandomIntBetween(5, 19);
+            }
+
+            sb.append(first);
+            sb.append(" + ");
+            sb.append(second);
+            sb.append(" = ");
             sb.append(b);
             sb.append("\t\t\t");
-            if (i%3 == 0) {
+            if (i%4 == 0) {
                 sb.append("\n\n");
             }
         }
