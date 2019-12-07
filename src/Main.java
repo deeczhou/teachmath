@@ -8,19 +8,22 @@ public class Main {
         try {
             String filename = "/home/dee/homework/math/addition-" + new Date().toString();
             OutputStream os = new FileOutputStream(new File(filename));
-            generateAddition(os);
+
+            StringBuilder sb = new StringBuilder();
+            buildSimpleAdd(sb, 80, 1, 20);
+            buildFillInAdd(sb, 28, 2, 9, 19);
+            buildSimpleMinus(sb, 10, 1, 10);
+            writeToOutput(os, sb);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
     }
 
-    private static void generateAddition(OutputStream output){
-        StringBuilder sb = new StringBuilder();
-
-        for (int i = 1; i <= 80; i++) {
-            int a = getRandomIntBetween(1, 20);
-            int b = getRandomIntBetween(1, 20);
+    private static StringBuilder buildSimpleAdd(StringBuilder sb, int numberOfProblems, int from, int to) {
+        for (int i = 1; i <= numberOfProblems; i++) {
+            int a = getRandomIntBetween(from, to);
+            int b = getRandomIntBetween(from, to);
             sb.append(a);
             sb.append(" + ");
             sb.append(b);
@@ -30,15 +33,41 @@ public class Main {
             if (i%5 == 0) {
                 sb.append("\n\n");
             }
+        }
 
-            if (i == 80) {
-                sb.append("\n");
+        sb.append("\n");
+        return sb;
+    }
+
+    private static StringBuilder buildSimpleMinus(StringBuilder sb, int numberOfProblems, int from, int to) {
+        for (int i = 1; i <= numberOfProblems; i++) {
+            int a = getRandomIntBetween(from, to);
+            int b = getRandomIntBetween(from, to);
+
+            while (b > a) {
+                a = getRandomIntBetween(from, to);
+                b = getRandomIntBetween(from, to);
+            }
+
+            sb.append(a);
+            sb.append(" - ");
+            sb.append(b);
+            sb.append(" = ");
+            sb.append("\t\t");
+
+            if (i%5 == 0) {
+                sb.append("\n\n");
             }
         }
 
-        for (int i = 1; i <= 28; i++) {
-            int a = getRandomIntBetween(1, 9);
-            int b = getRandomIntBetween(9, 19);
+        sb.append("\n");
+        return sb;
+    }
+
+    private static StringBuilder buildFillInAdd(StringBuilder sb, int numberOfProblems, int part, int medium, int sum) {
+        for (int i = 1; i <= numberOfProblems; i++) {
+            int a = getRandomIntBetween(part, medium);
+            int b = getRandomIntBetween(medium, sum);
             String first = "";
             String second = "";
 
@@ -64,6 +93,12 @@ public class Main {
                 sb.append("\n\n");
             }
         }
+
+        sb.append("\n");
+        return sb;
+    }
+
+    private static void writeToOutput(OutputStream output, StringBuilder sb){
         try {
             output.write(sb.toString().getBytes());
             output.close();
