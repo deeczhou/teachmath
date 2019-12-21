@@ -6,13 +6,13 @@ public class MathProblemGenerator {
 
     public static void main(String[] args) {
         try {
-            String filename = "/home/dee/homework/math/addition-" + new Date().toString();
+            String filename = "/home/dee/Dropbox/pdf/addition-" + new Date().toString() + ".doc";
             OutputStream os = new FileOutputStream(new File(filename));
 
             StringBuilder sb = new StringBuilder();
-            buildSimpleAdd(sb, 80, 1, 20);
-            buildFillInAdd(sb, 28, 2, 9, 19);
-            buildSimpleMinus(sb, 10, 1, 10);
+            buildSimpleAdd(sb, 40, 10, 20);
+            buildFillInAdd(sb, 40, 5, 10, 20);
+            buildSimpleMinus(sb, 60, 1, 15);
             writeToOutput(os, sb);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -88,8 +88,8 @@ public class MathProblemGenerator {
             sb.append(second);
             sb.append(" = ");
             sb.append(b);
-            sb.append("\t\t\t");
-            if (i%4 == 0) {
+            sb.append("\t\t");
+            if (i%5 == 0) {
                 sb.append("\n\n");
             }
         }
