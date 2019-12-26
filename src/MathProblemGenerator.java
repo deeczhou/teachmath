@@ -1,8 +1,18 @@
+import javafx.util.Pair;
+
 import java.io.*;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class MathProblemGenerator {
+
+    enum OptType {
+        SIMPLE_ADD,
+        SIMPLE_MINUS,
+        FILL_ADD
+    }
 
     public static void main(String[] args) {
         try {
@@ -10,9 +20,9 @@ public class MathProblemGenerator {
             OutputStream os = new FileOutputStream(new File(filename));
 
             StringBuilder sb = new StringBuilder();
-            buildSimpleAdd(sb, 40, 10, 20);
-            buildFillInAdd(sb, 40, 5, 10, 20);
-            buildSimpleMinus(sb, 60, 1, 15);
+            buildSimpleAdd(sb, 40, 10, 30);
+            buildFillInAdd(sb, 40, 5, 10, 21);
+            buildSimpleMinus(sb, 60, 1, 20);
             writeToOutput(os, sb);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -20,40 +30,89 @@ public class MathProblemGenerator {
 
     }
 
-    private static StringBuilder buildSimpleAdd(StringBuilder sb, int numberOfProblems, int from, int to) {
-        for (int i = 1; i <= numberOfProblems; i++) {
-            int a = getRandomIntBetween(from, to);
-            int b = getRandomIntBetween(from, to);
-            sb.append(a);
-            sb.append(" + ");
-            sb.append(b);
-            sb.append(" = ");
-            sb.append("\t\t");
+    private static StringBuilder addToThisStringBuilder(StringBuilder sb, Pair<Integer, Integer> p, OptType type) {
+        switch (type) {
+            case SIMPLE_ADD:
+                sb.append(p.getKey());
+                sb.append(" + ");
+                sb.append(p.getValue());
+                sb.append(" = ");
+                sb.append("\t\t");
+                break;
+            case SIMPLE_MINUS:
+                sb.append(p.getKey());
+                sb.append(" - ");
+                sb.append(p.getValue());
+                sb.append(" = ");
+                sb.append("\t\t");
+                break;
+        }
 
+        return sb;
+    }
+
+    private static Pair<Integer, Integer> generateSimpleAddPair(int from, int to) {
+        Integer a = getRandomIntBetween(from, to);
+        Integer b = getRandomIntBetween(from, to);
+        Pair<Integer, Integer> p = new Pair<>(a, b);
+        return p;
+    }
+
+    private static Pair<Integer, Integer> generateSimpleMinusPair(int from, int to) {
+        Integer a = getRandomIntBetween(from, to);
+        Integer b = getRandomIntBetween(from, to);
+        Pair<Integer, Integer> p = new Pair<>(a, b);
+        int count = 0;
+
+        while (b >= a) {
+            a = getRandomIntBetween(from, to);
+            b = getRandomIntBetween(from, to);
+            p = new Pair<>(a, b);
+            count ++;
+            if (count == 5) {
+                break;
+            }
+        }
+
+        return p;
+    }
+
+    private static StringBuilder buildSimpleAdd(StringBuilder sb, int numberOfProblems, int from, int to) {
+        Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
+        for (int i = 1; i <= numberOfProblems; i++) {
+            Pair<Integer, Integer> p = generateSimpleAddPair(from, to);
+            int count = 0;
+            while (resmap.containsValue(p)) {
+                p = generateSimpleAddPair(from, to);
+                count++;
+                if (count == 5) {
+                    break;
+                }
+            }
+            resmap.put(i, p);
+            addToThisStringBuilder(sb, p, OptType.SIMPLE_ADD);
             if (i%5 == 0) {
                 sb.append("\n\n");
             }
         }
-
         sb.append("\n");
         return sb;
     }
 
     private static StringBuilder buildSimpleMinus(StringBuilder sb, int numberOfProblems, int from, int to) {
+        Map<Integer, Pair<Integer, Integer>> resMap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
-            int a = getRandomIntBetween(from, to);
-            int b = getRandomIntBetween(from, to);
-
-            while (b > a) {
-                a = getRandomIntBetween(from, to);
-                b = getRandomIntBetween(from, to);
+            Pair<Integer, Integer> p = generateSimpleMinusPair(from, to);
+            Integer count = 0;
+            while (resMap.containsValue(p)) {
+                p = generateSimpleMinusPair(from, to);
+                count++;
+                if (count == 5) {
+                    break;
+                }
             }
-
-            sb.append(a);
-            sb.append(" - ");
-            sb.append(b);
-            sb.append(" = ");
-            sb.append("\t\t");
+            resMap.put(i, p);
+            addToThisStringBuilder(sb, p, OptType.SIMPLE_MINUS);
 
             if (i%5 == 0) {
                 sb.append("\n\n");
@@ -113,4 +172,7 @@ public class MathProblemGenerator {
         return ThreadLocalRandom.current().nextInt(a, b);
 
     }
+
+
+
 }
