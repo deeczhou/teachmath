@@ -69,7 +69,7 @@ public class MathProblemGenerator {
             b = getRandomIntBetween(from, to);
             p = new Pair<>(a, b);
             count ++;
-            if (count == 5) {
+            if (count == 10) {
                 break;
             }
         }
