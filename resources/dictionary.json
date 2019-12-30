@@ -251,6 +251,541 @@
       "date": 1577601297032,
       "word": "bite",
       "sentence": "Take a bite of this apple, it is delicious."
+    },
+    {
+      "id": 43,
+      "date": 1577680155585,
+      "word": "clown",
+      "sentence": "Clowns are funny people with a big red nose."
+    },
+    {
+      "id": 44,
+      "date": 1577680155585,
+      "word": "Leonardo",
+      "sentence": "Leonardo is a name."
+    },
+    {
+      "id": 45,
+      "date": 1577680155585,
+      "word": "he",
+      "sentence": "He is for boy."
+    },
+    {
+      "id": 46,
+      "date": 1577680155585,
+      "word": "she",
+      "sentence": "She is for girl."
+    },
+    {
+      "id": 47,
+      "date": 1577680155585,
+      "word": "it",
+      "sentence": "It is for objects and animals."
+    },
+    {
+      "id": 48,
+      "date": 1577680155585,
+      "word": "his",
+      "sentence": "he likes to play with his lego."
+    },
+    {
+      "id": 49,
+      "date": 1577680155585,
+      "word": "her",
+      "sentence": "she likes to play with her puzzles."
+    },
+    {
+      "id": 50,
+      "date": 1577680155585,
+      "word": "secret",
+      "sentence": "Can you keep a secret?"
+    },{
+      "id": 51,
+      "date": 1577680155585,
+      "word": "sneak",
+      "sentence": "A tiger is sneaking up on a little sheep."
+    },{
+      "id": 52,
+      "date": 1577680155585,
+      "word": "scared",
+      "sentence": "The little lamb is scared of the tiger."
+    },{
+      "id": 53,
+      "date": 1577680155585,
+      "word": "smile",
+      "sentence": "The little kid smiles a lot."
+    },{
+      "id": 54,
+      "date": 1577680155585,
+      "word": "stuff",
+      "sentence": "The play area is so messy, stuff is everywhere."
+    },    {
+      "id": 55,
+      "date": 1577680155585,
+      "word": "cloud",
+      "sentence": "Cloud forms from water vapor."
+    },{
+      "id": 56,
+      "date": 1577680155585,
+      "word": "class room",
+      "sentence": "Class room is where we spend time learning."
+    },{
+      "id": 57,
+      "date": 1577680155585,
+      "word": "warm",
+      "sentence": "It feels warm with all the heater on."
+    },{
+      "id": 58,
+      "date": 1577680155585,
+      "word": "good",
+      "sentence": "It feels good after a work out."
+    },{
+      "id": 59,
+      "date": 1577680155585,
+      "word": "better",
+      "sentence": "Sharing and playing with friends is better than keeping it to self."
+    },    {
+      "id": 60,
+      "date": 1577680155585,
+      "word": "worse",
+      "sentence": "I feel worse with a headache."
+    },{
+      "id": 61,
+      "date": 1577680155585,
+      "word": "bad",
+      "sentence": "I feel bad. I am sick."
+    },{
+      "id": 62,
+      "date": 1577680155585,
+      "word": "wool",
+      "sentence": "Wool come from sheep."
+    },{
+      "id": 63,
+      "date": 1577680155585,
+      "word": "wood",
+      "sentence": "Wood burns to make fire."
+    },{
+      "id": 64,
+      "date": 1577680155585,
+      "word": "pear",
+      "sentence": "Pear is a type of fruit."
+    },
+    {
+      "id": 65,
+      "date": 1577680155585,
+      "word": "apple",
+      "sentence": "An apple a day keeps the doctor away."
+    },{
+      "id": 66,
+      "date": 1577680155585,
+      "word": "dishes",
+      "sentence": "I love to clean dishes."
+    },{
+      "id": 67,
+      "date": 1577680155585,
+      "word": "soap",
+      "sentence": "We use soap to clean dishes."
+    },{
+      "id": 68,
+      "date": 1577680155585,
+      "word": "movie",
+      "sentence": "I love watching movie with my Dad."
+    },
+    {
+      "id": 69,
+      "date": 1577680155585,
+      "word": "hungry",
+      "sentence": "Darren is always hungry."
+    },{
+      "id": 70,
+      "date": 1577680155585,
+      "word": "story",
+      "sentence": "A good story needs a good listener."
+    },{
+      "id": 71,
+      "date": 1577680155585,
+      "word": "monster",
+      "sentence": "Many stories have monsters in them."
+    },{
+      "id": 72,
+      "date": 1577680155585,
+      "word": "under",
+      "sentence": "Keep things under the table to make it clean and tidy."
+    },{
+      "id": 73,
+      "date": 1577680155585,
+      "word": "above",
+      "sentence": "Keep your head above water while swimming."
+    },{
+      "id": 74,
+      "date": 1577680155585,
+      "word": "porridge",
+      "sentence": "Porridge is made of rice."
+    },
+    {
+      "id": 75,
+      "date": 1577680155585,
+      "word": "pot",
+      "sentence": "We use pot to keep soup."
+    },{
+      "id": 76,
+      "date": 1577680155585,
+      "word": "magic",
+      "sentence": "Magic tricks are little wonders."
+    },{
+      "id": 77,
+      "date": 1577680155585,
+      "word": "cooking",
+      "sentence": "Cooking dinner for family is very enjoyable."
+    },{
+      "id": 78,
+      "date": 1577680155585,
+      "word": "elementary",
+      "sentence": "I go to an elementary school next door."
+    },{
+      "id": 80,
+      "date": 1577680155585,
+      "word": "school",
+      "sentence": "I go to an elementary school next door."
+    },{
+      "id": 81,
+      "date": 1577680155585,
+      "word": "program",
+      "sentence": "Dad writes a program to help me practice Math and English."
+    },{
+      "id": 82,
+      "date": 1577680155585,
+      "word": "telephone",
+      "sentence": "Telephone is a device to hear people's voices from far away."
+    },{
+      "id": 83,
+      "date": 1577680155585,
+      "word": "allergy",
+      "sentence": "I have pollen allergy in the spring time that makes my eyes itchy."
+    },{
+      "id": 84,
+      "date": 1577680155585,
+      "word": "ocean",
+      "sentence": "Ocean is a very big body of water. So big you cannot see the other side."
+    },
+    {
+      "id": 85,
+      "date": 1577680155585,
+      "word": "floor",
+      "sentence": "My home has three floors."
+    },{
+      "id": 86,
+      "date": 1577680155585,
+      "word": "sea",
+      "sentence": "Sea is a large body of water that makes up an ocean."
+    },{
+      "id": 87,
+      "date": 1577680155585,
+      "word": "more",
+      "sentence": "Two is more than one."
+    },{
+      "id": 88,
+      "date": 1577680155585,
+      "word": "learn",
+      "sentence": "I am learning new skills everyday."
+    },{
+      "id": 89,
+      "date": 1577680155585,
+      "word": "science",
+      "sentence": "Science is about understanding our world."
+    },{
+      "id": 90,
+      "date": 1577680155585,
+      "word": "project",
+      "sentence": "We often do projects at school."
+    },{
+      "id": 91,
+      "date": 1577680155585,
+      "word": "class",
+      "sentence": "My class have dozens of children."
+    },{
+      "id": 92,
+      "date": 1577680155585,
+      "word": "everybody",
+      "sentence": "Everybody likes ice cream."
+    },{
+      "id": 93,
+      "date": 1577680155585,
+      "word": "nobody",
+      "sentence": "Nobody would say they don't like ice cream."
+    },
+    {
+      "id": 94,
+      "date": 1577680155585,
+      "word": "anybody",
+      "sentence": "School do not let anybody in after hours."
+    },{
+      "id": 95,
+      "date": 1577680155585,
+      "word": "chicken",
+      "sentence": "I love chicken."
+    },{
+      "id": 96,
+      "date": 1577680155585,
+      "word": "potato",
+      "sentence": "Potato cooked with meat is very delicious."
+    },{
+      "id": 97,
+      "date": 1577680155585,
+      "word": "rice",
+      "sentence": "Rice fills your belly."
+    },{
+      "id": 98,
+      "date": 1577680155585,
+      "word": "class",
+      "sentence": "My class have dozens of children."
+    },{
+      "id": 99,
+      "date": 1577680155585,
+      "word": "cheese",
+      "sentence": "Cheese is made from milk."
+    },{
+      "id": 100,
+      "date": 1577680155585,
+      "word": "butter",
+      "sentence": "Butter is also made from milk."
+    },
+    {
+      "id": 101,
+      "date": 1577680155585,
+      "word": "brown",
+      "sentence": "brown is a color, like poo poo."
+    },{
+      "id": 102,
+      "date": 1577680155585,
+      "word": "black",
+      "sentence": "Black means no color."
+    },{
+      "id": 103,
+      "date": 1577680155585,
+      "word": "white",
+      "sentence": "every color together makes white."
+    },{
+      "id": 104,
+      "date": 1577680155585,
+      "word": "asthma",
+      "sentence": "Asthma is a sickness when someone cannot breath."
+    },{
+      "id": 105,
+      "date": 1577680155585,
+      "word": "family",
+      "sentence": "Family is a group of people who are related."
+    },{
+      "id": 106,
+      "date": 1577680155585,
+      "word": "provide",
+      "sentence": "My family provide me with a sweet home."
+    }
+    ,{
+      "id": 107,
+      "date": 1577680155585,
+      "word": "day",
+      "sentence": "A day has 24 hours."
+    },{
+      "id": 108,
+      "date": 1577680155585,
+      "word": "week",
+      "sentence": "A week has 7 days."
+    },{
+      "id": 109,
+      "date": 1577680155585,
+      "word": "month",
+      "sentence": "A month has 4 weeks."
+    },{
+      "id": 110,
+      "date": 1577680155585,
+      "word": "year",
+      "sentence": "A year has 12 months."
+    },{
+      "id": 111,
+      "date": 1577680155585,
+      "word": "possible",
+      "sentence": "It is possible to make many different things with lego pieces."
+    },{
+      "id": 112,
+      "date": 1577680155585,
+      "word": "value",
+      "sentence": "100 dollars have a value of 100."
+    },{
+      "id": 113,
+      "date": 1577680155585,
+      "word": "support",
+      "sentence": "I give support to my class during clean up time."
+    },{
+      "id": 114,
+      "date": 1577680155585,
+      "word": "option",
+      "sentence": "There are two options for breakfast: egg or milk."
+    },{
+      "id": 115,
+      "date": 1577680155585,
+      "word": "wish",
+      "sentence": "I made many wishes on my birthday."
+    },{
+      "id": 116,
+      "date": 1577680155585,
+      "word": "hope",
+      "sentence": "I hope everyone has a good day."
+    },{
+      "id": 117,
+      "date": 1577680155585,
+      "word": "only",
+      "sentence": "Darren only like cake when going to T&T."
+    },{
+      "id": 118,
+      "date": 1577680155585,
+      "word": "result",
+      "sentence": "It is a good result from the test."
+    },{
+      "id": 119,
+      "date": 1577680155585,
+      "word": "important",
+      "sentence": "It is very important not to go with strangers."
+    },{
+      "id": 120,
+      "date": 1577680155585,
+      "word": "Monday",
+      "sentence": ""
+    },{
+      "id": 121,
+      "date": 1577680155585,
+      "word": "Tuesday",
+      "sentence": ""
+    },{
+      "id": 122,
+      "date": 1577680155585,
+      "word": "Wednesday",
+      "sentence": ""
+    },{
+      "id": 123,
+      "date": 1577680155585,
+      "word": "Thursday",
+      "sentence": ""
+    },{
+      "id": 124,
+      "date": 1577680155585,
+      "word": "Friday",
+      "sentence": ""
+    },{
+      "id": 125,
+      "date": 1577680155585,
+      "word": "Saturday",
+      "sentence": ""
+    },{
+      "id": 126,
+      "date": 1577680155585,
+      "word": "Sunday",
+      "sentence": ""
+    },{
+      "id": 127,
+      "date": 1577680155585,
+      "word": "January",
+      "sentence": ""
+    },{
+      "id": 128,
+      "date": 1577680155585,
+      "word": "February",
+      "sentence": ""
+    },{
+      "id": 129,
+      "date": 1577680155585,
+      "word": "March",
+      "sentence": ""
+    },{
+      "id": 130,
+      "date": 1577680155585,
+      "word": "April",
+      "sentence": ""
+    },{
+      "id": 131,
+      "date": 1577680155585,
+      "word": "May",
+      "sentence": ""
+    },{
+      "id": 132,
+      "date": 1577680155585,
+      "word": "June",
+      "sentence": ""
+    },{
+      "id": 133,
+      "date": 1577680155585,
+      "word": "July",
+      "sentence": ""
+    },{
+      "id": 134,
+      "date": 1577680155585,
+      "word": "August",
+      "sentence": ""
+    },{
+      "id": 135,
+      "date": 1577680155585,
+      "word": "September",
+      "sentence": ""
+    },{
+      "id": 136,
+      "date": 1577680155585,
+      "word": "October",
+      "sentence": ""
+    },{
+      "id": 137,
+      "date": 1577680155585,
+      "word": "November",
+      "sentence": ""
+    },{
+      "id": 138,
+      "date": 1577680155585,
+      "word": "December",
+      "sentence": ""
+    },{
+      "id": 139,
+      "date": 1577680155585,
+      "word": "without",
+      "sentence": "He left home without his bag."
+    },{
+      "id": 140,
+      "date": 1577680155585,
+      "word": "warning",
+      "sentence": "There is a warning sign on the road."
+    },{
+      "id": 141,
+      "date": 1577680155585,
+      "word": "fact",
+      "sentence": "Earth is round. That is a fact."
+    },{
+      "id": 142,
+      "date": 1577680155585,
+      "word": "these",
+      "sentence": ""
+    },{
+      "id": 143,
+      "date": 1577680155585,
+      "word": "those",
+      "sentence": ""
+    },{
+      "id": 144,
+      "date": 1577680155585,
+      "word": "this",
+      "sentence": ""
+    },{
+      "id": 145,
+      "date": 1577680155585,
+      "word": "that",
+      "sentence": ""
+    },{
+      "id": 146,
+      "date": 1577680155585,
+      "word": "there",
+      "sentence": ""
+    },{
+      "id": 147,
+      "date": 1577680155585,
+      "word": "here",
+      "sentence": ""
     }
   ]
 }

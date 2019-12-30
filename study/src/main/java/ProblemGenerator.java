@@ -21,7 +21,7 @@ public class ProblemGenerator {
             buildFillInAdd(sb, 40, 5, 10, 21);
             buildSimpleMinus(sb, 60, 1, 20);
             sb.append("\n");
-            generateWords(sb, dictionary.getWords(), 10);
+            generateWords(sb, dictionary.getWords(), 15);
             writeToOutput(os, sb);
         } catch (IOException e) {
             e.printStackTrace();
