@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class EnglishGen {
 
-    static final String fillSpace = "_________";
+    static final String fillSpace = "____________";
     static final String tab = "\t";
     static final String newLine = "\n";
     static List<Word> collection = new ArrayList<>();
