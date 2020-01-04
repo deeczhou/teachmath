@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class EnglishGen {
 
-    static final String fillSpace = "____________";
+    static final String fillSpace = "________________";
     static final String tab = "\t";
     static final String newLine = "\n";
     static List<Word> collection = new ArrayList<>();
@@ -24,7 +24,7 @@ public class EnglishGen {
             }
         }
 
-        sb.append(w.getWord()).append("\t\t\t").append(w.getSentence());
+        sb.append(w.getWord()).append("\t\t").append(w.getSentence());
         return sb;
     }
 
@@ -36,14 +36,14 @@ public class EnglishGen {
     public static StringBuilder generateWords(StringBuilder sb, List<Word> words, int number) {
         while (number > 0) {
             addWordToSb(sb, words).append(newLine).append(newLine).append(newLine);
-            addFillSpaces(sb).append(newLine).append(newLine).append(newLine);
+            addFillSpaces(sb).append(newLine).append(newLine);
             number--;
         }
         return sb;
     }
 
     private static StringBuilder addFillSpaces(StringBuilder sb) {
-        for(int i = 0; i< 5; i++) {
+        for(int i = 0; i< 4; i++) {
             sb.append(fillSpace).append(tab);
         }
         return sb;
