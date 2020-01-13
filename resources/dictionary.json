@@ -1116,6 +1116,151 @@
       "date": 1577680155585,
       "word": "right",
       "sentence": "Right is opposite from wrong."
+    },{
+      "id": 202,
+      "date": 1578855745442,
+      "word": "eleven",
+      "sentence": "eleven minus one is ten."
+    },{
+      "id": 203,
+      "date": 1578855745442,
+      "word": "twelve",
+      "sentence": "twelve minus one is eleven."
+    },{
+      "id": 204,
+      "date": 1578855745442,
+      "word": "thirteen",
+      "sentence": "thirteen plus one is fourteen."
+    },{
+      "id": 205,
+      "date": 1578855745442,
+      "word": "fourteen",
+      "sentence": "fourteen minus one is thirteen."
+    },{
+      "id": 206,
+      "date": 1578855745442,
+      "word": "fifteen",
+      "sentence": "fifteen minus one is fourteen."
+    },{
+      "id": 207,
+      "date": 1578855745442,
+      "word": "sixteen",
+      "sentence": "sixteen plus one is seventeen."
+    },{
+      "id": 208,
+      "date": 1578855745442,
+      "word": "seventeen",
+      "sentence": "seventeen minus one is sixteen."
+    },{
+      "id": 209,
+      "date": 1578855745442,
+      "word": "eighteen",
+      "sentence": "eighteen plus one is nineteen."
+    },{
+      "id": 210,
+      "date": 1578855745442,
+      "word": "nineteen",
+      "sentence": "nineteen minus one is eighteen."
+    },{
+      "id": 211,
+      "date": 1578855745442,
+      "word": "twenty",
+      "sentence": "twenty minus two is eighteen."
+    },{
+      "id": 212,
+      "date": 1578855745442,
+      "word": "thirty",
+      "sentence": "thirty plus one is thirty one."
+    },{
+      "id": 213,
+      "date": 1578855745442,
+      "word": "forty",
+      "sentence": "forty is ten more than thirty."
+    },{
+      "id": 214,
+      "date": 1578855745442,
+      "word": "fifty",
+      "sentence": "fifty is ten more than forty."
+    },{
+      "id": 215,
+      "date": 1578855745442,
+      "word": "sixty",
+      "sentence": "sixty is ten more than fifty."
+    },{
+      "id": 216,
+      "date": 1578855745442,
+      "word": "seventy",
+      "sentence": "seventy is ten more than sixty"
+    },{
+      "id": 217,
+      "date": 1578855745442,
+      "word": "eighty",
+      "sentence": "eighty is ten more than seventy"
+    },{
+      "id": 218,
+      "date": 1578855745442,
+      "word": "ninety",
+      "sentence": "ninety is ten more than eighty"
+    },{
+      "id": 219,
+      "date": 1578855745442,
+      "word": "hundred",
+      "sentence": "one hundred is ten more than ninety"
+    },{
+      "id": 220,
+      "date": 1578855745442,
+      "word": "thousand",
+      "sentence": "one thousand is ten times more than one hundred"
+    },{
+      "id": 221,
+      "date": 1578855745442,
+      "word": "million",
+      "sentence": "One thousand thousand is one million"
+    },{
+      "id": 222,
+      "date": 1578855745442,
+      "word": "plus",
+      "sentence": "one plus one is two."
+    },{
+      "id": 223,
+      "date": 1578855745442,
+      "word": "minus",
+      "sentence": "two minus one is one."
+    },{
+      "id": 224,
+      "date": 1578855745442,
+      "word": "time",
+      "sentence": "time never stops."
+    },{
+      "id": 225,
+      "date": 1578855745442,
+      "word": "best",
+      "sentence": "The best kind of activity is jumping in muddy puddles."
+    },{
+      "id": 226,
+      "date": 1578855745442,
+      "word": "answer",
+      "sentence": "The answer to this question is 42."
+    },{
+      "id": 227,
+      "date": 1578855745442,
+      "word": "enough",
+      "sentence": "There is enough food for everyone."
+    },{
+      "id": 228,
+      "date": 1578855745442,
+      "word": "second",
+      "sentence": "There are 60 seconds in a minute."
+    },{
+      "id": 229,
+      "date": 1578855745442,
+      "word": "minute",
+      "sentence": "There are 60 minutes in an hour."
+    },{
+      "id": 230,
+      "date": 1578855745442,
+      "word": "hour",
+      "sentence": "One day has 24 hours."
     }
   ]
 }

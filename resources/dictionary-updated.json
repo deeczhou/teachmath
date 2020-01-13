@@ -1,0 +1,5503 @@
+{
+  "words" : [ {
+    "id" : 1,
+    "date" : 1577601297032,
+    "word" : "boy",
+    "sentence" : "Boys like to play with cars."
+  }, {
+    "id" : 2,
+    "date" : 1577601297032,
+    "word" : "girl",
+    "sentence" : "Girls like to play with dolls."
+  }, {
+    "id" : 3,
+    "date" : 1577601297032,
+    "word" : "banana",
+    "sentence" : "Banana is a fruit with yellow skins."
+  }, {
+    "id" : 4,
+    "date" : 1577601297032,
+    "word" : "apple",
+    "sentence" : "Apples are red."
+  }, {
+    "id" : 5,
+    "date" : 1577601297032,
+    "word" : "cake",
+    "sentence" : "Cake is delicious."
+  }, {
+    "id" : 6,
+    "date" : 1577601297032,
+    "word" : "monkey",
+    "sentence" : "Monkey loves to climb up trees."
+  }, {
+    "id" : 7,
+    "date" : 1577601297032,
+    "word" : "tiger",
+    "sentence" : "Tigers are very strong and scary."
+  }, {
+    "id" : 8,
+    "date" : 1577601297032,
+    "word" : "clock",
+    "sentence" : "clock tells me time."
+  }, {
+    "id" : 9,
+    "date" : 1577601297032,
+    "word" : "sofa",
+    "sentence" : "Sofa is for sitting and it is very comfortable."
+  }, {
+    "id" : 10,
+    "date" : 1577601297032,
+    "word" : "stairs",
+    "sentence" : "Be careful going up and down of stairs."
+  }, {
+    "id" : 11,
+    "date" : 1577601297032,
+    "word" : "dentist",
+    "sentence" : "Dentist helps keep our teeth clean."
+  }, {
+    "id" : 12,
+    "date" : 1577601297032,
+    "word" : "spring",
+    "sentence" : "Trees start to grow leaves in Spring."
+  }, {
+    "id" : 13,
+    "date" : 1577601297032,
+    "word" : "summer",
+    "sentence" : "Summer time is very hot."
+  }, {
+    "id" : 14,
+    "date" : 1577601297032,
+    "word" : "autumn",
+    "sentence" : "Leaves fall in autumn."
+  }, {
+    "id" : 15,
+    "date" : 1577601297032,
+    "word" : "winter",
+    "sentence" : "Vancouver in winter is wet and cold."
+  }, {
+    "id" : 16,
+    "date" : 1577601297032,
+    "word" : "city",
+    "sentence" : "City is where many people lives together."
+  }, {
+    "id" : 17,
+    "date" : 1577601297032,
+    "word" : "country",
+    "sentence" : "Country is made of many cities."
+  }, {
+    "id" : 18,
+    "date" : 1577601297032,
+    "word" : "station",
+    "sentence" : "The bus station around the corner can take you to metro town."
+  }, {
+    "id" : 19,
+    "date" : 1577601297032,
+    "word" : "skytrain",
+    "sentence" : "Skytrain runs by itself."
+  }, {
+    "id" : 20,
+    "date" : 1577601297032,
+    "word" : "muddy puddle",
+    "sentence" : "Peppa loves jumping in muddy puddles."
+  }, {
+    "id" : 21,
+    "date" : 1577601297032,
+    "word" : "squish",
+    "sentence" : "Squishing a lemon to make lemon juice."
+  }, {
+    "id" : 22,
+    "date" : 1577601297032,
+    "word" : "teacher",
+    "sentence" : "Teacher teaches us about the world."
+  }, {
+    "id" : 23,
+    "date" : 1577601297032,
+    "word" : "spoon",
+    "sentence" : "Eat with spoon and fork."
+  }, {
+    "id" : 24,
+    "date" : 1577601297032,
+    "word" : "thought",
+    "sentence" : "I thought about the puzzle I played yesterday."
+  }, {
+    "id" : 25,
+    "date" : 1577601297032,
+    "word" : "better",
+    "sentence" : "I felt better today after taking a lot of rest."
+  }, {
+    "id" : 26,
+    "date" : 1577601297032,
+    "word" : "tug boat",
+    "sentence" : "Although tug boat is small, it can tow big boat."
+  }, {
+    "id" : 27,
+    "date" : 1577601297032,
+    "word" : "smoke",
+    "sentence" : "Smoke comes out of the tug boat as it sails in the harbour."
+  }, {
+    "id" : 28,
+    "date" : 1577601297032,
+    "word" : "it",
+    "sentence" : "It is Sunday today."
+  }, {
+    "id" : 29,
+    "date" : 1577601297032,
+    "word" : "It's",
+    "sentence" : "It's Sunday today."
+  }, {
+    "id" : 30,
+    "date" : 1577601297032,
+    "word" : "Its",
+    "sentence" : "The cat always jumps out of its own yard."
+  }, {
+    "id" : 31,
+    "date" : 1577601297032,
+    "word" : "boy",
+    "sentence" : "Boys like to play with cars."
+  }, {
+    "id" : 32,
+    "date" : 1577601297032,
+    "word" : "what",
+    "sentence" : "What is a monkey?"
+  }, {
+    "id" : 33,
+    "date" : 1577601297032,
+    "word" : "when",
+    "sentence" : "When is dinner?"
+  }, {
+    "id" : 34,
+    "date" : 1577601297032,
+    "word" : "why",
+    "sentence" : "Why do I feel hungry again?"
+  }, {
+    "id" : 35,
+    "date" : 1577601297032,
+    "word" : "because",
+    "sentence" : "The car is fast because it runs with an engine."
+  }, {
+    "id" : 36,
+    "date" : 1577601297032,
+    "word" : "vitamin",
+    "sentence" : "Vitamin helps us to stay healthy."
+  }, {
+    "id" : 37,
+    "date" : 1577601297032,
+    "word" : "taste",
+    "sentence" : "This cake tastes so good."
+  }, {
+    "id" : 38,
+    "date" : 1577601297032,
+    "word" : "first",
+    "sentence" : "It's my first time to climb this hill."
+  }, {
+    "id" : 39,
+    "date" : 1577601297032,
+    "word" : "fast",
+    "sentence" : "Run fast!"
+  }, {
+    "id" : 40,
+    "date" : 1577601297032,
+    "word" : "faster",
+    "sentence" : "Run faster!"
+  }, {
+    "id" : 41,
+    "date" : 1577601297032,
+    "word" : "fastest",
+    "sentence" : "The fastest runner."
+  }, {
+    "id" : 42,
+    "date" : 1577601297032,
+    "word" : "bite",
+    "sentence" : "Take a bite of this apple, it is delicious."
+  }, {
+    "id" : 43,
+    "date" : 1577680155585,
+    "word" : "clown",
+    "sentence" : "Clowns are funny people with a big red nose."
+  }, {
+    "id" : 44,
+    "date" : 1577680155585,
+    "word" : "Leonardo",
+    "sentence" : "Leonardo is a name."
+  }, {
+    "id" : 45,
+    "date" : 1577680155585,
+    "word" : "he",
+    "sentence" : "He is for boy."
+  }, {
+    "id" : 46,
+    "date" : 1577680155585,
+    "word" : "she",
+    "sentence" : "She is for girl."
+  }, {
+    "id" : 47,
+    "date" : 1577680155585,
+    "word" : "it",
+    "sentence" : "It is for objects and animals."
+  }, {
+    "id" : 48,
+    "date" : 1577680155585,
+    "word" : "his",
+    "sentence" : "he likes to play with his lego."
+  }, {
+    "id" : 49,
+    "date" : 1577680155585,
+    "word" : "her",
+    "sentence" : "she likes to play with her puzzles."
+  }, {
+    "id" : 50,
+    "date" : 1577680155585,
+    "word" : "secret",
+    "sentence" : "Can you keep a secret?"
+  }, {
+    "id" : 51,
+    "date" : 1577680155585,
+    "word" : "sneak",
+    "sentence" : "A tiger is sneaking up on a little sheep."
+  }, {
+    "id" : 52,
+    "date" : 1577680155585,
+    "word" : "scared",
+    "sentence" : "The little lamb is scared of the tiger."
+  }, {
+    "id" : 53,
+    "date" : 1577680155585,
+    "word" : "smile",
+    "sentence" : "The little kid smiles a lot."
+  }, {
+    "id" : 54,
+    "date" : 1577680155585,
+    "word" : "stuff",
+    "sentence" : "The play area is so messy, stuff is everywhere."
+  }, {
+    "id" : 55,
+    "date" : 1577680155585,
+    "word" : "cloud",
+    "sentence" : "Cloud forms from water vapor."
+  }, {
+    "id" : 56,
+    "date" : 1577680155585,
+    "word" : "class room",
+    "sentence" : "Class room is where we spend time learning."
+  }, {
+    "id" : 57,
+    "date" : 1577680155585,
+    "word" : "warm",
+    "sentence" : "It feels warm with all the heater on."
+  }, {
+    "id" : 58,
+    "date" : 1577680155585,
+    "word" : "good",
+    "sentence" : "It feels good after a work out."
+  }, {
+    "id" : 59,
+    "date" : 1577680155585,
+    "word" : "better",
+    "sentence" : "Sharing and playing with friends is better than keeping it to self."
+  }, {
+    "id" : 60,
+    "date" : 1577680155585,
+    "word" : "worse",
+    "sentence" : "I feel worse with a headache."
+  }, {
+    "id" : 61,
+    "date" : 1577680155585,
+    "word" : "bad",
+    "sentence" : "I feel bad. I am sick."
+  }, {
+    "id" : 62,
+    "date" : 1577680155585,
+    "word" : "wool",
+    "sentence" : "Wool come from sheep."
+  }, {
+    "id" : 63,
+    "date" : 1577680155585,
+    "word" : "wood",
+    "sentence" : "Wood burns to make fire."
+  }, {
+    "id" : 64,
+    "date" : 1577680155585,
+    "word" : "pear",
+    "sentence" : "Pear is a type of fruit."
+  }, {
+    "id" : 65,
+    "date" : 1577680155585,
+    "word" : "apple",
+    "sentence" : "An apple a day keeps the doctor away."
+  }, {
+    "id" : 66,
+    "date" : 1577680155585,
+    "word" : "dishes",
+    "sentence" : "I love to clean dishes."
+  }, {
+    "id" : 67,
+    "date" : 1577680155585,
+    "word" : "soap",
+    "sentence" : "We use soap to clean dishes."
+  }, {
+    "id" : 68,
+    "date" : 1577680155585,
+    "word" : "movie",
+    "sentence" : "I love watching movie with my Dad."
+  }, {
+    "id" : 69,
+    "date" : 1577680155585,
+    "word" : "hungry",
+    "sentence" : "Darren is always hungry."
+  }, {
+    "id" : 70,
+    "date" : 1577680155585,
+    "word" : "story",
+    "sentence" : "A good story needs a good listener."
+  }, {
+    "id" : 71,
+    "date" : 1577680155585,
+    "word" : "monster",
+    "sentence" : "Many stories have monsters in them."
+  }, {
+    "id" : 72,
+    "date" : 1577680155585,
+    "word" : "under",
+    "sentence" : "Keep things under the table to make it clean and tidy."
+  }, {
+    "id" : 73,
+    "date" : 1577680155585,
+    "word" : "above",
+    "sentence" : "Keep your head above water while swimming."
+  }, {
+    "id" : 74,
+    "date" : 1577680155585,
+    "word" : "porridge",
+    "sentence" : "Porridge is made of rice."
+  }, {
+    "id" : 75,
+    "date" : 1577680155585,
+    "word" : "pot",
+    "sentence" : "We use pot to keep soup."
+  }, {
+    "id" : 76,
+    "date" : 1577680155585,
+    "word" : "magic",
+    "sentence" : "Magic tricks are little wonders."
+  }, {
+    "id" : 77,
+    "date" : 1577680155585,
+    "word" : "cooking",
+    "sentence" : "Cooking dinner for family is very enjoyable."
+  }, {
+    "id" : 78,
+    "date" : 1577680155585,
+    "word" : "elementary",
+    "sentence" : "I go to an elementary school next door."
+  }, {
+    "id" : 80,
+    "date" : 1577680155585,
+    "word" : "school",
+    "sentence" : "I go to an elementary school next door."
+  }, {
+    "id" : 81,
+    "date" : 1577680155585,
+    "word" : "program",
+    "sentence" : "Dad writes a program to help me practice Math and English."
+  }, {
+    "id" : 82,
+    "date" : 1577680155585,
+    "word" : "telephone",
+    "sentence" : "Telephone is a device to hear people's voices from far away."
+  }, {
+    "id" : 83,
+    "date" : 1577680155585,
+    "word" : "allergy",
+    "sentence" : "I have pollen allergy in the spring time that makes my eyes itchy."
+  }, {
+    "id" : 84,
+    "date" : 1577680155585,
+    "word" : "ocean",
+    "sentence" : "Ocean is a very big body of water. So big you cannot see the other side."
+  }, {
+    "id" : 85,
+    "date" : 1577680155585,
+    "word" : "floor",
+    "sentence" : "My home has three floors."
+  }, {
+    "id" : 86,
+    "date" : 1577680155585,
+    "word" : "sea",
+    "sentence" : "Sea is a large body of water that makes up an ocean."
+  }, {
+    "id" : 87,
+    "date" : 1577680155585,
+    "word" : "more",
+    "sentence" : "Two is more than one."
+  }, {
+    "id" : 88,
+    "date" : 1577680155585,
+    "word" : "learn",
+    "sentence" : "I am learning new skills everyday."
+  }, {
+    "id" : 89,
+    "date" : 1577680155585,
+    "word" : "science",
+    "sentence" : "Science is about understanding our world."
+  }, {
+    "id" : 90,
+    "date" : 1577680155585,
+    "word" : "project",
+    "sentence" : "We often do projects at school."
+  }, {
+    "id" : 91,
+    "date" : 1577680155585,
+    "word" : "class",
+    "sentence" : "My class have dozens of children."
+  }, {
+    "id" : 92,
+    "date" : 1577680155585,
+    "word" : "everybody",
+    "sentence" : "Everybody likes ice cream."
+  }, {
+    "id" : 93,
+    "date" : 1577680155585,
+    "word" : "nobody",
+    "sentence" : "Nobody would say they don't like ice cream."
+  }, {
+    "id" : 94,
+    "date" : 1577680155585,
+    "word" : "anybody",
+    "sentence" : "School do not let anybody in after hours."
+  }, {
+    "id" : 95,
+    "date" : 1577680155585,
+    "word" : "chicken",
+    "sentence" : "I love chicken."
+  }, {
+    "id" : 96,
+    "date" : 1577680155585,
+    "word" : "potato",
+    "sentence" : "Potato cooked with meat is very delicious."
+  }, {
+    "id" : 97,
+    "date" : 1577680155585,
+    "word" : "rice",
+    "sentence" : "Rice fills your belly."
+  }, {
+    "id" : 98,
+    "date" : 1577680155585,
+    "word" : "class",
+    "sentence" : "My class have dozens of children."
+  }, {
+    "id" : 99,
+    "date" : 1577680155585,
+    "word" : "cheese",
+    "sentence" : "Cheese is made from milk."
+  }, {
+    "id" : 100,
+    "date" : 1577680155585,
+    "word" : "butter",
+    "sentence" : "Butter is also made from milk."
+  }, {
+    "id" : 101,
+    "date" : 1577680155585,
+    "word" : "brown",
+    "sentence" : "brown is a color, like poo poo."
+  }, {
+    "id" : 102,
+    "date" : 1577680155585,
+    "word" : "black",
+    "sentence" : "Black means no color."
+  }, {
+    "id" : 103,
+    "date" : 1577680155585,
+    "word" : "white",
+    "sentence" : "every color together makes white."
+  }, {
+    "id" : 104,
+    "date" : 1577680155585,
+    "word" : "asthma",
+    "sentence" : "Asthma is a sickness when someone cannot breath."
+  }, {
+    "id" : 105,
+    "date" : 1577680155585,
+    "word" : "family",
+    "sentence" : "Family is a group of people who are related."
+  }, {
+    "id" : 106,
+    "date" : 1577680155585,
+    "word" : "provide",
+    "sentence" : "My family provide me with a sweet home."
+  }, {
+    "id" : 107,
+    "date" : 1577680155585,
+    "word" : "day",
+    "sentence" : "A day has 24 hours."
+  }, {
+    "id" : 108,
+    "date" : 1577680155585,
+    "word" : "week",
+    "sentence" : "A week has 7 days."
+  }, {
+    "id" : 109,
+    "date" : 1577680155585,
+    "word" : "month",
+    "sentence" : "A month has 4 weeks."
+  }, {
+    "id" : 110,
+    "date" : 1577680155585,
+    "word" : "year",
+    "sentence" : "A year has 12 months."
+  }, {
+    "id" : 111,
+    "date" : 1577680155585,
+    "word" : "possible",
+    "sentence" : "It is possible to make many different things with lego pieces."
+  }, {
+    "id" : 112,
+    "date" : 1577680155585,
+    "word" : "value",
+    "sentence" : "100 dollars have a value of 100."
+  }, {
+    "id" : 113,
+    "date" : 1577680155585,
+    "word" : "support",
+    "sentence" : "I give support to my class during clean up time."
+  }, {
+    "id" : 114,
+    "date" : 1577680155585,
+    "word" : "option",
+    "sentence" : "There are two options for breakfast: egg or milk."
+  }, {
+    "id" : 115,
+    "date" : 1577680155585,
+    "word" : "wish",
+    "sentence" : "I made many wishes on my birthday."
+  }, {
+    "id" : 116,
+    "date" : 1577680155585,
+    "word" : "hope",
+    "sentence" : "I hope everyone has a good day."
+  }, {
+    "id" : 117,
+    "date" : 1577680155585,
+    "word" : "only",
+    "sentence" : "Darren only like cake when going to T&T."
+  }, {
+    "id" : 118,
+    "date" : 1577680155585,
+    "word" : "result",
+    "sentence" : "It is a good result from the test."
+  }, {
+    "id" : 119,
+    "date" : 1577680155585,
+    "word" : "important",
+    "sentence" : "It is very important not to go with strangers."
+  }, {
+    "id" : 120,
+    "date" : 1577680155585,
+    "word" : "Monday",
+    "sentence" : ""
+  }, {
+    "id" : 121,
+    "date" : 1577680155585,
+    "word" : "Tuesday",
+    "sentence" : ""
+  }, {
+    "id" : 122,
+    "date" : 1577680155585,
+    "word" : "Wednesday",
+    "sentence" : ""
+  }, {
+    "id" : 123,
+    "date" : 1577680155585,
+    "word" : "Thursday",
+    "sentence" : ""
+  }, {
+    "id" : 124,
+    "date" : 1577680155585,
+    "word" : "Friday",
+    "sentence" : ""
+  }, {
+    "id" : 125,
+    "date" : 1577680155585,
+    "word" : "Saturday",
+    "sentence" : ""
+  }, {
+    "id" : 126,
+    "date" : 1577680155585,
+    "word" : "Sunday",
+    "sentence" : ""
+  }, {
+    "id" : 127,
+    "date" : 1577680155585,
+    "word" : "January",
+    "sentence" : ""
+  }, {
+    "id" : 128,
+    "date" : 1577680155585,
+    "word" : "February",
+    "sentence" : ""
+  }, {
+    "id" : 129,
+    "date" : 1577680155585,
+    "word" : "March",
+    "sentence" : ""
+  }, {
+    "id" : 130,
+    "date" : 1577680155585,
+    "word" : "April",
+    "sentence" : ""
+  }, {
+    "id" : 131,
+    "date" : 1577680155585,
+    "word" : "May",
+    "sentence" : ""
+  }, {
+    "id" : 132,
+    "date" : 1577680155585,
+    "word" : "June",
+    "sentence" : ""
+  }, {
+    "id" : 133,
+    "date" : 1577680155585,
+    "word" : "July",
+    "sentence" : ""
+  }, {
+    "id" : 134,
+    "date" : 1577680155585,
+    "word" : "August",
+    "sentence" : ""
+  }, {
+    "id" : 135,
+    "date" : 1577680155585,
+    "word" : "September",
+    "sentence" : ""
+  }, {
+    "id" : 136,
+    "date" : 1577680155585,
+    "word" : "October",
+    "sentence" : ""
+  }, {
+    "id" : 137,
+    "date" : 1577680155585,
+    "word" : "November",
+    "sentence" : ""
+  }, {
+    "id" : 138,
+    "date" : 1577680155585,
+    "word" : "December",
+    "sentence" : ""
+  }, {
+    "id" : 139,
+    "date" : 1577680155585,
+    "word" : "without",
+    "sentence" : "He left home without his bag."
+  }, {
+    "id" : 140,
+    "date" : 1577680155585,
+    "word" : "warning",
+    "sentence" : "There is a warning sign on the road."
+  }, {
+    "id" : 141,
+    "date" : 1577680155585,
+    "word" : "fact",
+    "sentence" : "Earth is round. That is a fact."
+  }, {
+    "id" : 142,
+    "date" : 1577680155585,
+    "word" : "these",
+    "sentence" : ""
+  }, {
+    "id" : 143,
+    "date" : 1577680155585,
+    "word" : "those",
+    "sentence" : ""
+  }, {
+    "id" : 144,
+    "date" : 1577680155585,
+    "word" : "this",
+    "sentence" : ""
+  }, {
+    "id" : 145,
+    "date" : 1577680155585,
+    "word" : "that",
+    "sentence" : ""
+  }, {
+    "id" : 146,
+    "date" : 1577680155585,
+    "word" : "there",
+    "sentence" : ""
+  }, {
+    "id" : 147,
+    "date" : 1577680155585,
+    "word" : "here",
+    "sentence" : ""
+  }, {
+    "id" : 148,
+    "date" : 1577680155585,
+    "word" : "adjust",
+    "sentence" : "My eyes are adjusting to the darkness."
+  }, {
+    "id" : 149,
+    "date" : 1577680155585,
+    "word" : "affordable",
+    "sentence" : "The lego truck is affordable for me."
+  }, {
+    "id" : 150,
+    "date" : 1577680155585,
+    "word" : "about",
+    "sentence" : "I know all about cars."
+  }, {
+    "id" : 151,
+    "date" : 1577680155585,
+    "word" : "each",
+    "sentence" : "Each of the apple have a worm inside."
+  }, {
+    "id" : 152,
+    "date" : 1577680155585,
+    "word" : "if",
+    "sentence" : "If it is sunny tomorrow, we will go to the park."
+  }, {
+    "id" : 153,
+    "date" : 1577680155585,
+    "word" : "nice",
+    "sentence" : "This flower smells nice."
+  }, {
+    "id" : 154,
+    "date" : 1577680155585,
+    "word" : "than",
+    "sentence" : "Two is bigger than one."
+  }, {
+    "id" : 155,
+    "date" : 1577680155585,
+    "word" : "walk",
+    "sentence" : "I like little walks through the park."
+  }, {
+    "id" : 156,
+    "date" : 1577680155585,
+    "word" : "after",
+    "sentence" : "Two is after one."
+  }, {
+    "id" : 157,
+    "date" : 1577680155585,
+    "word" : "every",
+    "sentence" : "Every kids in the school is having a good time."
+  }, {
+    "id" : 158,
+    "date" : 1577680155585,
+    "word" : "jump",
+    "sentence" : "Peppa likes to jump in muddy puddles."
+  }, {
+    "id" : 159,
+    "date" : 1577680155585,
+    "word" : "now",
+    "sentence" : "We are walking to the skytrain now."
+  }, {
+    "id" : 160,
+    "date" : 1577680155585,
+    "word" : "Thank you",
+    "sentence" : "Say 'Thank you' to the ones who help you."
+  }, {
+    "id" : 161,
+    "date" : 1577680155585,
+    "word" : "want",
+    "sentence" : "I want to have a cold drink now."
+  }, {
+    "id" : 162,
+    "date" : 1577680155585,
+    "word" : "again",
+    "sentence" : "riding down the slide again and again."
+  }, {
+    "id" : 163,
+    "date" : 1577680155585,
+    "word" : "find",
+    "sentence" : "To find the mysterious creature, we have to go to the forest first."
+  }, {
+    "id" : 164,
+    "date" : 1577680155585,
+    "word" : "just",
+    "sentence" : "I'm just guessing."
+  }, {
+    "id" : 165,
+    "date" : 1577680155585,
+    "word" : "old",
+    "sentence" : "I am growing older everyday."
+  }, {
+    "id" : 166,
+    "date" : 1577763093900,
+    "word" : "their",
+    "sentence" : ""
+  }, {
+    "id" : 167,
+    "date" : 1577680155585,
+    "word" : "way",
+    "sentence" : "I can find my way home from the skytrain station."
+  }, {
+    "id" : 168,
+    "date" : 1577680155585,
+    "word" : "also",
+    "sentence" : "I also do not know why the sky is blue."
+  }, {
+    "id" : 169,
+    "date" : 1577680155585,
+    "word" : "first",
+    "sentence" : "The very first toy I had is a mini truck."
+  }, {
+    "id" : 170,
+    "date" : 1577680155585,
+    "word" : "keep",
+    "sentence" : "I can keep an eye on the baby."
+  }, {
+    "id" : 171,
+    "date" : 1577680155585,
+    "word" : "only",
+    "sentence" : "Only an adult can open a tight jar."
+  }, {
+    "id" : 172,
+    "date" : 1577680155585,
+    "word" : "them",
+    "sentence" : "We'll take care of them together."
+  }, {
+    "id" : 173,
+    "date" : 1577680155585,
+    "word" : "went",
+    "sentence" : "They went to the gym."
+  }, {
+    "id" : 174,
+    "date" : 1577680155585,
+    "word" : "another",
+    "sentence" : "It is another ice cream cake Darren had on his birthday."
+  }, {
+    "id" : 175,
+    "date" : 1577763093900,
+    "word" : "from",
+    "sentence" : "My parents are from China. They came to Canada when they are young."
+  }, {
+    "id" : 176,
+    "date" : 1577680155585,
+    "word" : "kind",
+    "sentence" : "Car, truck, bus are all kinds of a vehicle."
+  }, {
+    "id" : 177,
+    "date" : 1577680155585,
+    "word" : "or",
+    "sentence" : "Do you like to have an apple or pear?"
+  }, {
+    "id" : 178,
+    "date" : 1577680155585,
+    "word" : "then",
+    "sentence" : "He ate an apple, then he ate an orange, then he ate a pear, then he ate a cake!"
+  }, {
+    "id" : 179,
+    "date" : 1577680155585,
+    "word" : "were",
+    "sentence" : "There were two dogs at the door last night."
+  }, {
+    "id" : 180,
+    "date" : 1577680155585,
+    "word" : "any",
+    "sentence" : "Darren is so full, he can't eat any more pizza."
+  }, {
+    "id" : 181,
+    "date" : 1577680155585,
+    "word" : "funny",
+    "sentence" : "The rabbit is very funny."
+  }, {
+    "id" : 182,
+    "date" : 1577680155585,
+    "word" : "know",
+    "sentence" : "I know many words already."
+  }, {
+    "id" : 183,
+    "date" : 1577763093900,
+    "word" : "other",
+    "sentence" : "Other children are eating their snack."
+  }, {
+    "id" : 184,
+    "date" : 1577680155585,
+    "word" : "thing",
+    "sentence" : "Things like chalk, color pen, drawing papers are for us to have fun."
+  }, {
+    "id" : 185,
+    "date" : 1577680155585,
+    "word" : "back",
+    "sentence" : "Mommy is finally back from work!!"
+  }, {
+    "id" : 186,
+    "date" : 1577680155585,
+    "word" : "going",
+    "sentence" : "I am going to the zoo!"
+  }, {
+    "id" : 187,
+    "date" : 1577680155585,
+    "word" : "live",
+    "sentence" : "I live with my family."
+  }, {
+    "id" : 188,
+    "date" : 1577680155585,
+    "word" : "people",
+    "sentence" : "During Christmas, there is people everywhere."
+  }, {
+    "id" : 189,
+    "date" : 1577680155585,
+    "word" : "think",
+    "sentence" : "I think think when I am doing my homework."
+  }, {
+    "id" : 190,
+    "date" : 1577680155585,
+    "word" : "great",
+    "sentence" : "Great to see you back home! Daddy!!"
+  }, {
+    "id" : 191,
+    "date" : 1577763093900,
+    "word" : "long",
+    "sentence" : "It has been a long day."
+  }, {
+    "id" : 192,
+    "date" : 1577680155585,
+    "word" : "put",
+    "sentence" : "Put the pen down, when it is time to have a nap."
+  }, {
+    "id" : 193,
+    "date" : 1577680155585,
+    "word" : "use",
+    "sentence" : "Use a tool to break apart tight lego pieces."
+  }, {
+    "id" : 194,
+    "date" : 1577680155585,
+    "word" : "word",
+    "sentence" : "I know many words!"
+  }, {
+    "id" : 195,
+    "date" : 1577680155585,
+    "word" : "been",
+    "sentence" : "We have beeen to the aquarium many times. "
+  }, {
+    "id" : 196,
+    "date" : 1577680155585,
+    "word" : "had",
+    "sentence" : "We had fried chicken for dinner last night."
+  }, {
+    "id" : 197,
+    "date" : 1577680155585,
+    "word" : "many",
+    "sentence" : "There are many children in my classroom."
+  }, {
+    "id" : 198,
+    "date" : 1577680155585,
+    "word" : "rain",
+    "sentence" : "Rain is good for the forest."
+  }, {
+    "id" : 199,
+    "date" : 1577763093900,
+    "word" : "very",
+    "sentence" : "I am very happy to see my Daddy home!"
+  }, {
+    "id" : 200,
+    "date" : 1577680155585,
+    "word" : "work",
+    "sentence" : "My parents work during the day. "
+  }, {
+    "id" : 200,
+    "date" : 1577680155585,
+    "word" : "work",
+    "sentence" : "My parents work during the day. "
+  }, {
+    "id" : 201,
+    "date" : 1577680155585,
+    "word" : "right",
+    "sentence" : "Right is opposite from wrong."
+  }, {
+    "id" : 201,
+    "date" : 1577680155585,
+    "word" : "right",
+    "sentence" : "Right is opposite from wrong."
+  }, {
+    "id" : 202,
+    "date" : 1577680155585,
+    "word" : "would",
+    "sentence" : "I would love to go to the park. "
+  }, {
+    "id" : 202,
+    "date" : 1578855745442,
+    "word" : "eleven",
+    "sentence" : "eleven minus one is ten."
+  }, {
+    "id" : 203,
+    "date" : 1577763093900,
+    "word" : "by",
+    "sentence" : "I went to China by taking a plane."
+  }, {
+    "id" : 203,
+    "date" : 1578855745442,
+    "word" : "twelve",
+    "sentence" : "twelve minus one is eleven."
+  }, {
+    "id" : 204,
+    "date" : 1577680155585,
+    "word" : "high",
+    "sentence" : "I climbed up to the top of the tree. It is very high. "
+  }, {
+    "id" : 204,
+    "date" : 1578855745442,
+    "word" : "thirteen",
+    "sentence" : "thirteen plus one is fourteen."
+  }, {
+    "id" : 205,
+    "date" : 1577680155585,
+    "word" : "should",
+    "sentence" : "Children should be nice to each other."
+  }, {
+    "id" : 205,
+    "date" : 1578855745442,
+    "word" : "fourteen",
+    "sentence" : "fourteen minus one is thirteen."
+  }, {
+    "id" : 206,
+    "date" : 1577680155585,
+    "word" : "write",
+    "sentence" : "Write down your names on the name tag."
+  }, {
+    "id" : 206,
+    "date" : 1578855745442,
+    "word" : "fifteen",
+    "sentence" : "fifteen minus one is fourteen."
+  }, {
+    "id" : 207,
+    "date" : 1577680155585,
+    "word" : "house",
+    "sentence" : "Peppa lives in a small house up a hill."
+  }, {
+    "id" : 207,
+    "date" : 1578855745442,
+    "word" : "sixteen",
+    "sentence" : "sixteen plus one is seventeen."
+  }, {
+    "id" : 208,
+    "date" : 1577680155585,
+    "word" : "much",
+    "sentence" : "I love Daddy very very very VERY much."
+  }, {
+    "id" : 208,
+    "date" : 1578855745442,
+    "word" : "seventeen",
+    "sentence" : "seventeen minus one is sixteen."
+  }, {
+    "id" : 209,
+    "date" : 1577680155585,
+    "word" : "some",
+    "sentence" : "Fruits have many colors; some are yellow; some are red."
+  }, {
+    "id" : 209,
+    "date" : 1578855745442,
+    "word" : "eighteen",
+    "sentence" : "eighteen plus one is nineteen."
+  }, {
+    "id" : 210,
+    "date" : 1577680155585,
+    "word" : "yours",
+    "sentence" : "This book is yours."
+  }, {
+    "id" : 210,
+    "date" : 1578855745442,
+    "word" : "nineteen",
+    "sentence" : "nineteen minus one is eighteen."
+  }, {
+    "id" : 211,
+    "date" : 1577763093900,
+    "word" : "very",
+    "sentence" : "I am very happy to see my Daddy home!"
+  }, {
+    "id" : 211,
+    "date" : 1578855745442,
+    "word" : "twenty",
+    "sentence" : "twenty minus two is eighteen."
+  }, {
+    "id" : 212,
+    "date" : 1578855745442,
+    "word" : "thirty",
+    "sentence" : "thirty plus one is thirty one."
+  }, {
+    "id" : 213,
+    "date" : 1578855745442,
+    "word" : "forty",
+    "sentence" : "forty is ten more than thirty."
+  }, {
+    "id" : 214,
+    "date" : 1578855745442,
+    "word" : "fifty",
+    "sentence" : "fifty is ten more than forty."
+  }, {
+    "id" : 215,
+    "date" : 1578855745442,
+    "word" : "sixty",
+    "sentence" : "sixty is ten more than fifty."
+  }, {
+    "id" : 216,
+    "date" : 1578855745442,
+    "word" : "seventy",
+    "sentence" : "seventy is ten more than sixty"
+  }, {
+    "id" : 217,
+    "date" : 1578855745442,
+    "word" : "eighty",
+    "sentence" : "eighty is ten more than seventy"
+  }, {
+    "id" : 218,
+    "date" : 1578855745442,
+    "word" : "ninety",
+    "sentence" : "ninety is ten more than eighty"
+  }, {
+    "id" : 219,
+    "date" : 1578855745442,
+    "word" : "hundred",
+    "sentence" : "one hundred is ten more than ninety"
+  }, {
+    "id" : 220,
+    "date" : 1578855745442,
+    "word" : "thousand",
+    "sentence" : "one thousand is ten times more than one hundred"
+  }, {
+    "id" : 221,
+    "date" : 1578855745442,
+    "word" : "million",
+    "sentence" : "One thousand thousand is one million"
+  }, {
+    "id" : 222,
+    "date" : 1578855745442,
+    "word" : "plus",
+    "sentence" : "one plus one is two."
+  }, {
+    "id" : 223,
+    "date" : 1578855745442,
+    "word" : "minus",
+    "sentence" : "two minus one is one."
+  }, {
+    "id" : 224,
+    "date" : 1578855745442,
+    "word" : "time",
+    "sentence" : "time never stops."
+  }, {
+    "id" : 225,
+    "date" : 1578855745442,
+    "word" : "best",
+    "sentence" : "The best kind of activity is jumping in muddy puddles."
+  }, {
+    "id" : 226,
+    "date" : 1578855745442,
+    "word" : "answer",
+    "sentence" : "The answer to this question is 42."
+  }, {
+    "id" : 227,
+    "date" : 1578855745442,
+    "word" : "enough",
+    "sentence" : "There is enough food for everyone."
+  }, {
+    "id" : 228,
+    "date" : 1578855745442,
+    "word" : "second",
+    "sentence" : "There are 60 seconds in a minute."
+  }, {
+    "id" : 229,
+    "date" : 1578855745442,
+    "word" : "minute",
+    "sentence" : "There are 60 minutes in an hour."
+  }, {
+    "id" : 230,
+    "date" : 1578855745442,
+    "word" : "hour",
+    "sentence" : "One day has 24 hours."
+  }, {
+    "id" : 242,
+    "date" : 1578894128012,
+    "word" : "a",
+    "sentence" : ""
+  }, {
+    "id" : 243,
+    "date" : 1578894128012,
+    "word" : "able",
+    "sentence" : ""
+  }, {
+    "id" : 244,
+    "date" : 1578894128012,
+    "word" : "absolute",
+    "sentence" : ""
+  }, {
+    "id" : 245,
+    "date" : 1578894128012,
+    "word" : "accept",
+    "sentence" : ""
+  }, {
+    "id" : 246,
+    "date" : 1578894128012,
+    "word" : "account",
+    "sentence" : ""
+  }, {
+    "id" : 247,
+    "date" : 1578894128012,
+    "word" : "achieve",
+    "sentence" : ""
+  }, {
+    "id" : 248,
+    "date" : 1578894128012,
+    "word" : "across",
+    "sentence" : ""
+  }, {
+    "id" : 249,
+    "date" : 1578894128012,
+    "word" : "act",
+    "sentence" : ""
+  }, {
+    "id" : 250,
+    "date" : 1578894128012,
+    "word" : "active",
+    "sentence" : ""
+  }, {
+    "id" : 251,
+    "date" : 1578894128012,
+    "word" : "actual",
+    "sentence" : ""
+  }, {
+    "id" : 252,
+    "date" : 1578894128012,
+    "word" : "add",
+    "sentence" : ""
+  }, {
+    "id" : 253,
+    "date" : 1578894128012,
+    "word" : "address",
+    "sentence" : ""
+  }, {
+    "id" : 254,
+    "date" : 1578894128012,
+    "word" : "admit",
+    "sentence" : ""
+  }, {
+    "id" : 255,
+    "date" : 1578894128012,
+    "word" : "advertise",
+    "sentence" : ""
+  }, {
+    "id" : 256,
+    "date" : 1578894128012,
+    "word" : "affect",
+    "sentence" : ""
+  }, {
+    "id" : 257,
+    "date" : 1578894128012,
+    "word" : "afford",
+    "sentence" : ""
+  }, {
+    "id" : 258,
+    "date" : 1578894128012,
+    "word" : "afternoon",
+    "sentence" : ""
+  }, {
+    "id" : 259,
+    "date" : 1578894128012,
+    "word" : "against",
+    "sentence" : ""
+  }, {
+    "id" : 260,
+    "date" : 1578894128012,
+    "word" : "age",
+    "sentence" : ""
+  }, {
+    "id" : 261,
+    "date" : 1578894128012,
+    "word" : "agent",
+    "sentence" : ""
+  }, {
+    "id" : 262,
+    "date" : 1578894128012,
+    "word" : "ago",
+    "sentence" : ""
+  }, {
+    "id" : 263,
+    "date" : 1578894128012,
+    "word" : "agree",
+    "sentence" : ""
+  }, {
+    "id" : 264,
+    "date" : 1578894128012,
+    "word" : "air",
+    "sentence" : ""
+  }, {
+    "id" : 265,
+    "date" : 1578894128012,
+    "word" : "all",
+    "sentence" : ""
+  }, {
+    "id" : 266,
+    "date" : 1578894128012,
+    "word" : "allow",
+    "sentence" : ""
+  }, {
+    "id" : 267,
+    "date" : 1578894128012,
+    "word" : "almost",
+    "sentence" : ""
+  }, {
+    "id" : 268,
+    "date" : 1578894128012,
+    "word" : "along",
+    "sentence" : ""
+  }, {
+    "id" : 269,
+    "date" : 1578894128012,
+    "word" : "already",
+    "sentence" : ""
+  }, {
+    "id" : 270,
+    "date" : 1578894128012,
+    "word" : "alright",
+    "sentence" : ""
+  }, {
+    "id" : 271,
+    "date" : 1578894128012,
+    "word" : "although",
+    "sentence" : ""
+  }, {
+    "id" : 272,
+    "date" : 1578894128012,
+    "word" : "always",
+    "sentence" : ""
+  }, {
+    "id" : 273,
+    "date" : 1578894128012,
+    "word" : "america",
+    "sentence" : ""
+  }, {
+    "id" : 274,
+    "date" : 1578894128012,
+    "word" : "amount",
+    "sentence" : ""
+  }, {
+    "id" : 275,
+    "date" : 1578894128012,
+    "word" : "and",
+    "sentence" : ""
+  }, {
+    "id" : 276,
+    "date" : 1578894128012,
+    "word" : "apart",
+    "sentence" : ""
+  }, {
+    "id" : 277,
+    "date" : 1578894128012,
+    "word" : "apparent",
+    "sentence" : ""
+  }, {
+    "id" : 278,
+    "date" : 1578894128012,
+    "word" : "appear",
+    "sentence" : ""
+  }, {
+    "id" : 279,
+    "date" : 1578894128012,
+    "word" : "apply",
+    "sentence" : ""
+  }, {
+    "id" : 280,
+    "date" : 1578894128012,
+    "word" : "appoint",
+    "sentence" : ""
+  }, {
+    "id" : 281,
+    "date" : 1578894128012,
+    "word" : "approach",
+    "sentence" : ""
+  }, {
+    "id" : 282,
+    "date" : 1578894128012,
+    "word" : "appropriate",
+    "sentence" : ""
+  }, {
+    "id" : 283,
+    "date" : 1578894128012,
+    "word" : "area",
+    "sentence" : ""
+  }, {
+    "id" : 284,
+    "date" : 1578894128012,
+    "word" : "argue",
+    "sentence" : ""
+  }, {
+    "id" : 285,
+    "date" : 1578894128012,
+    "word" : "arm",
+    "sentence" : ""
+  }, {
+    "id" : 286,
+    "date" : 1578894128012,
+    "word" : "around",
+    "sentence" : ""
+  }, {
+    "id" : 287,
+    "date" : 1578894128012,
+    "word" : "arrange",
+    "sentence" : ""
+  }, {
+    "id" : 288,
+    "date" : 1578894128012,
+    "word" : "art",
+    "sentence" : ""
+  }, {
+    "id" : 289,
+    "date" : 1578894128012,
+    "word" : "as",
+    "sentence" : ""
+  }, {
+    "id" : 290,
+    "date" : 1578894128012,
+    "word" : "ask",
+    "sentence" : ""
+  }, {
+    "id" : 291,
+    "date" : 1578894128012,
+    "word" : "associate",
+    "sentence" : ""
+  }, {
+    "id" : 292,
+    "date" : 1578894128012,
+    "word" : "assume",
+    "sentence" : ""
+  }, {
+    "id" : 293,
+    "date" : 1578894128012,
+    "word" : "at",
+    "sentence" : ""
+  }, {
+    "id" : 294,
+    "date" : 1578894128012,
+    "word" : "attend",
+    "sentence" : ""
+  }, {
+    "id" : 295,
+    "date" : 1578894128012,
+    "word" : "authority",
+    "sentence" : ""
+  }, {
+    "id" : 296,
+    "date" : 1578894128012,
+    "word" : "available",
+    "sentence" : ""
+  }, {
+    "id" : 297,
+    "date" : 1578894128012,
+    "word" : "aware",
+    "sentence" : ""
+  }, {
+    "id" : 298,
+    "date" : 1578894128012,
+    "word" : "away",
+    "sentence" : ""
+  }, {
+    "id" : 299,
+    "date" : 1578894128012,
+    "word" : "awful",
+    "sentence" : ""
+  }, {
+    "id" : 300,
+    "date" : 1578894128012,
+    "word" : "baby",
+    "sentence" : ""
+  }, {
+    "id" : 301,
+    "date" : 1578894128012,
+    "word" : "bag",
+    "sentence" : ""
+  }, {
+    "id" : 302,
+    "date" : 1578894128012,
+    "word" : "balance",
+    "sentence" : ""
+  }, {
+    "id" : 303,
+    "date" : 1578894128012,
+    "word" : "ball",
+    "sentence" : ""
+  }, {
+    "id" : 304,
+    "date" : 1578894128012,
+    "word" : "bank",
+    "sentence" : ""
+  }, {
+    "id" : 305,
+    "date" : 1578894128012,
+    "word" : "bar",
+    "sentence" : ""
+  }, {
+    "id" : 306,
+    "date" : 1578894128012,
+    "word" : "base",
+    "sentence" : ""
+  }, {
+    "id" : 307,
+    "date" : 1578894128012,
+    "word" : "basis",
+    "sentence" : ""
+  }, {
+    "id" : 308,
+    "date" : 1578894128012,
+    "word" : "be",
+    "sentence" : ""
+  }, {
+    "id" : 309,
+    "date" : 1578894128012,
+    "word" : "bear",
+    "sentence" : ""
+  }, {
+    "id" : 310,
+    "date" : 1578894128012,
+    "word" : "beat",
+    "sentence" : ""
+  }, {
+    "id" : 311,
+    "date" : 1578894128012,
+    "word" : "beauty",
+    "sentence" : ""
+  }, {
+    "id" : 312,
+    "date" : 1578894128012,
+    "word" : "become",
+    "sentence" : ""
+  }, {
+    "id" : 313,
+    "date" : 1578894128012,
+    "word" : "bed",
+    "sentence" : ""
+  }, {
+    "id" : 314,
+    "date" : 1578894128012,
+    "word" : "before",
+    "sentence" : ""
+  }, {
+    "id" : 315,
+    "date" : 1578894128012,
+    "word" : "begin",
+    "sentence" : ""
+  }, {
+    "id" : 316,
+    "date" : 1578894128012,
+    "word" : "behind",
+    "sentence" : ""
+  }, {
+    "id" : 317,
+    "date" : 1578894128012,
+    "word" : "believe",
+    "sentence" : ""
+  }, {
+    "id" : 318,
+    "date" : 1578894128012,
+    "word" : "benefit",
+    "sentence" : ""
+  }, {
+    "id" : 319,
+    "date" : 1578894128012,
+    "word" : "bet",
+    "sentence" : ""
+  }, {
+    "id" : 320,
+    "date" : 1578894128012,
+    "word" : "between",
+    "sentence" : ""
+  }, {
+    "id" : 321,
+    "date" : 1578894128012,
+    "word" : "big",
+    "sentence" : ""
+  }, {
+    "id" : 322,
+    "date" : 1578894128012,
+    "word" : "bill",
+    "sentence" : ""
+  }, {
+    "id" : 323,
+    "date" : 1578894128012,
+    "word" : "birth",
+    "sentence" : ""
+  }, {
+    "id" : 324,
+    "date" : 1578894128012,
+    "word" : "bit",
+    "sentence" : ""
+  }, {
+    "id" : 325,
+    "date" : 1578894128012,
+    "word" : "bloke",
+    "sentence" : ""
+  }, {
+    "id" : 326,
+    "date" : 1578894128012,
+    "word" : "blood",
+    "sentence" : ""
+  }, {
+    "id" : 327,
+    "date" : 1578894128012,
+    "word" : "blow",
+    "sentence" : ""
+  }, {
+    "id" : 328,
+    "date" : 1578894128012,
+    "word" : "blue",
+    "sentence" : ""
+  }, {
+    "id" : 329,
+    "date" : 1578894128012,
+    "word" : "board",
+    "sentence" : ""
+  }, {
+    "id" : 330,
+    "date" : 1578894128012,
+    "word" : "boat",
+    "sentence" : ""
+  }, {
+    "id" : 331,
+    "date" : 1578894128012,
+    "word" : "body",
+    "sentence" : ""
+  }, {
+    "id" : 332,
+    "date" : 1578894128012,
+    "word" : "book",
+    "sentence" : ""
+  }, {
+    "id" : 333,
+    "date" : 1578894128012,
+    "word" : "both",
+    "sentence" : ""
+  }, {
+    "id" : 334,
+    "date" : 1578894128012,
+    "word" : "bother",
+    "sentence" : ""
+  }, {
+    "id" : 335,
+    "date" : 1578894128012,
+    "word" : "bottle",
+    "sentence" : ""
+  }, {
+    "id" : 336,
+    "date" : 1578894128012,
+    "word" : "bottom",
+    "sentence" : ""
+  }, {
+    "id" : 337,
+    "date" : 1578894128012,
+    "word" : "box",
+    "sentence" : ""
+  }, {
+    "id" : 338,
+    "date" : 1578894128012,
+    "word" : "break",
+    "sentence" : ""
+  }, {
+    "id" : 339,
+    "date" : 1578894128012,
+    "word" : "brief",
+    "sentence" : ""
+  }, {
+    "id" : 340,
+    "date" : 1578894128012,
+    "word" : "brilliant",
+    "sentence" : ""
+  }, {
+    "id" : 341,
+    "date" : 1578894128012,
+    "word" : "bring",
+    "sentence" : ""
+  }, {
+    "id" : 342,
+    "date" : 1578894128012,
+    "word" : "britain",
+    "sentence" : ""
+  }, {
+    "id" : 343,
+    "date" : 1578894128012,
+    "word" : "brother",
+    "sentence" : ""
+  }, {
+    "id" : 344,
+    "date" : 1578894128012,
+    "word" : "budget",
+    "sentence" : ""
+  }, {
+    "id" : 345,
+    "date" : 1578894128012,
+    "word" : "build",
+    "sentence" : ""
+  }, {
+    "id" : 346,
+    "date" : 1578894128012,
+    "word" : "bus",
+    "sentence" : ""
+  }, {
+    "id" : 347,
+    "date" : 1578894128012,
+    "word" : "business",
+    "sentence" : ""
+  }, {
+    "id" : 348,
+    "date" : 1578894128012,
+    "word" : "busy",
+    "sentence" : ""
+  }, {
+    "id" : 349,
+    "date" : 1578894128012,
+    "word" : "but",
+    "sentence" : ""
+  }, {
+    "id" : 350,
+    "date" : 1578894128012,
+    "word" : "buy",
+    "sentence" : ""
+  }, {
+    "id" : 351,
+    "date" : 1578894128012,
+    "word" : "call",
+    "sentence" : ""
+  }, {
+    "id" : 352,
+    "date" : 1578894128012,
+    "word" : "can",
+    "sentence" : ""
+  }, {
+    "id" : 353,
+    "date" : 1578894128012,
+    "word" : "car",
+    "sentence" : ""
+  }, {
+    "id" : 354,
+    "date" : 1578894128012,
+    "word" : "card",
+    "sentence" : ""
+  }, {
+    "id" : 355,
+    "date" : 1578894128012,
+    "word" : "care",
+    "sentence" : ""
+  }, {
+    "id" : 356,
+    "date" : 1578894128012,
+    "word" : "carry",
+    "sentence" : ""
+  }, {
+    "id" : 357,
+    "date" : 1578894128012,
+    "word" : "case",
+    "sentence" : ""
+  }, {
+    "id" : 358,
+    "date" : 1578894128012,
+    "word" : "cat",
+    "sentence" : ""
+  }, {
+    "id" : 359,
+    "date" : 1578894128012,
+    "word" : "catch",
+    "sentence" : ""
+  }, {
+    "id" : 360,
+    "date" : 1578894128012,
+    "word" : "cause",
+    "sentence" : ""
+  }, {
+    "id" : 361,
+    "date" : 1578894128012,
+    "word" : "cent",
+    "sentence" : ""
+  }, {
+    "id" : 362,
+    "date" : 1578894128012,
+    "word" : "centre",
+    "sentence" : ""
+  }, {
+    "id" : 363,
+    "date" : 1578894128012,
+    "word" : "certain",
+    "sentence" : ""
+  }, {
+    "id" : 364,
+    "date" : 1578894128012,
+    "word" : "chair",
+    "sentence" : ""
+  }, {
+    "id" : 365,
+    "date" : 1578894128012,
+    "word" : "chairman",
+    "sentence" : ""
+  }, {
+    "id" : 366,
+    "date" : 1578894128012,
+    "word" : "chance",
+    "sentence" : ""
+  }, {
+    "id" : 367,
+    "date" : 1578894128012,
+    "word" : "change",
+    "sentence" : ""
+  }, {
+    "id" : 368,
+    "date" : 1578894128012,
+    "word" : "chap",
+    "sentence" : ""
+  }, {
+    "id" : 369,
+    "date" : 1578894128012,
+    "word" : "character",
+    "sentence" : ""
+  }, {
+    "id" : 370,
+    "date" : 1578894128012,
+    "word" : "charge",
+    "sentence" : ""
+  }, {
+    "id" : 371,
+    "date" : 1578894128012,
+    "word" : "cheap",
+    "sentence" : ""
+  }, {
+    "id" : 372,
+    "date" : 1578894128012,
+    "word" : "check",
+    "sentence" : ""
+  }, {
+    "id" : 373,
+    "date" : 1578894128012,
+    "word" : "child",
+    "sentence" : ""
+  }, {
+    "id" : 374,
+    "date" : 1578894128012,
+    "word" : "choice",
+    "sentence" : ""
+  }, {
+    "id" : 375,
+    "date" : 1578894128012,
+    "word" : "choose",
+    "sentence" : ""
+  }, {
+    "id" : 376,
+    "date" : 1578894128012,
+    "word" : "Christ",
+    "sentence" : ""
+  }, {
+    "id" : 377,
+    "date" : 1578894128012,
+    "word" : "Christmas",
+    "sentence" : ""
+  }, {
+    "id" : 378,
+    "date" : 1578894128012,
+    "word" : "church",
+    "sentence" : ""
+  }, {
+    "id" : 379,
+    "date" : 1578894128012,
+    "word" : "claim",
+    "sentence" : ""
+  }, {
+    "id" : 380,
+    "date" : 1578894128012,
+    "word" : "clean",
+    "sentence" : ""
+  }, {
+    "id" : 381,
+    "date" : 1578894128012,
+    "word" : "clear",
+    "sentence" : ""
+  }, {
+    "id" : 382,
+    "date" : 1578894128012,
+    "word" : "client",
+    "sentence" : ""
+  }, {
+    "id" : 383,
+    "date" : 1578894128012,
+    "word" : "close",
+    "sentence" : ""
+  }, {
+    "id" : 384,
+    "date" : 1578894128012,
+    "word" : "closes",
+    "sentence" : ""
+  }, {
+    "id" : 385,
+    "date" : 1578894128012,
+    "word" : "clothe",
+    "sentence" : ""
+  }, {
+    "id" : 386,
+    "date" : 1578894128012,
+    "word" : "club",
+    "sentence" : ""
+  }, {
+    "id" : 387,
+    "date" : 1578894128012,
+    "word" : "coffee",
+    "sentence" : ""
+  }, {
+    "id" : 388,
+    "date" : 1578894128012,
+    "word" : "cold",
+    "sentence" : ""
+  }, {
+    "id" : 389,
+    "date" : 1578894128012,
+    "word" : "colleague",
+    "sentence" : ""
+  }, {
+    "id" : 390,
+    "date" : 1578894128012,
+    "word" : "collect",
+    "sentence" : ""
+  }, {
+    "id" : 391,
+    "date" : 1578894128012,
+    "word" : "college",
+    "sentence" : ""
+  }, {
+    "id" : 392,
+    "date" : 1578894128012,
+    "word" : "colour",
+    "sentence" : ""
+  }, {
+    "id" : 393,
+    "date" : 1578894128012,
+    "word" : "come",
+    "sentence" : ""
+  }, {
+    "id" : 394,
+    "date" : 1578894128012,
+    "word" : "comment",
+    "sentence" : ""
+  }, {
+    "id" : 395,
+    "date" : 1578894128012,
+    "word" : "commit",
+    "sentence" : ""
+  }, {
+    "id" : 396,
+    "date" : 1578894128012,
+    "word" : "committee",
+    "sentence" : ""
+  }, {
+    "id" : 397,
+    "date" : 1578894128012,
+    "word" : "common",
+    "sentence" : ""
+  }, {
+    "id" : 398,
+    "date" : 1578894128012,
+    "word" : "community",
+    "sentence" : ""
+  }, {
+    "id" : 399,
+    "date" : 1578894128012,
+    "word" : "company",
+    "sentence" : ""
+  }, {
+    "id" : 400,
+    "date" : 1578894128012,
+    "word" : "compare",
+    "sentence" : ""
+  }, {
+    "id" : 401,
+    "date" : 1578894128012,
+    "word" : "complete",
+    "sentence" : ""
+  }, {
+    "id" : 402,
+    "date" : 1578894128012,
+    "word" : "compute",
+    "sentence" : ""
+  }, {
+    "id" : 403,
+    "date" : 1578894128012,
+    "word" : "concern",
+    "sentence" : ""
+  }, {
+    "id" : 404,
+    "date" : 1578894128012,
+    "word" : "condition",
+    "sentence" : ""
+  }, {
+    "id" : 405,
+    "date" : 1578894128012,
+    "word" : "confer",
+    "sentence" : ""
+  }, {
+    "id" : 406,
+    "date" : 1578894128012,
+    "word" : "consider",
+    "sentence" : ""
+  }, {
+    "id" : 407,
+    "date" : 1578894128012,
+    "word" : "consult",
+    "sentence" : ""
+  }, {
+    "id" : 408,
+    "date" : 1578894128012,
+    "word" : "contact",
+    "sentence" : ""
+  }, {
+    "id" : 409,
+    "date" : 1578894128012,
+    "word" : "continue",
+    "sentence" : ""
+  }, {
+    "id" : 410,
+    "date" : 1578894128012,
+    "word" : "contract",
+    "sentence" : ""
+  }, {
+    "id" : 411,
+    "date" : 1578894128012,
+    "word" : "control",
+    "sentence" : ""
+  }, {
+    "id" : 412,
+    "date" : 1578894128012,
+    "word" : "converse",
+    "sentence" : ""
+  }, {
+    "id" : 413,
+    "date" : 1578894128012,
+    "word" : "cook",
+    "sentence" : ""
+  }, {
+    "id" : 414,
+    "date" : 1578894128012,
+    "word" : "copy",
+    "sentence" : ""
+  }, {
+    "id" : 415,
+    "date" : 1578894128012,
+    "word" : "corner",
+    "sentence" : ""
+  }, {
+    "id" : 416,
+    "date" : 1578894128012,
+    "word" : "correct",
+    "sentence" : ""
+  }, {
+    "id" : 417,
+    "date" : 1578894128012,
+    "word" : "cost",
+    "sentence" : ""
+  }, {
+    "id" : 418,
+    "date" : 1578894128012,
+    "word" : "could",
+    "sentence" : ""
+  }, {
+    "id" : 419,
+    "date" : 1578894128012,
+    "word" : "council",
+    "sentence" : ""
+  }, {
+    "id" : 420,
+    "date" : 1578894128012,
+    "word" : "count",
+    "sentence" : ""
+  }, {
+    "id" : 421,
+    "date" : 1578894128012,
+    "word" : "county",
+    "sentence" : ""
+  }, {
+    "id" : 422,
+    "date" : 1578894128012,
+    "word" : "couple",
+    "sentence" : ""
+  }, {
+    "id" : 423,
+    "date" : 1578894128012,
+    "word" : "course",
+    "sentence" : ""
+  }, {
+    "id" : 424,
+    "date" : 1578894128012,
+    "word" : "court",
+    "sentence" : ""
+  }, {
+    "id" : 425,
+    "date" : 1578894128012,
+    "word" : "cover",
+    "sentence" : ""
+  }, {
+    "id" : 426,
+    "date" : 1578894128012,
+    "word" : "create",
+    "sentence" : ""
+  }, {
+    "id" : 427,
+    "date" : 1578894128012,
+    "word" : "cross",
+    "sentence" : ""
+  }, {
+    "id" : 428,
+    "date" : 1578894128012,
+    "word" : "cup",
+    "sentence" : ""
+  }, {
+    "id" : 429,
+    "date" : 1578894128012,
+    "word" : "current",
+    "sentence" : ""
+  }, {
+    "id" : 430,
+    "date" : 1578894128012,
+    "word" : "cut",
+    "sentence" : ""
+  }, {
+    "id" : 431,
+    "date" : 1578894128012,
+    "word" : "dad",
+    "sentence" : ""
+  }, {
+    "id" : 432,
+    "date" : 1578894128012,
+    "word" : "danger",
+    "sentence" : ""
+  }, {
+    "id" : 433,
+    "date" : 1578894128012,
+    "word" : "date",
+    "sentence" : ""
+  }, {
+    "id" : 434,
+    "date" : 1578894128012,
+    "word" : "dead",
+    "sentence" : ""
+  }, {
+    "id" : 435,
+    "date" : 1578894128012,
+    "word" : "deal",
+    "sentence" : ""
+  }, {
+    "id" : 436,
+    "date" : 1578894128012,
+    "word" : "dear",
+    "sentence" : ""
+  }, {
+    "id" : 437,
+    "date" : 1578894128012,
+    "word" : "debate",
+    "sentence" : ""
+  }, {
+    "id" : 438,
+    "date" : 1578894128012,
+    "word" : "decide",
+    "sentence" : ""
+  }, {
+    "id" : 439,
+    "date" : 1578894128012,
+    "word" : "decision",
+    "sentence" : ""
+  }, {
+    "id" : 440,
+    "date" : 1578894128012,
+    "word" : "deep",
+    "sentence" : ""
+  }, {
+    "id" : 441,
+    "date" : 1578894128012,
+    "word" : "definite",
+    "sentence" : ""
+  }, {
+    "id" : 442,
+    "date" : 1578894128012,
+    "word" : "degree",
+    "sentence" : ""
+  }, {
+    "id" : 443,
+    "date" : 1578894128012,
+    "word" : "department",
+    "sentence" : ""
+  }, {
+    "id" : 444,
+    "date" : 1578894128012,
+    "word" : "depend",
+    "sentence" : ""
+  }, {
+    "id" : 445,
+    "date" : 1578894128012,
+    "word" : "describe",
+    "sentence" : ""
+  }, {
+    "id" : 446,
+    "date" : 1578894128012,
+    "word" : "design",
+    "sentence" : ""
+  }, {
+    "id" : 447,
+    "date" : 1578894128012,
+    "word" : "detail",
+    "sentence" : ""
+  }, {
+    "id" : 448,
+    "date" : 1578894128012,
+    "word" : "develop",
+    "sentence" : ""
+  }, {
+    "id" : 449,
+    "date" : 1578894128012,
+    "word" : "die",
+    "sentence" : ""
+  }, {
+    "id" : 450,
+    "date" : 1578894128012,
+    "word" : "difference",
+    "sentence" : ""
+  }, {
+    "id" : 451,
+    "date" : 1578894128012,
+    "word" : "difficult",
+    "sentence" : ""
+  }, {
+    "id" : 452,
+    "date" : 1578894128012,
+    "word" : "dinner",
+    "sentence" : ""
+  }, {
+    "id" : 453,
+    "date" : 1578894128012,
+    "word" : "direct",
+    "sentence" : ""
+  }, {
+    "id" : 454,
+    "date" : 1578894128012,
+    "word" : "discuss",
+    "sentence" : ""
+  }, {
+    "id" : 455,
+    "date" : 1578894128012,
+    "word" : "district",
+    "sentence" : ""
+  }, {
+    "id" : 456,
+    "date" : 1578894128012,
+    "word" : "divide",
+    "sentence" : ""
+  }, {
+    "id" : 457,
+    "date" : 1578894128012,
+    "word" : "do",
+    "sentence" : ""
+  }, {
+    "id" : 458,
+    "date" : 1578894128012,
+    "word" : "doctor",
+    "sentence" : ""
+  }, {
+    "id" : 459,
+    "date" : 1578894128012,
+    "word" : "document",
+    "sentence" : ""
+  }, {
+    "id" : 460,
+    "date" : 1578894128012,
+    "word" : "dog",
+    "sentence" : ""
+  }, {
+    "id" : 461,
+    "date" : 1578894128012,
+    "word" : "door",
+    "sentence" : ""
+  }, {
+    "id" : 462,
+    "date" : 1578894128012,
+    "word" : "double",
+    "sentence" : ""
+  }, {
+    "id" : 463,
+    "date" : 1578894128012,
+    "word" : "doubt",
+    "sentence" : ""
+  }, {
+    "id" : 464,
+    "date" : 1578894128012,
+    "word" : "down",
+    "sentence" : ""
+  }, {
+    "id" : 465,
+    "date" : 1578894128012,
+    "word" : "draw",
+    "sentence" : ""
+  }, {
+    "id" : 466,
+    "date" : 1578894128012,
+    "word" : "dress",
+    "sentence" : ""
+  }, {
+    "id" : 467,
+    "date" : 1578894128012,
+    "word" : "drink",
+    "sentence" : ""
+  }, {
+    "id" : 468,
+    "date" : 1578894128012,
+    "word" : "drive",
+    "sentence" : ""
+  }, {
+    "id" : 469,
+    "date" : 1578894128012,
+    "word" : "drop",
+    "sentence" : ""
+  }, {
+    "id" : 470,
+    "date" : 1578894128012,
+    "word" : "dry",
+    "sentence" : ""
+  }, {
+    "id" : 471,
+    "date" : 1578894128012,
+    "word" : "due",
+    "sentence" : ""
+  }, {
+    "id" : 472,
+    "date" : 1578894128012,
+    "word" : "during",
+    "sentence" : ""
+  }, {
+    "id" : 473,
+    "date" : 1578894128012,
+    "word" : "early",
+    "sentence" : ""
+  }, {
+    "id" : 474,
+    "date" : 1578894128012,
+    "word" : "east",
+    "sentence" : ""
+  }, {
+    "id" : 475,
+    "date" : 1578894128012,
+    "word" : "easy",
+    "sentence" : ""
+  }, {
+    "id" : 476,
+    "date" : 1578894128012,
+    "word" : "eat",
+    "sentence" : ""
+  }, {
+    "id" : 477,
+    "date" : 1578894128012,
+    "word" : "economy",
+    "sentence" : ""
+  }, {
+    "id" : 478,
+    "date" : 1578894128012,
+    "word" : "educate",
+    "sentence" : ""
+  }, {
+    "id" : 479,
+    "date" : 1578894128012,
+    "word" : "effect",
+    "sentence" : ""
+  }, {
+    "id" : 480,
+    "date" : 1578894128012,
+    "word" : "egg",
+    "sentence" : ""
+  }, {
+    "id" : 481,
+    "date" : 1578894128012,
+    "word" : "eight",
+    "sentence" : ""
+  }, {
+    "id" : 482,
+    "date" : 1578894128012,
+    "word" : "either",
+    "sentence" : ""
+  }, {
+    "id" : 483,
+    "date" : 1578894128012,
+    "word" : "elect",
+    "sentence" : ""
+  }, {
+    "id" : 484,
+    "date" : 1578894128012,
+    "word" : "electric",
+    "sentence" : ""
+  }, {
+    "id" : 485,
+    "date" : 1578894128012,
+    "word" : "else",
+    "sentence" : ""
+  }, {
+    "id" : 486,
+    "date" : 1578894128012,
+    "word" : "employ",
+    "sentence" : ""
+  }, {
+    "id" : 487,
+    "date" : 1578894128012,
+    "word" : "encourage",
+    "sentence" : ""
+  }, {
+    "id" : 488,
+    "date" : 1578894128012,
+    "word" : "end",
+    "sentence" : ""
+  }, {
+    "id" : 489,
+    "date" : 1578894128012,
+    "word" : "engine",
+    "sentence" : ""
+  }, {
+    "id" : 490,
+    "date" : 1578894128012,
+    "word" : "english",
+    "sentence" : ""
+  }, {
+    "id" : 491,
+    "date" : 1578894128012,
+    "word" : "enjoy",
+    "sentence" : ""
+  }, {
+    "id" : 492,
+    "date" : 1578894128012,
+    "word" : "enter",
+    "sentence" : ""
+  }, {
+    "id" : 493,
+    "date" : 1578894128012,
+    "word" : "environment",
+    "sentence" : ""
+  }, {
+    "id" : 494,
+    "date" : 1578894128012,
+    "word" : "equal",
+    "sentence" : ""
+  }, {
+    "id" : 495,
+    "date" : 1578894128012,
+    "word" : "especial",
+    "sentence" : ""
+  }, {
+    "id" : 496,
+    "date" : 1578894128012,
+    "word" : "europe",
+    "sentence" : ""
+  }, {
+    "id" : 497,
+    "date" : 1578894128012,
+    "word" : "even",
+    "sentence" : ""
+  }, {
+    "id" : 498,
+    "date" : 1578894128012,
+    "word" : "evening",
+    "sentence" : ""
+  }, {
+    "id" : 499,
+    "date" : 1578894128012,
+    "word" : "ever",
+    "sentence" : ""
+  }, {
+    "id" : 500,
+    "date" : 1578894128012,
+    "word" : "evidence",
+    "sentence" : ""
+  }, {
+    "id" : 501,
+    "date" : 1578894128012,
+    "word" : "exact",
+    "sentence" : ""
+  }, {
+    "id" : 502,
+    "date" : 1578894128012,
+    "word" : "example",
+    "sentence" : ""
+  }, {
+    "id" : 503,
+    "date" : 1578894128012,
+    "word" : "except",
+    "sentence" : ""
+  }, {
+    "id" : 504,
+    "date" : 1578894128012,
+    "word" : "excuse",
+    "sentence" : ""
+  }, {
+    "id" : 505,
+    "date" : 1578894128012,
+    "word" : "exercise",
+    "sentence" : ""
+  }, {
+    "id" : 506,
+    "date" : 1578894128012,
+    "word" : "exist",
+    "sentence" : ""
+  }, {
+    "id" : 507,
+    "date" : 1578894128012,
+    "word" : "expect",
+    "sentence" : ""
+  }, {
+    "id" : 508,
+    "date" : 1578894128012,
+    "word" : "expense",
+    "sentence" : ""
+  }, {
+    "id" : 509,
+    "date" : 1578894128012,
+    "word" : "experience",
+    "sentence" : ""
+  }, {
+    "id" : 510,
+    "date" : 1578894128012,
+    "word" : "explain",
+    "sentence" : ""
+  }, {
+    "id" : 511,
+    "date" : 1578894128012,
+    "word" : "express",
+    "sentence" : ""
+  }, {
+    "id" : 512,
+    "date" : 1578894128012,
+    "word" : "extra",
+    "sentence" : ""
+  }, {
+    "id" : 513,
+    "date" : 1578894128012,
+    "word" : "eye",
+    "sentence" : ""
+  }, {
+    "id" : 514,
+    "date" : 1578894128012,
+    "word" : "face",
+    "sentence" : ""
+  }, {
+    "id" : 515,
+    "date" : 1578894128012,
+    "word" : "fair",
+    "sentence" : ""
+  }, {
+    "id" : 516,
+    "date" : 1578894128012,
+    "word" : "fall",
+    "sentence" : ""
+  }, {
+    "id" : 517,
+    "date" : 1578894128012,
+    "word" : "far",
+    "sentence" : ""
+  }, {
+    "id" : 518,
+    "date" : 1578894128012,
+    "word" : "farm",
+    "sentence" : ""
+  }, {
+    "id" : 519,
+    "date" : 1578894128012,
+    "word" : "father",
+    "sentence" : ""
+  }, {
+    "id" : 520,
+    "date" : 1578894128012,
+    "word" : "favour",
+    "sentence" : ""
+  }, {
+    "id" : 521,
+    "date" : 1578894128012,
+    "word" : "feed",
+    "sentence" : ""
+  }, {
+    "id" : 522,
+    "date" : 1578894128012,
+    "word" : "feel",
+    "sentence" : ""
+  }, {
+    "id" : 523,
+    "date" : 1578894128012,
+    "word" : "few",
+    "sentence" : ""
+  }, {
+    "id" : 524,
+    "date" : 1578894128012,
+    "word" : "field",
+    "sentence" : ""
+  }, {
+    "id" : 525,
+    "date" : 1578894128012,
+    "word" : "fight",
+    "sentence" : ""
+  }, {
+    "id" : 526,
+    "date" : 1578894128012,
+    "word" : "figure",
+    "sentence" : ""
+  }, {
+    "id" : 527,
+    "date" : 1578894128012,
+    "word" : "file",
+    "sentence" : ""
+  }, {
+    "id" : 528,
+    "date" : 1578894128012,
+    "word" : "fill",
+    "sentence" : ""
+  }, {
+    "id" : 529,
+    "date" : 1578894128014,
+    "word" : "film",
+    "sentence" : ""
+  }, {
+    "id" : 530,
+    "date" : 1578894128014,
+    "word" : "final",
+    "sentence" : ""
+  }, {
+    "id" : 531,
+    "date" : 1578894128014,
+    "word" : "finance",
+    "sentence" : ""
+  }, {
+    "id" : 532,
+    "date" : 1578894128014,
+    "word" : "fine",
+    "sentence" : ""
+  }, {
+    "id" : 533,
+    "date" : 1578894128014,
+    "word" : "finish",
+    "sentence" : ""
+  }, {
+    "id" : 534,
+    "date" : 1578894128014,
+    "word" : "fire",
+    "sentence" : ""
+  }, {
+    "id" : 535,
+    "date" : 1578894128014,
+    "word" : "fish",
+    "sentence" : ""
+  }, {
+    "id" : 536,
+    "date" : 1578894128014,
+    "word" : "fit",
+    "sentence" : ""
+  }, {
+    "id" : 537,
+    "date" : 1578894128014,
+    "word" : "five",
+    "sentence" : ""
+  }, {
+    "id" : 538,
+    "date" : 1578894128014,
+    "word" : "flat",
+    "sentence" : ""
+  }, {
+    "id" : 539,
+    "date" : 1578894128014,
+    "word" : "fly",
+    "sentence" : ""
+  }, {
+    "id" : 540,
+    "date" : 1578894128014,
+    "word" : "follow",
+    "sentence" : ""
+  }, {
+    "id" : 541,
+    "date" : 1578894128014,
+    "word" : "food",
+    "sentence" : ""
+  }, {
+    "id" : 542,
+    "date" : 1578894128014,
+    "word" : "foot",
+    "sentence" : ""
+  }, {
+    "id" : 543,
+    "date" : 1578894128014,
+    "word" : "for",
+    "sentence" : ""
+  }, {
+    "id" : 544,
+    "date" : 1578894128014,
+    "word" : "force",
+    "sentence" : ""
+  }, {
+    "id" : 545,
+    "date" : 1578894128014,
+    "word" : "forget",
+    "sentence" : ""
+  }, {
+    "id" : 546,
+    "date" : 1578894128014,
+    "word" : "form",
+    "sentence" : ""
+  }, {
+    "id" : 547,
+    "date" : 1578894128014,
+    "word" : "fortune",
+    "sentence" : ""
+  }, {
+    "id" : 548,
+    "date" : 1578894128014,
+    "word" : "forward",
+    "sentence" : ""
+  }, {
+    "id" : 549,
+    "date" : 1578894128014,
+    "word" : "four",
+    "sentence" : ""
+  }, {
+    "id" : 550,
+    "date" : 1578894128014,
+    "word" : "france",
+    "sentence" : ""
+  }, {
+    "id" : 551,
+    "date" : 1578894128014,
+    "word" : "free",
+    "sentence" : ""
+  }, {
+    "id" : 552,
+    "date" : 1578894128014,
+    "word" : "friday",
+    "sentence" : ""
+  }, {
+    "id" : 553,
+    "date" : 1578894128014,
+    "word" : "friend",
+    "sentence" : ""
+  }, {
+    "id" : 554,
+    "date" : 1578894128014,
+    "word" : "front",
+    "sentence" : ""
+  }, {
+    "id" : 555,
+    "date" : 1578894128014,
+    "word" : "full",
+    "sentence" : ""
+  }, {
+    "id" : 556,
+    "date" : 1578894128014,
+    "word" : "fun",
+    "sentence" : ""
+  }, {
+    "id" : 557,
+    "date" : 1578894128014,
+    "word" : "function",
+    "sentence" : ""
+  }, {
+    "id" : 558,
+    "date" : 1578894128014,
+    "word" : "fund",
+    "sentence" : ""
+  }, {
+    "id" : 559,
+    "date" : 1578894128014,
+    "word" : "further",
+    "sentence" : ""
+  }, {
+    "id" : 560,
+    "date" : 1578894128014,
+    "word" : "future",
+    "sentence" : ""
+  }, {
+    "id" : 561,
+    "date" : 1578894128014,
+    "word" : "game",
+    "sentence" : ""
+  }, {
+    "id" : 562,
+    "date" : 1578894128014,
+    "word" : "garden",
+    "sentence" : ""
+  }, {
+    "id" : 563,
+    "date" : 1578894128014,
+    "word" : "gas",
+    "sentence" : ""
+  }, {
+    "id" : 564,
+    "date" : 1578894128014,
+    "word" : "general",
+    "sentence" : ""
+  }, {
+    "id" : 565,
+    "date" : 1578894128014,
+    "word" : "germany",
+    "sentence" : ""
+  }, {
+    "id" : 566,
+    "date" : 1578894128015,
+    "word" : "get",
+    "sentence" : ""
+  }, {
+    "id" : 567,
+    "date" : 1578894128015,
+    "word" : "give",
+    "sentence" : ""
+  }, {
+    "id" : 568,
+    "date" : 1578894128015,
+    "word" : "glass",
+    "sentence" : ""
+  }, {
+    "id" : 569,
+    "date" : 1578894128015,
+    "word" : "go",
+    "sentence" : ""
+  }, {
+    "id" : 570,
+    "date" : 1578894128015,
+    "word" : "god",
+    "sentence" : ""
+  }, {
+    "id" : 571,
+    "date" : 1578894128015,
+    "word" : "goodbye",
+    "sentence" : ""
+  }, {
+    "id" : 572,
+    "date" : 1578894128015,
+    "word" : "govern",
+    "sentence" : ""
+  }, {
+    "id" : 573,
+    "date" : 1578894128015,
+    "word" : "grand",
+    "sentence" : ""
+  }, {
+    "id" : 574,
+    "date" : 1578894128015,
+    "word" : "grant",
+    "sentence" : ""
+  }, {
+    "id" : 575,
+    "date" : 1578894128015,
+    "word" : "green",
+    "sentence" : ""
+  }, {
+    "id" : 576,
+    "date" : 1578894128015,
+    "word" : "ground",
+    "sentence" : ""
+  }, {
+    "id" : 577,
+    "date" : 1578894128015,
+    "word" : "group",
+    "sentence" : ""
+  }, {
+    "id" : 578,
+    "date" : 1578894128015,
+    "word" : "grow",
+    "sentence" : ""
+  }, {
+    "id" : 579,
+    "date" : 1578894128015,
+    "word" : "guess",
+    "sentence" : ""
+  }, {
+    "id" : 580,
+    "date" : 1578894128015,
+    "word" : "guy",
+    "sentence" : ""
+  }, {
+    "id" : 581,
+    "date" : 1578894128015,
+    "word" : "hair",
+    "sentence" : ""
+  }, {
+    "id" : 582,
+    "date" : 1578894128015,
+    "word" : "half",
+    "sentence" : ""
+  }, {
+    "id" : 583,
+    "date" : 1578894128015,
+    "word" : "hall",
+    "sentence" : ""
+  }, {
+    "id" : 584,
+    "date" : 1578894128015,
+    "word" : "hand",
+    "sentence" : ""
+  }, {
+    "id" : 585,
+    "date" : 1578894128015,
+    "word" : "hang",
+    "sentence" : ""
+  }, {
+    "id" : 586,
+    "date" : 1578894128015,
+    "word" : "happen",
+    "sentence" : ""
+  }, {
+    "id" : 587,
+    "date" : 1578894128015,
+    "word" : "happy",
+    "sentence" : ""
+  }, {
+    "id" : 588,
+    "date" : 1578894128015,
+    "word" : "hard",
+    "sentence" : ""
+  }, {
+    "id" : 589,
+    "date" : 1578894128015,
+    "word" : "hate",
+    "sentence" : ""
+  }, {
+    "id" : 590,
+    "date" : 1578894128015,
+    "word" : "have",
+    "sentence" : ""
+  }, {
+    "id" : 591,
+    "date" : 1578894128015,
+    "word" : "head",
+    "sentence" : ""
+  }, {
+    "id" : 592,
+    "date" : 1578894128015,
+    "word" : "health",
+    "sentence" : ""
+  }, {
+    "id" : 593,
+    "date" : 1578894128015,
+    "word" : "hear",
+    "sentence" : ""
+  }, {
+    "id" : 594,
+    "date" : 1578894128015,
+    "word" : "heart",
+    "sentence" : ""
+  }, {
+    "id" : 595,
+    "date" : 1578894128015,
+    "word" : "heat",
+    "sentence" : ""
+  }, {
+    "id" : 596,
+    "date" : 1578894128015,
+    "word" : "heavy",
+    "sentence" : ""
+  }, {
+    "id" : 597,
+    "date" : 1578894128015,
+    "word" : "hell",
+    "sentence" : ""
+  }, {
+    "id" : 598,
+    "date" : 1578894128015,
+    "word" : "help",
+    "sentence" : ""
+  }, {
+    "id" : 599,
+    "date" : 1578894128015,
+    "word" : "history",
+    "sentence" : ""
+  }, {
+    "id" : 600,
+    "date" : 1578894128015,
+    "word" : "hit",
+    "sentence" : ""
+  }, {
+    "id" : 601,
+    "date" : 1578894128015,
+    "word" : "hold",
+    "sentence" : ""
+  }, {
+    "id" : 602,
+    "date" : 1578894128015,
+    "word" : "holiday",
+    "sentence" : ""
+  }, {
+    "id" : 603,
+    "date" : 1578894128015,
+    "word" : "home",
+    "sentence" : ""
+  }, {
+    "id" : 604,
+    "date" : 1578894128015,
+    "word" : "honest",
+    "sentence" : ""
+  }, {
+    "id" : 605,
+    "date" : 1578894128015,
+    "word" : "horse",
+    "sentence" : ""
+  }, {
+    "id" : 606,
+    "date" : 1578894128015,
+    "word" : "hospital",
+    "sentence" : ""
+  }, {
+    "id" : 607,
+    "date" : 1578894128015,
+    "word" : "hot",
+    "sentence" : ""
+  }, {
+    "id" : 608,
+    "date" : 1578894128015,
+    "word" : "how",
+    "sentence" : ""
+  }, {
+    "id" : 609,
+    "date" : 1578894128015,
+    "word" : "however",
+    "sentence" : ""
+  }, {
+    "id" : 610,
+    "date" : 1578894128015,
+    "word" : "hullo",
+    "sentence" : ""
+  }, {
+    "id" : 611,
+    "date" : 1578894128015,
+    "word" : "husband",
+    "sentence" : ""
+  }, {
+    "id" : 612,
+    "date" : 1578894128015,
+    "word" : "idea",
+    "sentence" : ""
+  }, {
+    "id" : 613,
+    "date" : 1578894128015,
+    "word" : "identify",
+    "sentence" : ""
+  }, {
+    "id" : 614,
+    "date" : 1578894128015,
+    "word" : "imagine",
+    "sentence" : ""
+  }, {
+    "id" : 615,
+    "date" : 1578894128015,
+    "word" : "improve",
+    "sentence" : ""
+  }, {
+    "id" : 616,
+    "date" : 1578894128015,
+    "word" : "in",
+    "sentence" : ""
+  }, {
+    "id" : 617,
+    "date" : 1578894128015,
+    "word" : "include",
+    "sentence" : ""
+  }, {
+    "id" : 618,
+    "date" : 1578894128015,
+    "word" : "income",
+    "sentence" : ""
+  }, {
+    "id" : 619,
+    "date" : 1578894128015,
+    "word" : "increase",
+    "sentence" : ""
+  }, {
+    "id" : 620,
+    "date" : 1578894128015,
+    "word" : "indeed",
+    "sentence" : ""
+  }, {
+    "id" : 621,
+    "date" : 1578894128015,
+    "word" : "individual",
+    "sentence" : ""
+  }, {
+    "id" : 622,
+    "date" : 1578894128015,
+    "word" : "industry",
+    "sentence" : ""
+  }, {
+    "id" : 623,
+    "date" : 1578894128015,
+    "word" : "inform",
+    "sentence" : ""
+  }, {
+    "id" : 624,
+    "date" : 1578894128015,
+    "word" : "inside",
+    "sentence" : ""
+  }, {
+    "id" : 625,
+    "date" : 1578894128015,
+    "word" : "instead",
+    "sentence" : ""
+  }, {
+    "id" : 626,
+    "date" : 1578894128015,
+    "word" : "insure",
+    "sentence" : ""
+  }, {
+    "id" : 627,
+    "date" : 1578894128015,
+    "word" : "interest",
+    "sentence" : ""
+  }, {
+    "id" : 628,
+    "date" : 1578894128015,
+    "word" : "into",
+    "sentence" : ""
+  }, {
+    "id" : 629,
+    "date" : 1578894128015,
+    "word" : "introduce",
+    "sentence" : ""
+  }, {
+    "id" : 630,
+    "date" : 1578894128015,
+    "word" : "invest",
+    "sentence" : ""
+  }, {
+    "id" : 631,
+    "date" : 1578894128015,
+    "word" : "involve",
+    "sentence" : ""
+  }, {
+    "id" : 632,
+    "date" : 1578894128015,
+    "word" : "issue",
+    "sentence" : ""
+  }, {
+    "id" : 633,
+    "date" : 1578894128015,
+    "word" : "item",
+    "sentence" : ""
+  }, {
+    "id" : 634,
+    "date" : 1578894128015,
+    "word" : "jesus",
+    "sentence" : ""
+  }, {
+    "id" : 635,
+    "date" : 1578894128015,
+    "word" : "job",
+    "sentence" : ""
+  }, {
+    "id" : 636,
+    "date" : 1578894128015,
+    "word" : "join",
+    "sentence" : ""
+  }, {
+    "id" : 637,
+    "date" : 1578894128015,
+    "word" : "judge",
+    "sentence" : ""
+  }, {
+    "id" : 638,
+    "date" : 1578894128015,
+    "word" : "key",
+    "sentence" : ""
+  }, {
+    "id" : 639,
+    "date" : 1578894128015,
+    "word" : "kid",
+    "sentence" : ""
+  }, {
+    "id" : 640,
+    "date" : 1578894128015,
+    "word" : "kill",
+    "sentence" : ""
+  }, {
+    "id" : 641,
+    "date" : 1578894128015,
+    "word" : "king",
+    "sentence" : ""
+  }, {
+    "id" : 642,
+    "date" : 1578894128015,
+    "word" : "kitchen",
+    "sentence" : ""
+  }, {
+    "id" : 643,
+    "date" : 1578894128015,
+    "word" : "knock",
+    "sentence" : ""
+  }, {
+    "id" : 644,
+    "date" : 1578894128015,
+    "word" : "labour",
+    "sentence" : ""
+  }, {
+    "id" : 645,
+    "date" : 1578894128015,
+    "word" : "lad",
+    "sentence" : ""
+  }, {
+    "id" : 646,
+    "date" : 1578894128015,
+    "word" : "lady",
+    "sentence" : ""
+  }, {
+    "id" : 647,
+    "date" : 1578894128015,
+    "word" : "land",
+    "sentence" : ""
+  }, {
+    "id" : 648,
+    "date" : 1578894128015,
+    "word" : "language",
+    "sentence" : ""
+  }, {
+    "id" : 649,
+    "date" : 1578894128015,
+    "word" : "large",
+    "sentence" : ""
+  }, {
+    "id" : 650,
+    "date" : 1578894128015,
+    "word" : "last",
+    "sentence" : ""
+  }, {
+    "id" : 651,
+    "date" : 1578894128015,
+    "word" : "late",
+    "sentence" : ""
+  }, {
+    "id" : 652,
+    "date" : 1578894128015,
+    "word" : "laugh",
+    "sentence" : ""
+  }, {
+    "id" : 653,
+    "date" : 1578894128015,
+    "word" : "law",
+    "sentence" : ""
+  }, {
+    "id" : 654,
+    "date" : 1578894128015,
+    "word" : "lay",
+    "sentence" : ""
+  }, {
+    "id" : 655,
+    "date" : 1578894128015,
+    "word" : "lead",
+    "sentence" : ""
+  }, {
+    "id" : 656,
+    "date" : 1578894128015,
+    "word" : "leave",
+    "sentence" : ""
+  }, {
+    "id" : 657,
+    "date" : 1578894128015,
+    "word" : "left",
+    "sentence" : ""
+  }, {
+    "id" : 658,
+    "date" : 1578894128015,
+    "word" : "leg",
+    "sentence" : ""
+  }, {
+    "id" : 659,
+    "date" : 1578894128015,
+    "word" : "less",
+    "sentence" : ""
+  }, {
+    "id" : 660,
+    "date" : 1578894128015,
+    "word" : "let",
+    "sentence" : ""
+  }, {
+    "id" : 661,
+    "date" : 1578894128015,
+    "word" : "letter",
+    "sentence" : ""
+  }, {
+    "id" : 662,
+    "date" : 1578894128015,
+    "word" : "level",
+    "sentence" : ""
+  }, {
+    "id" : 663,
+    "date" : 1578894128015,
+    "word" : "lie",
+    "sentence" : ""
+  }, {
+    "id" : 664,
+    "date" : 1578894128015,
+    "word" : "life",
+    "sentence" : ""
+  }, {
+    "id" : 665,
+    "date" : 1578894128015,
+    "word" : "light",
+    "sentence" : ""
+  }, {
+    "id" : 666,
+    "date" : 1578894128015,
+    "word" : "like",
+    "sentence" : ""
+  }, {
+    "id" : 667,
+    "date" : 1578894128015,
+    "word" : "likely",
+    "sentence" : ""
+  }, {
+    "id" : 668,
+    "date" : 1578894128015,
+    "word" : "limit",
+    "sentence" : ""
+  }, {
+    "id" : 669,
+    "date" : 1578894128015,
+    "word" : "line",
+    "sentence" : ""
+  }, {
+    "id" : 670,
+    "date" : 1578894128015,
+    "word" : "link",
+    "sentence" : ""
+  }, {
+    "id" : 671,
+    "date" : 1578894128015,
+    "word" : "list",
+    "sentence" : ""
+  }, {
+    "id" : 672,
+    "date" : 1578894128015,
+    "word" : "listen",
+    "sentence" : ""
+  }, {
+    "id" : 673,
+    "date" : 1578894128015,
+    "word" : "little",
+    "sentence" : ""
+  }, {
+    "id" : 674,
+    "date" : 1578894128015,
+    "word" : "load",
+    "sentence" : ""
+  }, {
+    "id" : 675,
+    "date" : 1578894128015,
+    "word" : "local",
+    "sentence" : ""
+  }, {
+    "id" : 676,
+    "date" : 1578894128015,
+    "word" : "lock",
+    "sentence" : ""
+  }, {
+    "id" : 677,
+    "date" : 1578894128015,
+    "word" : "london",
+    "sentence" : ""
+  }, {
+    "id" : 678,
+    "date" : 1578894128015,
+    "word" : "look",
+    "sentence" : ""
+  }, {
+    "id" : 679,
+    "date" : 1578894128015,
+    "word" : "lord",
+    "sentence" : ""
+  }, {
+    "id" : 680,
+    "date" : 1578894128015,
+    "word" : "lose",
+    "sentence" : ""
+  }, {
+    "id" : 681,
+    "date" : 1578894128015,
+    "word" : "lot",
+    "sentence" : ""
+  }, {
+    "id" : 682,
+    "date" : 1578894128015,
+    "word" : "love",
+    "sentence" : ""
+  }, {
+    "id" : 683,
+    "date" : 1578894128015,
+    "word" : "low",
+    "sentence" : ""
+  }, {
+    "id" : 684,
+    "date" : 1578894128015,
+    "word" : "luck",
+    "sentence" : ""
+  }, {
+    "id" : 685,
+    "date" : 1578894128015,
+    "word" : "lunch",
+    "sentence" : ""
+  }, {
+    "id" : 686,
+    "date" : 1578894128015,
+    "word" : "machine",
+    "sentence" : ""
+  }, {
+    "id" : 687,
+    "date" : 1578894128015,
+    "word" : "main",
+    "sentence" : ""
+  }, {
+    "id" : 688,
+    "date" : 1578894128015,
+    "word" : "major",
+    "sentence" : ""
+  }, {
+    "id" : 689,
+    "date" : 1578894128015,
+    "word" : "make",
+    "sentence" : ""
+  }, {
+    "id" : 690,
+    "date" : 1578894128015,
+    "word" : "man",
+    "sentence" : ""
+  }, {
+    "id" : 691,
+    "date" : 1578894128015,
+    "word" : "manage",
+    "sentence" : ""
+  }, {
+    "id" : 692,
+    "date" : 1578894128015,
+    "word" : "mark",
+    "sentence" : ""
+  }, {
+    "id" : 693,
+    "date" : 1578894128015,
+    "word" : "market",
+    "sentence" : ""
+  }, {
+    "id" : 694,
+    "date" : 1578894128015,
+    "word" : "marry",
+    "sentence" : ""
+  }, {
+    "id" : 695,
+    "date" : 1578894128015,
+    "word" : "match",
+    "sentence" : ""
+  }, {
+    "id" : 696,
+    "date" : 1578894128015,
+    "word" : "matter",
+    "sentence" : ""
+  }, {
+    "id" : 697,
+    "date" : 1578894128015,
+    "word" : "may",
+    "sentence" : ""
+  }, {
+    "id" : 698,
+    "date" : 1578894128015,
+    "word" : "maybe",
+    "sentence" : ""
+  }, {
+    "id" : 699,
+    "date" : 1578894128015,
+    "word" : "mean",
+    "sentence" : ""
+  }, {
+    "id" : 700,
+    "date" : 1578894128015,
+    "word" : "meaning",
+    "sentence" : ""
+  }, {
+    "id" : 701,
+    "date" : 1578894128015,
+    "word" : "measure",
+    "sentence" : ""
+  }, {
+    "id" : 702,
+    "date" : 1578894128015,
+    "word" : "meet",
+    "sentence" : ""
+  }, {
+    "id" : 703,
+    "date" : 1578894128015,
+    "word" : "member",
+    "sentence" : ""
+  }, {
+    "id" : 704,
+    "date" : 1578894128015,
+    "word" : "mention",
+    "sentence" : ""
+  }, {
+    "id" : 705,
+    "date" : 1578894128015,
+    "word" : "middle",
+    "sentence" : ""
+  }, {
+    "id" : 706,
+    "date" : 1578894128015,
+    "word" : "might",
+    "sentence" : ""
+  }, {
+    "id" : 707,
+    "date" : 1578894128015,
+    "word" : "mile",
+    "sentence" : ""
+  }, {
+    "id" : 708,
+    "date" : 1578894128015,
+    "word" : "milk",
+    "sentence" : ""
+  }, {
+    "id" : 709,
+    "date" : 1578894128015,
+    "word" : "mind",
+    "sentence" : ""
+  }, {
+    "id" : 710,
+    "date" : 1578894128015,
+    "word" : "minister",
+    "sentence" : ""
+  }, {
+    "id" : 711,
+    "date" : 1578894128015,
+    "word" : "miss",
+    "sentence" : ""
+  }, {
+    "id" : 712,
+    "date" : 1578894128015,
+    "word" : "mister",
+    "sentence" : ""
+  }, {
+    "id" : 713,
+    "date" : 1578894128015,
+    "word" : "moment",
+    "sentence" : ""
+  }, {
+    "id" : 714,
+    "date" : 1578894128015,
+    "word" : "monday",
+    "sentence" : ""
+  }, {
+    "id" : 715,
+    "date" : 1578894128015,
+    "word" : "money",
+    "sentence" : ""
+  }, {
+    "id" : 716,
+    "date" : 1578894128015,
+    "word" : "morning",
+    "sentence" : ""
+  }, {
+    "id" : 717,
+    "date" : 1578894128015,
+    "word" : "most",
+    "sentence" : ""
+  }, {
+    "id" : 718,
+    "date" : 1578894128015,
+    "word" : "mother",
+    "sentence" : ""
+  }, {
+    "id" : 719,
+    "date" : 1578894128015,
+    "word" : "motion",
+    "sentence" : ""
+  }, {
+    "id" : 720,
+    "date" : 1578894128015,
+    "word" : "move",
+    "sentence" : ""
+  }, {
+    "id" : 721,
+    "date" : 1578894128015,
+    "word" : "mrs",
+    "sentence" : ""
+  }, {
+    "id" : 722,
+    "date" : 1578894128015,
+    "word" : "music",
+    "sentence" : ""
+  }, {
+    "id" : 723,
+    "date" : 1578894128015,
+    "word" : "must",
+    "sentence" : ""
+  }, {
+    "id" : 724,
+    "date" : 1578894128015,
+    "word" : "name",
+    "sentence" : ""
+  }, {
+    "id" : 725,
+    "date" : 1578894128015,
+    "word" : "nation",
+    "sentence" : ""
+  }, {
+    "id" : 726,
+    "date" : 1578894128015,
+    "word" : "nature",
+    "sentence" : ""
+  }, {
+    "id" : 727,
+    "date" : 1578894128015,
+    "word" : "near",
+    "sentence" : ""
+  }, {
+    "id" : 728,
+    "date" : 1578894128015,
+    "word" : "necessary",
+    "sentence" : ""
+  }, {
+    "id" : 729,
+    "date" : 1578894128015,
+    "word" : "need",
+    "sentence" : ""
+  }, {
+    "id" : 730,
+    "date" : 1578894128015,
+    "word" : "never",
+    "sentence" : ""
+  }, {
+    "id" : 731,
+    "date" : 1578894128015,
+    "word" : "new",
+    "sentence" : ""
+  }, {
+    "id" : 732,
+    "date" : 1578894128015,
+    "word" : "news",
+    "sentence" : ""
+  }, {
+    "id" : 733,
+    "date" : 1578894128015,
+    "word" : "next",
+    "sentence" : ""
+  }, {
+    "id" : 734,
+    "date" : 1578894128015,
+    "word" : "night",
+    "sentence" : ""
+  }, {
+    "id" : 735,
+    "date" : 1578894128015,
+    "word" : "nine",
+    "sentence" : ""
+  }, {
+    "id" : 736,
+    "date" : 1578894128015,
+    "word" : "no",
+    "sentence" : ""
+  }, {
+    "id" : 737,
+    "date" : 1578894128015,
+    "word" : "non",
+    "sentence" : ""
+  }, {
+    "id" : 738,
+    "date" : 1578894128015,
+    "word" : "none",
+    "sentence" : ""
+  }, {
+    "id" : 739,
+    "date" : 1578894128015,
+    "word" : "normal",
+    "sentence" : ""
+  }, {
+    "id" : 740,
+    "date" : 1578894128015,
+    "word" : "north",
+    "sentence" : ""
+  }, {
+    "id" : 741,
+    "date" : 1578894128015,
+    "word" : "not",
+    "sentence" : ""
+  }, {
+    "id" : 742,
+    "date" : 1578894128015,
+    "word" : "note",
+    "sentence" : ""
+  }, {
+    "id" : 743,
+    "date" : 1578894128015,
+    "word" : "notice",
+    "sentence" : ""
+  }, {
+    "id" : 744,
+    "date" : 1578894128015,
+    "word" : "number",
+    "sentence" : ""
+  }, {
+    "id" : 745,
+    "date" : 1578894128015,
+    "word" : "obvious",
+    "sentence" : ""
+  }, {
+    "id" : 746,
+    "date" : 1578894128015,
+    "word" : "occasion",
+    "sentence" : ""
+  }, {
+    "id" : 747,
+    "date" : 1578894128015,
+    "word" : "odd",
+    "sentence" : ""
+  }, {
+    "id" : 748,
+    "date" : 1578894128015,
+    "word" : "of",
+    "sentence" : ""
+  }, {
+    "id" : 749,
+    "date" : 1578894128015,
+    "word" : "off",
+    "sentence" : ""
+  }, {
+    "id" : 750,
+    "date" : 1578894128015,
+    "word" : "offer",
+    "sentence" : ""
+  }, {
+    "id" : 751,
+    "date" : 1578894128015,
+    "word" : "office",
+    "sentence" : ""
+  }, {
+    "id" : 752,
+    "date" : 1578894128015,
+    "word" : "often",
+    "sentence" : ""
+  }, {
+    "id" : 753,
+    "date" : 1578894128015,
+    "word" : "okay",
+    "sentence" : ""
+  }, {
+    "id" : 754,
+    "date" : 1578894128015,
+    "word" : "on",
+    "sentence" : ""
+  }, {
+    "id" : 755,
+    "date" : 1578894128015,
+    "word" : "once",
+    "sentence" : ""
+  }, {
+    "id" : 756,
+    "date" : 1578894128015,
+    "word" : "one",
+    "sentence" : ""
+  }, {
+    "id" : 757,
+    "date" : 1578894128015,
+    "word" : "open",
+    "sentence" : ""
+  }, {
+    "id" : 758,
+    "date" : 1578894128015,
+    "word" : "operate",
+    "sentence" : ""
+  }, {
+    "id" : 759,
+    "date" : 1578894128015,
+    "word" : "opportunity",
+    "sentence" : ""
+  }, {
+    "id" : 760,
+    "date" : 1578894128015,
+    "word" : "oppose",
+    "sentence" : ""
+  }, {
+    "id" : 761,
+    "date" : 1578894128015,
+    "word" : "order",
+    "sentence" : ""
+  }, {
+    "id" : 762,
+    "date" : 1578894128015,
+    "word" : "organize",
+    "sentence" : ""
+  }, {
+    "id" : 763,
+    "date" : 1578894128015,
+    "word" : "original",
+    "sentence" : ""
+  }, {
+    "id" : 764,
+    "date" : 1578894128015,
+    "word" : "otherwise",
+    "sentence" : ""
+  }, {
+    "id" : 765,
+    "date" : 1578894128015,
+    "word" : "ought",
+    "sentence" : ""
+  }, {
+    "id" : 766,
+    "date" : 1578894128015,
+    "word" : "out",
+    "sentence" : ""
+  }, {
+    "id" : 767,
+    "date" : 1578894128015,
+    "word" : "over",
+    "sentence" : ""
+  }, {
+    "id" : 768,
+    "date" : 1578894128015,
+    "word" : "own",
+    "sentence" : ""
+  }, {
+    "id" : 769,
+    "date" : 1578894128015,
+    "word" : "pack",
+    "sentence" : ""
+  }, {
+    "id" : 770,
+    "date" : 1578894128015,
+    "word" : "page",
+    "sentence" : ""
+  }, {
+    "id" : 771,
+    "date" : 1578894128015,
+    "word" : "paint",
+    "sentence" : ""
+  }, {
+    "id" : 772,
+    "date" : 1578894128015,
+    "word" : "pair",
+    "sentence" : ""
+  }, {
+    "id" : 773,
+    "date" : 1578894128015,
+    "word" : "paper",
+    "sentence" : ""
+  }, {
+    "id" : 774,
+    "date" : 1578894128015,
+    "word" : "paragraph",
+    "sentence" : ""
+  }, {
+    "id" : 775,
+    "date" : 1578894128015,
+    "word" : "pardon",
+    "sentence" : ""
+  }, {
+    "id" : 776,
+    "date" : 1578894128015,
+    "word" : "parent",
+    "sentence" : ""
+  }, {
+    "id" : 777,
+    "date" : 1578894128015,
+    "word" : "park",
+    "sentence" : ""
+  }, {
+    "id" : 778,
+    "date" : 1578894128015,
+    "word" : "part",
+    "sentence" : ""
+  }, {
+    "id" : 779,
+    "date" : 1578894128015,
+    "word" : "particular",
+    "sentence" : ""
+  }, {
+    "id" : 780,
+    "date" : 1578894128015,
+    "word" : "party",
+    "sentence" : ""
+  }, {
+    "id" : 781,
+    "date" : 1578894128015,
+    "word" : "pass",
+    "sentence" : ""
+  }, {
+    "id" : 782,
+    "date" : 1578894128015,
+    "word" : "past",
+    "sentence" : ""
+  }, {
+    "id" : 783,
+    "date" : 1578894128015,
+    "word" : "pay",
+    "sentence" : ""
+  }, {
+    "id" : 784,
+    "date" : 1578894128015,
+    "word" : "pence",
+    "sentence" : ""
+  }, {
+    "id" : 785,
+    "date" : 1578894128015,
+    "word" : "pension",
+    "sentence" : ""
+  }, {
+    "id" : 786,
+    "date" : 1578894128015,
+    "word" : "per",
+    "sentence" : ""
+  }, {
+    "id" : 787,
+    "date" : 1578894128015,
+    "word" : "percent",
+    "sentence" : ""
+  }, {
+    "id" : 788,
+    "date" : 1578894128015,
+    "word" : "perfect",
+    "sentence" : ""
+  }, {
+    "id" : 789,
+    "date" : 1578894128015,
+    "word" : "perhaps",
+    "sentence" : ""
+  }, {
+    "id" : 790,
+    "date" : 1578894128015,
+    "word" : "period",
+    "sentence" : ""
+  }, {
+    "id" : 791,
+    "date" : 1578894128015,
+    "word" : "person",
+    "sentence" : ""
+  }, {
+    "id" : 792,
+    "date" : 1578894128015,
+    "word" : "photograph",
+    "sentence" : ""
+  }, {
+    "id" : 793,
+    "date" : 1578894128015,
+    "word" : "pick",
+    "sentence" : ""
+  }, {
+    "id" : 794,
+    "date" : 1578894128015,
+    "word" : "picture",
+    "sentence" : ""
+  }, {
+    "id" : 795,
+    "date" : 1578894128015,
+    "word" : "piece",
+    "sentence" : ""
+  }, {
+    "id" : 796,
+    "date" : 1578894128015,
+    "word" : "place",
+    "sentence" : ""
+  }, {
+    "id" : 797,
+    "date" : 1578894128015,
+    "word" : "plan",
+    "sentence" : ""
+  }, {
+    "id" : 798,
+    "date" : 1578894128015,
+    "word" : "play",
+    "sentence" : ""
+  }, {
+    "id" : 799,
+    "date" : 1578894128015,
+    "word" : "please",
+    "sentence" : ""
+  }, {
+    "id" : 800,
+    "date" : 1578894128015,
+    "word" : "point",
+    "sentence" : ""
+  }, {
+    "id" : 801,
+    "date" : 1578894128015,
+    "word" : "police",
+    "sentence" : ""
+  }, {
+    "id" : 802,
+    "date" : 1578894128015,
+    "word" : "policy",
+    "sentence" : ""
+  }, {
+    "id" : 803,
+    "date" : 1578894128015,
+    "word" : "politic",
+    "sentence" : ""
+  }, {
+    "id" : 804,
+    "date" : 1578894128015,
+    "word" : "poor",
+    "sentence" : ""
+  }, {
+    "id" : 805,
+    "date" : 1578894128015,
+    "word" : "position",
+    "sentence" : ""
+  }, {
+    "id" : 806,
+    "date" : 1578894128015,
+    "word" : "positive",
+    "sentence" : ""
+  }, {
+    "id" : 807,
+    "date" : 1578894128015,
+    "word" : "post",
+    "sentence" : ""
+  }, {
+    "id" : 808,
+    "date" : 1578894128015,
+    "word" : "pound",
+    "sentence" : ""
+  }, {
+    "id" : 809,
+    "date" : 1578894128015,
+    "word" : "power",
+    "sentence" : ""
+  }, {
+    "id" : 810,
+    "date" : 1578894128015,
+    "word" : "practise",
+    "sentence" : ""
+  }, {
+    "id" : 811,
+    "date" : 1578894128015,
+    "word" : "prepare",
+    "sentence" : ""
+  }, {
+    "id" : 812,
+    "date" : 1578894128015,
+    "word" : "present",
+    "sentence" : ""
+  }, {
+    "id" : 813,
+    "date" : 1578894128015,
+    "word" : "press",
+    "sentence" : ""
+  }, {
+    "id" : 814,
+    "date" : 1578894128015,
+    "word" : "pressure",
+    "sentence" : ""
+  }, {
+    "id" : 815,
+    "date" : 1578894128015,
+    "word" : "presume",
+    "sentence" : ""
+  }, {
+    "id" : 816,
+    "date" : 1578894128015,
+    "word" : "pretty",
+    "sentence" : ""
+  }, {
+    "id" : 817,
+    "date" : 1578894128015,
+    "word" : "previous",
+    "sentence" : ""
+  }, {
+    "id" : 818,
+    "date" : 1578894128015,
+    "word" : "price",
+    "sentence" : ""
+  }, {
+    "id" : 819,
+    "date" : 1578894128015,
+    "word" : "print",
+    "sentence" : ""
+  }, {
+    "id" : 820,
+    "date" : 1578894128015,
+    "word" : "private",
+    "sentence" : ""
+  }, {
+    "id" : 821,
+    "date" : 1578894128015,
+    "word" : "probable",
+    "sentence" : ""
+  }, {
+    "id" : 822,
+    "date" : 1578894128015,
+    "word" : "problem",
+    "sentence" : ""
+  }, {
+    "id" : 823,
+    "date" : 1578894128015,
+    "word" : "proceed",
+    "sentence" : ""
+  }, {
+    "id" : 824,
+    "date" : 1578894128015,
+    "word" : "process",
+    "sentence" : ""
+  }, {
+    "id" : 825,
+    "date" : 1578894128015,
+    "word" : "produce",
+    "sentence" : ""
+  }, {
+    "id" : 826,
+    "date" : 1578894128015,
+    "word" : "product",
+    "sentence" : ""
+  }, {
+    "id" : 827,
+    "date" : 1578894128015,
+    "word" : "programme",
+    "sentence" : ""
+  }, {
+    "id" : 828,
+    "date" : 1578894128015,
+    "word" : "proper",
+    "sentence" : ""
+  }, {
+    "id" : 829,
+    "date" : 1578894128015,
+    "word" : "propose",
+    "sentence" : ""
+  }, {
+    "id" : 830,
+    "date" : 1578894128015,
+    "word" : "protect",
+    "sentence" : ""
+  }, {
+    "id" : 831,
+    "date" : 1578894128015,
+    "word" : "public",
+    "sentence" : ""
+  }, {
+    "id" : 832,
+    "date" : 1578894128015,
+    "word" : "pull",
+    "sentence" : ""
+  }, {
+    "id" : 833,
+    "date" : 1578894128015,
+    "word" : "purpose",
+    "sentence" : ""
+  }, {
+    "id" : 834,
+    "date" : 1578894128015,
+    "word" : "push",
+    "sentence" : ""
+  }, {
+    "id" : 835,
+    "date" : 1578894128015,
+    "word" : "quality",
+    "sentence" : ""
+  }, {
+    "id" : 836,
+    "date" : 1578894128015,
+    "word" : "quarter",
+    "sentence" : ""
+  }, {
+    "id" : 837,
+    "date" : 1578894128015,
+    "word" : "question",
+    "sentence" : ""
+  }, {
+    "id" : 838,
+    "date" : 1578894128015,
+    "word" : "quick",
+    "sentence" : ""
+  }, {
+    "id" : 839,
+    "date" : 1578894128015,
+    "word" : "quid",
+    "sentence" : ""
+  }, {
+    "id" : 840,
+    "date" : 1578894128015,
+    "word" : "quiet",
+    "sentence" : ""
+  }, {
+    "id" : 841,
+    "date" : 1578894128015,
+    "word" : "quite",
+    "sentence" : ""
+  }, {
+    "id" : 842,
+    "date" : 1578894128015,
+    "word" : "radio",
+    "sentence" : ""
+  }, {
+    "id" : 843,
+    "date" : 1578894128015,
+    "word" : "rail",
+    "sentence" : ""
+  }, {
+    "id" : 844,
+    "date" : 1578894128015,
+    "word" : "raise",
+    "sentence" : ""
+  }, {
+    "id" : 845,
+    "date" : 1578894128015,
+    "word" : "range",
+    "sentence" : ""
+  }, {
+    "id" : 846,
+    "date" : 1578894128015,
+    "word" : "rate",
+    "sentence" : ""
+  }, {
+    "id" : 847,
+    "date" : 1578894128015,
+    "word" : "rather",
+    "sentence" : ""
+  }, {
+    "id" : 848,
+    "date" : 1578894128015,
+    "word" : "read",
+    "sentence" : ""
+  }, {
+    "id" : 849,
+    "date" : 1578894128015,
+    "word" : "ready",
+    "sentence" : ""
+  }, {
+    "id" : 850,
+    "date" : 1578894128015,
+    "word" : "real",
+    "sentence" : ""
+  }, {
+    "id" : 851,
+    "date" : 1578894128015,
+    "word" : "realise",
+    "sentence" : ""
+  }, {
+    "id" : 852,
+    "date" : 1578894128015,
+    "word" : "really",
+    "sentence" : ""
+  }, {
+    "id" : 853,
+    "date" : 1578894128015,
+    "word" : "reason",
+    "sentence" : ""
+  }, {
+    "id" : 854,
+    "date" : 1578894128015,
+    "word" : "receive",
+    "sentence" : ""
+  }, {
+    "id" : 855,
+    "date" : 1578894128015,
+    "word" : "recent",
+    "sentence" : ""
+  }, {
+    "id" : 856,
+    "date" : 1578894128015,
+    "word" : "reckon",
+    "sentence" : ""
+  }, {
+    "id" : 857,
+    "date" : 1578894128015,
+    "word" : "recognize",
+    "sentence" : ""
+  }, {
+    "id" : 858,
+    "date" : 1578894128015,
+    "word" : "recommend",
+    "sentence" : ""
+  }, {
+    "id" : 859,
+    "date" : 1578894128015,
+    "word" : "record",
+    "sentence" : ""
+  }, {
+    "id" : 860,
+    "date" : 1578894128015,
+    "word" : "red",
+    "sentence" : ""
+  }, {
+    "id" : 861,
+    "date" : 1578894128015,
+    "word" : "reduce",
+    "sentence" : ""
+  }, {
+    "id" : 862,
+    "date" : 1578894128015,
+    "word" : "refer",
+    "sentence" : ""
+  }, {
+    "id" : 863,
+    "date" : 1578894128015,
+    "word" : "regard",
+    "sentence" : ""
+  }, {
+    "id" : 864,
+    "date" : 1578894128015,
+    "word" : "region",
+    "sentence" : ""
+  }, {
+    "id" : 865,
+    "date" : 1578894128015,
+    "word" : "relation",
+    "sentence" : ""
+  }, {
+    "id" : 866,
+    "date" : 1578894128015,
+    "word" : "remember",
+    "sentence" : ""
+  }, {
+    "id" : 867,
+    "date" : 1578894128015,
+    "word" : "report",
+    "sentence" : ""
+  }, {
+    "id" : 868,
+    "date" : 1578894128015,
+    "word" : "represent",
+    "sentence" : ""
+  }, {
+    "id" : 869,
+    "date" : 1578894128015,
+    "word" : "require",
+    "sentence" : ""
+  }, {
+    "id" : 870,
+    "date" : 1578894128015,
+    "word" : "research",
+    "sentence" : ""
+  }, {
+    "id" : 871,
+    "date" : 1578894128015,
+    "word" : "resource",
+    "sentence" : ""
+  }, {
+    "id" : 872,
+    "date" : 1578894128015,
+    "word" : "respect",
+    "sentence" : ""
+  }, {
+    "id" : 873,
+    "date" : 1578894128015,
+    "word" : "responsible",
+    "sentence" : ""
+  }, {
+    "id" : 874,
+    "date" : 1578894128015,
+    "word" : "rest",
+    "sentence" : ""
+  }, {
+    "id" : 875,
+    "date" : 1578894128015,
+    "word" : "return",
+    "sentence" : ""
+  }, {
+    "id" : 876,
+    "date" : 1578894128015,
+    "word" : "rid",
+    "sentence" : ""
+  }, {
+    "id" : 877,
+    "date" : 1578894128015,
+    "word" : "ring",
+    "sentence" : ""
+  }, {
+    "id" : 878,
+    "date" : 1578894128015,
+    "word" : "rise",
+    "sentence" : ""
+  }, {
+    "id" : 879,
+    "date" : 1578894128015,
+    "word" : "road",
+    "sentence" : ""
+  }, {
+    "id" : 880,
+    "date" : 1578894128015,
+    "word" : "role",
+    "sentence" : ""
+  }, {
+    "id" : 881,
+    "date" : 1578894128015,
+    "word" : "roll",
+    "sentence" : ""
+  }, {
+    "id" : 882,
+    "date" : 1578894128015,
+    "word" : "room",
+    "sentence" : ""
+  }, {
+    "id" : 883,
+    "date" : 1578894128015,
+    "word" : "round",
+    "sentence" : ""
+  }, {
+    "id" : 884,
+    "date" : 1578894128015,
+    "word" : "rule",
+    "sentence" : ""
+  }, {
+    "id" : 885,
+    "date" : 1578894128015,
+    "word" : "run",
+    "sentence" : ""
+  }, {
+    "id" : 886,
+    "date" : 1578894128015,
+    "word" : "safe",
+    "sentence" : ""
+  }, {
+    "id" : 887,
+    "date" : 1578894128015,
+    "word" : "sale",
+    "sentence" : ""
+  }, {
+    "id" : 888,
+    "date" : 1578894128015,
+    "word" : "same",
+    "sentence" : ""
+  }, {
+    "id" : 889,
+    "date" : 1578894128015,
+    "word" : "saturday",
+    "sentence" : ""
+  }, {
+    "id" : 890,
+    "date" : 1578894128015,
+    "word" : "save",
+    "sentence" : ""
+  }, {
+    "id" : 891,
+    "date" : 1578894128015,
+    "word" : "say",
+    "sentence" : ""
+  }, {
+    "id" : 892,
+    "date" : 1578894128015,
+    "word" : "scheme",
+    "sentence" : ""
+  }, {
+    "id" : 893,
+    "date" : 1578894128015,
+    "word" : "score",
+    "sentence" : ""
+  }, {
+    "id" : 894,
+    "date" : 1578894128015,
+    "word" : "scotland",
+    "sentence" : ""
+  }, {
+    "id" : 895,
+    "date" : 1578894128015,
+    "word" : "seat",
+    "sentence" : ""
+  }, {
+    "id" : 896,
+    "date" : 1578894128015,
+    "word" : "secretary",
+    "sentence" : ""
+  }, {
+    "id" : 897,
+    "date" : 1578894128015,
+    "word" : "section",
+    "sentence" : ""
+  }, {
+    "id" : 898,
+    "date" : 1578894128015,
+    "word" : "secure",
+    "sentence" : ""
+  }, {
+    "id" : 899,
+    "date" : 1578894128015,
+    "word" : "see",
+    "sentence" : ""
+  }, {
+    "id" : 900,
+    "date" : 1578894128015,
+    "word" : "seem",
+    "sentence" : ""
+  }, {
+    "id" : 901,
+    "date" : 1578894128015,
+    "word" : "self",
+    "sentence" : ""
+  }, {
+    "id" : 902,
+    "date" : 1578894128015,
+    "word" : "sell",
+    "sentence" : ""
+  }, {
+    "id" : 903,
+    "date" : 1578894128015,
+    "word" : "send",
+    "sentence" : ""
+  }, {
+    "id" : 904,
+    "date" : 1578894128015,
+    "word" : "sense",
+    "sentence" : ""
+  }, {
+    "id" : 905,
+    "date" : 1578894128015,
+    "word" : "separate",
+    "sentence" : ""
+  }, {
+    "id" : 906,
+    "date" : 1578894128015,
+    "word" : "serious",
+    "sentence" : ""
+  }, {
+    "id" : 907,
+    "date" : 1578894128015,
+    "word" : "serve",
+    "sentence" : ""
+  }, {
+    "id" : 908,
+    "date" : 1578894128015,
+    "word" : "service",
+    "sentence" : ""
+  }, {
+    "id" : 909,
+    "date" : 1578894128015,
+    "word" : "set",
+    "sentence" : ""
+  }, {
+    "id" : 910,
+    "date" : 1578894128015,
+    "word" : "settle",
+    "sentence" : ""
+  }, {
+    "id" : 911,
+    "date" : 1578894128015,
+    "word" : "seven",
+    "sentence" : ""
+  }, {
+    "id" : 912,
+    "date" : 1578894128015,
+    "word" : "sex",
+    "sentence" : ""
+  }, {
+    "id" : 913,
+    "date" : 1578894128015,
+    "word" : "shall",
+    "sentence" : ""
+  }, {
+    "id" : 914,
+    "date" : 1578894128015,
+    "word" : "share",
+    "sentence" : ""
+  }, {
+    "id" : 915,
+    "date" : 1578894128015,
+    "word" : "sheet",
+    "sentence" : ""
+  }, {
+    "id" : 916,
+    "date" : 1578894128015,
+    "word" : "shoe",
+    "sentence" : ""
+  }, {
+    "id" : 917,
+    "date" : 1578894128015,
+    "word" : "shoot",
+    "sentence" : ""
+  }, {
+    "id" : 918,
+    "date" : 1578894128015,
+    "word" : "shop",
+    "sentence" : ""
+  }, {
+    "id" : 919,
+    "date" : 1578894128015,
+    "word" : "short",
+    "sentence" : ""
+  }, {
+    "id" : 920,
+    "date" : 1578894128015,
+    "word" : "show",
+    "sentence" : ""
+  }, {
+    "id" : 921,
+    "date" : 1578894128015,
+    "word" : "shut",
+    "sentence" : ""
+  }, {
+    "id" : 922,
+    "date" : 1578894128015,
+    "word" : "sick",
+    "sentence" : ""
+  }, {
+    "id" : 923,
+    "date" : 1578894128015,
+    "word" : "side",
+    "sentence" : ""
+  }, {
+    "id" : 924,
+    "date" : 1578894128015,
+    "word" : "sign",
+    "sentence" : ""
+  }, {
+    "id" : 925,
+    "date" : 1578894128015,
+    "word" : "similar",
+    "sentence" : ""
+  }, {
+    "id" : 926,
+    "date" : 1578894128015,
+    "word" : "simple",
+    "sentence" : ""
+  }, {
+    "id" : 927,
+    "date" : 1578894128015,
+    "word" : "since",
+    "sentence" : ""
+  }, {
+    "id" : 928,
+    "date" : 1578894128015,
+    "word" : "sing",
+    "sentence" : ""
+  }, {
+    "id" : 929,
+    "date" : 1578894128015,
+    "word" : "single",
+    "sentence" : ""
+  }, {
+    "id" : 930,
+    "date" : 1578894128015,
+    "word" : "sir",
+    "sentence" : ""
+  }, {
+    "id" : 931,
+    "date" : 1578894128015,
+    "word" : "sister",
+    "sentence" : ""
+  }, {
+    "id" : 932,
+    "date" : 1578894128015,
+    "word" : "sit",
+    "sentence" : ""
+  }, {
+    "id" : 933,
+    "date" : 1578894128015,
+    "word" : "site",
+    "sentence" : ""
+  }, {
+    "id" : 934,
+    "date" : 1578894128015,
+    "word" : "situate",
+    "sentence" : ""
+  }, {
+    "id" : 935,
+    "date" : 1578894128015,
+    "word" : "six",
+    "sentence" : ""
+  }, {
+    "id" : 936,
+    "date" : 1578894128015,
+    "word" : "size",
+    "sentence" : ""
+  }, {
+    "id" : 937,
+    "date" : 1578894128015,
+    "word" : "sleep",
+    "sentence" : ""
+  }, {
+    "id" : 938,
+    "date" : 1578894128015,
+    "word" : "slight",
+    "sentence" : ""
+  }, {
+    "id" : 939,
+    "date" : 1578894128015,
+    "word" : "slow",
+    "sentence" : ""
+  }, {
+    "id" : 940,
+    "date" : 1578894128015,
+    "word" : "small",
+    "sentence" : ""
+  }, {
+    "id" : 941,
+    "date" : 1578894128015,
+    "word" : "so",
+    "sentence" : ""
+  }, {
+    "id" : 942,
+    "date" : 1578894128015,
+    "word" : "social",
+    "sentence" : ""
+  }, {
+    "id" : 943,
+    "date" : 1578894128015,
+    "word" : "society",
+    "sentence" : ""
+  }, {
+    "id" : 944,
+    "date" : 1578894128015,
+    "word" : "son",
+    "sentence" : ""
+  }, {
+    "id" : 945,
+    "date" : 1578894128015,
+    "word" : "soon",
+    "sentence" : ""
+  }, {
+    "id" : 946,
+    "date" : 1578894128015,
+    "word" : "sorry",
+    "sentence" : ""
+  }, {
+    "id" : 947,
+    "date" : 1578894128015,
+    "word" : "sort",
+    "sentence" : ""
+  }, {
+    "id" : 948,
+    "date" : 1578894128015,
+    "word" : "sound",
+    "sentence" : ""
+  }, {
+    "id" : 949,
+    "date" : 1578894128015,
+    "word" : "south",
+    "sentence" : ""
+  }, {
+    "id" : 950,
+    "date" : 1578894128015,
+    "word" : "space",
+    "sentence" : ""
+  }, {
+    "id" : 951,
+    "date" : 1578894128015,
+    "word" : "speak",
+    "sentence" : ""
+  }, {
+    "id" : 952,
+    "date" : 1578894128015,
+    "word" : "special",
+    "sentence" : ""
+  }, {
+    "id" : 953,
+    "date" : 1578894128015,
+    "word" : "specific",
+    "sentence" : ""
+  }, {
+    "id" : 954,
+    "date" : 1578894128015,
+    "word" : "speed",
+    "sentence" : ""
+  }, {
+    "id" : 955,
+    "date" : 1578894128015,
+    "word" : "spell",
+    "sentence" : ""
+  }, {
+    "id" : 956,
+    "date" : 1578894128015,
+    "word" : "spend",
+    "sentence" : ""
+  }, {
+    "id" : 957,
+    "date" : 1578894128015,
+    "word" : "square",
+    "sentence" : ""
+  }, {
+    "id" : 958,
+    "date" : 1578894128015,
+    "word" : "staff",
+    "sentence" : ""
+  }, {
+    "id" : 959,
+    "date" : 1578894128015,
+    "word" : "stage",
+    "sentence" : ""
+  }, {
+    "id" : 960,
+    "date" : 1578894128015,
+    "word" : "stand",
+    "sentence" : ""
+  }, {
+    "id" : 961,
+    "date" : 1578894128015,
+    "word" : "standard",
+    "sentence" : ""
+  }, {
+    "id" : 962,
+    "date" : 1578894128015,
+    "word" : "start",
+    "sentence" : ""
+  }, {
+    "id" : 963,
+    "date" : 1578894128015,
+    "word" : "state",
+    "sentence" : ""
+  }, {
+    "id" : 964,
+    "date" : 1578894128015,
+    "word" : "stay",
+    "sentence" : ""
+  }, {
+    "id" : 965,
+    "date" : 1578894128015,
+    "word" : "step",
+    "sentence" : ""
+  }, {
+    "id" : 966,
+    "date" : 1578894128015,
+    "word" : "stick",
+    "sentence" : ""
+  }, {
+    "id" : 967,
+    "date" : 1578894128015,
+    "word" : "still",
+    "sentence" : ""
+  }, {
+    "id" : 968,
+    "date" : 1578894128015,
+    "word" : "stop",
+    "sentence" : ""
+  }, {
+    "id" : 969,
+    "date" : 1578894128015,
+    "word" : "straight",
+    "sentence" : ""
+  }, {
+    "id" : 970,
+    "date" : 1578894128015,
+    "word" : "strategy",
+    "sentence" : ""
+  }, {
+    "id" : 971,
+    "date" : 1578894128015,
+    "word" : "street",
+    "sentence" : ""
+  }, {
+    "id" : 972,
+    "date" : 1578894128015,
+    "word" : "strike",
+    "sentence" : ""
+  }, {
+    "id" : 973,
+    "date" : 1578894128015,
+    "word" : "strong",
+    "sentence" : ""
+  }, {
+    "id" : 974,
+    "date" : 1578894128015,
+    "word" : "structure",
+    "sentence" : ""
+  }, {
+    "id" : 975,
+    "date" : 1578894128015,
+    "word" : "student",
+    "sentence" : ""
+  }, {
+    "id" : 976,
+    "date" : 1578894128015,
+    "word" : "study",
+    "sentence" : ""
+  }, {
+    "id" : 977,
+    "date" : 1578894128015,
+    "word" : "stupid",
+    "sentence" : ""
+  }, {
+    "id" : 978,
+    "date" : 1578894128015,
+    "word" : "subject",
+    "sentence" : ""
+  }, {
+    "id" : 979,
+    "date" : 1578894128015,
+    "word" : "succeed",
+    "sentence" : ""
+  }, {
+    "id" : 980,
+    "date" : 1578894128015,
+    "word" : "such",
+    "sentence" : ""
+  }, {
+    "id" : 981,
+    "date" : 1578894128015,
+    "word" : "sudden",
+    "sentence" : ""
+  }, {
+    "id" : 982,
+    "date" : 1578894128015,
+    "word" : "suggest",
+    "sentence" : ""
+  }, {
+    "id" : 983,
+    "date" : 1578894128015,
+    "word" : "suit",
+    "sentence" : ""
+  }, {
+    "id" : 984,
+    "date" : 1578894128015,
+    "word" : "sun",
+    "sentence" : ""
+  }, {
+    "id" : 985,
+    "date" : 1578894128015,
+    "word" : "sunday",
+    "sentence" : ""
+  }, {
+    "id" : 986,
+    "date" : 1578894128015,
+    "word" : "supply",
+    "sentence" : ""
+  }, {
+    "id" : 987,
+    "date" : 1578894128015,
+    "word" : "suppose",
+    "sentence" : ""
+  }, {
+    "id" : 988,
+    "date" : 1578894128015,
+    "word" : "sure",
+    "sentence" : ""
+  }, {
+    "id" : 989,
+    "date" : 1578894128015,
+    "word" : "surprise",
+    "sentence" : ""
+  }, {
+    "id" : 990,
+    "date" : 1578894128015,
+    "word" : "switch",
+    "sentence" : ""
+  }, {
+    "id" : 991,
+    "date" : 1578894128015,
+    "word" : "system",
+    "sentence" : ""
+  }, {
+    "id" : 992,
+    "date" : 1578894128015,
+    "word" : "table",
+    "sentence" : ""
+  }, {
+    "id" : 993,
+    "date" : 1578894128015,
+    "word" : "take",
+    "sentence" : ""
+  }, {
+    "id" : 994,
+    "date" : 1578894128015,
+    "word" : "talk",
+    "sentence" : ""
+  }, {
+    "id" : 995,
+    "date" : 1578894128015,
+    "word" : "tape",
+    "sentence" : ""
+  }, {
+    "id" : 996,
+    "date" : 1578894128015,
+    "word" : "tax",
+    "sentence" : ""
+  }, {
+    "id" : 997,
+    "date" : 1578894128015,
+    "word" : "tea",
+    "sentence" : ""
+  }, {
+    "id" : 998,
+    "date" : 1578894128015,
+    "word" : "teach",
+    "sentence" : ""
+  }, {
+    "id" : 999,
+    "date" : 1578894128015,
+    "word" : "team",
+    "sentence" : ""
+  }, {
+    "id" : 1000,
+    "date" : 1578894128015,
+    "word" : "television",
+    "sentence" : ""
+  }, {
+    "id" : 1001,
+    "date" : 1578894128015,
+    "word" : "tell",
+    "sentence" : ""
+  }, {
+    "id" : 1002,
+    "date" : 1578894128015,
+    "word" : "ten",
+    "sentence" : ""
+  }, {
+    "id" : 1003,
+    "date" : 1578894128015,
+    "word" : "tend",
+    "sentence" : ""
+  }, {
+    "id" : 1004,
+    "date" : 1578894128015,
+    "word" : "term",
+    "sentence" : ""
+  }, {
+    "id" : 1005,
+    "date" : 1578894128015,
+    "word" : "terrible",
+    "sentence" : ""
+  }, {
+    "id" : 1006,
+    "date" : 1578894128015,
+    "word" : "test",
+    "sentence" : ""
+  }, {
+    "id" : 1007,
+    "date" : 1578894128015,
+    "word" : "thank",
+    "sentence" : ""
+  }, {
+    "id" : 1008,
+    "date" : 1578894128015,
+    "word" : "the",
+    "sentence" : ""
+  }, {
+    "id" : 1009,
+    "date" : 1578894128015,
+    "word" : "therefore",
+    "sentence" : ""
+  }, {
+    "id" : 1010,
+    "date" : 1578894128015,
+    "word" : "they",
+    "sentence" : ""
+  }, {
+    "id" : 1011,
+    "date" : 1578894128015,
+    "word" : "thou",
+    "sentence" : ""
+  }, {
+    "id" : 1012,
+    "date" : 1578894128015,
+    "word" : "though",
+    "sentence" : ""
+  }, {
+    "id" : 1013,
+    "date" : 1578894128015,
+    "word" : "three",
+    "sentence" : ""
+  }, {
+    "id" : 1014,
+    "date" : 1578894128015,
+    "word" : "through",
+    "sentence" : ""
+  }, {
+    "id" : 1015,
+    "date" : 1578894128015,
+    "word" : "throw",
+    "sentence" : ""
+  }, {
+    "id" : 1016,
+    "date" : 1578894128015,
+    "word" : "thursday",
+    "sentence" : ""
+  }, {
+    "id" : 1017,
+    "date" : 1578894128015,
+    "word" : "tie",
+    "sentence" : ""
+  }, {
+    "id" : 1018,
+    "date" : 1578894128015,
+    "word" : "to",
+    "sentence" : ""
+  }, {
+    "id" : 1019,
+    "date" : 1578894128015,
+    "word" : "today",
+    "sentence" : ""
+  }, {
+    "id" : 1020,
+    "date" : 1578894128015,
+    "word" : "together",
+    "sentence" : ""
+  }, {
+    "id" : 1021,
+    "date" : 1578894128015,
+    "word" : "tomorrow",
+    "sentence" : ""
+  }, {
+    "id" : 1022,
+    "date" : 1578894128015,
+    "word" : "tonight",
+    "sentence" : ""
+  }, {
+    "id" : 1023,
+    "date" : 1578894128015,
+    "word" : "too",
+    "sentence" : ""
+  }, {
+    "id" : 1024,
+    "date" : 1578894128015,
+    "word" : "top",
+    "sentence" : ""
+  }, {
+    "id" : 1025,
+    "date" : 1578894128015,
+    "word" : "total",
+    "sentence" : ""
+  }, {
+    "id" : 1026,
+    "date" : 1578894128015,
+    "word" : "touch",
+    "sentence" : ""
+  }, {
+    "id" : 1027,
+    "date" : 1578894128015,
+    "word" : "toward",
+    "sentence" : ""
+  }, {
+    "id" : 1028,
+    "date" : 1578894128015,
+    "word" : "town",
+    "sentence" : ""
+  }, {
+    "id" : 1029,
+    "date" : 1578894128015,
+    "word" : "trade",
+    "sentence" : ""
+  }, {
+    "id" : 1030,
+    "date" : 1578894128015,
+    "word" : "traffic",
+    "sentence" : ""
+  }, {
+    "id" : 1031,
+    "date" : 1578894128015,
+    "word" : "train",
+    "sentence" : ""
+  }, {
+    "id" : 1032,
+    "date" : 1578894128015,
+    "word" : "transport",
+    "sentence" : ""
+  }, {
+    "id" : 1033,
+    "date" : 1578894128015,
+    "word" : "travel",
+    "sentence" : ""
+  }, {
+    "id" : 1034,
+    "date" : 1578894128015,
+    "word" : "treat",
+    "sentence" : ""
+  }, {
+    "id" : 1035,
+    "date" : 1578894128015,
+    "word" : "tree",
+    "sentence" : ""
+  }, {
+    "id" : 1036,
+    "date" : 1578894128015,
+    "word" : "trouble",
+    "sentence" : ""
+  }, {
+    "id" : 1037,
+    "date" : 1578894128015,
+    "word" : "true",
+    "sentence" : ""
+  }, {
+    "id" : 1038,
+    "date" : 1578894128015,
+    "word" : "trust",
+    "sentence" : ""
+  }, {
+    "id" : 1039,
+    "date" : 1578894128015,
+    "word" : "try",
+    "sentence" : ""
+  }, {
+    "id" : 1040,
+    "date" : 1578894128015,
+    "word" : "tuesday",
+    "sentence" : ""
+  }, {
+    "id" : 1041,
+    "date" : 1578894128015,
+    "word" : "turn",
+    "sentence" : ""
+  }, {
+    "id" : 1042,
+    "date" : 1578894128015,
+    "word" : "two",
+    "sentence" : ""
+  }, {
+    "id" : 1043,
+    "date" : 1578894128015,
+    "word" : "type",
+    "sentence" : ""
+  }, {
+    "id" : 1044,
+    "date" : 1578894128015,
+    "word" : "understand",
+    "sentence" : ""
+  }, {
+    "id" : 1045,
+    "date" : 1578894128015,
+    "word" : "union",
+    "sentence" : ""
+  }, {
+    "id" : 1046,
+    "date" : 1578894128015,
+    "word" : "unit",
+    "sentence" : ""
+  }, {
+    "id" : 1047,
+    "date" : 1578894128015,
+    "word" : "unite",
+    "sentence" : ""
+  }, {
+    "id" : 1048,
+    "date" : 1578894128015,
+    "word" : "university",
+    "sentence" : ""
+  }, {
+    "id" : 1049,
+    "date" : 1578894128015,
+    "word" : "unless",
+    "sentence" : ""
+  }, {
+    "id" : 1050,
+    "date" : 1578894128015,
+    "word" : "until",
+    "sentence" : ""
+  }, {
+    "id" : 1051,
+    "date" : 1578894128015,
+    "word" : "up",
+    "sentence" : ""
+  }, {
+    "id" : 1052,
+    "date" : 1578894128015,
+    "word" : "upon",
+    "sentence" : ""
+  }, {
+    "id" : 1053,
+    "date" : 1578894128015,
+    "word" : "usual",
+    "sentence" : ""
+  }, {
+    "id" : 1054,
+    "date" : 1578894128015,
+    "word" : "various",
+    "sentence" : ""
+  }, {
+    "id" : 1055,
+    "date" : 1578894128015,
+    "word" : "video",
+    "sentence" : ""
+  }, {
+    "id" : 1056,
+    "date" : 1578894128015,
+    "word" : "view",
+    "sentence" : ""
+  }, {
+    "id" : 1057,
+    "date" : 1578894128015,
+    "word" : "village",
+    "sentence" : ""
+  }, {
+    "id" : 1058,
+    "date" : 1578894128015,
+    "word" : "visit",
+    "sentence" : ""
+  }, {
+    "id" : 1059,
+    "date" : 1578894128015,
+    "word" : "vote",
+    "sentence" : ""
+  }, {
+    "id" : 1060,
+    "date" : 1578894128015,
+    "word" : "wage",
+    "sentence" : ""
+  }, {
+    "id" : 1061,
+    "date" : 1578894128015,
+    "word" : "wait",
+    "sentence" : ""
+  }, {
+    "id" : 1062,
+    "date" : 1578894128015,
+    "word" : "wall",
+    "sentence" : ""
+  }, {
+    "id" : 1063,
+    "date" : 1578894128015,
+    "word" : "war",
+    "sentence" : ""
+  }, {
+    "id" : 1064,
+    "date" : 1578894128015,
+    "word" : "wash",
+    "sentence" : ""
+  }, {
+    "id" : 1065,
+    "date" : 1578894128015,
+    "word" : "waste",
+    "sentence" : ""
+  }, {
+    "id" : 1066,
+    "date" : 1578894128015,
+    "word" : "watch",
+    "sentence" : ""
+  }, {
+    "id" : 1067,
+    "date" : 1578894128015,
+    "word" : "water",
+    "sentence" : ""
+  }, {
+    "id" : 1068,
+    "date" : 1578894128015,
+    "word" : "we",
+    "sentence" : ""
+  }, {
+    "id" : 1069,
+    "date" : 1578894128015,
+    "word" : "wear",
+    "sentence" : ""
+  }, {
+    "id" : 1070,
+    "date" : 1578894128015,
+    "word" : "wednesday",
+    "sentence" : ""
+  }, {
+    "id" : 1071,
+    "date" : 1578894128015,
+    "word" : "wee",
+    "sentence" : ""
+  }, {
+    "id" : 1072,
+    "date" : 1578894128015,
+    "word" : "weigh",
+    "sentence" : ""
+  }, {
+    "id" : 1073,
+    "date" : 1578894128015,
+    "word" : "welcome",
+    "sentence" : ""
+  }, {
+    "id" : 1074,
+    "date" : 1578894128015,
+    "word" : "well",
+    "sentence" : ""
+  }, {
+    "id" : 1075,
+    "date" : 1578894128015,
+    "word" : "west",
+    "sentence" : ""
+  }, {
+    "id" : 1076,
+    "date" : 1578894128015,
+    "word" : "where",
+    "sentence" : ""
+  }, {
+    "id" : 1077,
+    "date" : 1578894128015,
+    "word" : "whether",
+    "sentence" : ""
+  }, {
+    "id" : 1078,
+    "date" : 1578894128015,
+    "word" : "which",
+    "sentence" : ""
+  }, {
+    "id" : 1079,
+    "date" : 1578894128015,
+    "word" : "while",
+    "sentence" : ""
+  }, {
+    "id" : 1080,
+    "date" : 1578894128015,
+    "word" : "who",
+    "sentence" : ""
+  }, {
+    "id" : 1081,
+    "date" : 1578894128015,
+    "word" : "whole",
+    "sentence" : ""
+  }, {
+    "id" : 1082,
+    "date" : 1578894128015,
+    "word" : "wide",
+    "sentence" : ""
+  }, {
+    "id" : 1083,
+    "date" : 1578894128015,
+    "word" : "wife",
+    "sentence" : ""
+  }, {
+    "id" : 1084,
+    "date" : 1578894128015,
+    "word" : "will",
+    "sentence" : ""
+  }, {
+    "id" : 1085,
+    "date" : 1578894128015,
+    "word" : "win",
+    "sentence" : ""
+  }, {
+    "id" : 1086,
+    "date" : 1578894128015,
+    "word" : "wind",
+    "sentence" : ""
+  }, {
+    "id" : 1087,
+    "date" : 1578894128015,
+    "word" : "window",
+    "sentence" : ""
+  }, {
+    "id" : 1088,
+    "date" : 1578894128015,
+    "word" : "with",
+    "sentence" : ""
+  }, {
+    "id" : 1089,
+    "date" : 1578894128015,
+    "word" : "within",
+    "sentence" : ""
+  }, {
+    "id" : 1090,
+    "date" : 1578894128015,
+    "word" : "woman",
+    "sentence" : ""
+  }, {
+    "id" : 1091,
+    "date" : 1578894128015,
+    "word" : "wonder",
+    "sentence" : ""
+  }, {
+    "id" : 1092,
+    "date" : 1578894128015,
+    "word" : "world",
+    "sentence" : ""
+  }, {
+    "id" : 1093,
+    "date" : 1578894128015,
+    "word" : "worry",
+    "sentence" : ""
+  }, {
+    "id" : 1094,
+    "date" : 1578894128015,
+    "word" : "worth",
+    "sentence" : ""
+  }, {
+    "id" : 1095,
+    "date" : 1578894128015,
+    "word" : "wrong",
+    "sentence" : ""
+  }, {
+    "id" : 1096,
+    "date" : 1578894128015,
+    "word" : "yes",
+    "sentence" : ""
+  }, {
+    "id" : 1097,
+    "date" : 1578894128015,
+    "word" : "yesterday",
+    "sentence" : ""
+  }, {
+    "id" : 1098,
+    "date" : 1578894128015,
+    "word" : "yet",
+    "sentence" : ""
+  }, {
+    "id" : 1099,
+    "date" : 1578894128015,
+    "word" : "you",
+    "sentence" : ""
+  }, {
+    "id" : 1100,
+    "date" : 1578894128015,
+    "word" : "young",
+    "sentence" : ""
+  } ]
+}

@@ -17,11 +17,11 @@ public class ProblemGenerator {
             Dictionary dictionary = om.readValue(f, Dictionary.class);
 
             StringBuilder sb = new StringBuilder();
-            buildSimpleAdd(sb, 40, 10, 30);
-            buildFillInAdd(sb, 40, 5, 10, 21);
-            buildSimpleMinus(sb, 60, 1, 20);
+            buildSimpleAdd(sb, 40, 5, 40);
+            buildFillInAdd(sb, 40, 2, 10, 25);
+            buildSimpleMinus(sb, 60, 1, 25);
             sb.append("\n");
-            generateWords(sb, dictionary.getWords(), 20);
+            generateWords(sb, dictionary.getWords(), 22);
             writeToOutput(os, sb);
         } catch (IOException e) {
             e.printStackTrace();
