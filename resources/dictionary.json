@@ -1261,6 +1261,756 @@
       "date": 1578855745442,
       "word": "hour",
       "sentence": "One day has 24 hours."
+    }, {
+      "id" : 242,
+      "date" : 1578894728820,
+      "word" : "a",
+      "sentence" : "This is an apple. that is a banana. BANANA!"
+    }, {
+      "id" : 243,
+      "date" : 1578894728820,
+      "word" : "able",
+      "sentence" : "I am able to do math now!"
+    }, {
+      "id" : 244,
+      "date" : 1578894728820,
+      "word" : "absolute",
+      "sentence" : "I, absolutely, do not want to put cream on my face!"
+    }, {
+      "id" : 245,
+      "date" : 1578894728820,
+      "word" : "accept",
+      "sentence" : "I accept your offer."
+    }, {
+      "id" : 246,
+      "date" : 1578894728820,
+      "word" : "account",
+      "sentence" : ""
+    }, {
+      "id" : 247,
+      "date" : 1578894728820,
+      "word" : "achieve",
+      "sentence" : "I achieved five gold star today!"
+    }, {
+      "id" : 248,
+      "date" : 1578894728820,
+      "word" : "across",
+      "sentence" : "The park is across the river. "
+    }, {
+      "id" : 249,
+      "date" : 1578894728820,
+      "word" : "act",
+      "sentence" : "Darren likes to act as a puppy."
+    }, {
+      "id" : 250,
+      "date" : 1578894728820,
+      "word" : "active",
+      "sentence" : "The boy is very active at school."
+    }, {
+      "id" : 251,
+      "date" : 1578894728820,
+      "word" : "actual",
+      "sentence" : ""
+    }, {
+      "id" : 252,
+      "date" : 1578894728820,
+      "word" : "add",
+      "sentence" : "add one to ten is eleven."
+    }, {
+      "id" : 253,
+      "date" : 1578894728820,
+      "word" : "address",
+      "sentence" : "My address is 234 Minnie Street."
+    }, {
+      "id" : 254,
+      "date" : 1578894728820,
+      "word" : "admit",
+      "sentence" : "I was admitted into the hospital last year."
+    }, {
+      "id" : 255,
+      "date" : 1578894728820,
+      "word" : "advertise",
+      "sentence" : ""
+    }, {
+      "id" : 256,
+      "date" : 1578894728820,
+      "word" : "affect",
+      "sentence" : "The snow is affecting traffic."
+    }, {
+      "id" : 257,
+      "date" : 1578894728820,
+      "word" : "afford",
+      "sentence" : "You can afford to give away some toys. You have so many!"
+    }, {
+      "id" : 258,
+      "date" : 1578894728820,
+      "word" : "afternoon",
+      "sentence" : "In the afternoon, we do some crafts. "
+    }, {
+      "id" : 259,
+      "date" : 1578894728820,
+      "word" : "against",
+      "sentence" : "The girl is leaning against the wall. "
+    }, {
+      "id" : 260,
+      "date" : 1578894728820,
+      "word" : "age",
+      "sentence" : "My age is 5"
+    }, {
+      "id" : 261,
+      "date" : 1578894728820,
+      "word" : "agent",
+      "sentence" : "Agent J, is a secret spy. "
+    }, {
+      "id" : 262,
+      "date" : 1578894728820,
+      "word" : "ago",
+      "sentence" : "Long long time ago....in a galaxy far far away."
+    }, {
+      "id" : 263,
+      "date" : 1578894728820,
+      "word" : "agree",
+      "sentence" : "I agree!!"
+    }, {
+      "id" : 264,
+      "date" : 1578894728820,
+      "word" : "air",
+      "sentence" : "Air is all around us."
+    }, {
+      "id" : 265,
+      "date" : 1578894728820,
+      "word" : "all",
+      "sentence" : "I want ALL the cake!!"
+    }, {
+      "id" : 266,
+      "date" : 1578894728820,
+      "word" : "allow",
+      "sentence" : "I am allowed to have TV time after my homework is done."
+    }, {
+      "id" : 267,
+      "date" : 1578894728820,
+      "word" : "almost",
+      "sentence" : "It is almost dark!"
+    }, {
+      "id" : 268,
+      "date" : 1578894728820,
+      "word" : "along",
+      "sentence" : "Come along!, we are going to the zoo."
+    }, {
+      "id" : 269,
+      "date" : 1578894728820,
+      "word" : "already",
+      "sentence" : "It is noon already!"
+    }, {
+      "id" : 270,
+      "date" : 1578894728820,
+      "word" : "alright",
+      "sentence" : "ALright, I will do another ten math questions!"
+    }, {
+      "id" : 271,
+      "date" : 1578894728820,
+      "word" : "although",
+      "sentence" : "I want more meat! although, I am already full. "
+    }, {
+      "id" : 272,
+      "date" : 1578894728820,
+      "word" : "always",
+      "sentence" : "Always wash your hands before eating."
+    }, {
+      "id" : 273,
+      "date" : 1578894728820,
+      "word" : "america",
+      "sentence" : "America is a big country."
+    }, {
+      "id" : 274,
+      "date" : 1578894728820,
+      "word" : "amount",
+      "sentence" : "A huge amount of water makes clothes wet. "
+    }, {
+      "id" : 275,
+      "date" : 1578894728820,
+      "word" : "and",
+      "sentence" : "Apple and banana and orange and kiwi are fruits."
+    }, {
+      "id" : 276,
+      "date" : 1578894728820,
+      "word" : "apart",
+      "sentence" : "Push hard enough, two lego pieces come apart."
+    }, {
+      "id" : 277,
+      "date" : 1578894728820,
+      "word" : "apparent",
+      "sentence" : "Apparent means obvious."
+    }, {
+      "id" : 278,
+      "date" : 1578894728820,
+      "word" : "appear",
+      "sentence" : "It appears to be blue, but could be purple. "
+    }, {
+      "id" : 279,
+      "date" : 1578894728820,
+      "word" : "apply",
+      "sentence" : "He applied some polisporin onto his broken knee."
+    }, {
+      "id" : 281,
+      "date" : 1578894728820,
+      "word" : "approach",
+      "sentence" : "The tiger slowly approaching the little sheep...and POUNCE!"
+    }, {
+      "id" : 282,
+      "date" : 1578894728820,
+      "word" : "appropriate",
+      "sentence" : "Picking nose in the classroom is not appropriate. (not right)"
+    }, {
+      "id" : 283,
+      "date" : 1578894728820,
+      "word" : "area",
+      "sentence" : "\"Clean up your play area!\" said Daddy. "
+    }, {
+      "id" : 284,
+      "date" : 1578894728820,
+      "word" : "argue",
+      "sentence" : "the kids arguing who has the best drawing of the garbage truck."
+    }, {
+      "id" : 285,
+      "date" : 1578894728820,
+      "word" : "arm",
+      "sentence" : "\"My arm hurt so much from the fall\""
+    }, {
+      "id" : 286,
+      "date" : 1578894728820,
+      "word" : "around",
+      "sentence" : "Turn around and see. "
+    }, {
+      "id" : 287,
+      "date" : 1578894728820,
+      "word" : "arrange",
+      "sentence" : "The children is arranging the books in order according to color"
+    }, {
+      "id" : 288,
+      "date" : 1578894728820,
+      "word" : "art",
+      "sentence" : "Art class is fun."
+    }, {
+      "id" : 289,
+      "date" : 1578894728820,
+      "word" : "as",
+      "sentence" : "The snake is as long as a long stick. "
+    }, {
+      "id" : 290,
+      "date" : 1578894728820,
+      "word" : "ask",
+      "sentence" : "Let me ask you a question. "
+    }, {
+      "id" : 292,
+      "date" : 1578894728820,
+      "word" : "assume",
+      "sentence" : "I assumed Daddy is not happy with me. because he is not talking to me. "
+    }, {
+      "id" : 293,
+      "date" : 1578894728820,
+      "word" : "at",
+      "sentence" : "Look at that window. It has strange drawing on it."
+    }, {
+      "id" : 294,
+      "date" : 1578894728820,
+      "word" : "attend",
+      "sentence" : "I am attending the Taylor Park Elementary school."
+    }, {
+      "id" : 295,
+      "date" : 1578894728820,
+      "word" : "authority",
+      "sentence" : "Ms.Delore has the highest authority in the classroom. Everyone needs to listen to her."
+    }, {
+      "id" : 296,
+      "date" : 1578894728820,
+      "word" : "available",
+      "sentence" : "The doctor will be available to see you in 10 minutes."
+    }, {
+      "id" : 297,
+      "date" : 1578894728820,
+      "word" : "aware",
+      "sentence" : "Are you aware of the wolves hiding the woods?!"
+    }, {
+      "id" : 298,
+      "date" : 1578894728820,
+      "word" : "away",
+      "sentence" : "Shoo away little flies to keep food from going bad."
+    }, {
+      "id" : 299,
+      "date" : 1578894728820,
+      "word" : "awful",
+      "sentence" : "That's awful news. I liked playing in the park! now it's been taking over by fire ants."
+    }, {
+      "id" : 300,
+      "date" : 1578894728820,
+      "word" : "baby",
+      "sentence" : "Ba~by~ SHARK! doo~ doo~ doo~ doo~ doo~"
+    }, {
+      "id" : 301,
+      "date" : 1578894728820,
+      "word" : "bag",
+      "sentence" : "Pack your lunch in your bag, we are going for a field trip."
+    }, {
+      "id" : 302,
+      "date" : 1578894728820,
+      "word" : "balance",
+      "sentence" : "walking on logs can train my balance."
+    }, {
+      "id" : 303,
+      "date" : 1578894728820,
+      "word" : "ball",
+      "sentence" : "bouncy balls"
+    }, {
+      "id" : 304,
+      "date" : 1578894728820,
+      "word" : "bank",
+      "sentence" : "Bank keeps everyone's money."
+    }, {
+      "id" : 306,
+      "date" : 1578894728820,
+      "word" : "base",
+      "sentence" : "The base of the statue is a huge block of rock."
+    }, {
+      "id" : 307,
+      "date" : 1578894728820,
+      "word" : "basis",
+      "sentence" : "There is no basis of his argument."
+    }, {
+      "id" : 308,
+      "date" : 1578894728820,
+      "word" : "be",
+      "sentence" : "Be happy, be playful."
+    }, {
+      "id" : 309,
+      "date" : 1578894728820,
+      "word" : "bear",
+      "sentence" : "Bear is cute, but dangerous. "
+    }, {
+      "id" : 310,
+      "date" : 1578894728820,
+      "word" : "beat",
+      "sentence" : "Beat around the bush to hit the berries down."
+    }, {
+      "id" : 311,
+      "date" : 1578894728820,
+      "word" : "beauty",
+      "sentence" : "Beauty is something that is beautiful."
+    }, {
+      "id" : 312,
+      "date" : 1578894728820,
+      "word" : "become",
+      "sentence" : "He becomes good at skating after much practice."
+    }, {
+      "id" : 313,
+      "date" : 1578894728820,
+      "word" : "bed",
+      "sentence" : "Kids sleep in their own bed."
+    }, {
+      "id" : 314,
+      "date" : 1578894728820,
+      "word" : "before",
+      "sentence" : "2 is before 3."
+    }, {
+      "id" : 315,
+      "date" : 1578894728820,
+      "word" : "begin",
+      "sentence" : "Apple begins with A."
+    }, {
+      "id" : 316,
+      "date" : 1578894728820,
+      "word" : "behind",
+      "sentence" : "3 is behind 2."
+    }, {
+      "id" : 317,
+      "date" : 1578894728820,
+      "word" : "believe",
+      "sentence" : "Believe in the police that will come to take bad people away."
+    }, {
+      "id" : 318,
+      "date" : 1578894728820,
+      "word" : "benefit",
+      "sentence" : "One of the benefits of eating fruits is a healthy stomach."
+    }, {
+      "id" : 320,
+      "date" : 1578894728820,
+      "word" : "between",
+      "sentence" : "2 is between 1 and 3."
+    }, {
+      "id" : 321,
+      "date" : 1578894728820,
+      "word" : "big",
+      "sentence" : "The hill is very big."
+    }, {
+      "id" : 322,
+      "date" : 1578894728820,
+      "word" : "bill",
+      "sentence" : "This is a 25 dollar bill."
+    }, {
+      "id" : 323,
+      "date" : 1578894728820,
+      "word" : "birth",
+      "sentence" : "At birth, puppies are very small in size."
+    }, {
+      "id" : 324,
+      "date" : 1578894728820,
+      "word" : "bit",
+      "sentence" : "a bit means a little."
+    }, {
+      "id" : 325,
+      "date" : 1578894728820,
+      "word" : "bloke",
+      "sentence" : "a bloke means a boy."
+    }, {
+      "id" : 326,
+      "date" : 1578894728820,
+      "word" : "blood",
+      "sentence" : "Blood transports nutrients around the body. "
+    }, {
+      "id" : 327,
+      "date" : 1578894728820,
+      "word" : "blow",
+      "sentence" : "Northeast wind blows from southwest. "
+    }, {
+      "id" : 328,
+      "date" : 1578894728820,
+      "word" : "blue",
+      "sentence" : "Blue and red makes yellow."
+    }, {
+      "id" : 329,
+      "date" : 1578894728820,
+      "word" : "board",
+      "sentence" : "Daddy writes an example of a problem on the black board."
+    }, {
+      "id" : 330,
+      "date" : 1578894728820,
+      "word" : "boat",
+      "sentence" : "Boat carries people and cargo across water."
+    }, {
+      "id" : 331,
+      "date" : 1578894728820,
+      "word" : "body",
+      "sentence" : "My body is covered with mud."
+    }, {
+      "id" : 332,
+      "date" : 1578894728820,
+      "word" : "book",
+      "sentence" : "after reading a book, put it away on the shelf."
+    }, {
+      "id" : 333,
+      "date" : 1578894728820,
+      "word" : "both",
+      "sentence" : "Apples, oranges are both fruits."
+    }, {
+      "id" : 334,
+      "date" : 1578894728821,
+      "word" : "bother",
+      "sentence" : "\"Stop bothering me!\", said the little boy."
+    }, {
+      "id" : 335,
+      "date" : 1578894728821,
+      "word" : "bottle",
+      "sentence" : "A bottle of juice."
+    }, {
+      "id" : 336,
+      "date" : 1578894728821,
+      "word" : "bottom",
+      "sentence" : "At the bottom of the lake, there might be treasures."
+    }, {
+      "id" : 337,
+      "date" : 1578894728821,
+      "word" : "box",
+      "sentence" : "a box of chocolate"
+    }, {
+      "id" : 338,
+      "date" : 1578894728821,
+      "word" : "break",
+      "sentence" : "there is a break between classes. "
+    }, {
+      "id" : 339,
+      "date" : 1578894728821,
+      "word" : "brief",
+      "sentence" : "It is a brief(short) break between classes."
+    }, {
+      "id" : 340,
+      "date" : 1578894728821,
+      "word" : "brilliant",
+      "sentence" : "That is a brilliant idea!"
+    }, {
+      "id" : 341,
+      "date" : 1578894728821,
+      "word" : "bring",
+      "sentence" : "Bring your library book back children."
+    }, {
+      "id" : 342,
+      "date" : 1578894728821,
+      "word" : "britain",
+      "sentence" : "Great Britain is a country on an island in Europe."
+    }, {
+      "id" : 343,
+      "date" : 1578894728821,
+      "word" : "brother",
+      "sentence" : "Kaila's brother is called Ethan."
+    }, {
+      "id" : 344,
+      "date" : 1578894728821,
+      "word" : "budget",
+      "sentence" : "My lunch has a budget of 10 dollars. I can only spend 10 dollars on my lunch."
+    }, {
+      "id" : 345,
+      "date" : 1578894728821,
+      "word" : "build",
+      "sentence" : "I love to build lego."
+    }, {
+      "id" : 346,
+      "date" : 1578894728821,
+      "word" : "bus",
+      "sentence" : "The bus comes every 10 minutes."
+    }, {
+      "id" : 347,
+      "date" : 1578894728821,
+      "word" : "business",
+      "sentence" : "He has a business of selling bikes to kids."
+    }, {
+      "id" : 348,
+      "date" : 1578894728821,
+      "word" : "busy",
+      "sentence" : "I am very busy."
+    }, {
+      "id" : 349,
+      "date" : 1578894728821,
+      "word" : "but",
+      "sentence" : "I love to play outside, but it is raining."
+    }, {
+      "id" : 350,
+      "date" : 1578894728821,
+      "word" : "buy",
+      "sentence" : "I always ask mom to buy me ice cream."
+    }, {
+      "id" : 351,
+      "date" : 1578894728821,
+      "word" : "call",
+      "sentence" : "Call 911 when there is an emergency."
+    }, {
+      "id" : 352,
+      "date" : 1578894728821,
+      "word" : "can",
+      "sentence" : "Can you help me with this?"
+    },{
+      "id" : 353,
+      "date" : 1578894728821,
+      "word" : "car",
+      "sentence" : "Too many cars on the street."
+    }, {
+      "id" : 354,
+      "date" : 1578894728821,
+      "word" : "card",
+      "sentence" : "Pokemon cards are interesting"
+    }, {
+      "id" : 355,
+      "date" : 1578894728821,
+      "word" : "care",
+      "sentence" : "Take care of George for me."
+    }, {
+      "id" : 356,
+      "date" : 1578894728821,
+      "word" : "carry",
+      "sentence" : "Carry out the garbage please."
+    }, {
+      "id" : 357,
+      "date" : 1578894728821,
+      "word" : "case",
+      "sentence" : "The travel case is packed full with clothes."
+    }, {
+      "id" : 358,
+      "date" : 1578894728821,
+      "word" : "cat",
+      "sentence" : "Cats are cute."
+    }, {
+      "id" : 359,
+      "date" : 1578894728821,
+      "word" : "catch",
+      "sentence" : "Catching fish is hard."
+    }, {
+      "id" : 360,
+      "date" : 1578894728821,
+      "word" : "cause",
+      "sentence" : "The cause of the forest fire is careless people."
+    }, {
+      "id" : 361,
+      "date" : 1578894728821,
+      "word" : "cent",
+      "sentence" : "100 cents makes a dollar."
+    }, {
+      "id" : 362,
+      "date" : 1578894728821,
+      "word" : "centre",
+      "sentence" : "The centre of the earth is made of iron."
+    }, {
+      "id" : 363,
+      "date" : 1578894728821,
+      "word" : "certain",
+      "sentence" : "It is certain that the earth moves around the sun. "
+    }, {
+      "id" : 364,
+      "date" : 1578894728821,
+      "word" : "chair",
+      "sentence" : "I have 6 chairs at home."
+    }, {
+      "id" : 365,
+      "date" : 1578894728821,
+      "word" : "chairman",
+      "sentence" : "The chairman(leader) of the company is called Mr. Big."
+    }, {
+      "id" : 366,
+      "date" : 1578894728821,
+      "word" : "chance",
+      "sentence" : "There is no chance that earth is flat."
+    }, {
+      "id" : 367,
+      "date" : 1578894728821,
+      "word" : "change",
+      "sentence" : "Change is good."
+    }, {
+      "id" : 369,
+      "date" : 1578894728821,
+      "word" : "character",
+      "sentence" : "Peppa is a character in the show called \"peppa pig\""
+    }, {
+      "id" : 370,
+      "date" : 1578894728821,
+      "word" : "charge",
+      "sentence" : "my car needs more charge to go further."
+    }, {
+      "id" : 371,
+      "date" : 1578894728821,
+      "word" : "cheap",
+      "sentence" : "Lego kits are not cheap."
+    }, {
+      "id" : 372,
+      "date" : 1578894728821,
+      "word" : "check",
+      "sentence" : "Check your math homework! see if you did everything correctly."
+    }, {
+      "id" : 373,
+      "date" : 1578894728821,
+      "word" : "child",
+      "sentence" : "Children is made of many child. "
+    }, {
+      "id" : 374,
+      "date" : 1578894728821,
+      "word" : "choice",
+      "sentence" : "my choice for lunch is pizza. "
+    }, {
+      "id" : 375,
+      "date" : 1578894728821,
+      "word" : "choose",
+      "sentence" : "Pikachu! I choose you!"
+    }, {
+      "id" : 377,
+      "date" : 1578894728821,
+      "word" : "Christmas",
+      "sentence" : "Merry Christmas!"
+    }, {
+      "id" : 378,
+      "date" : 1578894728821,
+      "word" : "church",
+      "sentence" : "Many people go to church on Sunday."
+    }, {
+      "id" : 379,
+      "date" : 1578894728821,
+      "word" : "claim",
+      "sentence" : "Tommy claims he knows everything which is not true."
+    }, {
+      "id" : 380,
+      "date" : 1578894728821,
+      "word" : "clean",
+      "sentence" : "Daddy always asks me to clean my desk. "
+    }, {
+      "id" : 381,
+      "date" : 1578894728821,
+      "word" : "clear",
+      "sentence" : "Teacher makes it clear to always wash hands before food"
+    }, {
+      "id" : 383,
+      "date" : 1578894728821,
+      "word" : "close",
+      "sentence" : "I live very close to the school."
+    }, {
+      "id" : 385,
+      "date" : 1578894728821,
+      "word" : "clothe",
+      "sentence" : "We will wear new clothes on new years day."
+    }, {
+      "id" : 387,
+      "date" : 1578894728821,
+      "word" : "coffee",
+      "sentence" : "Daddy loves to drink coffee."
+    }, {
+      "id" : 388,
+      "date" : 1578894728821,
+      "word" : "cold",
+      "sentence" : "Winter is cold."
+    }, {
+      "id" : 390,
+      "date" : 1578894728821,
+      "word" : "collect",
+      "sentence" : "I like to collect rocks."
+    }, {
+      "id" : 391,
+      "date" : 1578894728821,
+      "word" : "college",
+      "sentence" : "College is a school for big big kids."
+    }, {
+      "id" : 392,
+      "date" : 1578894728821,
+      "word" : "colour",
+      "sentence" : "I like to draw with many colors."
+    }, {
+      "id" : 393,
+      "date" : 1578894728821,
+      "word" : "come",
+      "sentence" : "Come in!"
+    }, {
+      "id" : 394,
+      "date" : 1578894728821,
+      "word" : "comment",
+      "sentence" : "Teacher is making a comment beside the paragraph."
+    }, {
+      "id" : 397,
+      "date" : 1578894728821,
+      "word" : "common",
+      "sentence" : "many animals have a common name and a science name."
+    }, {
+      "id" : 398,
+      "date" : 1578894728821,
+      "word" : "community",
+      "sentence" : "Community is a group of people sharing similar things together."
+    }, {
+      "id" : 399,
+      "date" : 1578894728821,
+      "word" : "company",
+      "sentence" : "A company is a group of people who share the same goal."
+    }, {
+      "id" : 400,
+      "date" : 1578894728821,
+      "word" : "compare",
+      "sentence" : "Compare to the Diesel train, sky train runs on electricity."
+    }, {
+      "id" : 401,
+      "date" : 1578894728821,
+      "word" : "complete",
+      "sentence" : "The puzzle is complete when all the pieces are in the right place."
+    }, {
+      "id" : 402,
+      "date" : 1578894728821,
+      "word" : "compute",
+      "sentence" : "2 - 3 ? and  3 / 0 ? does not compute..."
+    }, {
+      "id" : 403,
+      "date" : 1578894728821,
+      "word" : "concern",
+      "sentence" : "The school master is very concerned with the health of the children."
     }
   ]
 }

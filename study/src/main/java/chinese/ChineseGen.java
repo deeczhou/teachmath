@@ -1,14 +1,13 @@
-package english;
+package chinese;
 
 import models.Word;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class EnglishGen {
+public class ChineseGen {
 
-    static final String fillSpace = "________________";
+    static final String fillSpace = "____________";
     static final String tab = "\t";
     static final String newLine = "\n";
 
@@ -17,16 +16,13 @@ public class EnglishGen {
         return words.get(index);
     }
 
-    public static StringBuilder generateWords(StringBuilder sb, List<Word> words, int number) {
+    public static StringBuilder generateChineseWords(StringBuilder sb, List<Word> words, int number) {
         while (number > 0) {
             Word w = getRandomWord(words);
-            while(w.getWord().length() > 6) {
-                w = getRandomWord(words);
-            }
 
-            sb.append(w.getWord()).append("\t\t").append(w.getSentence())
-                    .append(newLine).append(newLine).append(newLine);
-            addFillSpaces(sb).append(newLine).append(newLine);
+            sb.append(w.getWord()).append("\t\t\t").append(w.getSentence())
+                    .append(newLine).append(newLine).append(newLine).append(newLine).append(newLine);
+            addFillSpaces(sb).append(newLine).append(newLine).append(newLine).append(newLine);
 
             number--;
             words.remove(w);
@@ -35,7 +31,7 @@ public class EnglishGen {
     }
 
     private static StringBuilder addFillSpaces(StringBuilder sb) {
-        for(int i = 0; i< 4; i++) {
+        for(int i = 0; i< 5; i++) {
             sb.append(fillSpace).append(tab);
         }
         return sb;

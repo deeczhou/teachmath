@@ -1,0 +1,148 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "date": 1577601297032,
+      "word": "一",
+      "sentence": "One"
+    },
+    {
+      "id": 2,
+      "date": 1577601297032,
+      "word": "二",
+      "sentence": "Two"
+    },
+    {
+      "id": 3,
+      "date": 1577601297032,
+      "word": "三",
+      "sentence": "Three"
+    },
+    {
+      "id": 4,
+      "date": 1577601297032,
+      "word": "四",
+      "sentence": "Four"
+    },
+    {
+      "id": 5,
+      "date": 1577601297032,
+      "word": "五",
+      "sentence": "Five"
+    },
+    {
+      "id": 6,
+      "date": 1577601297032,
+      "word": "六",
+      "sentence": "Six"
+    },
+    {
+      "id": 7,
+      "date": 1577601297032,
+      "word": "七",
+      "sentence": "Seven"
+    },
+    {
+      "id": 8,
+      "date": 1577601297032,
+      "word": "八",
+      "sentence": "eight"
+    },
+    {
+      "id": 9,
+      "date": 1577601297032,
+      "word": "九",
+      "sentence": "Nine"
+    },
+    {
+      "id": 10,
+      "date": 1577601297032,
+      "word": "十",
+      "sentence": "Ten"
+    },
+    {
+      "id": 11,
+      "date": 1577601297032,
+      "word": "我",
+      "sentence": "me, I, my"
+    },
+    {
+      "id": 12,
+      "date": 1577601297032,
+      "word": "你",
+      "sentence": "you"
+    },
+    {
+      "id": 13,
+      "date": 1577601297032,
+      "word": "他",
+      "sentence": "He"
+    },
+    {
+      "id": 14,
+      "date": 1577601297032,
+      "word": "她",
+      "sentence": "She"
+    },
+    {
+      "id": 15,
+      "date": 1577601297032,
+      "word": "它",
+      "sentence": "It"
+    },
+    {
+      "id": 16,
+      "date": 1577601297032,
+      "word": "早",
+      "sentence": "early"
+    },
+    {
+      "id": 17,
+      "date": 1577601297032,
+      "word": "午",
+      "sentence": "noon"
+    },
+    {
+      "id": 18,
+      "date": 1577601297032,
+      "word": "上",
+      "sentence": "up"
+    },
+    {
+      "id": 19,
+      "date": 1577601297032,
+      "word": "下",
+      "sentence": "down"
+    },
+    {
+      "id": 20,
+      "date": 1577601297032,
+      "word": "上午",
+      "sentence": "Morning"
+    },
+    {
+      "id": 21,
+      "date": 1577601297032,
+      "word": "下午",
+      "sentence": "Afternoon"
+    },
+    {
+      "id": 22,
+      "date": 1577601297032,
+      "word": "周",
+      "sentence": "Zhou"
+    },
+    {
+      "id": 23,
+      "date": 1577601297032,
+      "word": "德",
+      "sentence": "De"
+    },
+    {
+      "id": 24,
+      "date": 1577601297032,
+      "word": "灏",
+      "sentence": "Hao"
+    }
+  ]
+}
