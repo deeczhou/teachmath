@@ -143,6 +143,42 @@
       "date": 1577601297032,
       "word": "灏",
       "sentence": "Hao"
+    },
+    {
+      "id": 25,
+      "date": 1577601297032,
+      "word": "左",
+      "sentence": "left"
+    },
+    {
+      "id": 26,
+      "date": 1577601297032,
+      "word": "右",
+      "sentence": "right"
+    },
+    {
+      "id": 27,
+      "date": 1577601297032,
+      "word": "口",
+      "sentence": "mouth"
+    },
+    {
+      "id": 28,
+      "date": 1577601297032,
+      "word": "眼",
+      "sentence": "eye"
+    },
+    {
+      "id": 29,
+      "date": 1577601297032,
+      "word": "耳",
+      "sentence": "ear"
+    },
+    {
+      "id": 30,
+      "date": 1577601297032,
+      "word": "头",
+      "sentence": "head"
     }
   ]
 }

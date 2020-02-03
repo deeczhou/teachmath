@@ -52,10 +52,10 @@ public class MathGen {
             resmap.put(i, p);
             addToThisStringBuilder(sb, p, SIMPLE_ADD);
             if (i%5 == 0) {
-                sb.append("\n\n");
+                sb.append("\n\n\n");
             }
         }
-        sb.append("\n");
+        sb.append("\n\n");
         return sb;
     }
 
@@ -75,11 +75,11 @@ public class MathGen {
             addToThisStringBuilder(sb, p, SIMPLE_MINUS);
 
             if (i%5 == 0) {
-                sb.append("\n\n");
+                sb.append("\n\n\n");
             }
         }
 
-        sb.append("\n");
+        sb.append("\n\n");
         return sb;
     }
 
@@ -109,11 +109,11 @@ public class MathGen {
             sb.append(b);
             sb.append("\t\t");
             if (i%5 == 0) {
-                sb.append("\n\n");
+                sb.append("\n\n\n");
             }
         }
 
-        sb.append("\n");
+        sb.append("\n\n");
         return sb;
     }
 

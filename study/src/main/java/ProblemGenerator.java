@@ -2,6 +2,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import models.Dictionary;
 import java.io.*;
 import java.time.LocalDate;
+import java.time.ZoneId;
 
 import static english.EnglishGen.generateWords;
 import static chinese.ChineseGen.generateChineseWords;
@@ -10,7 +11,7 @@ import static math.MathGen.*;
 public class ProblemGenerator {
     public static void main(String[] args) {
         try {
-            LocalDate ld = LocalDate.now();
+            LocalDate ld = LocalDate.now(ZoneId.of("UTC"));
             String newline = "\n";
 
             String filename = "/home/dee/homework/hw-" + ld.toString() + ".doc";
@@ -26,14 +27,14 @@ public class ProblemGenerator {
             Dictionary chineseDic = om.readValue(c, Dictionary.class);
 
             StringBuilder sb = new StringBuilder();
-            sb.append(ld.toString()).append("    ").append(ld.getDayOfWeek().toString()).append("\n\n");
+            sb.append(ld.toString()).append("    ").append(ld.getDayOfWeek().toString()).append("\n\n\n\n\n");
 
-            buildSimpleAdd(sb, 40, 5, 40);
-            buildFillInAdd(sb, 40, 2, 10, 25);
-            buildSimpleMinus(sb, 60, 1, 25);
-            generateChineseWords(sb, chineseDic.getWords(), 5)
+            buildSimpleAdd(sb, 25, 10, 50);
+            buildFillInAdd(sb, 25, 2, 10, 25);
+            buildSimpleMinus(sb, 30, 5, 30);
+            generateChineseWords(sb, chineseDic.getWords(), 6)
                     .append(newline).append(newline);
-            generateWords(sb, englishdic.getWords(), 22);
+            generateWords(sb, englishdic.getWords(), 20);
             writeToOutput(os, sb);
         } catch (IOException e) {
             e.printStackTrace();
