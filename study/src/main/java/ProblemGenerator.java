@@ -29,9 +29,9 @@ public class ProblemGenerator {
             StringBuilder sb = new StringBuilder();
             sb.append(ld.toString()).append("    ").append(ld.getDayOfWeek().toString()).append("\n\n\n\n\n");
 
-            buildSimpleAdd(sb, 25, 10, 50);
-            buildFillInAdd(sb, 25, 2, 10, 25);
-            buildSimpleMinus(sb, 30, 5, 30);
+            buildSimpleAdd(sb, 25, 10, 55);
+            buildFillInAdd(sb, 25, 5, 10, 30);
+            buildSimpleMinus(sb, 30, 5, 50);
             generateChineseWords(sb, chineseDic.getWords(), 6)
                     .append(newline).append(newline);
             generateWords(sb, englishdic.getWords(), 20);

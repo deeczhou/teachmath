@@ -5,6 +5,7 @@ import models.Word;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
+import chinese.PinyinGen;
 
 public class ChineseGen {
 
@@ -21,7 +22,10 @@ public class ChineseGen {
         while (number > 0) {
             Word w = getRandomWord(words);
 
-            sb.append(w.getWord()).append("\t\t\t").append(w.getSentence())
+            sb.append(w.getWord()).append("\t")
+                    .append(PinyinGen.toPinyin(w.getWord()).get())
+                    .append("\t\t")
+                    .append(w.getSentence())
                     .append(newLine).append(newLine).append(newLine).append(newLine).append(newLine);
             addFillSpaces(sb).append(newLine).append(newLine).append(newLine).append(newLine);
 

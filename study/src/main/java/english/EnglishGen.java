@@ -28,7 +28,7 @@ public class EnglishGen {
 
             sb.append(w.getWord()).append("\t\t").append(w.getSentence())
                     .append(newLine).append(newLine).append(newLine);
-            addFillSpaces(sb).append(newLine).append(newLine);
+            addFillSpaces(sb).append(newLine).append(newLine).append(newLine);
 
             number--;
             words.remove(w);

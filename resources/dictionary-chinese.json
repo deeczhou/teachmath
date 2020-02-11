@@ -179,6 +179,186 @@
       "date": 1577601297032,
       "word": "头",
       "sentence": "head"
+    },
+    {
+      "id": 31,
+      "date": 1577601297032,
+      "word": "月",
+      "sentence": "moon"
+    },
+    {
+      "id": 32,
+      "date": 1577601297032,
+      "word": "星",
+      "sentence": "star"
+    },
+    {
+      "id": 33,
+      "date": 1577601297032,
+      "word": "日",
+      "sentence": "sun"
+    },
+    {
+      "id": 34,
+      "date": 1577601297032,
+      "word": "球",
+      "sentence": "ball"
+    },
+    {
+      "id": 35,
+      "date": 1577601297032,
+      "word": "春",
+      "sentence": "spring"
+    },
+    {
+      "id": 36,
+      "date": 1577601297032,
+      "word": "夏",
+      "sentence": "summer"
+    },
+    {
+      "id": 37,
+      "date": 1577601297032,
+      "word": "秋",
+      "sentence": "autumn"
+    },
+    {
+      "id": 38,
+      "date": 1577601297032,
+      "word": "冬",
+      "sentence": "winter"
+    },
+    {
+      "id": 39,
+      "date": 1577601297032,
+      "word": "东",
+      "sentence": "east"
+    },
+    {
+      "id": 40,
+      "date": 1577601297032,
+      "word": "西",
+      "sentence": "west"
+    },
+    {
+      "id": 41,
+      "date": 1577601297032,
+      "word": "南",
+      "sentence": "south"
+    },
+    {
+      "id": 42,
+      "date": 1577601297032,
+      "word": "北",
+      "sentence": "north"
+    },
+    {
+      "id": 43,
+      "date": 1577601297032,
+      "word": "中",
+      "sentence": "middle"
+    },
+    {
+      "id": 44,
+      "date": 1577601297032,
+      "word": "男",
+      "sentence": "boy"
+    },
+    {
+      "id": 45,
+      "date": 1577601297032,
+      "word": "女",
+      "sentence": "girl"
+    },
+    {
+      "id": 46,
+      "date": 1577601297032,
+      "word": "孩",
+      "sentence": "kid"
+    },
+    {
+      "id": 47,
+      "date": 1577601297032,
+      "word": "加",
+      "sentence": "add"
+    },
+    {
+      "id": 48,
+      "date": 1577601297032,
+      "word": "减",
+      "sentence": "minus"
+    },
+    {
+      "id": 49,
+      "date": 1577601297032,
+      "word": "大",
+      "sentence": "big"
+    },
+    {
+      "id": 50,
+      "date": 1577601297032,
+      "word": "小",
+      "sentence": "small"
+    },
+    {
+      "id": 51,
+      "date": 1577601297032,
+      "word": "拿",
+      "sentence": "take"
+    },
+    {
+      "id": 52,
+      "date": 1577601297032,
+      "word": "这",
+      "sentence": "this"
+    },
+    {
+      "id": 53,
+      "date": 1577601297032,
+      "word": "那",
+      "sentence": "that"
+    },
+    {
+      "id": 54,
+      "date": 1577601297032,
+      "word": "公",
+      "sentence": "public"
+    },
+    {
+      "id": 55,
+      "date": 1577601297032,
+      "word": "交",
+      "sentence": ""
+    },
+    {
+      "id": 56,
+      "date": 1577601297032,
+      "word": "手",
+      "sentence": "hand"
+    },
+    {
+      "id": 57,
+      "date": 1577601297032,
+      "word": "脚",
+      "sentence": "feet"
+    },
+    {
+      "id": 58,
+      "date": 1577601297032,
+      "word": "指",
+      "sentence": "finger"
+    },
+    {
+      "id": 59,
+      "date": 1577601297032,
+      "word": "发",
+      "sentence": "hair"
+    },
+    {
+      "id": 60,
+      "date": 1577601297032,
+      "word": "玩",
+      "sentence": "play"
     }
   ]
 }
