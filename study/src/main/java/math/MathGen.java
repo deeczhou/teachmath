@@ -1,6 +1,9 @@
 package math;
 
 import javafx.util.Pair;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
+import org.apache.poi.xwpf.usermodel.XWPFParagraph;
+import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,7 +40,11 @@ public class MathGen {
         return p;
     }
 
-    public static StringBuilder buildSimpleAdd(StringBuilder sb, int numberOfProblems, int from, int to) {
+    public static void buildSimpleAdd(XWPFDocument doc, int numberOfProblems, int from, int to) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(2.5);
+        XWPFRun run = paragraph.createRun();
+
         Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
             Pair<Integer, Integer> p = generateSimpleAddPair(from, to);
@@ -50,16 +57,18 @@ public class MathGen {
                 }
             }
             resmap.put(i, p);
-            addToThisStringBuilder(sb, p, SIMPLE_ADD);
+            addToLine(run, p, SIMPLE_ADD);
             if (i%5 == 0) {
-                sb.append("\n\n\n");
+                run.addBreak();
             }
         }
-        sb.append("\n\n");
-        return sb;
     }
 
-    public static StringBuilder buildSimpleMinus(StringBuilder sb, int numberOfProblems, int from, int to) {
+    public static void buildSimpleMinus(XWPFDocument doc, int numberOfProblems, int from, int to) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(2.5);
+        XWPFRun run = paragraph.createRun();
+
         Map<Integer, Pair<Integer, Integer>> resMap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
             Pair<Integer, Integer> p = generateSimpleMinusPair(from, to);
@@ -72,24 +81,22 @@ public class MathGen {
                 }
             }
             resMap.put(i, p);
-            addToThisStringBuilder(sb, p, SIMPLE_MINUS);
-
+            addToLine(run, p, SIMPLE_MINUS);
             if (i%5 == 0) {
-                sb.append("\n\n\n");
+                run.addBreak();
             }
         }
-
-        sb.append("\n\n");
-        return sb;
     }
 
-    public static StringBuilder buildFillInAdd(StringBuilder sb, int numberOfProblems, int part, int medium, int sum) {
+    public static void buildFillInAdd(XWPFDocument doc, int numberOfProblems, int part, int medium, int sum) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(1.5);
+        XWPFRun run = paragraph.createRun();
         for (int i = 1; i <= numberOfProblems; i++) {
             int a = getRandomIntBetween(part, medium);
             int b = getRandomIntBetween(medium, sum);
             String first = "";
             String second = "";
-
             if (b%2 == 0) {
                 first = Integer.toString(a);
                 second = "__";
@@ -101,20 +108,11 @@ public class MathGen {
             while( b < a) {
                 b = getRandomIntBetween(5, 19);
             }
-
-            sb.append(first);
-            sb.append(" + ");
-            sb.append(second);
-            sb.append(" = ");
-            sb.append(b);
-            sb.append("\t\t");
+            run.setText(first + " + " + second + " = " + b + "         ");
             if (i%5 == 0) {
-                sb.append("\n\n\n");
+                run.addBreak();
             }
         }
-
-        sb.append("\n\n");
-        return sb;
     }
 
 
@@ -122,24 +120,16 @@ public class MathGen {
         return ThreadLocalRandom.current().nextInt(a, b);
     }
 
-    public static StringBuilder addToThisStringBuilder(StringBuilder sb, Pair<Integer, Integer> p, OptType type) {
+    public static XWPFRun addToLine(XWPFRun run, Pair<Integer, Integer> p, OptType type) {
+        String space = "         ";
         switch (type) {
             case SIMPLE_ADD:
-                sb.append(p.getKey());
-                sb.append(" + ");
-                sb.append(p.getValue());
-                sb.append(" = ");
-                sb.append("\t\t");
+                run.setText(p.getKey() + " + " + p.getValue() + " = " + space);
                 break;
             case SIMPLE_MINUS:
-                sb.append(p.getKey());
-                sb.append(" - ");
-                sb.append(p.getValue());
-                sb.append(" = ");
-                sb.append("\t\t");
+                run.setText(p.getKey() + " - " + p.getValue() + " = " + space);
                 break;
         }
-
-        return sb;
+        return run;
     }
 }

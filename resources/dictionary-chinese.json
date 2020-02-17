@@ -262,13 +262,13 @@
       "id": 44,
       "date": 1577601297032,
       "word": "男",
-      "sentence": "boy"
+      "sentence": "man"
     },
     {
       "id": 45,
       "date": 1577601297032,
       "word": "女",
-      "sentence": "girl"
+      "sentence": "woman"
     },
     {
       "id": 46,
@@ -359,6 +359,246 @@
       "date": 1577601297032,
       "word": "玩",
       "sentence": "play"
+    },
+    {
+      "id": 61,
+      "date": 1577601297032,
+      "word": "好",
+      "sentence": "good"
+    },
+    {
+      "id": 62,
+      "date": 1577601297032,
+      "word": "家",
+      "sentence": "home"
+    },
+    {
+      "id": 63,
+      "date": 1577601297032,
+      "word": "数",
+      "sentence": "count"
+    },
+    {
+      "id": 64,
+      "date": 1577601297032,
+      "word": "比",
+      "sentence": "compete"
+    },
+    {
+      "id": 65,
+      "date": 1577601297032,
+      "word": "高",
+      "sentence": "high"
+    },
+    {
+      "id": 66,
+      "date": 1577601297032,
+      "word": "喜欢",
+      "sentence": "like"
+    },
+    {
+      "id": 67,
+      "date": 1577601297032,
+      "word": "桔子",
+      "sentence": "orange"
+    },
+    {
+      "id": 68,
+      "date": 1577601297032,
+      "word": "方",
+      "sentence": "square"
+    },
+    {
+      "id": 69,
+      "date": 1577601297032,
+      "word": "木",
+      "sentence": "wood"
+    },
+    {
+      "id": 70,
+      "date": 1577601297032,
+      "word": "早",
+      "sentence": "morning"
+    },
+    {
+      "id": 71,
+      "date": 1577601297032,
+      "word": "安",
+      "sentence": "safe"
+    },
+    {
+      "id": 72,
+      "date": 1577601297032,
+      "word": "横",
+      "sentence": ""
+    },
+    {
+      "id": 73,
+      "date": 1577601297032,
+      "word": "竖",
+      "sentence": ""
+    },
+    {
+      "id": 74,
+      "date": 1577601297032,
+      "word": "撇",
+      "sentence": ""
+    },
+    {
+      "id": 75,
+      "date": 1577601297032,
+      "word": "捺",
+      "sentence": ""
+    },
+    {
+      "id": 76,
+      "date": 1577601297032,
+      "word": "点",
+      "sentence": "a point"
+    },
+    {
+      "id": 77,
+      "date": 1577601297032,
+      "word": "挑",
+      "sentence": "pick"
+    },
+    {
+      "id": 78,
+      "date": 1577601297032,
+      "word": "折",
+      "sentence": "turn"
+    },
+    {
+      "id": 79,
+      "date": 1577601297032,
+      "word": "斜",
+      "sentence": "slant"
+    },
+    {
+      "id": 80,
+      "date": 1577601297032,
+      "word": "勾",
+      "sentence": ""
+    },
+    {
+      "id": 81,
+      "date": 1577601297032,
+      "word": "甜",
+      "sentence": "sweet"
+    },
+    {
+      "id": 82,
+      "date": 1577601297032,
+      "word": "哥",
+      "sentence": "older brother"
+    },
+    {
+      "id": 83,
+      "date": 1577601297032,
+      "word": "弟",
+      "sentence": "younger brother"
+    },
+    {
+      "id": 84,
+      "date": 1577601297032,
+      "word": "姐",
+      "sentence": "older sister"
+    },
+    {
+      "id": 85,
+      "date": 1577601297032,
+      "word": "妹",
+      "sentence": "younger sister"
+    },
+    {
+      "id": 86,
+      "date": 1577601297032,
+      "word": "说",
+      "sentence": "speak"
+    },
+    {
+      "id": 87,
+      "date": 1577601297032,
+      "word": "谁",
+      "sentence": "who"
+    },
+    {
+      "id": 88,
+      "date": 1577601297032,
+      "word": "唱",
+      "sentence": "sing"
+    },
+    {
+      "id": 89,
+      "date": 1577601297032,
+      "word": "歌",
+      "sentence": "song"
+    },
+    {
+      "id": 90,
+      "date": 1577601297032,
+      "word": "可爱",
+      "sentence": "cute"
+    },
+    {
+      "id": 91,
+      "date": 1577601297032,
+      "word": "洁",
+      "sentence": "clean"
+    },
+    {
+      "id": 92,
+      "date": 1577601297032,
+      "word": "净",
+      "sentence": "clean"
+    },
+    {
+      "id": 93,
+      "date": 1577601297032,
+      "word": "康",
+      "sentence": "healthy"
+    },
+    {
+      "id": 94,
+      "date": 1577601297032,
+      "word": "父",
+      "sentence": "dad"
+    },
+    {
+      "id": 95,
+      "date": 1577601297032,
+      "word": "母",
+      "sentence": "mom"
+    },
+    {
+      "id": 96,
+      "date": 1577601297032,
+      "word": "来",
+      "sentence": "come"
+    },
+    {
+      "id": 97,
+      "date": 1577601297032,
+      "word": "去",
+      "sentence": "go"
+    },
+    {
+      "id": 98,
+      "date": 1577601297032,
+      "word": "苹果",
+      "sentence": "apple"
+    },
+    {
+      "id": 99,
+      "date": 1577601297032,
+      "word": "梨",
+      "sentence": "pear"
+    },
+    {
+      "id": 100,
+      "date": 1577601297032,
+      "word": "糖果",
+      "sentence": "candy"
     }
   ]
 }

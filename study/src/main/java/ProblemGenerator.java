@@ -1,8 +1,13 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import models.Dictionary;
+import org.apache.poi.xwpf.usermodel.*;
+
 import java.io.*;
 import java.time.LocalDate;
 import java.time.ZoneId;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static english.EnglishGen.generateWords;
 import static chinese.ChineseGen.generateChineseWords;
@@ -12,9 +17,8 @@ public class ProblemGenerator {
     public static void main(String[] args) {
         try {
             LocalDate ld = LocalDate.now(ZoneId.of("UTC"));
-            String newline = "\n";
 
-            String filename = "/home/dee/homework/hw-" + ld.toString() + ".doc";
+            String filename = "/home/dee/homework/hw-" + ld.toString() + ".docx";
             OutputStream os = new FileOutputStream(new File(filename));
 
             String dictFileDir = "resources/dictionary.json";
@@ -27,29 +31,42 @@ public class ProblemGenerator {
             Dictionary chineseDic = om.readValue(c, Dictionary.class);
 
             StringBuilder sb = new StringBuilder();
-            sb.append(ld.toString()).append("    ").append(ld.getDayOfWeek().toString()).append("\n\n\n\n\n");
+            sb.append(ld.toString()).append("    ").append(ld.getDayOfWeek().toString()).append("\n\n");
+            XWPFDocument doc = new XWPFDocument();
+            XWPFRun headRun = doc.createParagraph().createRun();
+            headRun.setText(sb.toString());
+            headRun.addBreak();
+            buildSimpleAdd(doc, 25, 10, 55);
+            buildSimpleMinus(doc, 30, 5, 50);
+            buildFillInAdd(doc, 25, 5, 10, 30);
+            doc.createParagraph();
+            generateChineseWords(doc, chineseDic.getWords(), 8);
+            generateWords(doc, englishdic.getWords(), 20);
 
-            buildSimpleAdd(sb, 25, 10, 55);
-            buildFillInAdd(sb, 25, 5, 10, 30);
-            buildSimpleMinus(sb, 30, 5, 50);
-            generateChineseWords(sb, chineseDic.getWords(), 6)
-                    .append(newline).append(newline);
-            generateWords(sb, englishdic.getWords(), 20);
-            writeToOutput(os, sb);
+            writeToOutput(os, doc);
+            os.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    private static void writeToOutput(OutputStream output, StringBuilder sb){
+    private static void writeToOutput(OutputStream output,XWPFDocument doc){
         try {
-            output.write(sb.toString().getBytes());
-            output.close();
+//            String o = sb.toString();
+//            List<String> ol = Arrays.asList(o.split("\n"));
+//            XWPFParagraph paragraph = doc.createParagraph();
+//            paragraph.setAlignment(ParagraphAlignment.LEFT);
+
+//            for (String line:ol) {
+//                XWPFRun run = paragraph.createRun();
+//                run.setText(line);
+//                run.addBreak();
+//                doc.write(output);
+//            }
+            doc.write(output);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        System.out.println(sb.toString());
     }
 
 }

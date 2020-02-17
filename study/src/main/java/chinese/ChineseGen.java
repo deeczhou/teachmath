@@ -1,44 +1,49 @@
 package chinese;
 
 import models.Word;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
+import org.apache.poi.xwpf.usermodel.XWPFParagraph;
+import org.apache.poi.xwpf.usermodel.XWPFRun;
 
+import java.awt.*;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
-import chinese.PinyinGen;
+
 
 public class ChineseGen {
 
-    static final String fillSpace = "____________";
+    static final String fillSpace = "_________";
     static final String tab = "\t";
-    static final String newLine = "\n";
 
     public static Word getRandomWord(List<Word> words) {
         Random r = new Random();
         return words.get(r.ints(0, words.size()).findAny().getAsInt());
     }
 
-    public static StringBuilder generateChineseWords(StringBuilder sb, List<Word> words, int number) {
+    public static void generateChineseWords(XWPFDocument doc, List<Word> words, int number) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(2);
+        XWPFRun run = paragraph.createRun();
+        run.setBold(true);
+        run.setFontFamily("MS Mincho");
+        run.setFontSize(14);
+        String space = "  ";
         while (number > 0) {
             Word w = getRandomWord(words);
+            String pinyin = PinyinGen.toPinyin(w.getWord()).get();
+            pinyin = pinyin.replaceAll("null", " ");
 
-            sb.append(w.getWord()).append("\t")
-                    .append(PinyinGen.toPinyin(w.getWord()).get())
-                    .append("\t\t")
-                    .append(w.getSentence())
-                    .append(newLine).append(newLine).append(newLine).append(newLine).append(newLine);
-            addFillSpaces(sb).append(newLine).append(newLine).append(newLine).append(newLine);
-
+            run.setText(w.getWord() + space + space + pinyin + space + space + w.getSentence());
+            run.addBreak();
+            run.setText(fillSpace + space);
+            run.setText(fillSpace + space);
+            run.setText(fillSpace + space);
+            run.setText(fillSpace + space);
+            run.setText(fillSpace + space);
+            run.addBreak();
             number--;
             words.remove(w);
         }
-        return sb;
     }
 
-    private static StringBuilder addFillSpaces(StringBuilder sb) {
-        for(int i = 0; i< 5; i++) {
-            sb.append(fillSpace).append(tab);
-        }
-        return sb;
-    }
 }
