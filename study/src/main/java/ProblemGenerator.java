@@ -42,7 +42,6 @@ public class ProblemGenerator {
             doc.createParagraph();
             generateChineseWords(doc, chineseDic.getWords(), 8);
             generateWords(doc, englishdic.getWords(), 20);
-
             writeToOutput(os, doc);
             os.close();
         } catch (IOException e) {
@@ -52,17 +51,6 @@ public class ProblemGenerator {
 
     private static void writeToOutput(OutputStream output,XWPFDocument doc){
         try {
-//            String o = sb.toString();
-//            List<String> ol = Arrays.asList(o.split("\n"));
-//            XWPFParagraph paragraph = doc.createParagraph();
-//            paragraph.setAlignment(ParagraphAlignment.LEFT);
-
-//            for (String line:ol) {
-//                XWPFRun run = paragraph.createRun();
-//                run.setText(line);
-//                run.addBreak();
-//                doc.write(output);
-//            }
             doc.write(output);
         } catch (IOException e) {
             e.printStackTrace();

@@ -9,12 +9,6 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
 import java.util.Optional;
 
 public class PinyinGen {
-
-    public static void main(String[] args) {
-        //System.out.println("我 " + toPinyin("我").get());
-
-    }
-
     public static Optional<String> toPinyin(String chineseChar) {
         String pinyin = null;
         try {
