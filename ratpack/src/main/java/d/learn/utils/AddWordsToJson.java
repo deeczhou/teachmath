@@ -1,15 +1,19 @@
-package utils;
+package d.learn.utils;
 
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import models.Dictionary;
-import models.Word;
+import d.learn.models.Dictionary;
+import d.learn.models.Word;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
 import java.time.Instant;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class AddWordsToJson {

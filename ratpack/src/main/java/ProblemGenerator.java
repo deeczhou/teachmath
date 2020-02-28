@@ -1,17 +1,17 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import models.Dictionary;
-import org.apache.poi.xwpf.usermodel.*;
+import d.learn.models.Dictionary;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.time.LocalDate;
 import java.time.ZoneId;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-import static english.EnglishGen.generateWords;
-import static chinese.ChineseGen.generateChineseWords;
-import static math.MathGen.*;
+import static d.learn.chinese.ChineseGen.generateChineseWords;
+import static d.learn.english.EnglishGen.generateWords;
+import static d.learn.math.MathGen.*;
+import org.apache.poi.xwpf.usermodel.*;
 
 public class ProblemGenerator {
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class ProblemGenerator {
 
             String filename = "/home/dee/homework/hw-" + ld.toString() + ".docx";
             OutputStream os = new FileOutputStream(new File(filename));
-
+            System.out.println(System.getProperties());
             String dictFileDir = "resources/dictionary.json";
             String chineseDicDir = "resources/dictionary-chinese.json";
             File f = new File(dictFileDir);

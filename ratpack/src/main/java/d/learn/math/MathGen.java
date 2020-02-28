@@ -1,4 +1,4 @@
-package math;
+package d.learn.math;
 
 import javafx.util.Pair;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
@@ -9,8 +9,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
-import static math.OptType.SIMPLE_ADD;
-import static math.OptType.SIMPLE_MINUS;
+import static d.learn.math.OptType.SIMPLE_ADD;
+import static d.learn.math.OptType.SIMPLE_MINUS;
 
 public class MathGen {
 

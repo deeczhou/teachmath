@@ -1,6 +1,6 @@
-package english;
+package d.learn.english;
 
-import models.Word;
+import d.learn.models.Word;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;

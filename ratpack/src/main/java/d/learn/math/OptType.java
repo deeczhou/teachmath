@@ -1,4 +1,4 @@
-package math;
+package d.learn.math;
 
 public enum OptType {
     SIMPLE_ADD,

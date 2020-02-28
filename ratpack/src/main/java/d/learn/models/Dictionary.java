@@ -1,4 +1,4 @@
-package models;
+package d.learn.models;
 
 import java.util.List;
 

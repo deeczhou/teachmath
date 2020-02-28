@@ -1,4 +1,4 @@
-package models;
+package d.learn.models;
 
 public class Word {
     long id;

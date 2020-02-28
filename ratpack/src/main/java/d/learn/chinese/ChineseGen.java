@@ -1,11 +1,10 @@
-package chinese;
+package d.learn.chinese;
 
-import models.Word;
+import d.learn.models.Word;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
-import java.awt.*;
 import java.util.List;
 import java.util.Random;
 
