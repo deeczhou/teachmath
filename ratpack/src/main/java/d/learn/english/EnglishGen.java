@@ -29,7 +29,7 @@ public class EnglishGen {
         run.setFontFamily("Verdana");
         while (number > 0) {
             Word w = getRandomWord(words);
-            while(w.getWord().length() > 6) {
+            while(w.getWord().length() > 10) {
                 w = getRandomWord(words);
             }
             StringBuilder sb = new StringBuilder();

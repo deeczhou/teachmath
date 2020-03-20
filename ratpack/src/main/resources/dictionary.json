@@ -1675,7 +1675,7 @@
       "id" : 328,
       "date" : 1578894728820,
       "word" : "blue",
-      "sentence" : "Blue and red makes yellow."
+      "sentence" : "Blue and red makes purple."
     }, {
       "id" : 329,
       "date" : 1578894728820,
@@ -2011,6 +2011,231 @@
       "date" : 1578894728821,
       "word" : "concern",
       "sentence" : "The school master is very concerned with the health of the children."
+    }, {
+      "id" : 404,
+    "date" : 1578894728821,
+    "word" : "condition",
+    "sentence" : "I am only allowed to watch TV on one condition: finished my homework"
+    }, {
+      "id" : 405,
+      "date" : 1578894728821,
+      "word" : "confer",
+      "sentence" : ""
+    }, {
+      "id" : 406,
+      "date" : 1578894728821,
+      "word" : "consider",
+      "sentence" : "I will consider (think about) going to the park. "
+    }, {
+      "id" : 407,
+      "date" : 1578894728821,
+      "word" : "consult",
+      "sentence" : "Let me consult with my teacher on this problem."
+    }, {
+      "id" : 408,
+      "date" : 1578894728821,
+      "word" : "contact",
+      "sentence" : "I will contact you soon."
+    }, {
+      "id" : 409,
+      "date" : 1578894728821,
+      "word" : "continue",
+      "sentence" : "Let's continue the game."
+    }, {
+      "id" : 410,
+      "date" : 1578894728821,
+      "word" : "contract",
+      "sentence" : "a contract is signed between the seller and the buyer."
+    }, {
+      "id" : 411,
+      "date" : 1578894728821,
+      "word" : "control",
+      "sentence" : "I love controlling toy cars."
+    }, {
+      "id" : 412,
+      "date" : 1578894728821,
+      "word" : "converse",
+      "sentence" : "Those people are conversing in Japanese."
+    }, {
+      "id" : 413,
+      "date" : 1578894728821,
+      "word" : "cook",
+      "sentence" : "Cooking is relaxing"
+    }, {
+      "id" : 414,
+      "date" : 1578894728821,
+      "word" : "copy",
+      "sentence" : "I copy english words every day. "
+    }, {
+      "id" : 415,
+      "date" : 1578894728821,
+      "word" : "corner",
+      "sentence" : "The toy store is right around the street corner."
+    }, {
+      "id" : 416,
+      "date" : 1578894728821,
+      "word" : "correct",
+      "sentence" : "I got all my math problems correct."
+    }, {
+      "id" : 417,
+      "date" : 1578894728821,
+      "word" : "cost",
+      "sentence" : "Lego sets costs a lot of money."
+    }, {
+      "id" : 418,
+      "date" : 1578894728821,
+      "word" : "could",
+      "sentence" : "I could really have some ice cream right now."
+    }, {
+      "id" : 419,
+      "date" : 1578894728821,
+      "word" : "council",
+      "sentence" : "There is a council in the school made up of some out-spoken people."
+    }, {
+      "id" : 420,
+      "date" : 1578894728821,
+      "word" : "count",
+      "sentence" : "Count how many stars there are in the sky."
+    }, {
+      "id" : 421,
+      "date" : 1578894728821,
+      "word" : "county",
+      "sentence" : "There are many counties in a State."
+    }, {
+      "id" : 422,
+      "date" : 1578894728821,
+      "word" : "couple",
+      "sentence" : "I like to have a couple of fruits as snack."
+    }, {
+      "id" : 423,
+      "date" : 1578894728821,
+      "word" : "course",
+      "sentence" : "Students in University need to take many courses to learn about the world."
+    }, {
+      "id" : 424,
+      "date" : 1578894728821,
+      "word" : "court",
+      "sentence" : "The gym has a basket ball court. "
+    }, {
+      "id" : 425,
+      "date" : 1578894728821,
+      "word" : "cover",
+      "sentence" : "The blanket is big enough to cover both of us."
+    }, {
+      "id" : 426,
+      "date" : 1578894728821,
+      "word" : "create",
+      "sentence" : "I love creating arts and crafts."
+    }, {
+      "id" : 427,
+      "date" : 1578894728821,
+      "word" : "cross",
+      "sentence" : "Look both ways, before crossing the street."
+    }, {
+      "id" : 428,
+      "date" : 1578894728821,
+      "word" : "cup",
+      "sentence" : "Daddy has many coffee cups. "
+    }, {
+      "id" : 429,
+      "date" : 1578894728821,
+      "word" : "current",
+      "sentence" : "The current is very strong in the river."
+    }, {
+      "id" : 430,
+      "date" : 1578894728821,
+      "word" : "cut",
+      "sentence" : "Cut apples into pieces before eating."
+    }, {
+      "id" : 431,
+      "date" : 1578894728821,
+      "word" : "dad",
+      "sentence" : "Daddy!"
+    }, {
+      "id" : 432,
+      "date" : 1578894728821,
+      "word" : "danger",
+      "sentence" : "Danger! Danger! Monster!"
+    }, {
+      "id" : 433,
+      "date" : 1578894728821,
+      "word" : "date",
+      "sentence" : "Set the date, holloween is coming"
+    }, {
+      "id" : 435,
+      "date" : 1578894728821,
+      "word" : "deal",
+      "sentence" : "That's a deal! I agree to it."
+    }, {
+      "id" : 436,
+      "date" : 1578894728821,
+      "word" : "dear",
+      "sentence" : "Dear Darren, It is time to take a nap."
+    }, {
+      "id" : 437,
+      "date" : 1578894728821,
+      "word" : "debate",
+      "sentence" : "The kids are debating whose story is more exciting."
+    }, {
+      "id" : 438,
+      "date" : 1578894728821,
+      "word" : "decide",
+      "sentence" : "Darren can't decide which story is his favorite"
+    }, {
+      "id" : 439,
+      "date" : 1578894728821,
+      "word" : "decision",
+      "sentence" : "Decision time! need to decide what to have for dinner"
+    }, {
+      "id" : 440,
+      "date" : 1578894728821,
+      "word" : "deep",
+      "sentence" : "Ocean is very deep."
+    }, {
+      "id" : 441,
+      "date" : 1578894728821,
+      "word" : "definite",
+      "sentence" : "Every math problem have a definite answer."
+    }, {
+      "id" : 442,
+      "date" : 1578894728821,
+      "word" : "degree",
+      "sentence" : "It is almost 30 degrees outside. SO HOT!"
+    }, {
+      "id" : 443,
+      "date" : 1578894728821,
+      "word" : "department",
+      "sentence" : "The food department is responsible for cooking lunch at school."
+    }, {
+      "id" : 444,
+      "date" : 1578894728821,
+      "word" : "depend",
+      "sentence" : "The city depends on the fire department to keep the city safe."
+    }, {
+      "id" : 445,
+      "date" : 1578894728821,
+      "word" : "describe",
+      "sentence" : "Can you describe about your day? what happened at school?"
+    }, {
+      "id" : 446,
+      "date" : 1578894728821,
+      "word" : "design",
+      "sentence" : "Darren designed the painting all by himself."
+    }, {
+      "id" : 447,
+      "date" : 1578894728821,
+      "word" : "detail",
+      "sentence" : "There is a lot of detail in the drawing Darren made."
+    }, {
+      "id" : 448,
+      "date" : 1578894728821,
+      "word" : "develop",
+      "sentence" : "We need to develop films into pictures."
+    }, {
+      "id" : 450,
+      "date" : 1578894728821,
+      "word" : "difference",
+      "sentence" : "WHat are the differences between cat and dog?"
     }
   ]
 }
