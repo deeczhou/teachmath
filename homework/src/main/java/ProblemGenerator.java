@@ -8,7 +8,6 @@ import java.io.OutputStream;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalUnit;
 
 import static d.learn.chinese.ChineseGen.generateChineseWords;
 import static d.learn.english.EnglishGen.generateWords;
@@ -26,8 +25,8 @@ public class ProblemGenerator {
             String filename = "/home/dee/homework/hw-" + ld.toString() + ".docx";
             OutputStream os = new FileOutputStream(new File(filename));
             System.out.println(System.getProperties());
-            String dictFileDir = "resources/dictionary.json";
-            String chineseDicDir = "resources/dictionary-chinese.json";
+            String dictFileDir = "src/resources/dictionary.json";
+            String chineseDicDir = "src/resources/dictionary-chinese.json";
 
             int numberOfMultiply = 18;
             int numberOfAdd = 30;
