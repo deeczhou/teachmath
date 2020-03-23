@@ -1,7 +1,5 @@
-*.iml
 .idea/
 out/
-**/*.iml
 **/*.class
 target/
 .gradle
