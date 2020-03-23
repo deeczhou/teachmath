@@ -12,6 +12,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import static d.learn.math.OptType.*;
 
 public class MathGen {
+    static Double LINE_SPACING = 1.4;
 
     public static Pair<Integer, Integer> generateNumberPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
@@ -47,7 +48,7 @@ public class MathGen {
 
     public static void buildMultiply(XWPFDocument doc, int numberOfProblems, int from, int to) {
         XWPFParagraph paragraph = doc.createParagraph();
-        paragraph.setSpacingBetween(2);
+        paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
 
         Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
@@ -72,7 +73,7 @@ public class MathGen {
 
     public static void buildSimpleAdd(XWPFDocument doc, int numberOfProblems, int from, int to) {
         XWPFParagraph paragraph = doc.createParagraph();
-        paragraph.setSpacingBetween(2);
+        paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
 
         Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
@@ -96,7 +97,7 @@ public class MathGen {
 
     public static void buildSimpleMinus(XWPFDocument doc, int numberOfProblems, int from, int to) {
         XWPFParagraph paragraph = doc.createParagraph();
-        paragraph.setSpacingBetween(2);
+        paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
 
         Map<Integer, Pair<Integer, Integer>> resMap = new HashMap<>();
@@ -120,30 +121,17 @@ public class MathGen {
 
     public static void buildFillInAdd(XWPFDocument doc, int numberOfProblems, int subValueMax, int sum) {
         XWPFParagraph paragraph = doc.createParagraph();
-        paragraph.setSpacingBetween(2.0);
+        paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
         for (int i = 1; i <= numberOfProblems; i++) {
             int a = getRandomIntBetween(5, subValueMax);
             int b = getRandomIntBetween(subValueMax, sum);
-            String first = "";
-            String second = "";
-            if (b%2 == 0) {
-                first = Integer.toString(a);
-                second = " _ ";
-            } else {
-                first = " _ ";
-                second = Integer.toString(a);
-            }
-
             while( b < a) {
                 b = getRandomIntBetween(subValueMax, sum);
             }
-
-            if (i%5 == 0) {
-                run.setText(first + " + " + second + " = " + b);
+            addToLine(run, new Pair<>(a, b), FILL_ADD);
+            if (i%4 == 0) {
                 run.addBreak();
-            } else {
-                run.setText(first + " + " + second + " = " + b + "       ");
             }
         }
     }
@@ -154,7 +142,7 @@ public class MathGen {
     }
 
     public static XWPFRun addToLine(XWPFRun run, Pair<Integer, Integer> p, OptType type) {
-        String space = "         ";
+        String space = "                   ";
         switch (type) {
             case SIMPLE_ADD:
                 run.setText(p.getKey() + " + " + p.getValue() + " = " + space);
@@ -163,7 +151,19 @@ public class MathGen {
                 run.setText(p.getKey() + " - " + p.getValue() + " = " + space);
                 break;
             case SIMPLE_MULTIPLY:
-                run.setText(p.getKey() + " x " + p.getValue() + " = " + space);
+                run.setText(p.getKey() + " x " + p.getValue() + " = " + "               ");
+                break;
+            case FILL_ADD:
+                String first = "";
+                String second = "";
+                if (p.getValue()%2 == 0) {
+                    first = Integer.toString(p.getKey());
+                    second = " ____ ";
+                } else {
+                    first = " ____ ";
+                    second = Integer.toString(p.getKey());
+                }
+                run.setText(first + " + " + second + " = " + p.getValue() + "               ");
                 break;
         }
         return run;

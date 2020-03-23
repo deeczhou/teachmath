@@ -11,8 +11,10 @@ import java.util.Random;
 
 public class ChineseGen {
 
-    static final String fillSpace = "_________";
-    static final String tab = "\t";
+    static final String FILL_SPACE = "___________";
+    static final String TAB = "\t";
+    static final String FONT_FAMILY = "Yu Gothic";
+    static final int FONT_SIZE = 15;
 
     public static Word getRandomWord(List<Word> words) {
         Random r = new Random();
@@ -21,11 +23,11 @@ public class ChineseGen {
 
     public static void generateChineseWords(XWPFDocument doc, List<Word> words, int number) {
         XWPFParagraph paragraph = doc.createParagraph();
-        paragraph.setSpacingBetween(2);
+        paragraph.setSpacingBetween(1.7);
         XWPFRun run = paragraph.createRun();
-        run.setBold(true);
-        run.setFontFamily("MS Mincho");
-        run.setFontSize(14);
+//        run.setBold(true);
+        run.setFontFamily(FONT_FAMILY);
+        run.setFontSize(FONT_SIZE);
         String space = "  ";
         while (number > 0) {
             Word w = getRandomWord(words);
@@ -34,11 +36,11 @@ public class ChineseGen {
 
             run.setText(w.getWord() + space + space + pinyin + space + space + w.getSentence());
             run.addBreak();
-            run.setText(fillSpace + space);
-            run.setText(fillSpace + space);
-            run.setText(fillSpace + space);
-            run.setText(fillSpace + space);
-            run.setText(fillSpace + space);
+            run.setText(FILL_SPACE + space);
+            run.setText(FILL_SPACE + space);
+            run.setText(FILL_SPACE + space);
+            run.setText(FILL_SPACE + space);
+            run.setText(FILL_SPACE + space);
             run.addBreak();
             number--;
             words.remove(w);
