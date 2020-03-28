@@ -10,7 +10,7 @@ import java.time.temporal.ChronoUnit;
 import org.apache.poi.xwpf.usermodel.*;
 
 public class HomeworkTime {
-    final static String ZONE_ID = "America/Vancouver";
+    final static String ZONE_ID = "UTC";
     static String outputDir = "/Users/dzhou/homework/";
     static String filePrefix = "hw-";
     static String fileExtension = ".docx";

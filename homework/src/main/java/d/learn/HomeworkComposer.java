@@ -29,7 +29,7 @@ public class HomeworkComposer {
     int numberOfChineseCharacters = 8;
     int numberOfEnglishWords = 19;
     int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus;
-    Pair<Integer, Integer> multiRange = new Pair<>(1, 4);
+    Pair<Integer, Integer> multiRange = new Pair<>(1, 5);
     Pair<Integer, Integer> addRange = new Pair<>(10, 100);
     Pair<Integer, Integer> minusRange = new Pair<>(5, 80);
     Pair<Integer, Integer> addFillRange = new Pair<>(15, 80);
