@@ -4,157 +4,157 @@
       "id": 1,
       "date": 1577601297032,
       "word": "一",
-      "sentence": "One"
+      "sentence": "一 辆 自 行 车"
     },
     {
       "id": 2,
       "date": 1577601297032,
       "word": "二",
-      "sentence": "Two"
+      "sentence": "一 加 一 是 二"
     },
     {
       "id": 3,
       "date": 1577601297032,
       "word": "三",
-      "sentence": "Three"
+      "sentence": "三 个 苹 果"
     },
     {
       "id": 4,
       "date": 1577601297032,
       "word": "四",
-      "sentence": "Four"
+      "sentence": "四 本 书"
     },
     {
       "id": 5,
       "date": 1577601297032,
       "word": "五",
-      "sentence": "Five"
+      "sentence": "五 只 老 虎"
     },
     {
       "id": 6,
       "date": 1577601297032,
       "word": "六",
-      "sentence": "Six"
+      "sentence": "六 棵 大 树"
     },
     {
       "id": 7,
       "date": 1577601297032,
       "word": "七",
-      "sentence": "Seven"
+      "sentence": "七 条 鱼"
     },
     {
       "id": 8,
       "date": 1577601297032,
       "word": "八",
-      "sentence": "eight"
+      "sentence": "八 支 笔"
     },
     {
       "id": 9,
       "date": 1577601297032,
       "word": "九",
-      "sentence": "Nine"
+      "sentence": "九 台 汽 车"
     },
     {
       "id": 10,
       "date": 1577601297032,
       "word": "十",
-      "sentence": "Ten"
+      "sentence": "十 粒 糖 果"
     },
     {
       "id": 11,
       "date": 1577601297032,
       "word": "我",
-      "sentence": "me, I, my"
+      "sentence": "我 的 玩 具"
     },
     {
       "id": 12,
       "date": 1577601297032,
       "word": "你",
-      "sentence": "you"
+      "sentence": "你 的 玩 具"
     },
     {
       "id": 13,
       "date": 1577601297032,
       "word": "他",
-      "sentence": "He"
+      "sentence": "他 的 玩 具"
     },
     {
       "id": 14,
       "date": 1577601297032,
       "word": "她",
-      "sentence": "She"
+      "sentence": "她 是 个 女 孩"
     },
     {
       "id": 15,
       "date": 1577601297032,
       "word": "它",
-      "sentence": "It"
+      "sentence": "它 是 一 只 狗"
     },
     {
       "id": 16,
       "date": 1577601297032,
       "word": "早",
-      "sentence": "early"
+      "sentence": "早 安"
     },
     {
       "id": 17,
       "date": 1577601297032,
       "word": "午",
-      "sentence": "noon"
+      "sentence": "午 安"
     },
     {
       "id": 18,
       "date": 1577601297032,
       "word": "上",
-      "sentence": "up"
+      "sentence": "上 课"
     },
     {
       "id": 19,
       "date": 1577601297032,
       "word": "下",
-      "sentence": "down"
+      "sentence": "桌 子 下 面"
     },
     {
       "id": 20,
       "date": 1577601297032,
       "word": "上午",
-      "sentence": "Morning"
+      "sentence": "上 午 的 阳 光"
     },
     {
       "id": 21,
       "date": 1577601297032,
       "word": "下午",
-      "sentence": "Afternoon"
+      "sentence": "下 午 的 茶"
     },
     {
       "id": 22,
       "date": 1577601297032,
       "word": "周",
-      "sentence": "Zhou"
+      "sentence": "周 日 的 早 餐 "
     },
     {
       "id": 23,
       "date": 1577601297032,
       "word": "德",
-      "sentence": "De"
+      "sentence": "德 德 很 臭"
     },
     {
       "id": 24,
       "date": 1577601297032,
       "word": "灏",
-      "sentence": "Hao"
+      "sentence": "灏 灏 灏"
     },
     {
       "id": 25,
       "date": 1577601297032,
       "word": "左",
-      "sentence": "left"
+      "sentence": "左 边 的 房 子"
     },
     {
       "id": 26,
       "date": 1577601297032,
       "word": "右",
-      "sentence": "right"
+      "sentence": "右 边 的 朋 友"
     },
     {
       "id": 27,
@@ -166,439 +166,445 @@
       "id": 28,
       "date": 1577601297032,
       "word": "眼",
-      "sentence": "eye"
+      "sentence": "眼 睛 的 颜 色"
     },
     {
       "id": 29,
       "date": 1577601297032,
       "word": "耳",
-      "sentence": "ear"
+      "sentence": "耳 朵 的 大 小"
     },
     {
       "id": 30,
       "date": 1577601297032,
       "word": "头",
-      "sentence": "head"
+      "sentence": "头 上 有 头 发"
     },
     {
       "id": 31,
       "date": 1577601297032,
       "word": "月",
-      "sentence": "moon"
+      "sentence": "月 亮 的 亮 光"
     },
     {
       "id": 32,
       "date": 1577601297032,
       "word": "星",
-      "sentence": "star"
+      "sentence": "星 星 的 耳 朵"
     },
     {
       "id": 33,
       "date": 1577601297032,
       "word": "日",
-      "sentence": "sun"
+      "sentence": "日 上 枝 头"
     },
     {
       "id": 34,
       "date": 1577601297032,
       "word": "球",
-      "sentence": "ball"
+      "sentence": "踢 球 好 么？"
     },
     {
       "id": 35,
       "date": 1577601297032,
       "word": "春",
-      "sentence": "spring"
+      "sentence": "春 天 的 阳 光"
     },
     {
       "id": 36,
       "date": 1577601297032,
       "word": "夏",
-      "sentence": "summer"
+      "sentence": "夏 天 的 暴 雨"
     },
     {
       "id": 37,
       "date": 1577601297032,
       "word": "秋",
-      "sentence": "autumn"
+      "sentence": "秋 天 的 大 风"
     },
     {
       "id": 38,
       "date": 1577601297032,
       "word": "冬",
-      "sentence": "winter"
+      "sentence": "冬 天 的 下 午 茶"
     },
     {
       "id": 39,
       "date": 1577601297032,
       "word": "东",
-      "sentence": "east"
+      "sentence": "东 方 日 出"
     },
     {
       "id": 40,
       "date": 1577601297032,
       "word": "西",
-      "sentence": "west"
+      "sentence": "西 方 日 落"
     },
     {
       "id": 41,
       "date": 1577601297032,
       "word": "南",
-      "sentence": "south"
+      "sentence": "南 方 鸟 飞"
     },
     {
       "id": 42,
       "date": 1577601297032,
       "word": "北",
-      "sentence": "north"
+      "sentence": "北 方 大 熊"
     },
     {
       "id": 43,
       "date": 1577601297032,
       "word": "中",
-      "sentence": "middle"
+      "sentence": "中 方 的 说 词"
     },
     {
       "id": 44,
       "date": 1577601297032,
       "word": "男",
-      "sentence": "man"
+      "sentence": "男 人 的 手"
     },
     {
       "id": 45,
       "date": 1577601297032,
       "word": "女",
-      "sentence": "woman"
+      "sentence": "女 人 的 嘴"
     },
     {
       "id": 46,
       "date": 1577601297032,
       "word": "孩",
-      "sentence": "kid"
+      "sentence": "孩 子 的 眼 睛"
     },
     {
       "id": 47,
       "date": 1577601297032,
       "word": "加",
-      "sentence": "add"
+      "sentence": "加 法 很 简 单"
     },
     {
       "id": 48,
       "date": 1577601297032,
       "word": "减",
-      "sentence": "minus"
+      "sentence": "减 法 更 简 单"
     },
     {
       "id": 49,
       "date": 1577601297032,
       "word": "大",
-      "sentence": "big"
+      "sentence": "大 大 的 苹 果"
     },
     {
       "id": 50,
       "date": 1577601297032,
       "word": "小",
-      "sentence": "small"
+      "sentence": "小 小 的 猫 咪"
     },
     {
       "id": 51,
       "date": 1577601297032,
       "word": "拿",
-      "sentence": "take"
+      "sentence": "拿 出 你 的 勇 气"
     },
     {
       "id": 52,
       "date": 1577601297032,
       "word": "这",
-      "sentence": "this"
+      "sentence": "这 位 小 朋 友"
     },
     {
       "id": 53,
       "date": 1577601297032,
       "word": "那",
-      "sentence": "that"
+      "sentence": "那 位 妈 妈"
     },
     {
       "id": 54,
       "date": 1577601297032,
       "word": "公",
-      "sentence": "public"
+      "sentence": "公 共 厕 所"
     },
     {
       "id": 55,
       "date": 1577601297032,
       "word": "交",
-      "sentence": ""
+      "sentence": "交 通 堵 塞"
     },
     {
       "id": 56,
       "date": 1577601297032,
       "word": "手",
-      "sentence": "hand"
+      "sentence": "洗 手 吃 饭"
     },
     {
       "id": 57,
       "date": 1577601297032,
       "word": "脚",
-      "sentence": "feet"
+      "sentence": "脚 趾"
     },
     {
       "id": 58,
       "date": 1577601297032,
       "word": "指",
-      "sentence": "finger"
+      "sentence": "手 指"
     },
     {
       "id": 59,
       "date": 1577601297032,
       "word": "发",
-      "sentence": "hair"
+      "sentence": "头 发"
     },
     {
       "id": 60,
       "date": 1577601297032,
       "word": "玩",
-      "sentence": "play"
+      "sentence": "玩 游 戏"
     },
     {
       "id": 61,
       "date": 1577601297032,
       "word": "好",
-      "sentence": "good"
+      "sentence": "好 好 的 做 功 课"
     },
     {
       "id": 62,
       "date": 1577601297032,
       "word": "家",
-      "sentence": "home"
+      "sentence": "家 里 的 亲 人"
     },
     {
       "id": 63,
       "date": 1577601297032,
       "word": "数",
-      "sentence": "count"
+      "sentence": "数 绵 羊"
     },
     {
       "id": 64,
       "date": 1577601297032,
       "word": "比",
-      "sentence": "compete"
+      "sentence": "比 较 高 低"
     },
     {
       "id": 65,
       "date": 1577601297032,
       "word": "高",
-      "sentence": "high"
+      "sentence": "高 高 的 大 山"
     },
     {
       "id": 66,
       "date": 1577601297032,
       "word": "喜欢",
-      "sentence": "like"
+      "sentence": "最 喜 欢 爸 爸 了"
     },
     {
       "id": 67,
       "date": 1577601297032,
-      "word": "桔子",
-      "sentence": "orange"
+      "word": "桔",
+      "sentence": "桔 子"
     },
     {
       "id": 68,
       "date": 1577601297032,
       "word": "方",
-      "sentence": "square"
+      "sentence": "方 形"
     },
     {
       "id": 69,
       "date": 1577601297032,
       "word": "木",
-      "sentence": "wood"
+      "sentence": "小 小 的 木 头"
     },
     {
       "id": 70,
       "date": 1577601297032,
       "word": "早",
-      "sentence": "morning"
+      "sentence": "早 上 好"
     },
     {
       "id": 71,
       "date": 1577601297032,
       "word": "安",
-      "sentence": "safe"
+      "sentence": "安 全 抵 达"
     },
     {
       "id": 72,
       "date": 1577601297032,
       "word": "横",
-      "sentence": ""
+      "sentence": "横 跨 大 陆"
     },
     {
       "id": 73,
       "date": 1577601297032,
       "word": "竖",
-      "sentence": ""
+      "sentence": "竖 立 的 旗 杆"
     },
     {
       "id": 74,
       "date": 1577601297032,
       "word": "撇",
-      "sentence": ""
+      "sentence": "撇 开"
     },
     {
       "id": 75,
       "date": 1577601297032,
       "word": "捺",
-      "sentence": ""
+      "sentence": "按 捺"
     },
     {
       "id": 76,
       "date": 1577601297032,
       "word": "点",
-      "sentence": "a point"
+      "sentence": "点 火"
     },
     {
       "id": 77,
       "date": 1577601297032,
       "word": "挑",
-      "sentence": "pick"
+      "sentence": "挑 扁 担"
     },
     {
       "id": 78,
       "date": 1577601297032,
       "word": "折",
-      "sentence": "turn"
+      "sentence": "打 折"
     },
     {
       "id": 79,
       "date": 1577601297032,
       "word": "斜",
-      "sentence": "slant"
+      "sentence": "斜 坡"
     },
     {
       "id": 80,
       "date": 1577601297032,
       "word": "勾",
-      "sentence": ""
+      "sentence": "勾 通"
     },
     {
       "id": 81,
       "date": 1577601297032,
       "word": "甜",
-      "sentence": "sweet"
+      "sentence": "甜 甜 的 水 果"
     },
     {
       "id": 82,
       "date": 1577601297032,
       "word": "哥",
-      "sentence": "older brother"
+      "sentence": "哥 哥 的 手 指"
     },
     {
       "id": 83,
       "date": 1577601297032,
       "word": "弟",
-      "sentence": "younger brother"
+      "sentence": "弟 弟 的 嘴 巴"
     },
     {
       "id": 84,
       "date": 1577601297032,
       "word": "姐",
-      "sentence": "older sister"
+      "sentence": "姐 姐 的 耳 朵"
     },
     {
       "id": 85,
       "date": 1577601297032,
       "word": "妹",
-      "sentence": "younger sister"
+      "sentence": "妹 妹 的 鼻 子"
     },
     {
       "id": 86,
       "date": 1577601297032,
       "word": "说",
-      "sentence": "speak"
+      "sentence": "说 话"
     },
     {
       "id": 87,
       "date": 1577601297032,
       "word": "谁",
-      "sentence": "who"
+      "sentence": "谁 在 说 话"
     },
     {
       "id": 88,
       "date": 1577601297032,
       "word": "唱",
-      "sentence": "sing"
+      "sentence": "谁 在 唱 歌"
     },
     {
       "id": 89,
       "date": 1577601297032,
       "word": "歌",
-      "sentence": "song"
+      "sentence": "谁 在 唱 歌"
     },
     {
       "id": 90,
       "date": 1577601297032,
       "word": "可爱",
-      "sentence": "cute"
+      "sentence": "可 爱 的 妈 妈"
     },
     {
       "id": 91,
       "date": 1577601297032,
       "word": "洁",
-      "sentence": "clean"
+      "sentence": "清 洁"
     },
     {
       "id": 92,
       "date": 1577601297032,
       "word": "净",
-      "sentence": "clean"
+      "sentence": "干 净"
     },
     {
       "id": 93,
       "date": 1577601297032,
       "word": "康",
-      "sentence": "healthy"
+      "sentence": "健 康"
     },
     {
       "id": 94,
       "date": 1577601297032,
       "word": "父",
-      "sentence": "dad"
+      "sentence": "父 亲"
     },
     {
       "id": 95,
       "date": 1577601297032,
       "word": "母",
-      "sentence": "mom"
+      "sentence": "母 亲"
     },
     {
       "id": 96,
       "date": 1577601297032,
       "word": "来",
-      "sentence": "come"
+      "sentence": "来 看 电 视"
     },
     {
       "id": 97,
       "date": 1577601297032,
       "word": "去",
-      "sentence": "go"
+      "sentence": "去 洗 手"
     },
     {
       "id": 98,
       "date": 1577601297032,
-      "word": "苹果",
-      "sentence": "apple"
+      "word": "苹",
+      "sentence": "苹 果"
     },
     {
       "id": 99,
       "date": 1577601297032,
       "word": "梨",
-      "sentence": "pear"
+      "sentence": "鸭 梨"
     },
     {
       "id": 100,
       "date": 1577601297032,
-      "word": "糖果",
-      "sentence": "candy"
+      "word": "糖",
+      "sentence": "糖 果"
+    },
+    {
+      "id": 100,
+      "date": 1577601297032,
+      "word": "果",
+      "sentence": "水 果"
     }
   ]
 }

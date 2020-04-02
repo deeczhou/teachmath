@@ -9,7 +9,6 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.time.LocalDate;
 
 import static d.learn.chinese.ChineseGen.generateChineseWords;
@@ -26,10 +25,10 @@ public class HomeworkComposer {
     int numberOfAdd = 25;
     int numberOfFillAdd = 24;
     int numberOfMinus = 25;
-    int numberOfChineseCharacters = 8;
+    int numberOfChineseCharacters = 10;
     int numberOfEnglishWords = 19;
     int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus;
-    Pair<Integer, Integer> multiRange = new Pair<>(1, 5);
+    Pair<Integer, Integer> multiRange = new Pair<>(1, 6);
     Pair<Integer, Integer> addRange = new Pair<>(10, 100);
     Pair<Integer, Integer> minusRange = new Pair<>(5, 80);
     Pair<Integer, Integer> addFillRange = new Pair<>(15, 80);
@@ -48,7 +47,7 @@ public class HomeworkComposer {
         headRun.setFontFamily(FONT_FAMILY);
         //1st page
         //date header
-        headRun.setText(ld.toString() + "    " + ld.getDayOfWeek().toString() + "                                  Name: ");
+        headRun.setText(ld.toString() + "    " + ld.getDayOfWeek().toString() + "                                  Name:____________");
         XWPFRun footerRun = doc.createFooter(HeaderFooterType.DEFAULT).createParagraph().createRun();
         footerRun.setFontSize(FONT_SIZE);
         footerRun.setFontFamily(FONT_FAMILY);

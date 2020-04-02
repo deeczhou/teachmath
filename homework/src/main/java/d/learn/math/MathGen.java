@@ -13,6 +13,7 @@ import static d.learn.math.OptType.*;
 
 public class MathGen {
     static Double LINE_SPACING = 1.4;
+    static String FONT_FAMILY = "Calibri";
 
     public static Pair<Integer, Integer> generateNumberPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
@@ -50,10 +51,10 @@ public class MathGen {
         XWPFParagraph paragraph = doc.createParagraph();
         paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
-
+        run.setFontFamily(FONT_FAMILY);
         Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
-            int multipleFor = getRandomIntBetween(from, to);
+            int multipleFor = getRandomIntBetween(from, to + 1);
             Pair<Integer, Integer> p = generateMultiplePair(multipleFor);
             int count = 0;
             while (resmap.containsValue(p)) {
@@ -75,6 +76,7 @@ public class MathGen {
         XWPFParagraph paragraph = doc.createParagraph();
         paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
 
         Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
@@ -99,6 +101,7 @@ public class MathGen {
         XWPFParagraph paragraph = doc.createParagraph();
         paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
 
         Map<Integer, Pair<Integer, Integer>> resMap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
@@ -123,6 +126,8 @@ public class MathGen {
         XWPFParagraph paragraph = doc.createParagraph();
         paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
+
         for (int i = 1; i <= numberOfProblems; i++) {
             int a = getRandomIntBetween(5, subValueMax);
             int b = getRandomIntBetween(subValueMax, sum);
