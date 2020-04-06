@@ -14,8 +14,8 @@ public class HomeworkTime {
     static String outputDir = "/Users/dzhou/homework/";
     static String filePrefix = "hw-";
     static String fileExtension = ".docx";
-    final static String englishDictPath = "homework/resources/dictionary.json";
-    final static String chineseDictPath = "homework/resources/dictionary-chinese.json";
+    final static String englishDictPath = "resources/dictionary.json";
+    final static String chineseDictPath = "resources/dictionary-chinese.json";
 
     public static void main(String[] args) {
         try {

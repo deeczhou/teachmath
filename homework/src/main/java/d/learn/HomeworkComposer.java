@@ -1,6 +1,7 @@
 package d.learn;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import d.learn.models.ChineseDictionary;
 import d.learn.models.Dictionary;
 import javafx.util.Pair;
 import org.apache.poi.wp.usermodel.HeaderFooterType;
@@ -40,7 +41,7 @@ public class HomeworkComposer {
 
     public XWPFDocument createHomeworkDoc(LocalDate ld) throws IOException {
         Dictionary englishdic = buildDictionary(englishDictPath);
-        Dictionary chineseDic = buildDictionary(chineseDictPath);
+        ChineseDictionary chineseDic = buildChineseDictionary(chineseDictPath);
         XWPFDocument doc = new XWPFDocument();
         XWPFRun headRun = doc.createHeader(HeaderFooterType.DEFAULT).createParagraph().createRun();
         headRun.setFontSize(FONT_SIZE);
@@ -87,5 +88,11 @@ public class HomeworkComposer {
         File f = new File(path);
         ObjectMapper om = new ObjectMapper();
         return om.readValue(f, Dictionary.class);
+    }
+
+    private ChineseDictionary buildChineseDictionary(String path) throws IOException {
+        File f = new File(path);
+        ObjectMapper om = new ObjectMapper();
+        return om.readValue(f, ChineseDictionary.class);
     }
 }

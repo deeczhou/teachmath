@@ -1,5 +1,6 @@
 package d.learn.chinese;
 
+import d.learn.models.ChineseWord;
 import d.learn.models.Word;
 import org.apache.poi.xwpf.usermodel.*;
 
@@ -16,18 +17,18 @@ public class ChineseGen {
     static final int FONT_SIZE = 18;
     static final int FONT_SIZE_TWO = 16;
 
-    public static Word getRandomWord(List<Word> words) {
+    public static ChineseWord getRandomWord(List<ChineseWord> words) {
         Random r = new Random();
         return words.get(r.ints(0, words.size()).findAny().getAsInt());
     }
 
-    public static void generateChineseWords(XWPFDocument doc, List<Word> words, int number) {
+    public static void generateChineseWords(XWPFDocument doc, List<ChineseWord> words, int number) {
         XWPFParagraph paragraph = doc.createParagraph();
         paragraph.setSpacingBetween(1.3);
 
         String space = "      ";
         while (number > 0) {
-            Word w = getRandomWord(words);
+            ChineseWord w = getRandomWord(words);
             String pinyin = PinyinGen.toPinyin(w.getWord()).get();
             pinyin = pinyin.replaceAll("null", " ");
             String sentence = w.getSentence();
@@ -53,7 +54,7 @@ public class ChineseGen {
             XWPFRun run2 = paragraph.createRun();
             run2.setFontFamily(FONT_FAMILY);
             run2.setFontSize(FONT_SIZE_TWO);
-            run2.setText(w.getSentence() + space + examplePinyin.toString());
+            run2.setText(w.getSentence() + space + examplePinyin.toString() + space + w.getTranslation());
             run2.addBreak();
             number--;
             words.remove(w);
