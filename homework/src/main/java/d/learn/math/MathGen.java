@@ -148,7 +148,7 @@ public class MathGen {
         run.setFontFamily(FONT_FAMILY);
 
         for (int i = 1; i <= numberOfProblems; i++) {
-            int a = getRandomIntBetween(1, upper);
+            int a = getRandomIntBetween(5, upper);
             int b = getRandomIntBetween(1, a);
             while( b == a) {
                 b = getRandomIntBetween(1, a);
