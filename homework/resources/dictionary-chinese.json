@@ -1,718 +1,1103 @@
 {
-  "words": [
-    {
-      "id": 1,
-      "date": 1577601297032,
-      "word": "一",
-      "sentence": "一 辆 自 行 车",
-      "translation": "a bike"
-    },
-    {
-      "id": 2,
-      "date": 1577601297032,
-      "word": "二",
-      "sentence": "一 加 一 是 二",
-      "translation": "1 plus 1 is 2."
-    },
-    {
-      "id": 3,
-      "date": 1577601297032,
-      "word": "三",
-      "sentence": "三 个 苹 果",
-      "translation": "three apples"
-    },
-    {
-      "id": 4,
-      "date": 1577601297032,
-      "word": "四",
-      "sentence": "四 本 书",
-      "translation": "four books"
-    },
-    {
-      "id": 5,
-      "date": 1577601297032,
-      "word": "五",
-      "sentence": "五 只 老 虎",
-      "translation": "five tigers"
-    },
-    {
-      "id": 6,
-      "date": 1577601297032,
-      "word": "六",
-      "sentence": "六 棵 大 树",
-      "translation": "six big trees"
-    },
-    {
-      "id": 7,
-      "date": 1577601297032,
-      "word": "七",
-      "sentence": "七 条 鱼",
-      "translation": "seven fish"
-    },
-    {
-      "id": 8,
-      "date": 1577601297032,
-      "word": "八",
-      "sentence": "八 支 笔",
-      "translation": "eight pens"
-    },
-    {
-      "id": 9,
-      "date": 1577601297032,
-      "word": "九",
-      "sentence": "九 台 汽 车",
-      "translation": "nine cars"
-    },
-    {
-      "id": 10,
-      "date": 1577601297032,
-      "word": "十",
-      "sentence": "十 粒 糖 果",
-      "translation": "ten pieces of candy"
-    },
-    {
-      "id": 11,
-      "date": 1577601297032,
-      "word": "我",
-      "sentence": "我 的 玩 具",
-      "translation": "my toys"
-    },
-    {
-      "id": 12,
-      "date": 1577601297032,
-      "word": "你",
-      "sentence": "你 的 玩 具",
-      "translation": "your toys"
-    },
-    {
-      "id": 13,
-      "date": 1577601297032,
-      "word": "他",
-      "sentence": "他 的 玩 具",
-      "translation": "his toys"
-    },
-    {
-      "id": 14,
-      "date": 1577601297032,
-      "word": "她",
-      "sentence": "她 是 个 女 孩",
-      "translation": "she is a girl"
-    },
-    {
-      "id": 15,
-      "date": 1577601297032,
-      "word": "它",
-      "sentence": "它 是 一 只 狗",
-      "translation": "it is a dog."
-    },
-    {
-      "id": 16,
-      "date": 1577601297032,
-      "word": "早",
-      "sentence": "早 安",
-      "translation": "good morning."
-    },
-    {
-      "id": 17,
-      "date": 1577601297032,
-      "word": "午",
-      "sentence": "午 安",
-      "translation": "good afternoon"
-    },
-    {
-      "id": 18,
-      "date": 1577601297032,
-      "word": "上",
-      "sentence": "上 课",
-      "translation": "going to school"
-    },
-    {
-      "id": 19,
-      "date": 1577601297032,
-      "word": "下",
-      "sentence": "桌 子 下 面",
-      "translation": "under the table."
-    },
-    {
-      "id": 20,
-      "date": 1577601297032,
-      "word": "上午",
-      "sentence": "上 午 的 阳 光",
-      "translation": "sunshine in the morning."
-    },
-    {
-      "id": 21,
-      "date": 1577601297032,
-      "word": "下午",
-      "sentence": "下 午 的 茶",
-      "translation": "tea in the aftternoon"
-    },
-    {
-      "id": 22,
-      "date": 1577601297032,
-      "word": "周",
-      "sentence": "周 日 的 早 餐 ",
-      "translation": "breakfast on sunday."
-    },
-    {
-      "id": 23,
-      "date": 1577601297032,
-      "word": "德",
-      "sentence": "德 德 很 臭",
-      "translation": "dareen is stinking"
-    },
-    {
-      "id": 24,
-      "date": 1577601297032,
-      "word": "灏",
-      "sentence": "灏 灏 灏",
-      "translation": "hao hao hao"
-    },
-    {
-      "id": 25,
-      "date": 1577601297032,
-      "word": "左",
-      "sentence": "左 边 的 房 子",
-      "translation": "house on the left. "
-    },
-    {
-      "id": 26,
-      "date": 1577601297032,
-      "word": "右",
-      "sentence": "右 边 的 朋 友",
-      "translation": "friend on the right. "
-    },
-    {
-      "id": 27,
-      "date": 1577601297032,
-      "word": "口",
-      "sentence": "口 臭",
-      "translation": "stinky mouth"
-    },
-    {
-      "id": 28,
-      "date": 1577601297032,
-      "word": "眼",
-      "sentence": "眼 睛 的 颜 色",
-      "translation": "eye color"
-    },
-    {
-      "id": 29,
-      "date": 1577601297032,
-      "word": "耳",
-      "sentence": "耳 朵 的 大 小",
-      "translation": "size of the ear. "
-    },
-    {
-      "id": 30,
-      "date": 1577601297032,
-      "word": "头",
-      "sentence": "头 上 有 头 发",
-      "translation": "hair on the head"
-    },
-    {
-      "id": 31,
-      "date": 1577601297032,
-      "word": "月",
-      "sentence": "月 亮 的 亮 光",
-      "translation": "light from the moon"
-    },
-    {
-      "id": 32,
-      "date": 1577601297032,
-      "word": "星",
-      "sentence": "星 星 的 耳 朵",
-      "translation": "ears of the stars"
-    },
-    {
-      "id": 33,
-      "date": 1577601297032,
-      "word": "日",
-      "sentence": "日 上 枝 头",
-      "translation": "sun risen above the tree"
-    },
-    {
-      "id": 34,
-      "date": 1577601297032,
-      "word": "球",
-      "sentence": "踢 球 好 么？",
-      "translation": "go kick ball?"
-    },
-    {
-      "id": 35,
-      "date": 1577601297032,
-      "word": "春",
-      "sentence": "春 天 的 阳 光",
-      "translation": "sunshine in the sprint"
-    },
-    {
-      "id": 36,
-      "date": 1577601297032,
-      "word": "夏",
-      "sentence": "夏 天 的 暴 雨",
-      "translation": "thunder storm in the summer"
-    },
-    {
-      "id": 37,
-      "date": 1577601297032,
-      "word": "秋",
-      "sentence": "秋 天 的 大 风",
-      "translation": "wind in the autumn "
-    },
-    {
-      "id": 38,
-      "date": 1577601297032,
-      "word": "冬",
-      "sentence": "冬 天 的 下 午 茶",
-      "translation": "afternoon team in the winter. "
-    },
-    {
-      "id": 39,
-      "date": 1577601297032,
-      "word": "东",
-      "sentence": "东 方 日 出",
-      "translation": "sun rises from the east"
-    },
-    {
-      "id": 40,
-      "date": 1577601297032,
-      "word": "西",
-      "sentence": "西 方 日 落",
-      "translation": "sun sets in the west"
-    },
-    {
-      "id": 41,
-      "date": 1577601297032,
-      "word": "南",
-      "sentence": "南 方 鸟 飞",
-      "translation": "birds fly to the south."
-    },
-    {
-      "id": 42,
-      "date": 1577601297032,
-      "word": "北",
-      "sentence": "北 方 大 熊",
-      "translation": "bear from the north."
-    },
-    {
-      "id": 43,
-      "date": 1577601297032,
-      "word": "中",
-      "sentence": "中 方 的 说 词",
-      "translation": ""
-    },
-    {
-      "id": 44,
-      "date": 1577601297032,
-      "word": "男",
-      "sentence": "男 人 的 手",
-      "translation": "man's hand"
-    },
-    {
-      "id": 45,
-      "date": 1577601297032,
-      "word": "女",
-      "sentence": "女 人 的 嘴",
-      "translation": "woman's mouse"
-    },
-    {
-      "id": 46,
-      "date": 1577601297032,
-      "word": "孩",
-      "sentence": "孩 子 的 眼 睛",
-      "translation": "kids' eyes"
-    },
-    {
-      "id": 47,
-      "date": 1577601297032,
-      "word": "加",
-      "sentence": "加 法 很 简 单",
-      "translation": "addition is easy"
-    },
-    {
-      "id": 48,
-      "date": 1577601297032,
-      "word": "减",
-      "sentence": "减 法 更 简 单",
-      "translation": "minus is even easier"
-    },
-    {
-      "id": 49,
-      "date": 1577601297032,
-      "word": "大",
-      "sentence": "大 大 的 苹 果",
-      "translation": "big big apple"
-    },
-    {
-      "id": 50,
-      "date": 1577601297032,
-      "word": "小",
-      "sentence": "小 小 的 猫 咪",
-      "translation": "small small cat"
-    },
-    {
-      "id": 51,
-      "date": 1577601297032,
-      "word": "拿",
-      "sentence": "拿 出 你 的 勇 气",
-      "translation": "bring out your bravery "
-    },
-    {
-      "id": 52,
-      "date": 1577601297032,
-      "word": "这",
-      "sentence": "这 位 小 朋 友",
-      "translation": "this little kid"
-    },
-    {
-      "id": 53,
-      "date": 1577601297032,
-      "word": "那",
-      "sentence": "那 位 妈 妈",
-      "translation": "that mom"
-    },
-    {
-      "id": 54,
-      "date": 1577601297032,
-      "word": "公",
-      "sentence": "公 共 厕 所",
-      "translation": "public washroom."
-    },
-    {
-      "id": 55,
-      "date": 1577601297032,
-      "word": "交",
-      "sentence": "交 通 堵 塞",
-      "translation": "traffic jam"
-    },
-    {
-      "id": 56,
-      "date": 1577601297032,
-      "word": "手",
-      "sentence": "洗 手 吃 饭",
-      "translation": "wash hands and eat"
-    },
-    {
-      "id": 57,
-      "date": 1577601297032,
-      "word": "脚",
-      "sentence": "脚 趾",
-      "translation": "toe"
-    },
-    {
-      "id": 58,
-      "date": 1577601297032,
-      "word": "指",
-      "sentence": "手 指",
-      "translation": "finger"
-    },
-    {
-      "id": 59,
-      "date": 1577601297032,
-      "word": "发",
-      "sentence": "头 发",
-      "translation": "hair"
-    },
-    {
-      "id": 60,
-      "date": 1577601297032,
-      "word": "玩",
-      "sentence": "玩 游 戏",
-      "translation": "play game"
-    },
-    {
-      "id": 61,
-      "date": 1577601297032,
-      "word": "好",
-      "sentence": "好 好 的 做 功 课",
-      "translation": "focus on your home work"
-    },
-    {
-      "id": 62,
-      "date": 1577601297032,
-      "word": "家",
-      "sentence": "家 里 的 亲 人",
-      "translation": "people in my family"
-    },
-    {
-      "id": 63,
-      "date": 1577601297032,
-      "word": "数",
-      "sentence": "数 绵 羊",
-      "translation": "count sheep"
-    },
-    {
-      "id": 64,
-      "date": 1577601297032,
-      "word": "比",
-      "sentence": "比 较 高 低",
-      "translation": "compete"
-    },
-    {
-      "id": 65,
-      "date": 1577601297032,
-      "word": "高",
-      "sentence": "高 高 的 大 山",
-      "translation": "tall tall mountain"
-    },
-    {
-      "id": 66,
-      "date": 1577601297032,
-      "word": "喜欢",
-      "sentence": "最 喜 欢 爸 爸 了",
-      "translation": "love dady the most"
-    },
-    {
-      "id": 67,
-      "date": 1577601297032,
-      "word": "桔",
-      "sentence": "桔 子",
-      "translation": "orange"
-    },
-    {
-      "id": 68,
-      "date": 1577601297032,
-      "word": "方",
-      "sentence": "方 形",
-      "translation": "square shape"
-    },
-    {
-      "id": 69,
-      "date": 1577601297032,
-      "word": "木",
-      "sentence": "小 小 的 木 头",
-      "translation": ""
-    },
-    {
-      "id": 70,
-      "date": 1577601297032,
-      "word": "早",
-      "sentence": "早 上 好",
-      "translation": "good morning"
-    },
-    {
-      "id": 71,
-      "date": 1577601297032,
-      "word": "安",
-      "sentence": "安 全 抵 达",
-      "translation": "safely arrived"
-    },
-    {
-      "id": 72,
-      "date": 1577601297032,
-      "word": "横",
-      "sentence": "横 跨 大 陆",
-      "translation": "cross the continent"
-    },
-    {
-      "id": 73,
-      "date": 1577601297032,
-      "word": "竖",
-      "sentence": "竖 立 的 旗 杆",
-      "translation": "tall flag pole"
-    },
-    {
-      "id": 74,
-      "date": 1577601297032,
-      "word": "撇",
-      "sentence": "撇 开",
-      "translation": "push aside"
-    },
-    {
-      "id": 75,
-      "date": 1577601297032,
-      "word": "捺",
-      "sentence": "按 捺",
-      "translation": "press down"
-    },
-    {
-      "id": 76,
-      "date": 1577601297032,
-      "word": "点",
-      "sentence": "点 火",
-      "translation": "ignite"
-    },
-    {
-      "id": 77,
-      "date": 1577601297032,
-      "word": "挑",
-      "sentence": "挑 扁 担",
-      "translation": "carry bamboo stick"
-    },
-    {
-      "id": 78,
-      "date": 1577601297032,
-      "word": "折",
-      "sentence": "打 折",
-      "translation": "on sale"
-    },
-    {
-      "id": 79,
-      "date": 1577601297032,
-      "word": "斜",
-      "sentence": "斜 坡",
-      "translation": "hill"
-    },
-    {
-      "id": 80,
-      "date": 1577601297032,
-      "word": "勾",
-      "sentence": "勾 通",
-      "translation": "communicate"
-    },
-    {
-      "id": 81,
-      "date": 1577601297032,
-      "word": "甜",
-      "sentence": "甜 甜 的 水 果",
-      "translation": "sweet fruits"
-    },
-    {
-      "id": 82,
-      "date": 1577601297032,
-      "word": "哥",
-      "sentence": "哥 哥 的 手 指",
-      "translation": "older brother's finger"
-    },
-    {
-      "id": 83,
-      "date": 1577601297032,
-      "word": "弟",
-      "sentence": "弟 弟 的 嘴 巴",
-      "translation": "younger brother's mouth"
-    },
-    {
-      "id": 84,
-      "date": 1577601297032,
-      "word": "姐",
-      "sentence": "姐 姐 的 耳 朵",
-      "translation": "older sister's ear"
-    },
-    {
-      "id": 85,
-      "date": 1577601297032,
-      "word": "妹",
-      "sentence": "妹 妹 的 鼻 子",
-      "translation": "younger sister's nose"
-    },
-    {
-      "id": 86,
-      "date": 1577601297032,
-      "word": "说",
-      "sentence": "说 话",
-      "translation": "speak"
-    },
-    {
-      "id": 87,
-      "date": 1577601297032,
-      "word": "谁",
-      "sentence": "谁 在 说 话",
-      "translation": "who is speaking?"
-    },
-    {
-      "id": 88,
-      "date": 1577601297032,
-      "word": "唱",
-      "sentence": "谁 在 唱 歌",
-      "translation": "who is singing?"
-    },
-    {
-      "id": 89,
-      "date": 1577601297032,
-      "word": "歌",
-      "sentence": "谁 在 唱 歌",
-      "translation": "who is singing?"
-    },
-    {
-      "id": 90,
-      "date": 1577601297032,
-      "word": "可",
-      "sentence": "可 爱 的 妈 妈",
-      "translation": "cute mommy"
-    },
-    {
-      "id": 91,
-      "date": 1577601297032,
-      "word": "洁",
-      "sentence": "清 洁",
-      "translation": "cleaning"
-    },
-    {
-      "id": 92,
-      "date": 1577601297032,
-      "word": "净",
-      "sentence": "干 净",
-      "translation": "clean"
-    },
-    {
-      "id": 93,
-      "date": 1577601297032,
-      "word": "康",
-      "sentence": "健 康",
-      "translation": "healthy"
-    },
-    {
-      "id": 94,
-      "date": 1577601297032,
-      "word": "父",
-      "sentence": "父 亲",
-      "translation": "father"
-    },
-    {
-      "id": 95,
-      "date": 1577601297032,
-      "word": "母",
-      "sentence": "母 亲",
-      "translation": "mother"
-    },
-    {
-      "id": 96,
-      "date": 1577601297032,
-      "word": "来",
-      "sentence": "来 看 电 视",
-      "translation": "come and watch TV."
-    },
-    {
-      "id": 97,
-      "date": 1577601297032,
-      "word": "去",
-      "sentence": "去 洗 手",
-      "translation": "go wash hands."
-    },
-    {
-      "id": 98,
-      "date": 1577601297032,
-      "word": "苹",
-      "sentence": "苹 果",
-      "translation": "apple"
-    },
-    {
-      "id": 99,
-      "date": 1577601297032,
-      "word": "梨",
-      "sentence": "鸭 梨",
-      "translation": "pears"
-    },
-    {
-      "id": 100,
-      "date": 1577601297032,
-      "word": "糖",
-      "sentence": "糖 果",
-      "translation": "candy"
-    },
-    {
-      "id": 100,
-      "date": 1577601297032,
-      "word": "果",
-      "sentence": "水 果",
-      "translation": "fruit"
-    },
-    {
-      "id": 101,
-      "date": 1577601297032,
-      "word": "爱",
-      "sentence": "可 爱 的 妈 妈",
-      "translation": "cute mommy"
-    }
-  ]
+    "words": [{
+            "id": 1,
+            "date": 1577601297032,
+            "word": "一",
+            "sentence": "一 辆 自 行 车",
+            "translation": "a bike"
+        },
+        {
+            "id": 2,
+            "date": 1577601297032,
+            "word": "二",
+            "sentence": "一 加 一 是 二",
+            "translation": "1 plus 1 is 2."
+        },
+        {
+            "id": 3,
+            "date": 1577601297032,
+            "word": "三",
+            "sentence": "三 个 苹 果",
+            "translation": "three apples"
+        },
+        {
+            "id": 4,
+            "date": 1577601297032,
+            "word": "四",
+            "sentence": "四 本 书",
+            "translation": "four books"
+        },
+        {
+            "id": 5,
+            "date": 1577601297032,
+            "word": "五",
+            "sentence": "五 只 老 虎",
+            "translation": "five tigers"
+        },
+        {
+            "id": 6,
+            "date": 1577601297032,
+            "word": "六",
+            "sentence": "六 棵 大 树",
+            "translation": "six big trees"
+        },
+        {
+            "id": 7,
+            "date": 1577601297032,
+            "word": "七",
+            "sentence": "七 条 鱼",
+            "translation": "seven fish"
+        },
+        {
+            "id": 8,
+            "date": 1577601297032,
+            "word": "八",
+            "sentence": "八 支 笔",
+            "translation": "eight pens"
+        },
+        {
+            "id": 9,
+            "date": 1577601297032,
+            "word": "九",
+            "sentence": "九 台 汽 车",
+            "translation": "nine cars"
+        },
+        {
+            "id": 10,
+            "date": 1577601297032,
+            "word": "十",
+            "sentence": "十 粒 糖 果",
+            "translation": "ten pieces of candy"
+        },
+        {
+            "id": 11,
+            "date": 1577601297032,
+            "word": "我",
+            "sentence": "我 的 玩 具",
+            "translation": "my toys"
+        },
+        {
+            "id": 12,
+            "date": 1577601297032,
+            "word": "你",
+            "sentence": "你 的 玩 具",
+            "translation": "your toys"
+        },
+        {
+            "id": 13,
+            "date": 1577601297032,
+            "word": "他",
+            "sentence": "他 的 玩 具",
+            "translation": "his toys"
+        },
+        {
+            "id": 14,
+            "date": 1577601297032,
+            "word": "她",
+            "sentence": "她 是 个 女 孩",
+            "translation": "she is a girl"
+        },
+        {
+            "id": 15,
+            "date": 1577601297032,
+            "word": "它",
+            "sentence": "它 是 一 只 狗",
+            "translation": "it is a dog."
+        },
+        {
+            "id": 16,
+            "date": 1577601297032,
+            "word": "早",
+            "sentence": "早 安",
+            "translation": "good morning."
+        },
+        {
+            "id": 17,
+            "date": 1577601297032,
+            "word": "午",
+            "sentence": "午 安",
+            "translation": "good afternoon"
+        },
+        {
+            "id": 18,
+            "date": 1577601297032,
+            "word": "上",
+            "sentence": "上 课",
+            "translation": "going to school"
+        },
+        {
+            "id": 19,
+            "date": 1577601297032,
+            "word": "下",
+            "sentence": "桌 子 下 面",
+            "translation": "under the table."
+        },
+        {
+            "id": 20,
+            "date": 1577601297032,
+            "word": "上午",
+            "sentence": "上 午 的 阳 光",
+            "translation": "sunshine in the morning."
+        },
+        {
+            "id": 21,
+            "date": 1577601297032,
+            "word": "下午",
+            "sentence": "下 午 的 茶",
+            "translation": "tea in the aftternoon"
+        },
+        {
+            "id": 22,
+            "date": 1577601297032,
+            "word": "周",
+            "sentence": "周 日 的 早 餐 ",
+            "translation": "breakfast on sunday."
+        },
+        {
+            "id": 23,
+            "date": 1577601297032,
+            "word": "德",
+            "sentence": "德 德 很 臭",
+            "translation": "dareen is stinking"
+        },
+        {
+            "id": 24,
+            "date": 1577601297032,
+            "word": "灏",
+            "sentence": "灏 灏 灏",
+            "translation": "hao hao hao"
+        },
+        {
+            "id": 25,
+            "date": 1577601297032,
+            "word": "左",
+            "sentence": "左 边 的 房 子",
+            "translation": "house on the left. "
+        },
+        {
+            "id": 26,
+            "date": 1577601297032,
+            "word": "右",
+            "sentence": "右 边 的 朋 友",
+            "translation": "friend on the right. "
+        },
+        {
+            "id": 27,
+            "date": 1577601297032,
+            "word": "口",
+            "sentence": "口 臭",
+            "translation": "stinky mouth"
+        },
+        {
+            "id": 28,
+            "date": 1577601297032,
+            "word": "眼",
+            "sentence": "眼 睛 的 颜 色",
+            "translation": "eye color"
+        },
+        {
+            "id": 29,
+            "date": 1577601297032,
+            "word": "耳",
+            "sentence": "耳 朵 的 大 小",
+            "translation": "size of the ear. "
+        },
+        {
+            "id": 30,
+            "date": 1577601297032,
+            "word": "头",
+            "sentence": "头 上 有 头 发",
+            "translation": "hair on the head"
+        },
+        {
+            "id": 31,
+            "date": 1577601297032,
+            "word": "月",
+            "sentence": "月 亮 的 亮 光",
+            "translation": "light from the moon"
+        },
+        {
+            "id": 32,
+            "date": 1577601297032,
+            "word": "星",
+            "sentence": "星 星 的 耳 朵",
+            "translation": "ears of the stars"
+        },
+        {
+            "id": 33,
+            "date": 1577601297032,
+            "word": "日",
+            "sentence": "日 上 枝 头",
+            "translation": "sun risen above the tree"
+        },
+        {
+            "id": 34,
+            "date": 1577601297032,
+            "word": "球",
+            "sentence": "踢 球 好 么？",
+            "translation": "go kick ball?"
+        },
+        {
+            "id": 35,
+            "date": 1577601297032,
+            "word": "春",
+            "sentence": "春 天 的 阳 光",
+            "translation": "sunshine in the sprint"
+        },
+        {
+            "id": 36,
+            "date": 1577601297032,
+            "word": "夏",
+            "sentence": "夏 天 的 暴 雨",
+            "translation": "thunder storm in the summer"
+        },
+        {
+            "id": 37,
+            "date": 1577601297032,
+            "word": "秋",
+            "sentence": "秋 天 的 大 风",
+            "translation": "wind in the autumn "
+        },
+        {
+            "id": 38,
+            "date": 1577601297032,
+            "word": "冬",
+            "sentence": "冬 天 的 下 午 茶",
+            "translation": "afternoon team in the winter. "
+        },
+        {
+            "id": 39,
+            "date": 1577601297032,
+            "word": "东",
+            "sentence": "东 方 日 出",
+            "translation": "sun rises from the east"
+        },
+        {
+            "id": 40,
+            "date": 1577601297032,
+            "word": "西",
+            "sentence": "西 方 日 落",
+            "translation": "sun sets in the west"
+        },
+        {
+            "id": 41,
+            "date": 1577601297032,
+            "word": "南",
+            "sentence": "南 方 鸟 飞",
+            "translation": "birds fly to the south."
+        },
+        {
+            "id": 42,
+            "date": 1577601297032,
+            "word": "北",
+            "sentence": "北 方 大 熊",
+            "translation": "bear from the north."
+        },
+        {
+            "id": 43,
+            "date": 1577601297032,
+            "word": "中",
+            "sentence": "中 方 的 说 词",
+            "translation": ""
+        },
+        {
+            "id": 44,
+            "date": 1577601297032,
+            "word": "男",
+            "sentence": "男 人 的 手",
+            "translation": "man's hand"
+        },
+        {
+            "id": 45,
+            "date": 1577601297032,
+            "word": "女",
+            "sentence": "女 人 的 嘴",
+            "translation": "woman's mouse"
+        },
+        {
+            "id": 46,
+            "date": 1577601297032,
+            "word": "孩",
+            "sentence": "孩 子 的 眼 睛",
+            "translation": "kids' eyes"
+        },
+        {
+            "id": 47,
+            "date": 1577601297032,
+            "word": "加",
+            "sentence": "加 法 很 简 单",
+            "translation": "addition is easy"
+        },
+        {
+            "id": 48,
+            "date": 1577601297032,
+            "word": "减",
+            "sentence": "减 法 更 简 单",
+            "translation": "minus is even easier"
+        },
+        {
+            "id": 49,
+            "date": 1577601297032,
+            "word": "大",
+            "sentence": "大 大 的 苹 果",
+            "translation": "big big apple"
+        },
+        {
+            "id": 50,
+            "date": 1577601297032,
+            "word": "小",
+            "sentence": "小 小 的 猫 咪",
+            "translation": "small small cat"
+        },
+        {
+            "id": 51,
+            "date": 1577601297032,
+            "word": "拿",
+            "sentence": "拿 出 你 的 勇 气",
+            "translation": "bring out your bravery "
+        },
+        {
+            "id": 52,
+            "date": 1577601297032,
+            "word": "这",
+            "sentence": "这 位 小 朋 友",
+            "translation": "this little kid"
+        },
+        {
+            "id": 53,
+            "date": 1577601297032,
+            "word": "那",
+            "sentence": "那 位 妈 妈",
+            "translation": "that mom"
+        },
+        {
+            "id": 54,
+            "date": 1577601297032,
+            "word": "公",
+            "sentence": "公 共 厕 所",
+            "translation": "public washroom."
+        },
+        {
+            "id": 55,
+            "date": 1577601297032,
+            "word": "交",
+            "sentence": "交 通 堵 塞",
+            "translation": "traffic jam"
+        },
+        {
+            "id": 56,
+            "date": 1577601297032,
+            "word": "手",
+            "sentence": "洗 手 吃 饭",
+            "translation": "wash hands and eat"
+        },
+        {
+            "id": 57,
+            "date": 1577601297032,
+            "word": "脚",
+            "sentence": "脚 趾",
+            "translation": "toe"
+        },
+        {
+            "id": 58,
+            "date": 1577601297032,
+            "word": "指",
+            "sentence": "手 指",
+            "translation": "finger"
+        },
+        {
+            "id": 59,
+            "date": 1577601297032,
+            "word": "发",
+            "sentence": "头 发",
+            "translation": "hair"
+        },
+        {
+            "id": 60,
+            "date": 1577601297032,
+            "word": "玩",
+            "sentence": "玩 游 戏",
+            "translation": "play game"
+        },
+        {
+            "id": 61,
+            "date": 1577601297032,
+            "word": "好",
+            "sentence": "好 好 的 做 功 课",
+            "translation": "focus on your home work"
+        },
+        {
+            "id": 62,
+            "date": 1577601297032,
+            "word": "家",
+            "sentence": "家 里 的 亲 人",
+            "translation": "people in my family"
+        },
+        {
+            "id": 63,
+            "date": 1577601297032,
+            "word": "数",
+            "sentence": "数 绵 羊",
+            "translation": "count sheep"
+        },
+        {
+            "id": 64,
+            "date": 1577601297032,
+            "word": "比",
+            "sentence": "比 较 高 低",
+            "translation": "compete"
+        },
+        {
+            "id": 65,
+            "date": 1577601297032,
+            "word": "高",
+            "sentence": "高 高 的 大 山",
+            "translation": "tall tall mountain"
+        },
+        {
+            "id": 66,
+            "date": 1577601297032,
+            "word": "喜欢",
+            "sentence": "最 喜 欢 爸 爸 了",
+            "translation": "love dady the most"
+        },
+        {
+            "id": 67,
+            "date": 1577601297032,
+            "word": "桔",
+            "sentence": "桔 子",
+            "translation": "orange"
+        },
+        {
+            "id": 68,
+            "date": 1577601297032,
+            "word": "方",
+            "sentence": "方 形",
+            "translation": "square shape"
+        },
+        {
+            "id": 69,
+            "date": 1577601297032,
+            "word": "木",
+            "sentence": "小 小 的 木 头",
+            "translation": ""
+        },
+        {
+            "id": 70,
+            "date": 1577601297032,
+            "word": "早",
+            "sentence": "早 上 好",
+            "translation": "good morning"
+        },
+        {
+            "id": 71,
+            "date": 1577601297032,
+            "word": "安",
+            "sentence": "安 全 抵 达",
+            "translation": "safely arrived"
+        },
+        {
+            "id": 72,
+            "date": 1577601297032,
+            "word": "横",
+            "sentence": "横 跨 大 陆",
+            "translation": "cross the continent"
+        },
+        {
+            "id": 73,
+            "date": 1577601297032,
+            "word": "竖",
+            "sentence": "竖 立 的 旗 杆",
+            "translation": "tall flag pole"
+        },
+        {
+            "id": 74,
+            "date": 1577601297032,
+            "word": "撇",
+            "sentence": "撇 开",
+            "translation": "push aside"
+        },
+        {
+            "id": 75,
+            "date": 1577601297032,
+            "word": "捺",
+            "sentence": "按 捺",
+            "translation": "press down"
+        },
+        {
+            "id": 76,
+            "date": 1577601297032,
+            "word": "点",
+            "sentence": "点 火",
+            "translation": "ignite"
+        },
+        {
+            "id": 77,
+            "date": 1577601297032,
+            "word": "挑",
+            "sentence": "挑 扁 担",
+            "translation": "carry bamboo stick"
+        },
+        {
+            "id": 78,
+            "date": 1577601297032,
+            "word": "折",
+            "sentence": "打 折",
+            "translation": "on sale"
+        },
+        {
+            "id": 79,
+            "date": 1577601297032,
+            "word": "斜",
+            "sentence": "斜 坡",
+            "translation": "hill"
+        },
+        {
+            "id": 80,
+            "date": 1577601297032,
+            "word": "勾",
+            "sentence": "勾 通",
+            "translation": "communicate"
+        },
+        {
+            "id": 81,
+            "date": 1577601297032,
+            "word": "甜",
+            "sentence": "甜 甜 的 水 果",
+            "translation": "sweet fruits"
+        },
+        {
+            "id": 82,
+            "date": 1577601297032,
+            "word": "哥",
+            "sentence": "哥 哥 的 手 指",
+            "translation": "older brother's finger"
+        },
+        {
+            "id": 83,
+            "date": 1577601297032,
+            "word": "弟",
+            "sentence": "弟 弟 的 嘴 巴",
+            "translation": "younger brother's mouth"
+        },
+        {
+            "id": 84,
+            "date": 1577601297032,
+            "word": "姐",
+            "sentence": "姐 姐 的 耳 朵",
+            "translation": "older sister's ear"
+        },
+        {
+            "id": 85,
+            "date": 1577601297032,
+            "word": "妹",
+            "sentence": "妹 妹 的 鼻 子",
+            "translation": "younger sister's nose"
+        },
+        {
+            "id": 86,
+            "date": 1577601297032,
+            "word": "说",
+            "sentence": "说 话",
+            "translation": "speak"
+        },
+        {
+            "id": 87,
+            "date": 1577601297032,
+            "word": "谁",
+            "sentence": "谁 在 说 话",
+            "translation": "who is speaking?"
+        },
+        {
+            "id": 88,
+            "date": 1577601297032,
+            "word": "唱",
+            "sentence": "谁 在 唱 歌",
+            "translation": "who is singing?"
+        },
+        {
+            "id": 89,
+            "date": 1577601297032,
+            "word": "歌",
+            "sentence": "谁 在 唱 歌",
+            "translation": "who is singing?"
+        },
+        {
+            "id": 90,
+            "date": 1577601297032,
+            "word": "可",
+            "sentence": "可 爱 的 妈 妈",
+            "translation": "cute mommy"
+        },
+        {
+            "id": 91,
+            "date": 1577601297032,
+            "word": "洁",
+            "sentence": "清 洁",
+            "translation": "cleaning"
+        },
+        {
+            "id": 92,
+            "date": 1577601297032,
+            "word": "净",
+            "sentence": "干 净",
+            "translation": "clean"
+        },
+        {
+            "id": 93,
+            "date": 1577601297032,
+            "word": "康",
+            "sentence": "健 康",
+            "translation": "healthy"
+        },
+        {
+            "id": 94,
+            "date": 1577601297032,
+            "word": "父",
+            "sentence": "父 亲",
+            "translation": "father"
+        },
+        {
+            "id": 95,
+            "date": 1577601297032,
+            "word": "母",
+            "sentence": "母 亲",
+            "translation": "mother"
+        },
+        {
+            "id": 96,
+            "date": 1577601297032,
+            "word": "来",
+            "sentence": "来 看 电 视",
+            "translation": "come and watch TV."
+        },
+        {
+            "id": 97,
+            "date": 1577601297032,
+            "word": "去",
+            "sentence": "去 洗 手",
+            "translation": "go wash hands."
+        },
+        {
+            "id": 98,
+            "date": 1577601297032,
+            "word": "苹",
+            "sentence": "苹 果",
+            "translation": "apple"
+        },
+        {
+            "id": 99,
+            "date": 1577601297032,
+            "word": "梨",
+            "sentence": "鸭 梨",
+            "translation": "pears"
+        },
+        {
+            "id": 100,
+            "date": 1577601297032,
+            "word": "糖",
+            "sentence": "糖 果",
+            "translation": "candy"
+        },
+        {
+            "id": 100,
+            "date": 1577601297032,
+            "word": "果",
+            "sentence": "水 果",
+            "translation": "fruit"
+        },
+        {
+            "id": 101,
+            "date": 1577601297032,
+            "word": "胖",
+            "sentence": "胖 胖 的 小 猪",
+            "translation": "chubby little pig"
+        },
+        {
+            "id": 102,
+            "date": 1577601297032,
+            "word": "高",
+            "sentence": "高 高 的 大 树",
+            "translation": "tall tall big tree"
+        },
+        {
+            "id": 103,
+            "date": 1577601297032,
+            "word": "冷",
+            "sentence": "寒 冷 的 冬 天",
+            "translation": "cold winter"
+        },
+        {
+            "id": 104,
+            "date": 1577601297032,
+            "word": "爱",
+            "sentence": "可 爱 的 妈 妈",
+            "translation": "cute mommy"
+        },
+        {
+            "id": 103,
+            "date": 1577601297032,
+            "word": "瘦",
+            "sentence": "瘦 瘦 的 骆 驼",
+            "translation": "skinny camel"
+        },
+        {
+            "id": 105,
+            "date": 1577601297032,
+            "word": "矮",
+            "sentence": "矮 矮 的 小 树",
+            "translation": "short little tree"
+        },
+        {
+            "id": 106,
+            "date": 1577601297032,
+            "word": "热",
+            "sentence": "炎 热 的 夏 天",
+            "translation": "hot summer"
+        },
+        {
+            "id": 107,
+            "date": 1577601297032,
+            "word": "臭",
+            "sentence": "臭 臭 的 阿 德",
+            "translation": "stinky darren"
+        },
+        {
+            "id": 108,
+            "date": 1577601297032,
+            "word": "少",
+            "sentence": "我 吃 的 很 少",
+            "translation": "I eat very little"
+        },
+        {
+            "id": 109,
+            "date": 1577601297032,
+            "word": "香",
+            "sentence": "香 香 的 妈 妈",
+            "translation": "mommy smells good"
+        },
+        {
+            "id": 110,
+            "date": 1577601297032,
+            "word": "多",
+            "sentence": "我 吃 很 多 肉",
+            "translation": "I eat alot of meat."
+        },
+        {
+            "id": 111,
+            "date": 1577601297032,
+            "word": "比",
+            "sentence": "苹 果 比 糖 果 多",
+            "translation": "more apples than candies"
+        },
+        {
+            "id": 112,
+            "date": 1577601297032,
+            "word": "茶",
+            "sentence": "爸 爸 爱 喝 茶",
+            "translation": "Daddy likes to drink tea."
+        },
+        {
+            "id": 113,
+            "date": 1577601297032,
+            "word": "汁",
+            "sentence": "果 汁 好 喝",
+            "translation": "juice is yummy."
+        },
+        {
+            "id": 114,
+            "date": 1577601297032,
+            "word": "在",
+            "sentence": "在 哪 里",
+            "translation": "where is it？"
+        },
+        {
+            "id": 115,
+            "date": 1577601297032,
+            "word": "哪",
+            "sentence": "哪 一 个 玩 具",
+            "translation": "which toy?"
+        },
+        {
+            "id": 116,
+            "date": 1577601297032,
+            "word": "里",
+            "sentence": "在 哪 里",
+            "translation": "where is it?"
+        },
+        {
+            "id": 117,
+            "date": 1577601297032,
+            "word": "这",
+            "sentence": "在 这 里",
+            "translation": "it is here"
+        },
+        {
+            "id": 118,
+            "date": 1577601297032,
+            "word": "故",
+            "sentence": "故 事",
+            "translation": "story"
+        },
+        {
+            "id": 119,
+            "date": 1577601297032,
+            "word": "事",
+            "sentence": "故 事 时 间",
+            "translation": "story time"
+        },
+        {
+            "id": 120,
+            "date": 1577601297032,
+            "word": "时",
+            "sentence": "时 间",
+            "translation": "time"
+        },
+        {
+            "id": 121,
+            "date": 1577601297032,
+            "word": "间",
+            "sentence": "时 间",
+            "translation": "time"
+        },
+        {
+            "id": 122,
+            "date": 1577601297032,
+            "word": "书",
+            "sentence": "故 事 书",
+            "translation": "story book"
+        },
+        {
+            "id": 123,
+            "date": 1577601297032,
+            "word": "特",
+            "sentence": "特 别",
+            "translation": "special"
+        },
+        {
+            "id": 124,
+            "date": 1577601297032,
+            "word": "别",
+            "sentence": "特 别",
+            "translation": "special"
+        },
+        {
+            "id": 125,
+            "date": 1577601297032,
+            "word": "练",
+            "sentence": "练 习 时 间",
+            "translation": "exercise time"
+        },
+        {
+            "id": 126,
+            "date": 1577601297032,
+            "word": "习",
+            "sentence": "练 习 时 间",
+            "translation": "exercise time"
+        },
+        {
+            "id": 127,
+            "date": 1577601297032,
+            "word": "说",
+            "sentence": "说 说 看",
+            "translation": "try speak"
+        },
+        {
+            "id": 128,
+            "date": 1577601297032,
+            "word": "朵",
+            "sentence": "五 朵 花",
+            "translation": "five flowers"
+        },
+        {
+            "id": 129,
+            "date": 1577601297032,
+            "word": "颗",
+            "sentence": "六 颗 巧 克 力",
+            "translation": "six pieces of chokolate"
+        },
+        {
+            "id": 130,
+            "date": 1577601297032,
+            "word": "块",
+            "sentence": "八 块 肉",
+            "translation": "eight pieces of meat"
+        },
+        {
+            "id": 131,
+            "date": 1577601297032,
+            "word": "葡",
+            "sentence": "葡 萄 汁",
+            "translation": "grape juice"
+        },
+        {
+            "id": 132,
+            "date": 1577601297032,
+            "word": "萄",
+            "sentence": "葡 萄 汁",
+            "translation": "grape juice"
+        },
+        {
+            "id": 133,
+            "date": 1577601297032,
+            "word": "积",
+            "sentence": "积 木 玩 具",
+            "translation": "building blocks"
+        },
+        {
+            "id": 134,
+            "date": 1577601297032,
+            "word": "木",
+            "sentence": "积 木 玩 具",
+            "translation": "building blocks"
+        },
+        {
+            "id": 135,
+            "date": 1577601297032,
+            "word": "蝴",
+            "sentence": "蝴 蝶 的 翅 膀",
+            "translation": "wings of the butterfly"
+        },
+        {
+            "id": 136,
+            "date": 1577601297032,
+            "word": "蝶",
+            "sentence": "蝴 蝶 的 翅 膀",
+            "translation": "wings of the butterfly"
+        },
+        {
+            "id": 137,
+            "date": 1577601297032,
+            "word": "蘑",
+            "sentence": "我 爱 吃 蘑 菇",
+            "translation": "I love eating mushrooms"
+        },
+        {
+            "id": 138,
+            "date": 1577601297032,
+            "word": "菇",
+            "sentence": "我 爱 吃 蘑 菇",
+            "translation": "I love eating mushrooms"
+        },
+        {
+            "id": 139,
+            "date": 1577601297032,
+            "word": "毛",
+            "sentence": "毛 毛 虫",
+            "translation": "caterpillars"
+        },
+        {
+            "id": 140,
+            "date": 1577601297032,
+            "word": "虫",
+            "sentence": "毛 毛 虫",
+            "translation": "caterpillars"
+        },
+        {
+            "id": 141,
+            "date": 1577601297032,
+            "word": "可",
+            "sentence": "可 爱",
+            "translation": "cute"
+        },
+        {
+            "id": 142,
+            "date": 1577601297032,
+            "word": "整",
+            "sentence": "整 洁",
+            "translation": "clean and tidy"
+        },
+        {
+            "id": 143,
+            "date": 1577601297032,
+            "word": "美",
+            "sentence": "美 满",
+            "translation": "beautiful and satisfied"
+        },
+        {
+            "id": 144,
+            "date": 1577601297032,
+            "word": "满",
+            "sentence": "美 满",
+            "translation": "beautiful and satisfied"
+        },
+        {
+            "id": 145,
+            "date": 1577601297032,
+            "word": "安",
+            "sentence": "安 康",
+            "translation": "safe and healthy"
+        },
+        {
+            "id": 146,
+            "date": 1577601297032,
+            "word": "康",
+            "sentence": "安 康",
+            "translation": "safe and healthy"
+        },
+        {
+            "id": 147,
+            "date": 1577601297032,
+            "word": "兄",
+            "sentence": "兄 弟",
+            "translation": "brothers"
+        },
+        {
+            "id": 148,
+            "date": 1577601297032,
+            "word": "和",
+            "sentence": "和 平",
+            "translation": "peace"
+        },
+        {
+            "id": 149,
+            "date": 1577601297032,
+            "word": "都",
+            "sentence": "都 慈 祥",
+            "translation": "all nice and happy"
+        },
+        {
+            "id": 150,
+            "date": 1577601297032,
+            "word": "慈",
+            "sentence": "慈 祥",
+            "translation": "nice and happy"
+        },
+        {
+            "id": 151,
+            "date": 1577601297032,
+            "word": "祥",
+            "sentence": "慈 祥",
+            "translation": "nice and happy"
+        },
+        {
+            "id": 152,
+            "date": 1577601297032,
+            "word": "离",
+            "sentence": "离 家",
+            "translation": "leave home"
+        },
+        {
+            "id": 153,
+            "date": 1577601297032,
+            "word": "乡",
+            "sentence": "香 音",
+            "translation": "home town language"
+        },
+        {
+            "id": 154,
+            "date": 1577601297032,
+            "word": "音",
+            "sentence": "音 乐",
+            "translation": "music"
+        },
+        {
+            "id": 155,
+            "date": 1577601297032,
+            "word": "乐",
+            "sentence": "音 乐",
+            "translation": "music"
+        }
+
+    ]
 }

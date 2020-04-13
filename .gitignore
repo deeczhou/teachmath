@@ -8,3 +8,7 @@ build/
 **/gradle
 **/gradlew
 **/gradlew.bat
+**/.classpath
+**/.vscode/*
+**/.settings/
+**/.project

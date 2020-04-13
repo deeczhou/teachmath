@@ -141,6 +141,24 @@ public class MathGen {
         }
     }
 
+    public static void buildFillInMinus(XWPFDocument doc, int numberOfProblems, int upper) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(LINE_SPACING);
+        XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
+
+        for (int i = 1; i <= numberOfProblems; i++) {
+            int a = getRandomIntBetween(1, upper);
+            int b = getRandomIntBetween(1, a);
+            while( b == a) {
+                b = getRandomIntBetween(1, a - 5);
+            }
+            addToLine(run, new Pair<>(a, b), FILL_MINUS);
+            if (i%4 == 0) {
+                run.addBreak();
+            }
+        }
+    }
 
     private static int getRandomIntBetween(int a, int b) {
         return ThreadLocalRandom.current().nextInt(a, b);
@@ -169,6 +187,9 @@ public class MathGen {
                     second = Integer.toString(p.getKey());
                 }
                 run.setText(first + " + " + second + " = " + p.getValue() + "               ");
+                break;
+            case FILL_MINUS:
+                run.setText(p.getKey() + " - " + " ____ " + " = " + p.getValue() + "               ");
                 break;
         }
         return run;

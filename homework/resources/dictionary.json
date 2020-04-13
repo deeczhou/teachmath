@@ -2385,12 +2385,12 @@
       "id" : 480,
       "date" : 1578894728821,
       "word" : "egg",
-      "sentence" : ""
+      "sentence" : "have an egg for food"
     }, {
       "id" : 481,
       "date" : 1578894728821,
       "word" : "eight",
-      "sentence" : ""
+      "sentence" : "there are eight apples"
     }, {
       "id" : 482,
       "date" : 1578894728821,
@@ -2425,27 +2425,27 @@
       "id" : 488,
       "date" : 1578894728821,
       "word" : "end",
-      "sentence" : ""
+      "sentence" : "end of the street"
     }, {
       "id" : 489,
       "date" : 1578894728821,
       "word" : "engine",
-      "sentence" : ""
+      "sentence" : "car engine, train engine, lego engine"
     }, {
       "id" : 490,
       "date" : 1578894728821,
       "word" : "english",
-      "sentence" : ""
+      "sentence" : "we speak english at school. "
     }, {
       "id" : 491,
       "date" : 1578894728821,
       "word" : "enjoy",
-      "sentence" : ""
+      "sentence" : "enjoy your cake."
     }, {
       "id" : 492,
       "date" : 1578894728821,
       "word" : "enter",
-      "sentence" : ""
+      "sentence" : "please knock before you enter. "
     }, {
       "id" : 493,
       "date" : 1578894728821,
@@ -2455,7 +2455,7 @@
       "id" : 494,
       "date" : 1578894728821,
       "word" : "equal",
-      "sentence" : ""
+      "sentence" : "one plus one hundred is one hundred and one."
     }, {
       "id" : 496,
       "date" : 1578894728821,
@@ -2475,7 +2475,7 @@
       "id" : 499,
       "date" : 1578894728821,
       "word" : "ever",
-      "sentence" : ""
+      "sentence" : "I do not like to eat this ever. "
     }, {
       "id" : 500,
       "date" : 1578894728821,
@@ -2490,12 +2490,12 @@
       "id" : 502,
       "date" : 1578894728821,
       "word" : "example",
-      "sentence" : ""
+      "sentence" : "for example"
     }, {
       "id" : 503,
       "date" : 1578894728821,
       "word" : "except",
-      "sentence" : ""
+      "sentence" : "i dont like shrimp except in dumplings"
     }, {
       "id" : 504,
       "date" : 1578894728821,
@@ -2505,7 +2505,7 @@
       "id" : 505,
       "date" : 1578894728821,
       "word" : "exercise",
-      "sentence" : ""
+      "sentence" : "lets have some exercise."
     }, {
       "id" : 506,
       "date" : 1578894728821,
@@ -2540,37 +2540,37 @@
       "id" : 512,
       "date" : 1578894728821,
       "word" : "extra",
-      "sentence" : ""
+      "sentence" : "there is one extra sock left. "
     }, {
       "id" : 513,
       "date" : 1578894728821,
       "word" : "eye",
-      "sentence" : ""
+      "sentence" : "Darren is eyeing the cake for dessert"
     }, {
       "id" : 514,
       "date" : 1578894728821,
       "word" : "face",
-      "sentence" : ""
+      "sentence" : "His face painting look nice. "
     }, {
       "id" : 515,
       "date" : 1578894728821,
       "word" : "fair",
-      "sentence" : ""
+      "sentence" : "It is a fair game. "
     }, {
       "id" : 516,
       "date" : 1578894728821,
       "word" : "fall",
-      "sentence" : ""
+      "sentence" : "it is a big fall from the top of the slide."
     }, {
       "id" : 517,
       "date" : 1578894728821,
       "word" : "far",
-      "sentence" : ""
+      "sentence" : "in a galaxy far far away..."
     }, {
       "id" : 518,
       "date" : 1578894728821,
       "word" : "farm",
-      "sentence" : ""
+      "sentence" : "one of these days, i will build an ant farm."
     }, {
       "id" : 519,
       "date" : 1578894728821,
@@ -2580,32 +2580,32 @@
       "id" : 520,
       "date" : 1578894728821,
       "word" : "favour",
-      "sentence" : ""
+      "sentence" : "Can you do me a favour?"
     }, {
       "id" : 521,
       "date" : 1578894728821,
       "word" : "feed",
-      "sentence" : ""
+      "sentence" : "He is feeding the chicken."
     }, {
       "id" : 522,
       "date" : 1578894728821,
       "word" : "feel",
-      "sentence" : ""
+      "sentence" : "How you feeling today?"
     }, {
       "id" : 523,
       "date" : 1578894728821,
       "word" : "few",
-      "sentence" : ""
+      "sentence" : "give me a few pens."
     }, {
       "id" : 524,
       "date" : 1578894728821,
       "word" : "field",
-      "sentence" : ""
+      "sentence" : "we played in the soccer field."
     }, {
       "id" : 525,
       "date" : 1578894728821,
       "word" : "fight",
-      "sentence" : ""
+      "sentence" : "we fight for the last piece of meat. "
     }, {
       "id" : 526,
       "date" : 1578894728821,
@@ -2750,7 +2750,7 @@
       "id" : 554,
       "date" : 1578894728823,
       "word" : "front",
-      "sentence" : ""
+      "sentence" : "sit in front of the tv. "
     }, {
       "id" : 555,
       "date" : 1578894728823,
@@ -2760,7 +2760,7 @@
       "id" : 556,
       "date" : 1578894728823,
       "word" : "fun",
-      "sentence" : ""
+      "sentence" : "fun place, fun day, fun times."
     }, {
       "id" : 557,
       "date" : 1578894728823,
@@ -2790,7 +2790,7 @@
       "id" : 562,
       "date" : 1578894728823,
       "word" : "garden",
-      "sentence" : ""
+      "sentence" : "flower garden, vegetable garden"
     }, {
       "id" : 563,
       "date" : 1578894728823,
@@ -2810,32 +2810,32 @@
       "id" : 566,
       "date" : 1578894728823,
       "word" : "get",
-      "sentence" : ""
+      "sentence" : "I am getting a shovel to clear the snow."
     }, {
       "id" : 567,
       "date" : 1578894728823,
       "word" : "give",
-      "sentence" : ""
+      "sentence" : "Could you give this tool to daddy?"
     }, {
       "id" : 568,
       "date" : 1578894728823,
       "word" : "glass",
-      "sentence" : ""
+      "sentence" : "a glass of water. "
     }, {
       "id" : 569,
       "date" : 1578894728823,
       "word" : "go",
-      "sentence" : ""
+      "sentence" : "go to the shop."
     }, {
       "id" : 570,
       "date" : 1578894728823,
       "word" : "god",
-      "sentence" : ""
+      "sentence" : "god watches over what you do"
     }, {
       "id" : 571,
       "date" : 1578894728823,
       "word" : "goodbye",
-      "sentence" : ""
+      "sentence" : "Goodbye, good night."
     }, {
       "id" : 572,
       "date" : 1578894728823,
@@ -2850,32 +2850,32 @@
       "id" : 574,
       "date" : 1578894728823,
       "word" : "grant",
-      "sentence" : ""
+      "sentence" : "Daddy is granting me a star for good behaviour."
     }, {
       "id" : 575,
       "date" : 1578894728823,
       "word" : "green",
-      "sentence" : ""
+      "sentence" : "Green onions are tasty"
     }, {
       "id" : 576,
       "date" : 1578894728823,
       "word" : "ground",
-      "sentence" : ""
+      "sentence" : "The ground is wet from the rain. "
     }, {
       "id" : 577,
       "date" : 1578894728823,
       "word" : "group",
-      "sentence" : ""
+      "sentence" : "a group of noisy kids."
     }, {
       "id" : 578,
       "date" : 1578894728823,
       "word" : "grow",
-      "sentence" : ""
+      "sentence" : "I eat, i grow."
     }, {
       "id" : 579,
       "date" : 1578894728823,
       "word" : "guess",
-      "sentence" : ""
+      "sentence" : "Can you guess who broke that?"
     }, {
       "id" : 580,
       "date" : 1578894728823,
@@ -2885,12 +2885,12 @@
       "id" : 581,
       "date" : 1578894728823,
       "word" : "hair",
-      "sentence" : ""
+      "sentence" : "daddy's hair is short"
     }, {
       "id" : 582,
       "date" : 1578894728823,
       "word" : "half",
-      "sentence" : ""
+      "sentence" : "I am only half as tall as mommy. "
     }, {
       "id" : 583,
       "date" : 1578894728823,
@@ -2900,7 +2900,7 @@
       "id" : 584,
       "date" : 1578894728823,
       "word" : "hand",
-      "sentence" : ""
+      "sentence" : "lend me a hand with this please. "
     }, {
       "id" : 585,
       "date" : 1578894728823,
@@ -2930,7 +2930,7 @@
       "id" : 591,
       "date" : 1578894728823,
       "word" : "head",
-      "sentence" : ""
+      "sentence" : "That bus is heading to Dear lake."
     }, {
       "id" : 592,
       "date" : 1578894728823,
@@ -2990,7 +2990,7 @@
       "id" : 603,
       "date" : 1578894728823,
       "word" : "home",
-      "sentence" : ""
+      "sentence" : "home, sweet home. "
     }, {
       "id" : 604,
       "date" : 1578894728823,
@@ -3010,7 +3010,7 @@
       "id" : 607,
       "date" : 1578894728823,
       "word" : "hot",
-      "sentence" : ""
+      "sentence" : "summer is hot. stove is hot."
     }, {
       "id" : 608,
       "date" : 1578894728823,
@@ -3020,7 +3020,7 @@
       "id" : 609,
       "date" : 1578894728823,
       "word" : "however",
-      "sentence" : ""
+      "sentence" : "It is hot today, however, I did not have any ice cream. "
     }, {
       "id" : 611,
       "date" : 1578894728823,
@@ -3030,7 +3030,7 @@
       "id" : 612,
       "date" : 1578894728823,
       "word" : "idea",
-      "sentence" : ""
+      "sentence" : "what a wonderful idea. "
     }, {
       "id" : 613,
       "date" : 1578894728823,
@@ -3050,7 +3050,7 @@
       "id" : 616,
       "date" : 1578894728823,
       "word" : "in",
-      "sentence" : ""
+      "sentence" : "sneak in to the bath room. "
     }, {
       "id" : 617,
       "date" : 1578894728823,
@@ -3060,12 +3060,12 @@
       "id" : 618,
       "date" : 1578894728823,
       "word" : "income",
-      "sentence" : ""
+      "sentence" : "Incoming birds!! duck!"
     }, {
       "id" : 619,
       "date" : 1578894728823,
       "word" : "increase",
-      "sentence" : ""
+      "sentence" : "Increase the amount of water"
     }, {
       "id" : 620,
       "date" : 1578894728823,
@@ -3080,7 +3080,7 @@
       "id" : 622,
       "date" : 1578894728823,
       "word" : "industry",
-      "sentence" : ""
+      "sentence" : "car industry is business about cars. "
     }, {
       "id" : 623,
       "date" : 1578894728823,
@@ -3135,12 +3135,12 @@
       "id" : 633,
       "date" : 1578894728823,
       "word" : "item",
-      "sentence" : ""
+      "sentence" : "this item is my favorite treasure."
     }, {
       "id" : 635,
       "date" : 1578894728823,
       "word" : "job",
-      "sentence" : ""
+      "sentence" : "My job is to grow, learn, and be happy. "
     }, {
       "id" : 636,
       "date" : 1578894728823,
@@ -3155,32 +3155,32 @@
       "id" : 638,
       "date" : 1578894728823,
       "word" : "key",
-      "sentence" : ""
+      "sentence" : "every lock has a key."
     }, {
       "id" : 639,
       "date" : 1578894728823,
       "word" : "kid",
-      "sentence" : ""
+      "sentence" : "I am a kid. a smart kid."
     }, {
       "id" : 640,
       "date" : 1578894728823,
       "word" : "kill",
-      "sentence" : ""
+      "sentence" : "don't kill the bee! they are good for us."
     }, {
       "id" : 641,
       "date" : 1578894728823,
       "word" : "king",
-      "sentence" : ""
+      "sentence" : "King lion looks over the field."
     }, {
       "id" : 642,
       "date" : 1578894728823,
       "word" : "kitchen",
-      "sentence" : ""
+      "sentence" : "Mommy is busy in the kitchen."
     }, {
       "id" : 643,
       "date" : 1578894728823,
       "word" : "knock",
-      "sentence" : ""
+      "sentence" : "knock knock, who is there?"
     }, {
       "id" : 644,
       "date" : 1578894728823,
@@ -3190,7 +3190,7 @@
       "id" : 646,
       "date" : 1578894728823,
       "word" : "lady",
-      "sentence" : ""
+      "sentence" : "Ladies and gentlemen, welcome to the show!"
     }, {
       "id" : 647,
       "date" : 1578894728823,
@@ -3200,32 +3200,32 @@
       "id" : 648,
       "date" : 1578894728823,
       "word" : "language",
-      "sentence" : ""
+      "sentence" : "I speak many languages: chinese, wuxinese, english"
     }, {
       "id" : 649,
       "date" : 1578894728823,
       "word" : "large",
-      "sentence" : ""
+      "sentence" : "a large bird!"
     }, {
       "id" : 650,
       "date" : 1578894728823,
       "word" : "last",
-      "sentence" : ""
+      "sentence" : "I will watch one last episode. "
     }, {
       "id" : 651,
       "date" : 1578894728823,
       "word" : "late",
-      "sentence" : ""
+      "sentence" : "go to bed, it is late."
     }, {
       "id" : 652,
       "date" : 1578894728823,
       "word" : "laugh",
-      "sentence" : ""
+      "sentence" : "he laughing so hard, he fell down. "
     }, {
       "id" : 653,
       "date" : 1578894728823,
       "word" : "law",
-      "sentence" : ""
+      "sentence" : "running red is breaking the law. "
     }, {
       "id" : 654,
       "date" : 1578894728823,
@@ -3240,12 +3240,12 @@
       "id" : 656,
       "date" : 1578894728823,
       "word" : "leave",
-      "sentence" : ""
+      "sentence" : "don't leave the heater on all day. "
     }, {
       "id" : 657,
       "date" : 1578894728823,
       "word" : "left",
-      "sentence" : ""
+      "sentence" : "after she left, daddy came home. "
     }, {
       "id" : 658,
       "date" : 1578894728823,
@@ -3255,7 +3255,7 @@
       "id" : 659,
       "date" : 1578894728823,
       "word" : "less",
-      "sentence" : ""
+      "sentence" : "10 is less than 11. "
     }, {
       "id" : 660,
       "date" : 1578894728823,
@@ -3265,7 +3265,7 @@
       "id" : 661,
       "date" : 1578894728823,
       "word" : "letter",
-      "sentence" : ""
+      "sentence" : "I am writing a letter to Ms. Delore."
     }, {
       "id" : 662,
       "date" : 1578894728823,
@@ -3285,12 +3285,12 @@
       "id" : 665,
       "date" : 1578894728823,
       "word" : "light",
-      "sentence" : ""
+      "sentence" : "turn on the light. "
     }, {
       "id" : 666,
       "date" : 1578894728823,
       "word" : "like",
-      "sentence" : ""
+      "sentence" : "I like eating ice cream. "
     }, {
       "id" : 667,
       "date" : 1578894728823,
@@ -3365,7 +3365,7 @@
       "id" : 682,
       "date" : 1578894728823,
       "word" : "love",
-      "sentence" : ""
+      "sentence" : "I love mommy"
     }, {
       "id" : 683,
       "date" : 1578894728823,
@@ -3380,7 +3380,7 @@
       "id" : 685,
       "date" : 1578894728823,
       "word" : "lunch",
-      "sentence" : ""
+      "sentence" : "what's in your lunch?"
     }, {
       "id" : 686,
       "date" : 1578894728823,
@@ -3785,12 +3785,12 @@
       "id" : 766,
       "date" : 1578894728823,
       "word" : "out",
-      "sentence" : ""
+      "sentence" : "take out the trash. "
     }, {
       "id" : 767,
       "date" : 1578894728823,
       "word" : "over",
-      "sentence" : ""
+      "sentence" : "bring over the papers."
     }, {
       "id" : 768,
       "date" : 1578894728823,
@@ -3840,7 +3840,7 @@
       "id" : 777,
       "date" : 1578894728823,
       "word" : "park",
-      "sentence" : ""
+      "sentence" : "play in a park."
     }, {
       "id" : 778,
       "date" : 1578894728823,
@@ -4420,27 +4420,27 @@
       "id" : 899,
       "date" : 1578894728823,
       "word" : "see",
-      "sentence" : ""
+      "sentence" : "Can you see the difference?"
     }, {
       "id" : 900,
       "date" : 1578894728823,
       "word" : "seem",
-      "sentence" : ""
+      "sentence" : "It seems like a dog, a dirty dog."
     }, {
       "id" : 901,
       "date" : 1578894728823,
       "word" : "self",
-      "sentence" : ""
+      "sentence" : "I will do this myself."
     }, {
       "id" : 902,
       "date" : 1578894728823,
       "word" : "sell",
-      "sentence" : ""
+      "sentence" : "I am selling my toys."
     }, {
       "id" : 903,
       "date" : 1578894728823,
       "word" : "send",
-      "sentence" : ""
+      "sentence" : "send letters."
     }, {
       "id" : 904,
       "date" : 1578894728823,
@@ -4540,12 +4540,12 @@
       "id" : 923,
       "date" : 1578894728823,
       "word" : "side",
-      "sentence" : ""
+      "sentence" : "on the other side of the raod"
     }, {
       "id" : 924,
       "date" : 1578894728823,
       "word" : "sign",
-      "sentence" : ""
+      "sentence" : "did you see that road sign?"
     }, {
       "id" : 925,
       "date" : 1578894728823,
@@ -4580,17 +4580,17 @@
       "id" : 931,
       "date" : 1578894728823,
       "word" : "sister",
-      "sentence" : ""
+      "sentence" : "I don't have a sister."
     }, {
       "id" : 932,
       "date" : 1578894728823,
       "word" : "sit",
-      "sentence" : ""
+      "sentence" : "Sit down please."
     }, {
       "id" : 933,
       "date" : 1578894728823,
       "word" : "site",
-      "sentence" : ""
+      "sentence" : "many tools on the construction site."
     }, {
       "id" : 934,
       "date" : 1578894728823,
@@ -4610,7 +4610,7 @@
       "id" : 937,
       "date" : 1578894728823,
       "word" : "sleep",
-      "sentence" : ""
+      "sentence" : "sleeping helps me grow."
     }, {
       "id" : 938,
       "date" : 1578894728823,
@@ -4625,7 +4625,7 @@
       "id" : 940,
       "date" : 1578894728823,
       "word" : "small",
-      "sentence" : ""
+      "sentence" : "small steps."
     }, {
       "id" : 941,
       "date" : 1578894728823,
@@ -4650,12 +4650,12 @@
       "id" : 945,
       "date" : 1578894728823,
       "word" : "soon",
-      "sentence" : ""
+      "sentence" : "It will be dinner time soon. "
     }, {
       "id" : 946,
       "date" : 1578894728823,
       "word" : "sorry",
-      "sentence" : ""
+      "sentence" : "I am sorry"
     }, {
       "id" : 947,
       "date" : 1578894728823,
@@ -4665,7 +4665,7 @@
       "id" : 948,
       "date" : 1578894728823,
       "word" : "sound",
-      "sentence" : ""
+      "sentence" : "That sounds like Daddy. "
     }, {
       "id" : 949,
       "date" : 1578894728823,

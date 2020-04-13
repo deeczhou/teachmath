@@ -7,7 +7,6 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class EnglishGen {
 
@@ -17,7 +16,6 @@ public class EnglishGen {
     static final double LINE_SPACEING = 1.6;
 
     public static Word getRandomWord(List<Word> words) {
-        int index = ThreadLocalRandom.current().nextInt(0, words.size());
         Random r  = new Random();
         return words.get(r.ints(0, words.size()).findAny().getAsInt());
     }

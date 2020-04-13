@@ -1,7 +1,6 @@
 package d.learn.chinese;
 
 import d.learn.models.ChineseWord;
-import d.learn.models.Word;
 import org.apache.poi.xwpf.usermodel.*;
 
 import java.util.ArrayList;
