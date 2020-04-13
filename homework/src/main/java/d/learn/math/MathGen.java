@@ -151,7 +151,7 @@ public class MathGen {
             int a = getRandomIntBetween(1, upper);
             int b = getRandomIntBetween(1, a);
             while( b == a) {
-                b = getRandomIntBetween(1, a - 5);
+                b = getRandomIntBetween(1, a);
             }
             addToLine(run, new Pair<>(a, b), FILL_MINUS);
             if (i%4 == 0) {
