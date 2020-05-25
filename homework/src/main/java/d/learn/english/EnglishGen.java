@@ -28,7 +28,7 @@ public class EnglishGen {
         run.setFontFamily(FONT_FAMILY);
         while (number > 0) {
             Word w = getRandomWord(words);
-            while(w.getWord().length() > 15 && w.getWord().length() < 4) {
+            while(w.getWord().length() > 20 || w.getWord().length() < 3) {
                 w = getRandomWord(words);
             }
             StringBuilder sb = new StringBuilder();

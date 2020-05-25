@@ -1081,7 +1081,7 @@
             "id": 153,
             "date": 1577601297032,
             "word": "乡",
-            "sentence": "香 音",
+            "sentence": "乡 音",
             "translation": "home town language"
         },
         {
@@ -1095,9 +1095,617 @@
             "id": 155,
             "date": 1577601297032,
             "word": "乐",
-            "sentence": "音 乐",
+            "sentence": "音 乐 快 乐",
             "translation": "music"
+        },
+        {
+            "id": 156,
+            "date": 1577601297032,
+            "word": "先",
+            "sentence": "先 去 洗 手",
+            "translation": "go wash hands first"
+        },
+        {
+            "id": 157,
+            "date": 1577601297032,
+            "word": "可",
+            "sentence": "好 可 口",
+            "translation": "very delicious"
+        },
+        {
+            "id": 158,
+            "date": 1577601297032,
+            "word": "喜",
+            "sentence": "喜 欢",
+            "translation": "like"
+        },
+        {
+            "id": 159,
+            "date": 1577601297032,
+            "word": "欢",
+            "sentence": "喜 欢",
+            "translation": "like"
+        },
+        {
+            "id": 160,
+            "date": 1577601297032,
+            "word": "橘",
+            "sentence": "橘 子",
+            "translation": "orange"
+        },
+        {
+            "id": 161,
+            "date": 1577601297032,
+            "word": "饺",
+            "sentence": "饺 子",
+            "translation": "dumpling"
+        },
+        {
+            "id": 162,
+            "date": 1577601297032,
+            "word": "挑",
+            "sentence": "不 挑 食",
+            "translation": "don't be picky with food."
+        },
+        {
+            "id": 163,
+            "date": 1577601297032,
+            "word": "食",
+            "sentence": "食 物",
+            "translation": "food"
+        },
+        {
+            "id": 164,
+            "date": 1577601297032,
+            "word": "吃",
+            "sentence": "吃 光",
+            "translation": "eat up all"
+        },
+        {
+            "id": 165,
+            "date": 1577601297032,
+            "word": "凤",
+            "sentence": "凤 梨",
+            "translation": "pineapple"
+        },
+        {
+            "id": 166,
+            "date": 1577601297032,
+            "word": "青",
+            "sentence": "青 菜",
+            "translation": "vegetable"
+        },
+        {
+            "id": 167,
+            "date": 1577601297032,
+            "word": "菜",
+            "sentence": "青 菜",
+            "translation": "vegetable"
+        },
+        {
+            "id": 168,
+            "date": 1577601297032,
+            "word": "鱼",
+            "sentence": "鱼 肉",
+            "translation": "fish meat"
+        },
+        {
+            "id": 169,
+            "date": 1577601297032,
+            "word": "猪",
+            "sentence": "猪 肉",
+            "translation": "pork"
+        },
+        {
+            "id": 170,
+            "date": 1577601297032,
+            "word": "牛",
+            "sentence": "牛 肉",
+            "translation": "beef"
+        },
+        {
+            "id": 171,
+            "date": 1577601297032,
+            "word": "鸡",
+            "sentence": "鸡 肉",
+            "translation": "chicken"
+        },
+        {
+            "id": 172,
+            "date": 1577601297032,
+            "word": "花",
+            "sentence": "花 生",
+            "translation": "peanut"
+        },
+        {
+            "id": 173,
+            "date": 1577601297032,
+            "word": "生",
+            "sentence": "花 生",
+            "translation": "peanut"
+        },
+        {
+            "id": 174,
+            "date": 1577601297032,
+            "word": "平",
+            "sentence": "平 平 安 安",
+            "translation": "safe"
+        },
+        {
+            "id": 175,
+            "date": 1577601297032,
+            "word": "安",
+            "sentence": "平 平 安 安",
+            "translation": "safe"
+        },
+        {
+            "id": 176,
+            "date": 1577601297032,
+            "word": "年",
+            "sentence": "一 年 的 时 间",
+            "translation": "one year"
+        },
+        {
+            "id": 177,
+            "date": 1577601297032,
+            "word": "余",
+            "sentence": "年 年 有 余",
+            "translation": "saving a bit every year"
+        },
+        {
+            "id": 178,
+            "date": 1577601297032,
+            "word": "吉",
+            "sentence": "大 吉 大 利",
+            "translation": "good luck"
+        },
+        {
+            "id": 179,
+            "date": 1577601297032,
+            "word": "利",
+            "sentence": "大 吉 大 利",
+            "translation": "good luck"
+        },
+        {
+            "id": 180,
+            "date": 1577601297032,
+            "word": "招",
+            "sentence": "招 财 进 宝",
+            "translation": "good fortune"
+        },
+        {
+            "id": 181,
+            "date": 1577601297032,
+            "word": "财",
+            "sentence": "招 财 进 宝",
+            "translation": "good fortune"
+        },
+        {
+            "id": 182,
+            "date": 1577601297032,
+            "word": "宝",
+            "sentence": "招 财 进 宝",
+            "translation": "good fortune"
+        },
+        {
+            "id": 183,
+            "date": 1577601297032,
+            "word": "筷",
+            "sentence": "筷 子",
+            "translation": "chopsticks"
+        },
+        {
+            "id": 184,
+            "date": 1577601297032,
+            "word": "长",
+            "sentence": "长 方 形",
+            "translation": "rectangle"
+        },
+        {
+            "id": 185,
+            "date": 1577601297032,
+            "word": "正",
+            "sentence": "正 方 形",
+            "translation": "square"
+        },
+        {
+            "id": 186,
+            "date": 1577601297032,
+            "word": "圆",
+            "sentence": "圆 形",
+            "translation": "circle"
+        },
+        {
+            "id": 187,
+            "date": 1577601297032,
+            "word": "椭",
+            "sentence": "椭 圆 形",
+            "translation": "oval"
+        },
+        {
+            "id": 188,
+            "date": 1577601297032,
+            "word": "角",
+            "sentence": "三 角 形",
+            "translation": "triangle"
+        },
+        {
+            "id": 189,
+            "date": 1577601297032,
+            "word": "形",
+            "sentence": "形 状",
+            "translation": "shape"
+        },
+        {
+            "id": 190,
+            "date": 1577601297032,
+            "word": "状",
+            "sentence": "形 状",
+            "translation": "shape"
+        },
+        {
+            "id": 191,
+            "date": 1577601297032,
+            "word": "菱",
+            "sentence": "菱 形",
+            "translation": "rhombus"
+        },
+        {
+            "id": 192,
+            "date": 1577601297032,
+            "word": "气",
+            "sentence": "气 球",
+            "translation": "baloon"
+        },
+        {
+            "id": 193,
+            "date": 1577601297032,
+            "word": "敲",
+            "sentence": "跷 跷 板",
+            "translation": "see-saw"
+        },
+        {
+            "id": 194,
+            "date": 1577601297032,
+            "word": "棋",
+            "sentence": "棋 盘",
+            "translation": "chess board"
+        },
+        {
+            "id": 195,
+            "date": 1577601297032,
+            "word": "喷",
+            "sentence": "喷 水 池",
+            "translation": "fountain"
+        },
+        {
+            "id": 196,
+            "date": 1577601297032,
+            "word": "池",
+            "sentence": "水 池",
+            "translation": "water pool"
+        },
+        {
+            "id": 197,
+            "date": 1577601297032,
+            "word": "筝",
+            "sentence": "风 筝",
+            "translation": "kite"
+        },
+        {
+            "id": 198,
+            "date": 1577601297032,
+            "word": "蛋",
+            "sentence": "蛋 糕",
+            "translation": "cake"
+        },
+        {
+            "id": 199,
+            "date": 1577601297032,
+            "word": "圈",
+            "sentence": "圈 一 圈",
+            "translation": "circle around it"
+        },
+        {
+            "id": 200,
+            "date": 1577601297032,
+            "word": "找",
+            "sentence": "找 一 找",
+            "translation": "find"
+        },
+        {
+            "id": 201,
+            "date": 1577601297032,
+            "word": "泡",
+            "sentence": "泡 泡",
+            "translation": "bubble"
+        },
+        {
+            "id": 202,
+            "date": 1577601297032,
+            "word": "澡",
+            "sentence": "泡 澡",
+            "translation": "bath"
+        },
+        {
+            "id": 203,
+            "date": 1577601297032,
+            "word": "趣",
+            "sentence": "真 有 趣",
+            "translation": "so fun"
+        },
+        {
+            "id": 204,
+            "date": 1577601297032,
+            "word": "舒",
+            "sentence": "舒 服",
+            "translation": "comfortable"
+        },
+        {
+            "id": 205,
+            "date": 1577601297032,
+            "word": "服",
+            "sentence": "舒 服",
+            "translation": "comfortable"
+        },
+        {
+            "id": 206,
+            "date": 1577601297032,
+            "word": "剪",
+            "sentence": "剪 指 甲",
+            "translation": "cut finger nail"
+        },
+        {
+            "id": 207,
+            "date": 1577601297032,
+            "word": "指",
+            "sentence": "指 甲",
+            "translation": "finger nail"
+        },
+        {
+            "id": 208,
+            "date": 1577601297032,
+            "word": "甲",
+            "sentence": "指 甲",
+            "translation": "finger nail"
+        },
+        {
+            "id": 209,
+            "date": 1577601297032,
+            "word": "刷",
+            "sentence": "刷 牙",
+            "translation": "brush teeth"
+        },
+        {
+            "id": 210,
+            "date": 1577601297032,
+            "word": "洗",
+            "sentence": "洗 脸",
+            "translation": "wash my face"
+        },
+        {
+            "id": 211,
+            "date": 1577601297032,
+            "word": "腰",
+            "sentence": "弯 腰",
+            "translation": "waist， bend over"
+        },
+        {
+            "id": 211,
+            "date": 1577601297032,
+            "word": "肩",
+            "sentence": "肩 膀",
+            "translation": "shoulder"
+        },
+        {
+            "id": 212,
+            "date": 1577601297032,
+            "word": "膀",
+            "sentence": "肩 膀",
+            "translation": "shoulder"
+        },
+        {
+            "id": 213,
+            "date": 1577601297032,
+            "word": "眉",
+            "sentence": "眉 毛",
+            "translation": "eyebrows"
+        },
+        {
+            "id": 212,
+            "date": 1577601297032,
+            "word": "鼻",
+            "sentence": "鼻 子",
+            "translation": "nose"
+        },
+        {
+            "id": 213,
+            "date": 1577601297032,
+            "word": "睛",
+            "sentence": "眼 睛",
+            "translation": "eye"
+        },
+        {
+            "id": 214,
+            "date": 1577601297032,
+            "word": "牙",
+            "sentence": "牙 齿",
+            "translation": "teeth"
+        },
+        {
+            "id": 215,
+            "date": 1577601297032,
+            "word": "齿",
+            "sentence": "牙 齿",
+            "translation": "teeth"
+        },
+        {
+            "id": 216,
+            "date": 1577601297032,
+            "word": "唇",
+            "sentence": "嘴 唇",
+            "translation": "lip"
+        },
+        {
+            "id": 217,
+            "date": 1577601297032,
+            "word": "红",
+            "sentence": "红 色",
+            "translation": "red"
+        },
+        {
+            "id": 218,
+            "date": 1577601297032,
+            "word": "彩",
+            "sentence": "彩 色",
+            "translation": "colorful"
+        },
+        {
+            "id": 219,
+            "date": 1577601297032,
+            "word": "没",
+            "sentence": "没 关 系",
+            "translation": "it's ok"
+        },
+        {
+            "id": 220,
+            "date": 1577601297032,
+            "word": "关",
+            "sentence": "没 关 系",
+            "translation": "it's ok"
+        },
+        {
+            "id": 221,
+            "date": 1577601297032,
+            "word": "系",
+            "sentence": "没 关 系",
+            "translation": "it's ok"
+        },
+        {
+            "id": 222,
+            "date": 1577601297032,
+            "word": "世",
+            "sentence": "世 界",
+            "translation": "world"
+        },
+        {
+            "id": 223,
+            "date": 1577601297032,
+            "word": "界",
+            "sentence": "世 界",
+            "translation": "world"
+        },
+        {
+            "id": 224,
+            "date": 1577601297032,
+            "word": "蓝",
+            "sentence": "蓝 色",
+            "translation": "blue"
+        },
+        {
+            "id": 225,
+            "date": 1577601297032,
+            "word": "绿",
+            "sentence": "绿 色",
+            "translation": "green"
+        },
+        {
+            "id": 226,
+            "date": 1577601297032,
+            "word": "紫",
+            "sentence": "紫 色",
+            "translation": "purple"
+        },
+        {
+            "id": 227,
+            "date": 1577601297032,
+            "word": "黄",
+            "sentence": "黄 色",
+            "translation": "yellow"
+        },
+        {
+            "id": 228,
+            "date": 1577601297032,
+            "word": "白",
+            "sentence": "白 色",
+            "translation": "white"
+        },
+        {
+            "id": 229,
+            "date": 1577601297032,
+            "word": "咖",
+            "sentence": "咖 啡 色",
+            "translation": "brown"
+        },
+        {
+            "id": 230,
+            "date": 1577601297032,
+            "word": "啡",
+            "sentence": "咖 啡 色",
+            "translation": "brown"
+        },
+        {
+            "id": 231,
+            "date": 1577601297032,
+            "word": "随",
+            "sentence": "随 便",
+            "translation": "freely"
+        },
+        {
+            "id": 232,
+            "date": 1577601297032,
+            "word": "便",
+            "sentence": "随 便",
+            "translation": "freely"
+        },
+        {
+            "id": 233,
+            "date": 1577601297032,
+            "word": "动",
+            "sentence": "动",
+            "translation": "animal"
+        },
+        {
+            "id": 234,
+            "date": 1577601297032,
+            "word": "长",
+            "sentence": "长 颈 鹿",
+            "translation": "giraffe"
+        },
+        {
+            "id": 235,
+            "date": 1577601297032,
+            "word": "颈",
+            "sentence": "长 颈 鹿",
+            "translation": "giraffe"
+        },
+        {
+            "id": 236,
+            "date": 1577601297032,
+            "word": "鹿",
+            "sentence": "长 颈 鹿",
+            "translation": "giraffe"
+        },
+        {
+            "id": 237,
+            "date": 1577601297032,
+            "word": "保",
+            "sentence": "保 持",
+            "translation": "keep"
+        },
+        {
+            "id": 238,
+            "date": 1577601297032,
+            "word": "持",
+            "sentence": "保 持",
+            "translation": "keep"
+        },
+        {
+            "id": 239,
+            "date": 1577601297032,
+            "word": "喂",
+            "sentence": "喂 动 物",
+            "translation": "feed animal"
         }
-
     ]
 }
