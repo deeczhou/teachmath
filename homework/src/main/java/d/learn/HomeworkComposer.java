@@ -30,11 +30,11 @@ public class HomeworkComposer {
     int numberOfChineseCharacters = 10;
     int numberOfEnglishWords = 19;
     int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus + numberOfFillMinus;
-    Pair<Integer, Integer> multiRange = new Pair<>(2, 13);
-    Pair<Integer, Integer> addRange = new Pair<>(10, 110);
-    Pair<Integer, Integer> minusRange = new Pair<>(10, 110);
-    Pair<Integer, Integer> addFillRange = new Pair<>(20, 100);
-    int minusUpper = 50;
+    Pair<Integer, Integer> multiRange = new Pair<>(3, 15);
+    Pair<Integer, Integer> addRange = new Pair<>(30, 165);
+    Pair<Integer, Integer> minusRange = new Pair<>(30, 165);
+    Pair<Integer, Integer> addFillRange = new Pair<>(30, 150);
+    int minusUpper = 100;
 
     public HomeworkComposer(String englishDictPath, String chineseDictPath) {
         this.englishDictPath = englishDictPath;

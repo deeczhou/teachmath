@@ -1706,6 +1706,300 @@
             "word": "喂",
             "sentence": "喂 动 物",
             "translation": "feed animal"
+        },
+        {
+            "id": 240,
+            "date": 1577601297032,
+            "word": "帮",
+            "sentence": "帮 助",
+            "translation": "help"
+        },
+        {
+            "id": 241,
+            "date": 1577601297032,
+            "word": "助",
+            "sentence": "帮 助",
+            "translation": "help"
+        },
+        {
+            "id": 242,
+            "date": 1577601297032,
+            "word": "拿",
+            "sentence": "拿 东 西",
+            "translation": "take things"
+        },
+        {
+            "id": 243,
+            "date": 1577601297032,
+            "word": "瓶",
+            "sentence": "一 瓶 牛 奶",
+            "translation": "a bottle of milk"
+        },
+        {
+            "id": 244,
+            "date": 1577601297032,
+            "word": "豆",
+            "sentence": "豆 浆",
+            "translation": "soy milk"
+        },
+        {
+            "id": 245,
+            "date": 1577601297032,
+            "word": "浆",
+            "sentence": "豆 浆",
+            "translation": "soy milk"
+        },
+        {
+            "id": 246,
+            "date": 1577601297032,
+            "word": "番",
+            "sentence": "番 茄",
+            "translation": "tomato"
+        },
+        {
+            "id": 247,
+            "date": 1577601297032,
+            "word": "茄",
+            "sentence": "番 茄",
+            "translation": "tomato"
+        },
+        {
+            "id": 248,
+            "date": 1577601297032,
+            "word": "竹",
+            "sentence": "竹 笋",
+            "translation": "bamboo shoots"
+        },
+        {
+            "id": 249,
+            "date": 1577601297032,
+            "word": "笋",
+            "sentence": "竹 笋",
+            "translation": "bamboo shoots"
+        },
+        {
+            "id": 250,
+            "date": 1577601297032,
+            "word": "香",
+            "sentence": "香 菇",
+            "translation": "mushroom"
+        },
+        {
+            "id": 251,
+            "date": 1577601297032,
+            "word": "菇",
+            "sentence": "香 菇",
+            "translation": "mushroom"
+        },
+        {
+            "id": 252,
+            "date": 1577601297032,
+            "word": "酱",
+            "sentence": "酱 油",
+            "translation": "soy source"
+        },
+        {
+            "id": 253,
+            "date": 1577601297032,
+            "word": "菠",
+            "sentence": "菠 菜",
+            "translation": "spinach"
+        },
+        {
+            "id": 254,
+            "date": 1577601297032,
+            "word": "买",
+            "sentence": "买 卖",
+            "translation": "business， buy"
+        },
+        {
+            "id": 254,
+            "date": 1577601297032,
+            "word": "卖",
+            "sentence": "买 卖",
+            "translation": "business， sell"
+        },
+        {
+            "id": 255,
+            "date": 1577601297032,
+            "word": "买",
+            "sentence": "买 卖",
+            "translation": "business， buy"
+        },
+        {
+            "id": 256,
+            "date": 1577601297032,
+            "word": "常",
+            "sentence": "常 见",
+            "translation": "common"
+        },
+        {
+            "id": 257,
+            "date": 1577601297032,
+            "word": "传",
+            "sentence": "传 统",
+            "translation": "trandition"
+        },
+        {
+            "id": 258,
+            "date": 1577601297032,
+            "word": "统",
+            "sentence": "传 统",
+            "translation": "tradition"
+        },
+        {
+            "id": 259,
+            "date": 1577601297032,
+            "word": "国",
+            "sentence": "外 国",
+            "translation": "foreign country"
+        },
+        {
+            "id": 260,
+            "date": 1577601297032,
+            "word": "统",
+            "sentence": "传 统",
+            "translation": "tradition"
+        },
+        {
+            "id": 261,
+            "date": 1577601297032,
+            "word": "市",
+            "sentence": "市 场",
+            "translation": "market"
+        },
+        {
+            "id": 262,
+            "date": 1577601297032,
+            "word": "除",
+            "sentence": "除 了",
+            "translation": "except"
+        },
+        {
+            "id": 263,
+            "date": 1577601297032,
+            "word": "迟",
+            "sentence": "迟 到",
+            "translation": "late"
+        },
+        {
+            "id": 264,
+            "date": 1577601297032,
+            "word": "火",
+            "sentence": "火 车",
+            "translation": "train"
+        },
+        {
+            "id": 265,
+            "date": 1577601297032,
+            "word": "点",
+            "sentence": "三 点",
+            "translation": "three o'clock"
+        },
+        {
+            "id": 266,
+            "date": 1577601297032,
+            "word": "光",
+            "sentence": "光 阴",
+            "translation": "time"
+        },
+        {
+            "id": 267,
+            "date": 1577601297032,
+            "word": "寸",
+            "sentence": "一 寸",
+            "translation": "1 inch"
+        },
+        {
+            "id": 268,
+            "date": 1577601297032,
+            "word": "重",
+            "sentence": "重 来",
+            "translation": "fresh start"
+        },
+        {
+            "id": 269,
+            "date": 1577601297032,
+            "word": "勉",
+            "sentence": "勉 励",
+            "translation": "work hard"
+        },
+        {
+            "id": 270,
+            "date": 1577601297032,
+            "word": "励",
+            "sentence": "勉 励",
+            "translation": "work hard"
+        },
+        {
+            "id": 271,
+            "date": 1577601297032,
+            "word": "岁",
+            "sentence": "岁 月",
+            "translation": "time"
+        },
+        {
+            "id": 271,
+            "date": 1577601297032,
+            "word": "月",
+            "sentence": "岁 月",
+            "translation": "time"
+        },
+        {
+            "id": 271,
+            "date": 1577601297032,
+            "word": "世",
+            "sentence": "世 界",
+            "translation": "world"
+        },
+        {
+            "id": 272,
+            "date": 1577601297032,
+            "word": "界",
+            "sentence": "世 界",
+            "translation": "world"
+        },
+        {
+            "id": 273,
+            "date": 1577601297032,
+            "word": "蚂",
+            "sentence": "蚂 蚁",
+            "translation": "ants"
+        },
+        {
+            "id": 274,
+            "date": 1577601297032,
+            "word": "蚁",
+            "sentence": "蚂 蚁",
+            "translation": "ants"
+        },
+        {
+            "id": 275,
+            "date": 1577601297032,
+            "word": "回",
+            "sentence": "回 家",
+            "translation": "go home"
+        },
+        {
+            "id": 276,
+            "date": 1577601297032,
+            "word": "客",
+            "sentence": "不 客 气",
+            "translation": "no worries, no problems"
+        },
+        {
+            "id": 277,
+            "date": 1577601297032,
+            "word": "欢",
+            "sentence": "欢 迎",
+            "translation": "welcome"
+        },
+        {
+            "id": 278,
+            "date": 1577601297032,
+            "word": "迎",
+            "sentence": "欢 迎",
+            "translation": "welcome"
         }
     ]
 }

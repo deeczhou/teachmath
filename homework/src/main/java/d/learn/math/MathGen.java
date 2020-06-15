@@ -165,7 +165,7 @@ public class MathGen {
     }
 
     public static XWPFRun addToLine(XWPFRun run, Pair<Integer, Integer> p, OptType type) {
-        String space = "                   ";
+        String space = "              ";
         switch (type) {
             case SIMPLE_ADD:
                 run.setText(p.getKey() + " + " + p.getValue() + " = " + space);
@@ -174,7 +174,7 @@ public class MathGen {
                 run.setText(p.getKey() + " - " + p.getValue() + " = " + space);
                 break;
             case SIMPLE_MULTIPLY:
-                run.setText(p.getKey() + " x " + p.getValue() + " = " + "               ");
+                run.setText(p.getKey() + " x " + p.getValue() + " = " + "              ");
                 break;
             case FILL_ADD:
                 String first = "";
