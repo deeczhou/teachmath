@@ -160,6 +160,22 @@ public class MathGen {
         }
     }
 
+    public static void buildFillInMultiple(XWPFDocument doc, int numberOfProblems, int upper) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(LINE_SPACING);
+        XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
+
+        for (int i = 1; i <= numberOfProblems; i++) {
+            int a = getRandomIntBetween(1, upper);
+            int b = getRandomIntBetween(a, upper);
+            addToLine(run, new Pair<>(a, a*b), Fill_MULTIPLE);
+            if (i%4 == 0) {
+                run.addBreak();
+            }
+        }
+    }
+
     private static int getRandomIntBetween(int a, int b) {
         return ThreadLocalRandom.current().nextInt(a, b);
     }
@@ -191,7 +207,19 @@ public class MathGen {
             case FILL_MINUS:
                 run.setText(p.getKey() + " - " + " ____ " + " = " + p.getValue() + "               ");
                 break;
-        }
+            case Fill_MULTIPLE:
+                String f = "";
+                String s = "";
+                if (p.getValue()%2 == 0) {
+                    f = Integer.toString(p.getKey());
+                    s = " ____ ";
+                } else {
+                    f = " ____ ";
+                    s = Integer.toString(p.getKey());
+                }
+                run.setText(f + " * " + s + " = " + p.getValue() + "               ");
+                break;    
+            }   
         return run;
     }
 }

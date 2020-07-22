@@ -22,19 +22,19 @@ public class HomeworkComposer {
     String chineseDictPath;
     final int FONT_SIZE = 13;
     final String FONT_FAMILY = "Verdana";
-    int numberOfMultiply = 24;
-    int numberOfAdd = 20;
-    int numberOfFillAdd = 16;
-    int numberOfMinus = 30;
-    int numberOfFillMinus = 16;
+    int numberOfMultiply = 18;
+    int numberOfAdd = 15;
+    int numberOfFillAdd = 12;
+    int numberOfMinus = 20;
+    int numberOfFillMinus = 12;
     int numberOfChineseCharacters = 10;
     int numberOfEnglishWords = 19;
     int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus + numberOfFillMinus;
-    Pair<Integer, Integer> multiRange = new Pair<>(3, 15);
-    Pair<Integer, Integer> addRange = new Pair<>(30, 165);
-    Pair<Integer, Integer> minusRange = new Pair<>(30, 165);
-    Pair<Integer, Integer> addFillRange = new Pair<>(30, 150);
-    int minusUpper = 100;
+    Pair<Integer, Integer> multiRange = new Pair<>(3, 25);
+    Pair<Integer, Integer> addRange = new Pair<>(50, 512);
+    Pair<Integer, Integer> minusRange = new Pair<>(50, 512);
+    Pair<Integer, Integer> addFillRange = new Pair<>(50, 512);
+    int minusUpper = 700;
 
     public HomeworkComposer(String englishDictPath, String chineseDictPath) {
         this.englishDictPath = englishDictPath;
@@ -61,6 +61,10 @@ public class HomeworkComposer {
         buildFillInMinus(doc, numberOfFillMinus, minusUpper);
         createParagraphHead(doc, "Multiplication");
         buildMultiply(doc, numberOfMultiply, multiRange.getKey(), multiRange.getValue());
+
+        createParagraphHead(doc, "Fill in Multiplication");
+        buildFillInMultiple(doc, 16, 10);
+        
         createParagraphHead(doc, "Addition");
         buildSimpleAdd(doc, numberOfAdd, addRange.getKey(), addRange.getValue());
         createParagraphHead(doc, "Subtraction");
