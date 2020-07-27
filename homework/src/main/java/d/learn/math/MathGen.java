@@ -176,6 +176,23 @@ public class MathGen {
         }
     }
 
+    public static void buildDivision(XWPFDocument doc, int numberOfProblems) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(LINE_SPACING);
+        XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
+
+
+        for (int i = 1; i <= numberOfProblems; i++) {        
+            int a = getRandomIntBetween(1, 9);
+            int b = getRandomIntBetween(1, 9);    
+            addToLine(run, new Pair<>(a, b), DIVISION);
+            if (i%5 == 0) {
+                run.addBreak();
+            }
+        }
+    }
+
     private static int getRandomIntBetween(int a, int b) {
         return ThreadLocalRandom.current().nextInt(a, b);
     }
@@ -219,7 +236,12 @@ public class MathGen {
                 }
                 run.setText(f + " * " + s + " = " + p.getValue() + "               ");
                 break;    
-            }   
+            case DIVISION:
+                int a = p.getKey();
+                int b = p.getValue();
+                run.setText(a*b + " / " + a + " = ___" + space);
+                break;
+            }
         return run;
     }
 }

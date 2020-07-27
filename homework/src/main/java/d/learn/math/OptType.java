@@ -6,5 +6,6 @@ public enum OptType {
     FILL_ADD,
     FILL_MINUS,
     SIMPLE_MULTIPLY,
-    Fill_MULTIPLE
+    Fill_MULTIPLE,
+    DIVISION
 }
