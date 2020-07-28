@@ -50,4 +50,6 @@ dependencies {
     runtime "org.slf4j:slf4j-simple:1.7.25"
     compile group: 'com.google.inject', name: 'guice', version: '4.2.2'
     compile group: 'io.ratpack', name: 'ratpack-guice', version: '1.7.6'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+
 }

@@ -13,7 +13,7 @@ public class EnglishGen {
     static final String FILL_SPACE = "__________";
     static final int FONT_SIZE = 16;
     static final String FONT_FAMILY = "Calibri";
-    static final double LINE_SPACEING = 1.6;
+    static final double LINE_SPACEING = 1.5;
 
     public static Word getRandomWord(List<Word> words) {
         Random r  = new Random();

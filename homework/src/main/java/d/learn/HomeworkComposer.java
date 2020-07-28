@@ -3,7 +3,7 @@ package d.learn;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import d.learn.models.ChineseDictionary;
 import d.learn.models.Dictionary;
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.poi.wp.usermodel.HeaderFooterType;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
@@ -32,11 +32,11 @@ public class HomeworkComposer {
     int numberOfDivision = 10;
     int numberOfFillinMultiplication = 12;
     int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus + numberOfFillMinus;
-    Pair<Integer, Integer> multiRange = new Pair<>(2, 30);
-    Pair<Integer, Integer> addRange = new Pair<>(100, 800);
-    Pair<Integer, Integer> minusRange = new Pair<>(100, 800);
-    Pair<Integer, Integer> addFillRange = new Pair<>(100, 800);
-    int minusUpper = 700;
+    ImmutablePair<Integer, Integer> multiRange = new ImmutablePair<>(6, 30);
+    ImmutablePair<Integer, Integer> addRange = new ImmutablePair<>(300, 800);
+    ImmutablePair<Integer, Integer> minusRange = new ImmutablePair<>(300, 800);
+    ImmutablePair<Integer, Integer> addFillRange = new ImmutablePair<>(300, 800);
+    int minusUpper = 1500;
 
     public HomeworkComposer(String englishDictPath, String chineseDictPath) {
         this.englishDictPath = englishDictPath;
@@ -52,7 +52,7 @@ public class HomeworkComposer {
         headRun.setFontFamily(FONT_FAMILY);
         //1st page
         //date header
-        headRun.setText(ld.toString() + "    " + ld.getDayOfWeek().toString() + "                              Name:____________");
+        headRun.setText(ld.toString() + "    " + ld.getDayOfWeek().toString() + "                          Name:____________");
         XWPFRun footerRun = doc.createFooter(HeaderFooterType.DEFAULT).createParagraph().createRun();
         footerRun.setFontSize(FONT_SIZE);
         footerRun.setFontFamily(FONT_FAMILY);

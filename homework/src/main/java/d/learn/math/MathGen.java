@@ -1,6 +1,6 @@
 package d.learn.math;
 
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
@@ -12,32 +12,32 @@ import java.util.concurrent.ThreadLocalRandom;
 import static d.learn.math.OptType.*;
 
 public class MathGen {
-    static Double LINE_SPACING = 1.4;
+    static Double LINE_SPACING = 1.15;
     static String FONT_FAMILY = "Calibri";
 
-    public static Pair<Integer, Integer> generateNumberPair(int from, int to) {
+    public static ImmutablePair<Integer, Integer> generateNumberPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
         Integer b = getRandomIntBetween(from, to);
-        Pair<Integer, Integer> p = new Pair<>(a, b);
+        ImmutablePair<Integer, Integer> p = new ImmutablePair<>(a, b);
         return p;
     }
 
-    public static Pair<Integer, Integer> generateMultiplePair(int multipleFor) {
+    public static ImmutablePair<Integer, Integer> generateMultiplePair(int multipleFor) {
         Integer a = getRandomIntBetween(1, 9);
-        Pair<Integer, Integer> p = new Pair<>(multipleFor, a);
+        ImmutablePair<Integer, Integer> p = new ImmutablePair<>(multipleFor, a);
         return p;
     }
 
-    public static Pair<Integer, Integer> generateSimpleMinusPair(int from, int to) {
+    public static ImmutablePair<Integer, Integer> generateSimpleMinusPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
         Integer b = getRandomIntBetween(from, to);
-        Pair<Integer, Integer> p = new Pair<>(a, b);
+        ImmutablePair<Integer, Integer> p = new ImmutablePair<>(a, b);
         int count = 0;
 
         while (b >= a) {
             a = getRandomIntBetween(from, to);
             b = getRandomIntBetween(from, to);
-            p = new Pair<>(a, b);
+            p = new ImmutablePair<>(a, b);
             count ++;
             if (count == 10) {
                 break;
@@ -52,10 +52,10 @@ public class MathGen {
         paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
         run.setFontFamily(FONT_FAMILY);
-        Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
+        Map<Integer, ImmutablePair<Integer, Integer>> resmap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
             int multipleFor = getRandomIntBetween(from, to + 1);
-            Pair<Integer, Integer> p = generateMultiplePair(multipleFor);
+            ImmutablePair<Integer, Integer> p = generateMultiplePair(multipleFor);
             int count = 0;
             while (resmap.containsValue(p)) {
                 p = generateMultiplePair(multipleFor);
@@ -78,9 +78,9 @@ public class MathGen {
         XWPFRun run = paragraph.createRun();
         run.setFontFamily(FONT_FAMILY);
 
-        Map<Integer, Pair<Integer, Integer>> resmap = new HashMap<>();
+        Map<Integer, ImmutablePair<Integer, Integer>> resmap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
-            Pair<Integer, Integer> p = generateNumberPair(from, to);
+            ImmutablePair<Integer, Integer> p = generateNumberPair(from, to);
             int count = 0;
             while (resmap.containsValue(p)) {
                 p = generateNumberPair(from, to);
@@ -103,9 +103,9 @@ public class MathGen {
         XWPFRun run = paragraph.createRun();
         run.setFontFamily(FONT_FAMILY);
 
-        Map<Integer, Pair<Integer, Integer>> resMap = new HashMap<>();
+        Map<Integer, ImmutablePair<Integer, Integer>> resMap = new HashMap<>();
         for (int i = 1; i <= numberOfProblems; i++) {
-            Pair<Integer, Integer> p = generateSimpleMinusPair(from, to);
+            ImmutablePair<Integer, Integer> p = generateSimpleMinusPair(from, to);
             Integer count = 0;
             while (resMap.containsValue(p)) {
                 p = generateSimpleMinusPair(from, to);
@@ -134,7 +134,7 @@ public class MathGen {
             while( b < a) {
                 b = getRandomIntBetween(subValueMax, sum);
             }
-            addToLine(run, new Pair<>(a, b), FILL_ADD);
+            addToLine(run, new ImmutablePair<>(a, b), FILL_ADD);
             if (i%4 == 0) {
                 run.addBreak();
             }
@@ -153,7 +153,7 @@ public class MathGen {
             while( b == a) {
                 b = getRandomIntBetween(1, a);
             }
-            addToLine(run, new Pair<>(a, b), FILL_MINUS);
+            addToLine(run, new ImmutablePair<>(a, b), FILL_MINUS);
             if (i%4 == 0) {
                 run.addBreak();
             }
@@ -169,7 +169,7 @@ public class MathGen {
         for (int i = 1; i <= numberOfProblems; i++) {
             int a = getRandomIntBetween(1, upper);
             int b = getRandomIntBetween(a, upper);
-            addToLine(run, new Pair<>(a, a*b), Fill_MULTIPLE);
+            addToLine(run, new ImmutablePair<>(a, a*b), Fill_MULTIPLE);
             if (i%4 == 0) {
                 run.addBreak();
             }
@@ -186,7 +186,7 @@ public class MathGen {
         for (int i = 1; i <= numberOfProblems; i++) {        
             int a = getRandomIntBetween(1, 9);
             int b = getRandomIntBetween(1, 9);    
-            addToLine(run, new Pair<>(a, b), DIVISION);
+            addToLine(run, new ImmutablePair<>(a, b), DIVISION);
             if (i%5 == 0) {
                 run.addBreak();
             }
@@ -197,7 +197,7 @@ public class MathGen {
         return ThreadLocalRandom.current().nextInt(a, b);
     }
 
-    public static XWPFRun addToLine(XWPFRun run, Pair<Integer, Integer> p, OptType type) {
+    public static XWPFRun addToLine(XWPFRun run, ImmutablePair<Integer, Integer> p, OptType type) {
         String space = "              ";
         switch (type) {
             case SIMPLE_ADD:
@@ -219,10 +219,10 @@ public class MathGen {
                     first = " ____ ";
                     second = Integer.toString(p.getKey());
                 }
-                run.setText(first + " + " + second + " = " + p.getValue() + "               ");
+                run.setText(first + " + " + second + " = " + p.getValue() + "             ");
                 break;
             case FILL_MINUS:
-                run.setText(p.getKey() + " - " + " ____ " + " = " + p.getValue() + "               ");
+                run.setText(p.getKey() + " - " + " ____ " + " = " + p.getValue() + "             ");
                 break;
             case Fill_MULTIPLE:
                 String f = "";
