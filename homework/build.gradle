@@ -11,7 +11,7 @@ buildscript {
 
 plugins {
     id 'java'
-    id 'eclipse'
+    id 'application'
 }
 
 group 'd.learn.homework'
@@ -19,17 +19,7 @@ version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-eclipse {
-    classpath {
-        file {
-            whenMerged {
-                def jre = entries.find { it.path.contains 'org.eclipse.jdt.launching.JRE_CONTAINER' }
-                jre.accessRules.add(new AccessRule('0', 'javafx/**'))
-                jre.accessRules.add(new AccessRule('0', 'com/sun/javafx/**'))
-            }
-        }
-    }
-}
+mainClassName = "server.LearnApp"
 
 repositories {
     mavenCentral()

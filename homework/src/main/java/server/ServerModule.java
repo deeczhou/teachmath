@@ -1,11 +1,13 @@
 package server;
 
 import com.google.inject.AbstractModule;
-import server.handlers.GetHomeworkHandler;
+import server.handlers.GenerateAdditionHandler;
+import server.services.MathGenService;
 
 public class ServerModule extends AbstractModule {
     protected void configure() {
-        bind(GetHomeworkHandler.class);
+        bind(GenerateAdditionHandler.class);
+        bind(MathGenService.class);
     }
 
 }

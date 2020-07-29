@@ -5,8 +5,7 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 import static d.learn.math.OptType.*;
@@ -182,10 +181,9 @@ public class MathGen {
         XWPFRun run = paragraph.createRun();
         run.setFontFamily(FONT_FAMILY);
 
-
         for (int i = 1; i <= numberOfProblems; i++) {        
             int a = getRandomIntBetween(1, 9);
-            int b = getRandomIntBetween(1, 9);    
+            int b = getRandomIntBetween(1, 9);
             addToLine(run, new ImmutablePair<>(a, b), DIVISION);
             if (i%5 == 0) {
                 run.addBreak();
@@ -195,6 +193,11 @@ public class MathGen {
 
     private static int getRandomIntBetween(int a, int b) {
         return ThreadLocalRandom.current().nextInt(a, b);
+    }
+
+    private static int getRandomPrime() {
+        int[] primes = {1,3,5};
+        return primes[ThreadLocalRandom.current().nextInt(0,3)];
     }
 
     public static XWPFRun addToLine(XWPFRun run, ImmutablePair<Integer, Integer> p, OptType type) {
@@ -239,7 +242,8 @@ public class MathGen {
             case DIVISION:
                 int a = p.getKey();
                 int b = p.getValue();
-                run.setText(a*b + " / " + a + " = ___" + space);
+                int prime = getRandomPrime();
+                run.setText(a*b*prime + " / " + a + " = ___" + space);
                 break;
             }
         return run;

@@ -76,7 +76,6 @@ public class HomeworkComposer {
         buildSimpleMinus(doc, numberOfMinus, minusRange.getKey(), minusRange.getValue());
 
         //2nd page
-        doc.createParagraph();
         createParagraphHead(doc, "Chinese Words");
         generateChineseWords(doc, chineseDic.getWords(), numberOfChineseCharacters);
 
