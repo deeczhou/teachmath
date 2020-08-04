@@ -1,6 +1,7 @@
 package d.learn;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import d.learn.english.DictionaryBuilder;
 import d.learn.models.ChineseDictionary;
 import d.learn.models.Dictionary;
 import org.apache.commons.lang3.tuple.ImmutablePair;
@@ -44,8 +45,12 @@ public class HomeworkComposer {
     }
 
     public XWPFDocument createHomeworkDoc(LocalDate ld) throws IOException {
-        Dictionary englishdic = buildDictionary(englishDictPath);
-        ChineseDictionary chineseDic = buildChineseDictionary(chineseDictPath);
+        //build dictionaries from json
+        DictionaryBuilder db = new DictionaryBuilder();
+        Dictionary englishdic = db.buildDictionaryFromUrl(englishDictPath);
+        ChineseDictionary chineseDic = db.buildChineseDictionaryFromUrl(chineseDictPath);
+
+        //initialize document
         XWPFDocument doc = new XWPFDocument();
         XWPFRun headRun = doc.createHeader(HeaderFooterType.DEFAULT).createParagraph().createRun();
         headRun.setFontSize(FONT_SIZE);

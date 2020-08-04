@@ -3,7 +3,7 @@ package server;
 import ratpack.guice.Guice;
 import ratpack.server.RatpackServer;
 import ratpack.server.ServerConfig;
-import ratpack.server.ServerConfigBuilder;
+import server.handlers.DownloadHwHandler;
 import server.handlers.GenerateAdditionHandler;
 
 public class LearnApp {
@@ -15,7 +15,8 @@ public class LearnApp {
                 .registry(Guice.registry(b -> b.module(ServerModule.class)))
                 .handlers(chain -> chain
                     .get("add", GenerateAdditionHandler.class)
-            )
+                    .get("homework", DownloadHwHandler.class)
+                )
         );
     }
 }

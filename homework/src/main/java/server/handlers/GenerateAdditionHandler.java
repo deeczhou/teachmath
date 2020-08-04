@@ -1,37 +1,65 @@
 package server.handlers;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
+import ratpack.http.MutableHeaders;
 import ratpack.path.PathTokens;
+import server.models.AdditionQuestion;
 import server.models.GenerateAddResponse;
 import server.services.MathGenService;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import static ratpack.jackson.Jackson.json;
 
 @Singleton
 public class GenerateAdditionHandler implements Handler {
-    private MathGenService mathGenService;
+    private final MathGenService mathGenService;
+    private final ObjectMapper objectMapper;
 
     @Inject
-    public GenerateAdditionHandler(MathGenService mathGenService){
+    public GenerateAdditionHandler(MathGenService mathGenService, ObjectMapper objectMapper){
         this.mathGenService = mathGenService;
+        this.objectMapper = new ObjectMapper();
     }
 
     @Override
     public void handle(Context ctx) throws Exception {
         Map<String, String> params = ctx.getRequest().getQueryParams();
-        Integer from = Integer.valueOf(params.get("from"));
-        Integer to = Integer.valueOf(params.get("to"));
-        ImmutablePair<Integer, Integer> p = mathGenService.generateAdditionPair(from, to);
+        int size = 10;
+        int from = 50;
+        int to = 100;
+        if (params.get("from") != null) {
+            from = Integer.parseInt(params.get("from"));
+        }
+        if (params.get("to") != null) {
+            to = Integer.parseInt(params.get("to"));
+        }
+        if (params.get("size")!= null) {
+            size = Integer.parseInt(params.get("size"));
+        }
+
+        List<AdditionQuestion> questionList = new ArrayList<>();
         GenerateAddResponse resp = new GenerateAddResponse();
-        resp.setNum1(p.left);
-        resp.setNum2(p.right);
-        resp.setSum(p.left+p.right);
-        ctx.render(json(resp));
+        final int f = from;
+        final int t = to;
+        IntStream.rangeClosed(1, size).forEach(i -> {
+            ImmutablePair<Integer, Integer> p = mathGenService.generateAdditionPair(f, t);
+            questionList.add(new AdditionQuestion(p.left, p.right, p.left + p.right));
+        });
+        resp.setQuestions(questionList);
+        MutableHeaders headers = ctx.getResponse().getHeaders();
+        headers.add("Access-Control-Allow-Origin", "*");
+        headers.add("Content-type", "application/json");
+
+        ctx.getResponse().send(objectMapper.writeValueAsBytes(resp));
     }
 }
