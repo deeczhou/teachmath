@@ -297,8 +297,8 @@
             "id": 43,
             "date": 1577601297032,
             "word": "中",
-            "sentence": "中",
-            "translation": ""
+            "sentence": "中 国",
+            "translation": "china"
         },
         {
             "id": 44,
@@ -312,7 +312,7 @@
             "date": 1577601297032,
             "word": "女",
             "sentence": "女 人 的 嘴",
-            "translation": "woman's mouse"
+            "translation": "woman's mouth"
         },
         {
             "id": 46,
@@ -354,7 +354,7 @@
             "date": 1577601297032,
             "word": "拿",
             "sentence": "拿 出 你 的 勇 气",
-            "translation": "bring out your bravery "
+            "translation": "be brave!"
         },
         {
             "id": 52,
@@ -479,8 +479,8 @@
             "id": 69,
             "date": 1577601297032,
             "word": "木",
-            "sentence": "小 小 的 木 头",
-            "translation": ""
+            "sentence": "木 头",
+            "translation": "log, wood"
         },
         {
             "id": 70,
@@ -781,7 +781,7 @@
             "date": 1577601297032,
             "word": "多",
             "sentence": "我 吃 很 多 肉",
-            "translation": "I eat alot of meat."
+            "translation": "I eat a lot of meat."
         },
         {
             "id": 111,
@@ -2076,7 +2076,7 @@
             "date": 1577601297032,
             "word": "风",
             "sentence": "水 村 山 郭 酒 旗 风",
-            "translation": "village along side the river and mountain standing in the wind"
+            "translation": "village along side the river and mountain with wine banners in the wind"
         },
         {
             "id": 288,
@@ -2125,7 +2125,7 @@
             "date": 1577601297032,
             "word": "故",
             "sentence": "故 人 西 辞 黄 鹤 楼",
-            "translation": "old friend is traveling to the west at Huang He Lou."
+            "translation": "Goodbye to an old friend who is traveling to the west at Huang He Lou."
         },
         {
             "id": 295,
