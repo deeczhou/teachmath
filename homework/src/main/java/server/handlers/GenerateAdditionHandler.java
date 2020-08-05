@@ -8,6 +8,7 @@ import ratpack.http.MutableHeaders;
 import ratpack.path.PathTokens;
 import server.models.AdditionQuestion;
 import server.models.GenerateAddResponse;
+import server.models.errors.BadHttpException;
 import server.services.MathGenService;
 
 import javax.inject.Inject;
@@ -67,15 +68,15 @@ public class GenerateAdditionHandler implements Handler {
 
     private void validateInput(int size, int from, int to) throws Exception {
         if (size <= 0 || size > 250) {
-            throw new Exception("sample size is too large");
+            throw new BadHttpException("Sample size does not meet the requirement.");
         }
 
         if (from <= -1000000 || from >= 1000000) {
-            throw new Exception("lower bound out of range limit.");
+            throw new BadHttpException("Lower bound does not meet the requirement.");
         }
 
         if (to <= from || to >= 2000000) {
-            throw new Exception("upper bound must be greater than lower bound. and needs to be in range limit.");
+            throw new BadHttpException("Upper bound does not meet the requirement.");
         }
     }
 }
