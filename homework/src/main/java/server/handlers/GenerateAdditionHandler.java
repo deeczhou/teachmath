@@ -47,6 +47,8 @@ public class GenerateAdditionHandler implements Handler {
             size = Integer.parseInt(params.get("size"));
         }
 
+        validateInput(size, from, to);
+
         List<AdditionQuestion> questionList = new ArrayList<>();
         GenerateAddResponse resp = new GenerateAddResponse();
         final int f = from;
@@ -61,5 +63,19 @@ public class GenerateAdditionHandler implements Handler {
         headers.add("Content-type", "application/json");
 
         ctx.getResponse().send(objectMapper.writeValueAsBytes(resp));
+    }
+
+    private void validateInput(int size, int from, int to) throws Exception {
+        if (size <= 0 || size > 250) {
+            throw new Exception("sample size is too large");
+        }
+
+        if (from <= -1000000 || from >= 1000000) {
+            throw new Exception("lower bound out of range limit.");
+        }
+
+        if (to <= from || to >= 2000000) {
+            throw new Exception("upper bound must be greater than lower bound. and needs to be in range limit.");
+        }
     }
 }
