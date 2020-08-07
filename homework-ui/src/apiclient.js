@@ -78,7 +78,7 @@ export default class AdditionList extends React.Component {
                 <IconButton size="small" onClick={()=> this.check(q.a, q.b)} type="success">Submit</IconButton>
               </Typography>
               
-              <Typography variant="h5" component="h2" hidden="true" id="hiddenAnswer">
+              <Typography variant="h5" component="h2" hidden={true} id="hiddenAnswer">
                 answer = {q.sum} 
               </Typography>
             </CardContent>
