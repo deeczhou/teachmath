@@ -9,10 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Homework Time <br></br>
-          and it is time for Homework~~
+          Homework Time
         </p>
-          Learn Math
       </header>
       
       <AdditionList />
