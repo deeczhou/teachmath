@@ -12,8 +12,8 @@ public class DownloadService {
     }
 
     public byte[] generateHomeworkFile() {
-        final String englishDictPath = "https://raw.githubusercontent.com/deeczhou/teachmath/master/homework/resources/dictionary.json";
-        final String chineseDictPath = "https://raw.githubusercontent.com/deeczhou/teachmath/master/homework/resources/dictionary-chinese.json";
+        final String englishDictPath = "https://raw.githubusercontent.com/deeczhou/learningdict/master/dictionary.json";
+        final String chineseDictPath = "https://raw.githubusercontent.com/deeczhou/learningdict/master/dictionary-chinese.json";
         HomeworkComposer hc = new HomeworkComposer(englishDictPath, chineseDictPath);
         LocalDate ld = LocalDate.now();
         ld = ld.plus(0, ChronoUnit.DAYS);

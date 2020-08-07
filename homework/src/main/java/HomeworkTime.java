@@ -14,8 +14,8 @@ public class HomeworkTime {
     static String outputDir = "output/";
     static String filePrefix = "hw-";
     static String fileExtension = ".docx";
-    final static String englishDictPath = "https://raw.githubusercontent.com/deeczhou/teachmath/master/homework/resources/dictionary.json";
-    final static String chineseDictPath = "https://raw.githubusercontent.com/deeczhou/teachmath/master/homework/resources/dictionary-chinese.json";
+    final static String englishDictPath = "https://raw.githubusercontent.com/deeczhou/learningdict/master/dictionary.json";
+    final static String chineseDictPath = "https://raw.githubusercontent.com/deeczhou/learningdict/master/dictionary-chinese.json";
 
     public static void main(String[] args) {
         try {
