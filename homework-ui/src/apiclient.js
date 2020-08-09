@@ -61,8 +61,20 @@ export default class AdditionList extends React.Component {
         this.setState({ questions });
         console.log(questions);
       }).catch(err => {
-          console.log(err);
+        this.trylocalUrl();
+        console.log(err);
       })
+  }
+
+  trylocalUrl() {
+    axios.get(`http://chips4ever.duckdns.org:8989/add?from=100&to=1000&size=20`)
+    .then(res => {
+      const questions = res.data.questions;
+      this.setState({ questions });
+      console.log(questions);
+    }).catch(err => {
+      console.log(err);
+    })
   }
 
   render() {
