@@ -55,7 +55,7 @@ export default class AdditionList extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`http://chips4ever.duckdns.org:8989/add?from=100&to=1000&size=20`)
+    axios.get(`http://chips4ever.duckdns.org:18200/add?from=100&to=1000&size=20`)
       .then(res => {
         const questions = res.data.questions;
         this.setState({ questions });
