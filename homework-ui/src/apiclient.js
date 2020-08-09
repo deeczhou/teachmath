@@ -3,47 +3,54 @@ import axios from 'axios';
 import { Card } from '@material-ui/core'
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from "@material-ui/core/styles";
 import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
 
 export default class AdditionList extends React.Component {
   state = {
     questions: [],
+    answers: [],
     correct: 0,
-    wrong: 0
+    wrong: 0,
+    colors: []
   }
 
-  useStyles = makeStyles((theme) => ({
-    input: {
-      marginLeft: theme.spacing(1),
-      flex: 1,
-      paddingLeft: 15,
-      paddingRight: 15,
-    },
-    iconButton: {
-      padding: 10,
-    }
-  }));
-  
-  check(a, b) {  
-    console.log(this.state.answer);
-    console.log(a);
-    console.log(b);
-    if (a + b == this.state.answer){
-      let c = this.state.correct;
-      c++;
-      this.setState({correct: c})
-    } else {
-      let w = this.state.wrong;
-      w++;
-      this.setState({wrong: w});
-    }
+  check() {  
+    console.log(this.state.answers);
+    console.log(this.state.questions);
+
+    var Qs = this.state.questions;
+    var As = this.state.answers;
+    var Cs = this.state.colors;
+    var correct = 0;
+    var wrong = 0;
+    Qs.forEach((question, i) => {
+      if (As[i] != null){
+        console.log(As[i]);
+        console.log(question)
+        if(parseInt(As[i]) === question.sum) {
+          correct++;
+          Cs[i] = 'green';
+        } else {
+          wrong++;
+          Cs[i] = 'red';
+        }
+      } else {
+        wrong++;
+        Cs[i] = 'red';
+      }
+    });
+    console.log(correct);
+    console.log(wrong);
+    this.setState({correct : correct});
+    this.setState({wrong : wrong});
+    this.setState({colors: Cs});
   }
 
-  handleInput(e) {
-    console.log(e.target.value);
-    this.setState({answer: e.target.value});
+  handleInput(e, i) {
+    var ansArray = this.state.answers;
+    ansArray[i] = e.target.value
+    this.setState({answers : ansArray});
     console.log(this.state);
   }
 
@@ -62,28 +69,26 @@ export default class AdditionList extends React.Component {
     return (
       <div>
         <h1>Additions</h1>
-        <p>Correct Answers: {this.state.correct}</p>
-        <p>Wrong Answers: {this.state.wrong}</p>
-        {this.state.questions.map(q => 
-          <Card>
+        {this.state.questions.map((q, i) => 
+          <Card key={i} style={{color: this.state.colors[i]}}>
             <CardContent>
-              <Typography variant="h5" component="h2">
-                {q.a} + {q.b} =    
-                <InputBase className="Add-Inputbox"
-                  placeholder="Equals?"
-                  inputProps={{ 'aria-label': 'What is the total?' }}
-                  type="text"
-                  onChange={(e) => this.handleInput(e)}
-                />
-                <IconButton size="small" onClick={()=> this.check(q.a, q.b)} type="success">Submit</IconButton>
+              <Typography variant="h4" component="h2" >
+                <div>Q.{i+1}:  {q.a} + {q.b} =    
+                  <input 
+                    type="number"
+                    onChange={(e) => this.handleInput(e, i)}
+                    className="Add-Inputbox"
+                  />
+                </div>
               </Typography>
-              
-              <Typography variant="h5" component="h2" hidden={true} id="hiddenAnswer">
+              <Typography variant="h4" component="h2" hidden={true} id="hiddenAnswer">
                 answer = {q.sum} 
               </Typography>
             </CardContent>
           </Card>
         )}
+        <IconButton size="medium" onClick={()=> this.check()} type="success">Submit</IconButton>
+        <p>Correct Answers: {this.state.correct}. Wrong Answers: {this.state.wrong}</p>
       </div>
     );
   }
