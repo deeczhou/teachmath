@@ -15,7 +15,7 @@ export default class AdditionList extends React.Component {
     colors: []
   }
 
-  check() {  
+  check() {
     console.log(this.state.answers);
     console.log(this.state.questions);
 
@@ -54,20 +54,38 @@ export default class AdditionList extends React.Component {
     console.log(this.state);
   }
 
-  componentDidMount() {
-    axios.get(`http://chips4ever.duckdns.org:18200/add?from=100&to=1000&size=20`)
+  // componentDidMount() {
+  //   axios.get(`http://chips4ever.duckdns.org:18200/add?from=100&to=1000&size=20`)
+  //     .then(res => {
+  //       const questions = res.data.questions;
+  //       this.setState({ questions });
+  //       console.log(questions);
+  //     }).catch(err => {
+  //       this.trylocalUrl();
+  //       console.log(err);
+  //     })
+  // }
+
+  getQuestions() {
+    var lower = this.state.lower;
+    var upper = this.state.upper;
+    var size = this.state.size;
+    console.log(lower);
+    console.log(upper);
+    console.log(size);
+    axios.get(`http://chips4ever.duckdns.org:18200/add?from=${lower}&to=${upper}&size=${size}`)
       .then(res => {
         const questions = res.data.questions;
         this.setState({ questions });
         console.log(questions);
       }).catch(err => {
-        this.trylocalUrl();
+        this.trylocalUrl(lower, upper, size);
         console.log(err);
       })
   }
 
-  trylocalUrl() {
-    axios.get(`http://chips4ever.duckdns.org:8989/add?from=100&to=1000&size=20`)
+  trylocalUrl(lower, upper, size) {
+    axios.get(`http://chips4ever.duckdns.org:8989/add?from=${lower}&to=${upper}&size=${size}`)
     .then(res => {
       const questions = res.data.questions;
       this.setState({ questions });
@@ -81,12 +99,12 @@ export default class AdditionList extends React.Component {
     return (
       <div>
         <h1>Additions</h1>
-        {this.state.questions.map((q, i) => 
+        {this.state.questions.map((q, i) =>
           <Card key={i} style={{color: this.state.colors[i]}}>
             <CardContent>
               <Typography variant="h4" component="h2" >
-                <div>Q.{i+1}:  {q.a} + {q.b} =    
-                  <input 
+                <div>Q.{i+1}:  {q.a} + {q.b} =
+                  <input
                     type="number"
                     onChange={(e) => this.handleInput(e, i)}
                     className="Add-Inputbox"
@@ -94,14 +112,50 @@ export default class AdditionList extends React.Component {
                 </div>
               </Typography>
               <Typography variant="h4" component="h2" hidden={true} id="hiddenAnswer">
-                answer = {q.sum} 
+                answer = {q.sum}
               </Typography>
             </CardContent>
           </Card>
         )}
         <IconButton size="medium" onClick={()=> this.check()} type="success">Submit</IconButton>
         <p>Correct Answers: {this.state.correct}. Wrong Answers: {this.state.wrong}</p>
+        <p>
+            Number lower bound:
+            <input type="number"
+            onChange={(e) => this.handleInputLowerBound(e)}
+            className="Add-Inputbox"
+            />
+
+            Number upper bound:
+            <input type="number"
+            onChange={(e) => this.handleInputUpperBound(e)}
+            className="Add-Inputbox"
+            />
+
+            Number of questions:
+            <input type="number"
+            onChange={(e) => this.handleInputSize(e)}
+            className="Add-Inputbox"
+            />
+            </p>
+            <IconButton size="medium" onClick={()=> this.getQuestions()} type="success">Generate</IconButton>
       </div>
     );
   }
+
+  handleInputUpperBound(e) {
+    this.setState({upper : e.target.value});
+    console.log(this.state);
+  }
+
+  handleInputLowerBound(e) {
+    this.setState({lower: e.target.value});
+    console.log(this.state);
+  }
+
+  handleInputSize(e) {
+    this.setState({size : e.target.value});
+    console.log(this.state);
+  }
+
 }
