@@ -13,11 +13,15 @@
   color: white;
 }
 
-.Add-Inputbox {
+.App-input {
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 1.6rem;
+  padding-bottom: 0%;
+  font-size: 2rem;
   margin-left: 20px;
   width: 70px;
-  caret-color: transparent;
+}
+
+.MuiInputBase-input {
+  padding: 0px 0 0px !important;
 }

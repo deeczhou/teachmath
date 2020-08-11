@@ -3,10 +3,21 @@ import axios from 'axios';
 import { Card } from '@material-ui/core'
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
+import Input from '@material-ui/core/Input';
+import { makeStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
 
-export default class AdditionList extends React.Component {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    '& .MuiInputBase-input': {
+      fontSize: '2rem',
+    },
+  },
+}));
+
+class AdditionList extends React.Component {
   state = {
     questions: [],
     answers: [],
@@ -14,7 +25,7 @@ export default class AdditionList extends React.Component {
     wrong: 0,
     colors: []
   }
-
+  
   check() {
     console.log(this.state.answers);
     console.log(this.state.questions);
@@ -54,22 +65,11 @@ export default class AdditionList extends React.Component {
     console.log(this.state);
   }
 
-  // componentDidMount() {
-  //   axios.get(`http://chips4ever.duckdns.org:18200/add?from=100&to=1000&size=20`)
-  //     .then(res => {
-  //       const questions = res.data.questions;
-  //       this.setState({ questions });
-  //       console.log(questions);
-  //     }).catch(err => {
-  //       this.trylocalUrl();
-  //       console.log(err);
-  //     })
-  // }
-
   getQuestions() {
     var lower = this.state.lower;
     var upper = this.state.upper;
     var size = this.state.size;
+    var submitButton = document.getElementById("submitButton")
     console.log(lower);
     console.log(upper);
     console.log(size);
@@ -82,6 +82,9 @@ export default class AdditionList extends React.Component {
         this.trylocalUrl(lower, upper, size);
         console.log(err);
       })
+    
+    submitButton.style.display = "block";
+    document.getElementById("inputBlock").style.display = "none";
   }
 
   trylocalUrl(lower, upper, size) {
@@ -97,19 +100,19 @@ export default class AdditionList extends React.Component {
 
   render() {
     return (
-      <div>
+      <Typography>
         <h1>Additions</h1>
         {this.state.questions.map((q, i) =>
           <Card key={i} style={{color: this.state.colors[i]}}>
             <CardContent>
               <Typography variant="h4" component="h2" >
-                <div>Q.{i+1}:  {q.a} + {q.b} =
-                  <input
-                    type="number"
+                Q.{i+1}:  {q.a} + {q.b} =
+                  <Input
+                    type="tel"
                     onChange={(e) => this.handleInput(e, i)}
-                    className="Add-Inputbox"
+                    style={{fontSize:'2rem'}}
+                    className="App-Input"
                   />
-                </div>
               </Typography>
               <Typography variant="h4" component="h2" hidden={true} id="hiddenAnswer">
                 answer = {q.sum}
@@ -117,29 +120,50 @@ export default class AdditionList extends React.Component {
             </CardContent>
           </Card>
         )}
-        <IconButton size="medium" onClick={()=> this.check()} type="success">Submit</IconButton>
-        <p>Correct Answers: {this.state.correct}. Wrong Answers: {this.state.wrong}</p>
-        <p>
-            Number lower bound:
-            <input type="number"
-            onChange={(e) => this.handleInputLowerBound(e)}
-            className="Add-Inputbox"
-            />
+        <Typography id="submitButton" style={{display:"none"}}>
+          <IconButton size="medium" onClick={()=> this.check()}>Submit</IconButton>
+          <br></br>
+          Correct Answers: {this.state.correct}. Wrong Answers: {this.state.wrong}
+        </Typography>
 
-            Number upper bound:
-            <input type="number"
-            onChange={(e) => this.handleInputUpperBound(e)}
-            className="Add-Inputbox"
-            />
-
-            Number of questions:
-            <input type="number"
-            onChange={(e) => this.handleInputSize(e)}
-            className="Add-Inputbox"
-            />
-            </p>
+        <Typography id="inputBlock">
+            <Typography variant="h6" noWrap>
+              Addition Configurations
+            </Typography>
+            <Typography variant="h8" noWrap>
+              Smallest Number:
+              <Input variant="h8" 
+                type="tel"
+                onChange={(e) => this.handleInputLowerBound(e)}
+                className="App-input"
+                multiline={false}
+                required={true}
+              />
+            </Typography>
+            <br></br>
+            <Typography variant="h8" noWrap>
+              Largest Number: 
+              <Input variant="h8" type="tel"
+                onChange={(e) => this.handleInputUpperBound(e)}
+                className="App-input"
+                multiline={false}
+                required={true}
+              />
+            </Typography>
+              <br></br>
+            <Typography variant="h8" noWrap>
+              Number of questions:
+                <Input variant="h8" type="tel"
+                onChange={(e) => this.handleInputSize(e)}
+                className="App-input"
+                multiline={false}
+                required={true}
+              />  
+            </Typography>  
+              <br></br>  
             <IconButton size="medium" onClick={()=> this.getQuestions()} type="success">Generate</IconButton>
-      </div>
+        </Typography>
+      </Typography>
     );
   }
 
@@ -159,3 +183,5 @@ export default class AdditionList extends React.Component {
   }
 
 }
+
+export default withStyles(useStyles)(AdditionList)

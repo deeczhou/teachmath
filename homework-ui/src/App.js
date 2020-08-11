@@ -1,19 +1,15 @@
 import React from 'react';
 import './App.css';
-import AdditionList from './apiclient';
+import AdditionList from './Additions';
+import Drawer from './Drawer';
+import { Typography } from '@material-ui/core';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Homework Time
-        </p>
-      </header>
-      
+    <Typography className="App">      
+      <Drawer />
       <AdditionList />
-      
-    </div>
+    </Typography>
   );
 }
 
