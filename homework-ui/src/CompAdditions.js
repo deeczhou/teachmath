@@ -1,12 +1,11 @@
 import React from 'react';
 import axios from 'axios';
-import { Card } from '@material-ui/core'
+import { Card, Box } from '@material-ui/core'
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Input from '@material-ui/core/Input';
 import { makeStyles } from '@material-ui/core/styles';
-import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -23,18 +22,24 @@ class AdditionList extends React.Component {
     answers: [],
     correct: 0,
     wrong: 0,
-    colors: []
+    colors: [],
+    submitTimes: 0,
   }
   
-  check() {
-    console.log(this.state.answers);
-    console.log(this.state.questions);
+  incrementSubmits() {
+    var submits = this.state.submitTimes;
+    submits++;
+    this.setState({submitTimes:submits});
+  }
 
+  check() {
+    this.incrementSubmits();
     var Qs = this.state.questions;
     var As = this.state.answers;
     var Cs = this.state.colors;
     var correct = 0;
     var wrong = 0;
+    
     Qs.forEach((question, i) => {
       if (As[i] != null){
         console.log(As[i]);
@@ -101,21 +106,19 @@ class AdditionList extends React.Component {
   render() {
     return (
       <Typography>
+      <Box>
         <h1>Additions</h1>
         {this.state.questions.map((q, i) =>
           <Card key={i} style={{color: this.state.colors[i]}}>
             <CardContent>
-              <Typography variant="h4" component="h2" >
+              <Typography variant="h5" component="h2" >
                 Q.{i+1}:  {q.a} + {q.b} =
                   <Input
                     type="tel"
                     onChange={(e) => this.handleInput(e, i)}
-                    style={{fontSize:'2rem'}}
-                    className="App-Input"
+                    style={{fontSize:'1.7rem'}}
+                    className="App-input"
                   />
-              </Typography>
-              <Typography variant="h4" component="h2" hidden={true} id="hiddenAnswer">
-                answer = {q.sum}
               </Typography>
             </CardContent>
           </Card>
@@ -123,10 +126,10 @@ class AdditionList extends React.Component {
         <Typography id="submitButton" style={{display:"none"}}>
           <IconButton size="medium" onClick={()=> this.check()}>Submit</IconButton>
           <br></br>
-          Correct Answers: {this.state.correct}. Wrong Answers: {this.state.wrong}
+          Correct Answers: {this.state.correct}. Wrong Answers: {this.state.wrong}, Attempts: {this.state.submitTimes}
         </Typography>
-
-        <Typography id="inputBlock">
+      </Box>
+      <Typography id="inputBlock">
             <Typography variant="h6" noWrap>
               Addition Configurations
             </Typography>

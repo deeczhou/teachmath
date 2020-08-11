@@ -19,7 +19,8 @@
   padding-bottom: 0%;
   font-size: 2rem;
   margin-left: 20px;
-  width: 70px;
+  width: 100px;
+  text-align: center;
 }
 
 .MuiInputBase-input {

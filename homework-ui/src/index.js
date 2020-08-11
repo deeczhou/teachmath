@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Drawer from './Drawer';
+import CompDrawer from './CompDrawer';
+import CompWelcome from './CompWelcome';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Drawer />
+    <CompDrawer />
+    <CompWelcome />
   </React.StrictMode>,
   document.getElementById('root')
 );

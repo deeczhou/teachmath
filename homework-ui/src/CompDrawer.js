@@ -13,12 +13,11 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 import App from './App';
 import ReactDOM from 'react-dom';
+import Home from './Home';
+import Building from './UnderBuild';
 
 const drawerWidth = 150;
 
@@ -82,7 +81,7 @@ const useStyles = makeStyles((theme) => ({
 export default function PersistentDrawerLeft() {
   const classes = useStyles();
   const theme = useTheme();
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -95,10 +94,28 @@ export default function PersistentDrawerLeft() {
   const handleAddition = () => {
     ReactDOM.render(
         <React.StrictMode>
-          <App />
+            <App />
         </React.StrictMode>,
         document.getElementById('root')
       );
+  }
+
+  const handleHome = () => {
+    ReactDOM.render(
+        <React.StrictMode>
+            <Home />
+        </React.StrictMode>,
+        document.getElementById('root')
+      );
+  }
+
+  const handleBuild = () => {
+    ReactDOM.render(
+      <React.StrictMode>
+          <Building />
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
   }
 
   return (
@@ -141,14 +158,44 @@ export default function PersistentDrawerLeft() {
         </div>
         <Divider />
         <List>
+          <ListItem button key="Home">
+            <ListItemText 
+                primary="Home" 
+                onClick={handleHome}/>
+          </ListItem>
+          <Divider />
           <ListItem button key="Addition">
             <ListItemText 
                 primary="Addition" 
                 onClick={handleAddition}/>
           </ListItem>
-         
+          <ListItem button key="Subtraction">
+            <ListItemText 
+                primary="Subtraction" 
+                onClick={handleBuild}/>
+          </ListItem>
+          <ListItem button key="FillAdd">
+            <ListItemText 
+                primary="Fill Addition" 
+                onClick={handleBuild}/>
+          </ListItem>
+          <ListItem button key="FillSub">
+            <ListItemText 
+                primary="Fill Subtraction" 
+                onClick={handleBuild}/>
+          </ListItem>
+          <ListItem button key="Multiplication">
+            <ListItemText 
+                primary="Multiplication" 
+                onClick={handleBuild}/>
+          </ListItem>
+          <ListItem button key="Division">
+            <ListItemText 
+                primary="Division" 
+                onClick={handleBuild}/>
+          </ListItem>
         </List>
-        <Divider />
+        
       </Drawer>
       <main
         className={clsx(classes.content, {

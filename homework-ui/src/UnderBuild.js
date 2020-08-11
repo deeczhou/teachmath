@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import AdditionList from './CompAdditions';
 import CompDrawer from './CompDrawer';
 import { Typography } from '@material-ui/core';
+import CompBuilding from './CompBuilding';
 
-function App() {
+function Building() {
   return (
     <Typography className="App">      
       <CompDrawer />
-      <AdditionList />
+      <CompBuilding />
     </Typography>
   );
 }
 
-export default App;
+export default Building;
