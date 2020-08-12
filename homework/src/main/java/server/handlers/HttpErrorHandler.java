@@ -22,7 +22,7 @@ public class HttpErrorHandler implements ErrorHandler {
     public void error(Context context, Throwable throwable) throws JsonProcessingException {
         if (throwable instanceof BadHttpException) {
             ErrorResponse errorResponse = new ErrorResponse();
-            errorResponse.setErrorMsg(((BadHttpException) throwable).getErrorMessage());
+            errorResponse.setErrorMsg(((BadHttpException) throwable).getErrorDetail());
             errorResponse.setStatusCode(((BadHttpException) throwable).getStatus());
             errorResponse.setStackTrace(Throwables.getStackTraceAsString(throwable));
             Response resp = context.getResponse();
@@ -34,7 +34,7 @@ public class HttpErrorHandler implements ErrorHandler {
 
         if (throwable instanceof HttpInternalException) {
             ErrorResponse errorResponse = new ErrorResponse();
-            errorResponse.setErrorMsg(((HttpInternalException) throwable).getErrorMessage());
+            errorResponse.setErrorMsg(((HttpInternalException) throwable).getErrorDetail());
             errorResponse.setStatusCode(((HttpInternalException) throwable).getStatus());
             errorResponse.setStackTrace(Throwables.getStackTraceAsString(throwable));
             Response resp = context.getResponse();

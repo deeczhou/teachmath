@@ -4,6 +4,7 @@ import com.google.inject.AbstractModule;
 import server.handlers.DownloadHwHandler;
 import server.handlers.GenerateAdditionHandler;
 import server.handlers.GenerateMinusHandler;
+import server.handlers.GenerateMultiplyHandler;
 import server.handlers.HttpErrorHandler;
 import server.services.MathGenService;
 
@@ -14,6 +15,7 @@ public class ServerModule extends AbstractModule {
         bind(DownloadHwHandler.class);
         bind(HttpErrorHandler.class);
         bind(GenerateMinusHandler.class);
+        bind(GenerateMultiplyHandler.class);
     }
 
 }

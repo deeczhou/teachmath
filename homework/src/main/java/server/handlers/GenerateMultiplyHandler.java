@@ -13,12 +13,12 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 
 @Singleton
-public class GenerateMinusHandler implements Handler {
+public class GenerateMultiplyHandler implements Handler {
     private final MathGenService mathGenService;
     private final ObjectMapper objectMapper;
 
     @Inject
-    public GenerateMinusHandler(MathGenService mathGenService, ObjectMapper objectMapper){
+    public GenerateMultiplyHandler(MathGenService mathGenService, ObjectMapper objectMapper){
         this.mathGenService = mathGenService;
         this.objectMapper = new ObjectMapper();
     }
@@ -27,39 +27,41 @@ public class GenerateMinusHandler implements Handler {
     public void handle(Context ctx) throws Exception {
         Map<String, String> params = ctx.getRequest().getQueryParams();
         int size = 10;
-        int from = 20;
-        int to = 100;
-        if (params.get("from") != null) {
-            from = Integer.parseInt(params.get("from"));
+        int a = 1;
+        int b = 20;
+        if (params.get("a") != null) {
+            a = Integer.parseInt(params.get("a"));
         }
-        if (params.get("to") != null) {
-            to = Integer.parseInt(params.get("to"));
+        if (params.get("b") != null) {
+            b = Integer.parseInt(params.get("b"));
         }
         if (params.get("size")!= null) {
             size = Integer.parseInt(params.get("size"));
         }
 
-        validateInput(size, from, to);
-        mathGenService.generateMinusPair(from, to, size)
+        validateInput(size, a, b);
+
+        mathGenService.generateMultiplePair(a, b, size)
           .then(resp -> {
               MutableHeaders headers = ctx.getResponse().getHeaders();
               headers.add("Access-Control-Allow-Origin", "*");
               headers.add("Content-type", "application/json");
               ctx.getResponse().send(objectMapper.writeValueAsBytes(resp));
           });
+
     }
 
-    private void validateInput(int size, int from, int to) throws Exception {
+    private void validateInput(int size, int a, int b) throws Exception {
         if (size <= 0 || size > 250) {
             throw new BadHttpException("Sample size does not meet the requirement.");
         }
 
-        if (from <= -1000000 || from >= 1000000) {
-            throw new BadHttpException("Lower bound needs to be between +/-1 mil");
+        if (a < 0 || a > 500) {
+            throw new BadHttpException("Number out of bound. need to be smaller than 500");
         }
 
-        if (to <= from || to >= 2000000) {
-            throw new BadHttpException("Upper bound needs to be bigger than lower bound, and smaller than 2 mil");
+        if (b <0 || b > 500) {
+            throw new BadHttpException("Number out of bound. need to be smaller than 500");
         }
     }
 }

@@ -1,24 +1,16 @@
 package server.handlers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.commons.lang3.tuple.ImmutablePair;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
 import ratpack.http.MutableHeaders;
-import server.models.AdditionQuestion;
-import server.models.GenerateSimpleMathResponse;
-import server.models.Question;
 import server.models.errors.BadHttpException;
 import server.services.MathGenService;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
-import java.util.stream.IntStream;
 
-import static ratpack.jackson.Jackson.json;
 
 @Singleton
 public class GenerateAdditionHandler implements Handler {
@@ -49,33 +41,27 @@ public class GenerateAdditionHandler implements Handler {
 
         validateInput(size, from, to);
 
-        List<Question> questionList = new ArrayList<>();
-        GenerateSimpleMathResponse resp = new GenerateSimpleMathResponse();
-        final int f = from;
-        final int t = to;
-        IntStream.rangeClosed(1, size).forEach(i -> {
-            ImmutablePair<Integer, Integer> p = mathGenService.generateAdditionPair(f, t);
-            questionList.add(new AdditionQuestion(p.left, p.right, p.left + p.right));
-        });
-        resp.setQuestions(questionList);
-        MutableHeaders headers = ctx.getResponse().getHeaders();
-        headers.add("Access-Control-Allow-Origin", "*");
-        headers.add("Content-type", "application/json");
+        mathGenService.generateAdditionPair(from, to, size)
+          .then(resp -> {
+              MutableHeaders headers = ctx.getResponse().getHeaders();
+              headers.add("Access-Control-Allow-Origin", "*");
+              headers.add("Content-type", "application/json");
 
-        ctx.getResponse().send(objectMapper.writeValueAsBytes(resp));
+              ctx.getResponse().send(objectMapper.writeValueAsBytes(resp));
+          });
     }
 
     private void validateInput(int size, int from, int to) throws Exception {
         if (size <= 0 || size > 250) {
-            throw new BadHttpException("Sample size does not meet the requirement.");
+            throw new BadHttpException("Sample size too big, max is 250.");
         }
 
         if (from <= -1000000 || from >= 1000000) {
-            throw new BadHttpException("Lower bound does not meet the requirement.");
+            throw new BadHttpException("Lower bound needs to be between +/-1 mil");
         }
 
         if (to <= from || to >= 2000000) {
-            throw new BadHttpException("Upper bound does not meet the requirement.");
+            throw new BadHttpException("Upper bound needs to be bigger than lower bound, and smaller than 2 mil");
         }
     }
 }

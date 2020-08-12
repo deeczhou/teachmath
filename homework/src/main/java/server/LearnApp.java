@@ -6,6 +6,7 @@ import ratpack.server.ServerConfig;
 import server.handlers.DownloadHwHandler;
 import server.handlers.GenerateAdditionHandler;
 import server.handlers.GenerateMinusHandler;
+import server.handlers.GenerateMultiplyHandler;
 
 public class LearnApp {
     public static void main(String... args) throws Exception {
@@ -18,6 +19,7 @@ public class LearnApp {
                     .get("add", GenerateAdditionHandler.class)
                     .get("homework", DownloadHwHandler.class)
                     .get("minus", GenerateMinusHandler.class)
+                    .get("multiply", GenerateMultiplyHandler.class)
                 )
         );
     }

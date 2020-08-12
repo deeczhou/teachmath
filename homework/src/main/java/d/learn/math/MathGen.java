@@ -27,6 +27,13 @@ public class MathGen {
         return p;
     }
 
+    public static ImmutablePair<Integer, Integer> generateMultiplePair(int a, int b) {
+        Integer one = getRandomIntBetween(1, a);
+        Integer two = getRandomIntBetween(1, b);
+        ImmutablePair<Integer, Integer> p = new ImmutablePair<>(one, two);
+        return p;
+    }
+
     public static ImmutablePair<Integer, Integer> generateSimpleMinusPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
         Integer b = getRandomIntBetween(from, to);
