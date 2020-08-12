@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-class AdditionList extends React.Component {
+class SubtractionList extends React.Component {
   state = {
     questions: [],
     answers: [],
@@ -45,7 +45,7 @@ class AdditionList extends React.Component {
       if (As[i] != null){
         console.log(As[i]);
         console.log(question)
-        if(parseInt(As[i]) === question.sum) {
+        if(parseInt(As[i]) === question.diff) {
           correct++;
           Cs[i] = 'green';
         } else {
@@ -79,7 +79,7 @@ class AdditionList extends React.Component {
     console.log(lower);
     console.log(upper);
     console.log(size);
-    axios.get(`http://chips4ever.duckdns.org:18200/add?from=${lower}&to=${upper}&size=${size}`)
+    axios.get(`http://chips4ever.duckdns.org:18200/minus?from=${lower}&to=${upper}&size=${size}`)
       .then(res => {
         const questions = res.data.questions;
         this.setState({ questions });
@@ -94,7 +94,7 @@ class AdditionList extends React.Component {
   }
 
   trylocalUrl(lower, upper, size) {
-    axios.get(`http://chips4ever.duckdns.org:8989/add?from=${lower}&to=${upper}&size=${size}`)
+    axios.get(`http://chips4ever.duckdns.org:8989/minus?from=${lower}&to=${upper}&size=${size}`)
     .then(res => {
       const questions = res.data.questions;
       this.setState({ questions });
@@ -108,15 +108,15 @@ class AdditionList extends React.Component {
     return (
       <Typography>
       <Box>
-      <Typography variant="h4">Additions</Typography>
-      <Typography>
-        <Timer />
-      </Typography>
+        <Typography variant="h4">Subtraction</Typography>
+        <Typography>
+          <Timer />
+        </Typography>
         {this.state.questions.map((q, i) =>
           <Card key={i} style={{color: this.state.colors[i]}}>
             <CardContent>
               <Typography variant="h5" component="h2" >
-                Q.{i+1}:  {q.a} + {q.b} =
+                Q.{i+1}:  {q.a} - {q.b} =
                   <Input
                     type="tel"
                     onChange={(e) => this.handleInput(e, i)}
@@ -135,7 +135,7 @@ class AdditionList extends React.Component {
       </Box>
       <Typography id="inputBlock">
             <Typography variant="h6" noWrap>
-              Addition Configurations
+              Subtraction Configurations
             </Typography>
             <Typography variant="h8" noWrap>
               Smallest Number:
@@ -191,4 +191,4 @@ class AdditionList extends React.Component {
 
 }
 
-export default withStyles(useStyles)(AdditionList)
+export default withStyles(useStyles)(SubtractionList)

@@ -18,6 +18,7 @@ import App from './App';
 import ReactDOM from 'react-dom';
 import Home from './Home';
 import Building from './UnderBuild';
+import Subtraction from './Subtraction';
 
 const drawerWidth = 150;
 
@@ -109,6 +110,15 @@ export default function PersistentDrawerLeft() {
       );
   }
 
+  const handleSubtraction = () => {
+    ReactDOM.render(
+      <React.StrictMode>
+          <Subtraction />
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
+  }
+
   const handleBuild = () => {
     ReactDOM.render(
       <React.StrictMode>
@@ -172,7 +182,7 @@ export default function PersistentDrawerLeft() {
           <ListItem button key="Subtraction">
             <ListItemText 
                 primary="Subtraction" 
-                onClick={handleBuild}/>
+                onClick={handleSubtraction}/>
           </ListItem>
           <ListItem button key="FillAdd">
             <ListItemText 
