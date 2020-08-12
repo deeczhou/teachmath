@@ -12,5 +12,8 @@ public class MathGenService {
         return MathGen.generateNumberPair(from, to);
     }
 
+    public ImmutablePair<Integer, Integer> generataMinusPair(int from, int to) {
+        return MathGen.generateSimpleMinusPair(from, to);
+    }
 
 }

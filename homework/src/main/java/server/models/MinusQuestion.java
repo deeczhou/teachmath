@@ -1,14 +1,14 @@
 package server.models;
 
-public class AdditionQuestion extends Question {
+public class MinusQuestion extends Question {
     int a;
     int b;
-    int sum;
+    int diff;
 
-    public AdditionQuestion(int a, int b, int sum) {
+    public MinusQuestion(int a, int b, int diff) {
         this.a = a;
         this.b = b;
-        this.sum = sum;
+        this.diff = diff;
     }
 
     public int getA() {
@@ -27,11 +27,11 @@ public class AdditionQuestion extends Question {
         this.b = b;
     }
 
-    public int getSum() {
-        return sum;
+    public int getDiff() {
+        return diff;
     }
 
-    public void setSum(int sum) {
-        this.sum = sum;
+    public void setDiff(int diff) {
+        this.diff = diff;
     }
 }

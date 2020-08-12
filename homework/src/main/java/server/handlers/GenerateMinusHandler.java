@@ -5,28 +5,27 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
 import ratpack.http.MutableHeaders;
-import server.models.AdditionQuestion;
 import server.models.GenerateSimpleMathResponse;
+import server.models.MinusQuestion;
 import server.models.Question;
 import server.models.errors.BadHttpException;
 import server.services.MathGenService;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-import static ratpack.jackson.Jackson.json;
+import javax.inject.Inject;
+import javax.inject.Singleton;
 
 @Singleton
-public class GenerateAdditionHandler implements Handler {
+public class GenerateMinusHandler implements Handler {
     private final MathGenService mathGenService;
     private final ObjectMapper objectMapper;
 
     @Inject
-    public GenerateAdditionHandler(MathGenService mathGenService, ObjectMapper objectMapper){
+    public GenerateMinusHandler(MathGenService mathGenService, ObjectMapper objectMapper){
         this.mathGenService = mathGenService;
         this.objectMapper = new ObjectMapper();
     }
@@ -35,7 +34,7 @@ public class GenerateAdditionHandler implements Handler {
     public void handle(Context ctx) throws Exception {
         Map<String, String> params = ctx.getRequest().getQueryParams();
         int size = 10;
-        int from = 50;
+        int from = 20;
         int to = 100;
         if (params.get("from") != null) {
             from = Integer.parseInt(params.get("from"));
@@ -54,8 +53,8 @@ public class GenerateAdditionHandler implements Handler {
         final int f = from;
         final int t = to;
         IntStream.rangeClosed(1, size).forEach(i -> {
-            ImmutablePair<Integer, Integer> p = mathGenService.generateAdditionPair(f, t);
-            questionList.add(new AdditionQuestion(p.left, p.right, p.left + p.right));
+            ImmutablePair<Integer, Integer> p = mathGenService.generataMinusPair(f, t);
+            questionList.add(new MinusQuestion(p.left, p.right, p.left - p.right));
         });
         resp.setQuestions(questionList);
         MutableHeaders headers = ctx.getResponse().getHeaders();

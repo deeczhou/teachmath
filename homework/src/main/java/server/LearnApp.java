@@ -5,6 +5,7 @@ import ratpack.server.RatpackServer;
 import ratpack.server.ServerConfig;
 import server.handlers.DownloadHwHandler;
 import server.handlers.GenerateAdditionHandler;
+import server.handlers.GenerateMinusHandler;
 
 public class LearnApp {
     public static void main(String... args) throws Exception {
@@ -16,6 +17,7 @@ public class LearnApp {
                 .handlers(chain -> chain
                     .get("add", GenerateAdditionHandler.class)
                     .get("homework", DownloadHwHandler.class)
+                    .get("minus", GenerateMinusHandler.class)
                 )
         );
     }
