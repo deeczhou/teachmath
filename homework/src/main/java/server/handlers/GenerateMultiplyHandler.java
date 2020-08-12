@@ -27,7 +27,7 @@ public class GenerateMultiplyHandler implements Handler {
     public void handle(Context ctx) throws Exception {
         Map<String, String> params = ctx.getRequest().getQueryParams();
         int size = 10;
-        int a = 1;
+        int a = 10;
         int b = 20;
         if (params.get("a") != null) {
             a = Integer.parseInt(params.get("a"));

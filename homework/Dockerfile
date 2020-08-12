@@ -5,8 +5,8 @@ WORKDIR /opt
 RUN apt update
 RUN apt install dos2unix
 RUN dos2unix ./gradlew
-RUN ./gradlew build
+RUN ./gradlew --no-daemon build
 
 EXPOSE 8989
 
-CMD ./gradlew run
+CMD ./gradlew --no-daemon run
