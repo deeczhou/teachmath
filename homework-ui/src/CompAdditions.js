@@ -111,6 +111,7 @@ class AdditionList extends React.Component {
       <Typography variant="h4">Additions</Typography>
       <Typography>
         <Timer />
+        {console.log(this.state)}
       </Typography>
         {this.state.questions.map((q, i) =>
           <Card key={i} style={{color: this.state.colors[i]}}>
