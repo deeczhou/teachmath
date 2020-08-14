@@ -79,7 +79,7 @@ class AdditionList extends React.Component {
     console.log(lower);
     console.log(upper);
     console.log(size);
-    axios.get(`http://chips4ever.duckdns.org:18200/add?from=${lower}&to=${upper}&size=${size}`)
+    axios.get(`http://209.121.54.188:18200/add?from=${lower}&to=${upper}&size=${size}`)
       .then(res => {
         const questions = res.data.questions;
         this.setState({ questions });
@@ -94,7 +94,7 @@ class AdditionList extends React.Component {
   }
 
   trylocalUrl(lower, upper, size) {
-    axios.get(`http://chips4ever.duckdns.org:8989/add?from=${lower}&to=${upper}&size=${size}`)
+    axios.get(`http://209.121.54.188:8989/add?from=${lower}&to=${upper}&size=${size}`)
     .then(res => {
       const questions = res.data.questions;
       this.setState({ questions });
