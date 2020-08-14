@@ -45,7 +45,7 @@ class CompDivision extends React.Component {
       if (As[i] != null){
         console.log(As[i]);
         console.log(question)
-        if(parseInt(As[i]) === question.b) {
+        if(parseInt(As[i]) === question.answer) {
           correct++;
           Cs[i] = 'green';
         } else {
@@ -73,19 +73,17 @@ class CompDivision extends React.Component {
 
   getQuestions() {
     var lower = this.state.lower;
-    var upper = this.state.upper;
     var size = this.state.size;
     var submitButton = document.getElementById("submitButton")
     console.log(lower);
-    console.log(upper);
     console.log(size);
-    axios.get(`http://chips4ever.duckdns.org:18200/multiply?a=${lower}&b=${upper}&size=${size}`)
+    axios.get(`http://chips4ever.duckdns.org:18200/division?denominator=${lower}&size=${size}`)
       .then(res => {
         const questions = res.data.questions;
         this.setState({ questions });
         console.log(questions);
       }).catch(err => {
-        this.trylocalUrl(lower, upper, size);
+        this.trylocalUrl(lower, size);
         console.log(err);
       })
     
@@ -93,8 +91,8 @@ class CompDivision extends React.Component {
     document.getElementById("inputBlock").style.display = "none";
   }
 
-  trylocalUrl(lower, upper, size) {
-    axios.get(`http://chips4ever.duckdns.org:8989/multiply?a=${lower}&b=${upper}&size=${size}`)
+  trylocalUrl(lower, size) {
+    axios.get(`http://chips4ever.duckdns.org:8989/division?denominator=${lower}&size=${size}`)
     .then(res => {
       const questions = res.data.questions;
       this.setState({ questions });
@@ -102,12 +100,6 @@ class CompDivision extends React.Component {
     }).catch(err => {
       console.log(err);
     })
-  }
-
-  randomPrime(q) {
-    q.product = q.product*3;
-    q.b = q.b*3;
-    return q.product;
   }
 
   render() {
@@ -118,11 +110,11 @@ class CompDivision extends React.Component {
         <Typography>
           <Timer />
         </Typography>
-        {this.state.questions.map((q, i) =>
+        {this.state.questions.map((q, i) => 
           <Card key={i} style={{color: this.state.colors[i]}}>
             <CardContent>
               <Typography variant="h5" component="h2" >
-                Q.{i+1}:  {this.randomPrime(q)} / {q.a} =  
+                Q.{i+1}:  {q.numerator} / {q.denominator} =  
                   <Input
                     type="tel"
                     onChange={(e) => this.handleInput(e, i)}
@@ -144,20 +136,10 @@ class CompDivision extends React.Component {
               Division Configurations
             </Typography>
             <Typography variant="h8" noWrap>
-              Largest numerator:
+              Largest Denominator:
               <Input variant="h8" 
                 type="tel"
                 onChange={(e) => this.handleInputLowerBound(e)}
-                className="App-input"
-                multiline={false}
-                required={true}
-              />
-            </Typography>
-            <br></br>
-            <Typography variant="h8" noWrap>
-              Largest denominator: 
-              <Input variant="h8" type="tel"
-                onChange={(e) => this.handleInputUpperBound(e)}
                 className="App-input"
                 multiline={false}
                 required={true}
@@ -178,11 +160,6 @@ class CompDivision extends React.Component {
         </Typography>
       </Typography>
     );
-  }
-
-  handleInputUpperBound(e) {
-    this.setState({upper : e.target.value});
-    console.log(this.state);
   }
 
   handleInputLowerBound(e) {

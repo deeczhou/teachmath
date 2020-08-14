@@ -242,7 +242,7 @@ export default function PersistentDrawerLeft() {
           <ListItem button key="Division">
             <ListItemText 
                 primary="Division" 
-                onClick={handleBuild}/>
+                onClick={handleDivision}/>
           </ListItem>
         </List>
         
