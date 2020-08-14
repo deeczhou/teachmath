@@ -3,6 +3,7 @@ package server;
 import com.google.inject.AbstractModule;
 import server.handlers.DownloadHwHandler;
 import server.handlers.GenerateAdditionHandler;
+import server.handlers.GenerateDivisionHandler;
 import server.handlers.GenerateMinusHandler;
 import server.handlers.GenerateMultiplyHandler;
 import server.handlers.HttpErrorHandler;
@@ -16,6 +17,7 @@ public class ServerModule extends AbstractModule {
         bind(HttpErrorHandler.class);
         bind(GenerateMinusHandler.class);
         bind(GenerateMultiplyHandler.class);
+        bind(GenerateDivisionHandler.class);
     }
 
 }

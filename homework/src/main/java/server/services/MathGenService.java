@@ -4,6 +4,7 @@ import d.learn.math.MathGen;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import ratpack.exec.Promise;
 import server.models.AdditionQuestion;
+import server.models.DivisionQuestion;
 import server.models.GenerateSimpleMathResponse;
 import server.models.MinusQuestion;
 import server.models.MutiplyQuestion;
@@ -47,6 +48,18 @@ public class MathGenService {
         IntStream.rangeClosed(1, size).forEach(i -> {
             ImmutablePair<Integer, Integer> p = MathGen.generateMultiplePair(f, t);
             questionList.add(new MutiplyQuestion(p.left, p.right, p.left * p.right));
+        });
+        resp.setQuestions(questionList);
+        return Promise.value(resp);
+    }
+
+    public Promise<GenerateSimpleMathResponse> generateDivisionPair(int a, int size) {
+        GenerateSimpleMathResponse resp = new GenerateSimpleMathResponse();
+        final int A = a;
+        List<Question> questionList = new ArrayList<>();
+        IntStream.rangeClosed(1, size).forEach(i -> {
+            ImmutablePair<Integer, Integer> p = MathGen.generateDivisionPair(A);
+            questionList.add(new DivisionQuestion(p.left, p.right, p.left / p.right));
         });
         resp.setQuestions(questionList);
         return Promise.value(resp);

@@ -19,6 +19,10 @@ import ReactDOM from 'react-dom';
 import Home from './Home';
 import Building from './UnderBuild';
 import Subtraction from './Subtraction';
+import FillSubtraction from './FillInSubtraction';
+import FillAdd from './FillinAdd';
+import Multiply from './Multiplication';
+import Division from './Division';
 
 const drawerWidth = 150;
 
@@ -119,6 +123,42 @@ export default function PersistentDrawerLeft() {
     );
   }
 
+  const handleFillSubtraction = () => {
+    ReactDOM.render(
+      <React.StrictMode>
+          <FillSubtraction />
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
+  }
+
+  const handleFillAdd = () => {
+    ReactDOM.render(
+      <React.StrictMode>
+          <FillAdd />
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
+  }
+
+  const handleDivision = () => {
+    ReactDOM.render(
+      <React.StrictMode>
+          <Division />
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
+  }
+
+  const handleMultiply = () => {
+    ReactDOM.render(
+      <React.StrictMode>
+          <Multiply />
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
+  }
+
   const handleBuild = () => {
     ReactDOM.render(
       <React.StrictMode>
@@ -187,17 +227,17 @@ export default function PersistentDrawerLeft() {
           <ListItem button key="FillAdd">
             <ListItemText 
                 primary="Fill Addition" 
-                onClick={handleBuild}/>
+                onClick={handleFillAdd}/>
           </ListItem>
           <ListItem button key="FillSub">
             <ListItemText 
                 primary="Fill Subtraction" 
-                onClick={handleBuild}/>
+                onClick={handleFillSubtraction}/>
           </ListItem>
           <ListItem button key="Multiplication">
             <ListItemText 
                 primary="Multiplication" 
-                onClick={handleBuild}/>
+                onClick={handleMultiply}/>
           </ListItem>
           <ListItem button key="Division">
             <ListItemText 

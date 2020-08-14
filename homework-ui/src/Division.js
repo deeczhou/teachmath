@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 import CompDrawer from './CompDrawer';
-import CompSubtractions from './CompSubtractions';
+import CompDivision from './CompDivision';
 
-function Subtraction() {
+function Division() {
   return (
     <div className="App">      
       <CompDrawer />
-      <CompSubtractions />
+      <CompDivision />
     </div>
   );
 }
 
-export default Subtraction;
+export default Division;

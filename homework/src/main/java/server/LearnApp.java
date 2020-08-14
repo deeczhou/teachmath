@@ -5,6 +5,7 @@ import ratpack.server.RatpackServer;
 import ratpack.server.ServerConfig;
 import server.handlers.DownloadHwHandler;
 import server.handlers.GenerateAdditionHandler;
+import server.handlers.GenerateDivisionHandler;
 import server.handlers.GenerateMinusHandler;
 import server.handlers.GenerateMultiplyHandler;
 
@@ -20,6 +21,7 @@ public class LearnApp {
                     .get("homework", DownloadHwHandler.class)
                     .get("minus", GenerateMinusHandler.class)
                     .get("multiply", GenerateMultiplyHandler.class)
+                    .get("division", GenerateDivisionHandler.class)
                 )
         );
     }

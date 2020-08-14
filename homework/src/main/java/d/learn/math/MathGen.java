@@ -34,6 +34,15 @@ public class MathGen {
         return p;
     }
 
+    public static ImmutablePair<Integer, Integer> generateDivisionPair(int a) {
+        Integer one = getRandomIntBetween(1, a);
+
+        Integer numerator = one*getRandomPrime()*getRandomIntBetween(1, 10);
+
+        ImmutablePair<Integer, Integer> p = new ImmutablePair<>(numerator, one);
+        return p;
+    }
+
     public static ImmutablePair<Integer, Integer> generateSimpleMinusPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
         Integer b = getRandomIntBetween(from, to);
@@ -203,8 +212,8 @@ public class MathGen {
     }
 
     private static int getRandomPrime() {
-        int[] primes = {1,3,5};
-        return primes[ThreadLocalRandom.current().nextInt(0,3)];
+        int[] primes = {1,3,5,7};
+        return primes[ThreadLocalRandom.current().nextInt(0,4)];
     }
 
     public static XWPFRun addToLine(XWPFRun run, ImmutablePair<Integer, Integer> p, OptType type) {
