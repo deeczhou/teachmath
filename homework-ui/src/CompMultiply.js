@@ -79,7 +79,7 @@ class SubtractionList extends React.Component {
     console.log(lower);
     console.log(upper);
     console.log(size);
-    axios.get(`http://209.121.54.188:18200/multiply?a=${lower}&b=${upper}&size=${size}`)
+    axios.get(`http://homestudy.duckdns.org:18200/multiply?a=${lower}&b=${upper}&size=${size}`)
       .then(res => {
         const questions = res.data.questions;
         this.setState({ questions });
@@ -94,7 +94,7 @@ class SubtractionList extends React.Component {
   }
 
   trylocalUrl(lower, upper, size) {
-    axios.get(`http://209.121.54.188:8989/multiply?a=${lower}&b=${upper}&size=${size}`)
+    axios.get(`http://homestudy.duckdns.org:8989/multiply?a=${lower}&b=${upper}&size=${size}`)
     .then(res => {
       const questions = res.data.questions;
       this.setState({ questions });

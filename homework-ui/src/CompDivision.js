@@ -77,7 +77,7 @@ class CompDivision extends React.Component {
     var submitButton = document.getElementById("submitButton")
     console.log(lower);
     console.log(size);
-    axios.get(`http://209.121.54.188:18200/division?denominator=${lower}&size=${size}`)
+    axios.get(`http://homestudy.duckdns.org:18200/division?denominator=${lower}&size=${size}`)
       .then(res => {
         const questions = res.data.questions;
         this.setState({ questions });
@@ -92,7 +92,7 @@ class CompDivision extends React.Component {
   }
 
   trylocalUrl(lower, size) {
-    axios.get(`http://209.121.54.188:8989/division?denominator=${lower}&size=${size}`)
+    axios.get(`http://homestudy.duckdns.org:8989/division?denominator=${lower}&size=${size}`)
     .then(res => {
       const questions = res.data.questions;
       this.setState({ questions });
