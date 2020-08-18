@@ -7,6 +7,7 @@ import server.services.DownloadService;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
+import java.util.Map;
 
 @Singleton
 public class DownloadHwHandler implements Handler {
@@ -19,7 +20,19 @@ public class DownloadHwHandler implements Handler {
 
     @Override
     public void handle(Context ctx) throws Exception {
-        byte[] hwBytes = downloadService.generateHomeworkFile();
+        boolean isLangOnly = false;
+        Map<String, String> params = ctx.getRequest().getQueryParams();
+        if (params.get("langOnly") != null) {
+            isLangOnly = Boolean.parseBoolean(params.get("langOnly"));
+        }
+        byte[] hwBytes;
+
+        if (!isLangOnly) {
+            hwBytes = downloadService.generateHomeworkFile();
+        } else {
+            hwBytes = downloadService.generateHomeworkFileLangOnly();
+        }
+
         MutableHeaders headers = ctx.getResponse().getHeaders();
         headers.add("Access-Control-Allow-Origin", "*");
         headers.add("Content-type", "application/vnd.openxmlformats-officedocument.wordprocessingml.document");

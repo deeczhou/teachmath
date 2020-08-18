@@ -29,4 +29,22 @@ public class DownloadService {
         return null;
     }
 
+    public byte[] generateHomeworkFileLangOnly() {
+        final String englishDictPath = "https://raw.githubusercontent.com/deeczhou/learningdict/master/dictionary.json";
+        final String chineseDictPath = "https://raw.githubusercontent.com/deeczhou/learningdict/master/dictionary-chinese.json";
+        HomeworkComposer hc = new HomeworkComposer(englishDictPath, chineseDictPath);
+        LocalDate ld = LocalDate.now();
+        ld = ld.plus(0, ChronoUnit.DAYS);
+        try {
+            ByteArrayOutputStream os = new ByteArrayOutputStream();
+            hc.createHomeworkDocLangOnly(ld).write(os);
+            byte[] array = os.toByteArray();
+            os.close();
+            return array;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }

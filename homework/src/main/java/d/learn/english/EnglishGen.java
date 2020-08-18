@@ -49,4 +49,27 @@ public class EnglishGen {
         }
         return sb.toString();
     }
+
+    public static void generateWordsListOnly(XWPFDocument doc, List<Word> words, int number) {
+        XWPFParagraph para = doc.createParagraph();
+        para.setSpacingBetween(1.65);
+        XWPFRun run = para.createRun();
+        run.setFontSize(14);
+        run.setFontFamily(FONT_FAMILY);
+        while (number > 0) {
+            Word w = getRandomWord(words);
+            while(w.getWord().length() < 5) {
+                w = getRandomWord(words);
+            }
+            StringBuilder sb = new StringBuilder();
+            sb.append(w.getWord())
+                    .append("\t\t\"");
+            sb.append(w.getSentence()).append("\"");
+            run.setText(sb.toString());
+            run.addBreak();
+            number--;
+            words.remove(w);
+        }
+    }
+
 }

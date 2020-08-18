@@ -15,6 +15,7 @@ import java.time.LocalDate;
 
 import static d.learn.chinese.ChineseGen.generateChineseWords;
 import static d.learn.english.EnglishGen.generateWords;
+import static d.learn.english.EnglishGen.generateWordsListOnly;
 import static d.learn.math.MathGen.*;
 import static d.learn.math.MathGen.buildSimpleMinus;
 
@@ -107,5 +108,27 @@ public class HomeworkComposer {
         File f = new File(path);
         ObjectMapper om = new ObjectMapper();
         return om.readValue(f, ChineseDictionary.class);
+    }
+
+    public XWPFDocument createHomeworkDocLangOnly(LocalDate ld) throws IOException {
+        //build dictionaries from json
+        DictionaryBuilder db = new DictionaryBuilder();
+        Dictionary englishdic = db.buildDictionaryFromUrl(englishDictPath);
+        ChineseDictionary chineseDic = db.buildChineseDictionaryFromUrl(chineseDictPath);
+
+        //initialize document
+        XWPFDocument doc = new XWPFDocument();
+        XWPFRun headRun = doc.createHeader(HeaderFooterType.DEFAULT).createParagraph().createRun();
+        headRun.setFontSize(12);
+        headRun.setFontFamily(FONT_FAMILY);
+        //date header
+        headRun.setText(ld.toString() + "    " + ld.getDayOfWeek().toString() + "                          Name:____________");
+        createParagraphHead(doc, "Chinese Words");
+        generateChineseWords(doc, chineseDic.getWords(), numberOfChineseCharacters);
+
+        //3rd, 4th page
+        createParagraphHead(doc, "English Words");
+        generateWordsListOnly(doc, englishdic.getWords(), numberOfEnglishWords);
+        return doc;
     }
 }

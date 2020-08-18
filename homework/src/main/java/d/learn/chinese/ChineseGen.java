@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class ChineseGen {
 
     static final String FONT_FAMILY = "Calibri";
-    static final int FONT_SIZE = 18;
+    static final int FONT_SIZE = 14;
     static final int FONT_SIZE_TWO = 16;
 
     public static ChineseWord getRandomWord(List<ChineseWord> words) {
