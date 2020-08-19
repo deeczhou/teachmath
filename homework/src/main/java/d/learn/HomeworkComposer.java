@@ -6,6 +6,7 @@ import d.learn.models.ChineseDictionary;
 import d.learn.models.Dictionary;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.poi.wp.usermodel.HeaderFooterType;
+import org.apache.poi.xwpf.usermodel.BreakType;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
@@ -80,6 +81,7 @@ public class HomeworkComposer {
         buildSimpleAdd(doc, numberOfAdd, addRange.getKey(), addRange.getValue());
         createParagraphHead(doc, "Subtraction");
         buildSimpleMinus(doc, numberOfMinus, minusRange.getKey(), minusRange.getValue());
+        doc.createParagraph().createRun().addBreak(BreakType.PAGE);
 
         //2nd page
         createParagraphHead(doc, "Chinese Words");

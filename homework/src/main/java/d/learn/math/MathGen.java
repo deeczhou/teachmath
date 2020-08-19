@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import static d.learn.math.OptType.*;
 
 public class MathGen {
-    static Double LINE_SPACING = 1.15;
+    static Double LINE_SPACING = 1.25;
     static String FONT_FAMILY = "Calibri";
 
     public static ImmutablePair<Integer, Integer> generateNumberPair(int from, int to) {
@@ -217,7 +217,7 @@ public class MathGen {
     }
 
     public static XWPFRun addToLine(XWPFRun run, ImmutablePair<Integer, Integer> p, OptType type) {
-        String space = "              ";
+        String space = "            ";
         switch (type) {
             case SIMPLE_ADD:
                 run.setText(p.getKey() + " + " + p.getValue() + " = " + space);
@@ -238,10 +238,10 @@ public class MathGen {
                     first = " ____ ";
                     second = Integer.toString(p.getKey());
                 }
-                run.setText(first + " + " + second + " = " + p.getValue() + "             ");
+                run.setText(first + " + " + second + " = " + p.getValue() + "          ");
                 break;
             case FILL_MINUS:
-                run.setText(p.getKey() + " - " + " ____ " + " = " + p.getValue() + "             ");
+                run.setText(p.getKey() + " - " + " ____ " + " = " + p.getValue() + "          ");
                 break;
             case Fill_MULTIPLE:
                 String f = "";
