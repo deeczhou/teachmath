@@ -94,7 +94,7 @@ class SubtractionList extends React.Component {
   }
 
   trylocalUrl(lower, upper, size) {
-    axios.get(`http://173.181.11.98:8989/minus?from=${lower}&to=${upper}&size=${size}`)
+    axios.get(`http://homestudy.duckdns.org:8989/minus?from=${lower}&to=${upper}&size=${size}`)
     .then(res => {
       const questions = res.data.questions;
       this.setState({ questions });

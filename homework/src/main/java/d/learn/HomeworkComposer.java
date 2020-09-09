@@ -31,14 +31,14 @@ public class HomeworkComposer {
     int numberOfMinus = 15;
     int numberOfFillMinus = 12;
     int numberOfChineseCharacters = 10;
-    int numberOfEnglishWords = 19;
+    int numberOfEnglishWords = 20;
     int numberOfDivision = 10;
     int numberOfFillinMultiplication = 12;
     int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus + numberOfFillMinus;
     ImmutablePair<Integer, Integer> multiRange = new ImmutablePair<>(6, 30);
-    ImmutablePair<Integer, Integer> addRange = new ImmutablePair<>(300, 800);
-    ImmutablePair<Integer, Integer> minusRange = new ImmutablePair<>(300, 800);
-    ImmutablePair<Integer, Integer> addFillRange = new ImmutablePair<>(300, 800);
+    ImmutablePair<Integer, Integer> addRange = new ImmutablePair<>(100, 1000);
+    ImmutablePair<Integer, Integer> minusRange = new ImmutablePair<>(100, 1000);
+    ImmutablePair<Integer, Integer> addFillRange = new ImmutablePair<>(100, 1000);
     int minusUpper = 1500;
 
     public HomeworkComposer(String englishDictPath, String chineseDictPath) {
