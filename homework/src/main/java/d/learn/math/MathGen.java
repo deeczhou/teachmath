@@ -13,6 +13,13 @@ import static d.learn.math.OptType.*;
 public class MathGen {
     static Double LINE_SPACING = 1.25;
     static String FONT_FAMILY = "Calibri";
+    static String leftBracket = "( ";
+    static String rightBracket = " )";
+    static String plus = " + ";
+    static String minus = " - ";
+    static String equal = " = ";
+    static String multiply = " * ";
+    static String divide = " / ";
 
     public static ImmutablePair<Integer, Integer> generateNumberPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
@@ -22,7 +29,7 @@ public class MathGen {
     }
 
     public static ImmutablePair<Integer, Integer> generateMultiplePair(int multipleFor) {
-        Integer a = getRandomIntBetween(1, 9);
+        Integer a = getRandomIntBetween(1, 10);
         ImmutablePair<Integer, Integer> p = new ImmutablePair<>(multipleFor, a);
         return p;
     }
@@ -182,8 +189,8 @@ public class MathGen {
         run.setFontFamily(FONT_FAMILY);
 
         for (int i = 1; i <= numberOfProblems; i++) {
-            int a = getRandomIntBetween(1, upper);
-            int b = getRandomIntBetween(a, upper);
+            int a = getRandomIntBetween(2, upper);
+            int b = getRandomIntBetween(2, upper);
             addToLine(run, new ImmutablePair<>(a, a*b), Fill_MULTIPLE);
             if (i%4 == 0) {
                 run.addBreak();
@@ -202,6 +209,37 @@ public class MathGen {
             int b = getRandomIntBetween(1, 9);
             addToLine(run, new ImmutablePair<>(a, b), DIVISION);
             if (i%5 == 0) {
+                run.addBreak();
+            }
+        }
+    }
+
+    public static void buildMixedOps(XWPFDocument doc, int numberOfProblems, int from, int to) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(LINE_SPACING);
+        XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
+        String space = "                 ";
+        List<String> signList = new ArrayList<>();
+        signList.add(plus);
+        signList.add(multiply);
+
+        for (int i = 1; i <= numberOfProblems; i++) {
+            Random r = new Random();
+            int a = getRandomIntBetween(from, to);
+            int b = getRandomIntBetween(from, to);
+            int c = getRandomIntBetween(2, 10);
+
+            StringBuilder sb = new StringBuilder();
+            sb.append(a)
+              .append(signList.get(r.nextInt(signList.size())))
+              .append(b)
+              .append(signList.get(r.nextInt(signList.size())))
+              .append(c).append(equal).append(space);
+
+            run.setText(sb.toString());
+
+            if (i%4 == 0) {
                 run.addBreak();
             }
         }
