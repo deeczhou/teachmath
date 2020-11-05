@@ -23,20 +23,23 @@ import static d.learn.math.MathGen.buildSimpleMinus;
 public class HomeworkComposer {
     String englishDictPath;
     String chineseDictPath;
-    final int FONT_SIZE = 12;
+    final int FONT_SIZE = 13;
     final String FONT_FAMILY = "Verdana";
-    int numberOfMultiply = 18;
-    int numberOfAdd = 10;
+    int numberOfAdd = 5;
     int numberOfFillAdd = 8;
-    int numberOfMinus = 10;
+    int numberOfMinus = 5;
     int numberOfFillMinus = 8;
-    int numberOfChineseCharacters = 10;
+    int numberOfMultiply = 12;
     int numberOfDivision = 10;
+    int numberOfChineseCharacters = 10;
     int numberOfFillinMultiplication = 12;
-    int numberOfMixed = 12;
+    int numberOfMixed = 8;
+    int numberOfChained = 4;
 
     int numberOfEnglishWords = 20;
-    int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus + numberOfFillMinus + numberOfDivision + numberOfFillinMultiplication + numberOfMixed;
+    int total = numberOfMultiply + numberOfAdd + numberOfFillAdd + numberOfMinus + numberOfFillMinus +
+      numberOfDivision + numberOfFillinMultiplication + numberOfMixed + numberOfChained;
+
     ImmutablePair<Integer, Integer> multiRange = new ImmutablePair<>(9, 100);
     ImmutablePair<Integer, Integer> addRange = new ImmutablePair<>(100, 1000);
     ImmutablePair<Integer, Integer> minusRange = new ImmutablePair<>(100, 1000);
@@ -70,6 +73,11 @@ public class HomeworkComposer {
         buildFillInAdd(doc, numberOfFillAdd, addFillRange.getKey(), addFillRange.getValue());
         createParagraphHead(doc, "Fill in Minus");
         buildFillInMinus(doc, numberOfFillMinus, minusUpper);
+        createParagraphHead(doc, "Addition");
+        buildSimpleAdd(doc, numberOfAdd, addRange.getKey(), addRange.getValue());
+        createParagraphHead(doc, "Subtraction");
+        buildSimpleMinus(doc, numberOfMinus, minusRange.getKey(), minusRange.getValue());
+
         createParagraphHead(doc, "Multiplication");
         buildMultiply(doc, numberOfMultiply, multiRange.getKey(), multiRange.getValue());
 
@@ -79,12 +87,10 @@ public class HomeworkComposer {
         createParagraphHead(doc, "Division");
         buildDivision(doc, numberOfDivision);
 
-        createParagraphHead(doc, "Addition");
-        buildSimpleAdd(doc, numberOfAdd, addRange.getKey(), addRange.getValue());
-        createParagraphHead(doc, "Subtraction");
-        buildSimpleMinus(doc, numberOfMinus, minusRange.getKey(), minusRange.getValue());
+        createParagraphHead(doc, "Chained Calculation");
+        buildChainedCalulation(doc, 4, 10, 20);
         createParagraphHead(doc, "Mixed Calculation");
-        buildMixedOps(doc, numberOfMixed, 10, 20);
+        buildMixedOps(doc, numberOfMixed, 2, 11);
         doc.createParagraph().createRun().addBreak(BreakType.PAGE);
 
         //2nd page

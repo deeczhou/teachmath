@@ -189,8 +189,8 @@ public class MathGen {
         run.setFontFamily(FONT_FAMILY);
 
         for (int i = 1; i <= numberOfProblems; i++) {
-            int a = getRandomIntBetween(2, upper);
-            int b = getRandomIntBetween(2, upper);
+            int a = getRandomIntBetween(1, upper);
+            int b = getRandomIntBetween(1, upper);
             addToLine(run, new ImmutablePair<>(a, a*b), Fill_MULTIPLE);
             if (i%4 == 0) {
                 run.addBreak();
@@ -231,22 +231,50 @@ public class MathGen {
             int c = getRandomIntBetween(2, 10);
 
             StringBuilder sb = new StringBuilder();
-            sb.append(a)
-              .append(signList.get(r.nextInt(signList.size())))
-              .append(b)
-              .append(signList.get(r.nextInt(signList.size())))
+            sb.append(a).append(signList.get(r.nextInt(signList.size())))
+              .append(b).append(signList.get(r.nextInt(signList.size())))
               .append(c).append(equal).append(space);
-
             run.setText(sb.toString());
-
             if (i%4 == 0) {
                 run.addBreak();
             }
         }
     }
 
+    public static void buildChainedCalulation(XWPFDocument doc, int numberOfProblems, int from, int to) {
+        XWPFParagraph paragraph = doc.createParagraph();
+        paragraph.setSpacingBetween(LINE_SPACING);
+        XWPFRun run = paragraph.createRun();
+        run.setFontFamily(FONT_FAMILY);
+        String space = "                          ";
+        List<String> signList = new ArrayList<>();
+        signList.add(plus);
+        signList.add(minus);
+
+        for (int i = 1; i <= numberOfProblems; i++) {
+            Random r = new Random();
+            int a = getRandomIntBetween(from, to);
+            int b = getRandomIntBetween(from, to);
+            int c = getRandomIntBetween(from, to);
+            int d = getRandomIntBetween(from, to);
+            int e = getRandomIntBetween(from, to);
+
+            StringBuilder sb = new StringBuilder();
+            sb.append(a).append(plus).append(b).append(plus).append(c)
+              .append(signList.get(r.nextInt(signList.size()))).append(d)
+              .append(signList.get(r.nextInt(signList.size()))).append(e)
+              .append(equal).append(space);
+            run.setText(sb.toString());
+
+            if (i%2 == 0) {
+                run.addBreak();
+            }
+        }
+    }
+
     private static int getRandomIntBetween(int a, int b) {
-        return ThreadLocalRandom.current().nextInt(a, b);
+        Random r = new Random();
+        return r.nextInt(b - a) + a;
     }
 
     private static int getRandomPrime() {
