@@ -82,15 +82,15 @@ public class HomeworkComposer {
         buildMultiply(doc, numberOfMultiply, multiRange.getKey(), multiRange.getValue());
 
         createParagraphHead(doc, "Fill in Multiplication");
-        buildFillInMultiple(doc, numberOfFillinMultiplication , 11);
+        buildFillInMultiple(doc, numberOfFillinMultiplication , 20);
         
         createParagraphHead(doc, "Division");
         buildDivision(doc, numberOfDivision);
 
         createParagraphHead(doc, "Chained Calculation");
-        buildChainedCalulation(doc, 4, 10, 20);
+        buildChainedCalulation(doc, 9, 10, 25);
         createParagraphHead(doc, "Mixed Calculation");
-        buildMixedOps(doc, numberOfMixed, 2, 11);
+        buildMixedOps(doc, numberOfMixed, 5, 15);
         doc.createParagraph().createRun().addBreak(BreakType.PAGE);
 
         //2nd page

@@ -21,6 +21,8 @@ public class MathGen {
     static String multiply = " * ";
     static String divide = " / ";
 
+
+
     public static ImmutablePair<Integer, Integer> generateNumberPair(int from, int to) {
         Integer a = getRandomIntBetween(from, to);
         Integer b = getRandomIntBetween(from, to);
@@ -219,21 +221,26 @@ public class MathGen {
         paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
         run.setFontFamily(FONT_FAMILY);
-        String space = "                 ";
-        List<String> signList = new ArrayList<>();
-        signList.add(plus);
-        signList.add(multiply);
+        String space = "      ";
 
         for (int i = 1; i <= numberOfProblems; i++) {
-            Random r = new Random();
             int a = getRandomIntBetween(from, to);
             int b = getRandomIntBetween(from, to);
-            int c = getRandomIntBetween(2, 10);
+            int c = getRandomIntBetween(from, to);
+            int d = getRandomIntBetween(from, to);
+            int e = getRandomIntBetween(from, to);
 
             StringBuilder sb = new StringBuilder();
-            sb.append(a).append(signList.get(r.nextInt(signList.size())))
-              .append(b).append(signList.get(r.nextInt(signList.size())))
-              .append(c).append(equal).append(space);
+            sb.append(a)
+              .append(getNextOp(true))
+              .append(b)
+              .append(getNextOp(false))
+              .append(c)
+              .append(getNextOp(false))
+              .append(d)
+              .append(getNextOp(false))
+              .append(e);
+            sb.append(equal).append(space);
             run.setText(sb.toString());
             if (i%4 == 0) {
                 run.addBreak();
@@ -241,12 +248,27 @@ public class MathGen {
         }
     }
 
+    private static String getNextOp(boolean isAdd) {
+        List<String> addSignList = new ArrayList<>();
+        addSignList.add(plus);
+        addSignList.add(multiply);
+        Random r = new Random();
+
+        if (isAdd) {
+            return addSignList.get(r.nextInt(addSignList.size()));
+        } else {
+            addSignList.add(minus);
+            return addSignList.get(r.nextInt(addSignList.size()));
+        }
+    }
+
+
     public static void buildChainedCalulation(XWPFDocument doc, int numberOfProblems, int from, int to) {
         XWPFParagraph paragraph = doc.createParagraph();
         paragraph.setSpacingBetween(LINE_SPACING);
         XWPFRun run = paragraph.createRun();
         run.setFontFamily(FONT_FAMILY);
-        String space = "                          ";
+        String space = "              ";
         List<String> signList = new ArrayList<>();
         signList.add(plus);
         signList.add(minus);
@@ -266,7 +288,7 @@ public class MathGen {
               .append(equal).append(space);
             run.setText(sb.toString());
 
-            if (i%2 == 0) {
+            if (i%3 == 0) {
                 run.addBreak();
             }
         }
